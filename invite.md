@@ -2,7 +2,7 @@
 
 ## State of this document
 
-This is a rough first draft, treating various details in very disparate degrees of completeness, and may contain errors.  It represents only enough information about the invite system needed to understand a problem that we're about to fix.  Hopefully, more details on other aspects of this system will be added as we find the need to document our understanding of them, to the point that this may become an authoritative description of the invite system.
+This is a rough first draft, treating various details in very disparate degrees of completeness, and may contain errors.  Hopefully, more details on all aspects of this system will be added as we find the need to document our understanding of them, to the point that this may become an authoritative description of the invite system.
 
 ## Overview
 
@@ -25,11 +25,3 @@ To keep track of invite requests being currently processed, and to prevent repea
 ### Cruft and dubious factoring/naming
 
 There are some leftovers of an old system where users had a number of allowed invites.  Also, the naming of some of the functions in this system could be more accurate/descriptive, and perhaps some refactoring could make the code clearer.  Let's take on these as we get a better overall grasp of the system.
-
-### Sending spurious invite e-mails when a proxy comes up
-
-There is a problem currently in this logic: if invites are being held while the proxy is being launched, there is no record of which of the invites for the given inviter have been approved.  Currently, when a proxy for an inviter comes up, an e-mail is sent to all its invitees (unless they have received an invite e-mail by the same invitee).
-
-#### Proposed solution
-
-Add a new entry to the org.lantern.data.Invite.status to tell invites that are awaiting approval from the ones that are ready to be sent.
