@@ -37,10 +37,10 @@ Lantern 1->Lantern 2: NAT traversal (add detail)
 
 
 note over Joe, "Web Page": Browsing over Proxy
-Joe->Lantern 1: GET web page
+Joe->Lantern 1: HTTP GET "Web Page"
 Lantern 1->Lantern 1: Pick proxy from available set
-Lantern 1->Lantern 2: GET web page
-Lantern 2->Web Page: GET
+Lantern 1->Lantern 2: HTTP GET "Web Page"
+Lantern 2->Web Page: HTTP GET
 Web Page-->Lantern 2: content
 Lantern 2-->Lantern 1: content
 Lantern 1-->Joe: content
