@@ -8,11 +8,11 @@ Lantern 2->Google Auth: Authenticate
 
 
 note over Joe, Sally: Establish Friend Relationship
-Joe->Lantern 1: Friend Sally
+Joe->Lantern 1: Add Sally as a Friend
 Lantern 1->Google Talk: Subscribe to Sally's Presence
 Google Talk->Lantern 2: Request approval of Joe's presence subscription
-Lantern 2->Sally: Request approval of Joe as Friend
-Sally->Lantern 2: Approve Joe as Friend
+Lantern 2->Sally: Suggest Joe as a Friend
+Sally->Lantern 2: Add Joe as Friend
 Lantern 2->Google Talk: Approve Joe's subscription
 Lantern 2->Google Talk: Subscribe to Joe's Presence
 Google Talk->Lantern 1: Request approval of Sally's presence subscription
