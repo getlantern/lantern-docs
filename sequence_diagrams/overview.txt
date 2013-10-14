@@ -1,9 +1,13 @@
 title Peer to Peer Proxying Sequence
 
+note over Joe, "Lantern 1", "Google Talk", "Google Auth", "Lantern 2", Sally: Authenticate on Google Talk
 Joe->Lantern 1: Sign On
 Lantern 1->Google Auth: Authenticate
 Sally->Lantern 2: Sign On
 Lantern 2->Google Auth: Authenticate
+
+
+note over Joe, Sally: Establish Friend Relationship
 Joe->Lantern 1: Friend Sally
 Lantern 1->Google Talk: Subscribe to Sally's Presence
 Google Talk->Lantern 2: Request approval of Joe's presence subscription
@@ -14,6 +18,8 @@ Lantern 2->Google Talk: Subscribe to Joe's Presence
 Google Talk->Lantern 1: Request approval of Sally's presence subscription
 Lantern 1->Google Talk: Approve presence subscription (automatic)
 
+
+note over Joe, Sally: Proxy Advertisement and Certificate Exchange
 Google Talk->Lantern 2: Joe is Online (true presence)
 Lantern 2->Google Talk: Kscope advertisement with info for connecting to Lantern 2
 Lantern 1->Google Talk: Send and request cert
@@ -24,9 +30,13 @@ Lantern 2->Google Talk: Send certificate to Joe
 Google Talk->Lantern 1: Sally's certificate
 Lantern 1->Lantern 1: Store Sally's certificate
 
+
+note over Joe, Sally: Connectivity Verification
 Lantern 1->Lantern 2: Verify connectivity with info from KScope ad
 Lantern 1->Lantern 2: NAT traversal (add detail)
 
+
+note over Joe, "Web Page": Browsing over Proxy
 Joe->Lantern 1: GET web page
 Lantern 1->Lantern 1: Pick proxy from available set
 Lantern 1->Lantern 2: GET web page
@@ -34,6 +44,3 @@ Lantern 2->Web Page: GET
 Web Page->Lantern 2: Content
 Lantern 2->Lantern 1: Content
 Lantern 1->Joe: Content
-
-
-
