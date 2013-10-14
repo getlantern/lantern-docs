@@ -41,6 +41,6 @@ Joe->Lantern 1: GET web page
 Lantern 1->Lantern 1: Pick proxy from available set
 Lantern 1->Lantern 2: GET web page
 Lantern 2->Web Page: GET
-Web Page->Lantern 2: Content
-Lantern 2->Lantern 1: Content
-Lantern 1->Joe: Content
+Web Page-->Lantern 2: content
+Lantern 2-->Lantern 1: content
+Lantern 1-->Joe: content
