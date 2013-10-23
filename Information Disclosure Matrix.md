@@ -9,6 +9,20 @@ information.
 The below table describes what information Lantern discloses to whom and for
 what purpose.
 
-| Information |
+|  |
 | ----------- |
-| Your IP Address |  
+| Your IP Address |
+| Your Email Address |
+| Your Name |
+| Your Online/Offline
+  Status |
+| Your Lantern Friends'
+  EmailAddresses |
+| Your Geographic Location |
+| URL of All Web Pages
+  Viewed through Lantern |
+| Contents of Unsecured
+  Web Pages Submitted and
+  Received Through Lantern |
+| Google Authentication
+  Refresh Token |
