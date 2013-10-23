@@ -9,7 +9,7 @@ information.
 The below table describes what information Lantern discloses to whom and for
 what purpose.
 
-<table>
+<table style="font-size: 0.5em">
     <tr>
         <th></th>
         <th colspan="8">Disclosed To</th>
