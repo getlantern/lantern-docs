@@ -9,7 +9,6 @@ information.
 The below table describes what information Lantern discloses to whom and for
 what purpose.
 
-|
 | Information |
 | ----------- |
 | Your IP Address |  
