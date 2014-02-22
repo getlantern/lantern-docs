@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Usando Lantern &mdash; Lantern 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/lanternDoc.css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Lantern 1.0 documentation" href="index.html" />
+    <link rel="next" title="Atualizando para uma nova versão do Lantern" href="Atualizando-para-uma-nova-versão-do-Lantern.html" />
+    <link rel="prev" title="Configuração" href="Configuração.html" /> 
+  </head>
+  <body>
+<div id="content-container">
+<header id="topbar" class="header">
+<nav class="section-nav">
+          <ul class="section-list">
+            <li><a href="https://getlantern.org/#about" ng-bind-template="About" class="ng-binding">About</a></li>
+            <li><a href="https://getlantern.org/#faq" ng-bind-template="FAQ" class="ng-binding">FAQ</a></li>
+            <li><a ng-href="https://github.com/getlantern/lantern/wiki" target="_blank" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a></li>
+          </ul>
+        </nav>
+        <div class="wrap clearfix">
+          <div class="site-logo">
+            <a href="https://getlantern.org/images/91bc035f.lantern-logo.png">
+              <img src="https://getlantern.org/images/91bc035f.lantern-logo.png" alt="Lantern">
+              <span class="beta ng-binding" ng-bind-template="Beta">Beta</span>
+            </a>
+          </div>
+        </div>
+      </header>
+     
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Atualizando-para-uma-nova-versão-do-Lantern.html" title="Atualizando para uma nova versão do Lantern"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Configuração.html" title="Configuração"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Lantern 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+
+  
+
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Usando Lantern</a><ul>
+<li><a class="reference internal" href="#usuarios-pegando-acesso">Usuários <strong>Pegando Acesso</strong></a></li>
+<li><a class="reference internal" href="#usuarios-dando-acesso">Usuários <strong>Dando Acesso</strong></a></li>
+<li><a class="reference internal" href="#todos-os-usuarios">Todos os Usuários</a><ul>
+<li><a class="reference internal" href="#explorando-a-rede-lantern">Explorando a rede Lantern</a></li>
+<li><a class="reference internal" href="#adicionando-amigos">Adicionando Amigos</a></li>
+<li><a class="reference internal" href="#deixe-o-lantern-rodando">Deixe o Lantern rodando</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Configuração.html"
+                        title="previous chapter">Configuração</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Atualizando-para-uma-nova-versão-do-Lantern.html"
+                        title="next chapter">Atualizando para uma nova versão do Lantern</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/Usando-Lantern.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="usando-lantern">
+<span id="id1"></span><h1>Usando Lantern<a class="headerlink" href="#usando-lantern" title="Permalink to this headline">¶</a></h1>
+<p>Depois que você terminou a <a class="reference internal" href="Configuração.html#configuracao"><em>Configuração</em></a> você está pronto para
+começar a usar o Lantern.</p>
+<div class="section" id="usuarios-pegando-acesso">
+<h2>Usuários <strong>Pegando Acesso</strong><a class="headerlink" href="#usuarios-pegando-acesso" title="Permalink to this headline">¶</a></h2>
+<p>Se você estiver em uma região censurada e instalou Lantern, basta abrir
+o seu navegador favorito e navegar em qualquer site bloqueado. Qualquer
+navegador deve funcionar, como Lantern configura-se para lidar com
+qualquer conexão de seu computador.</p>
+<div class="figure">
+<img alt="working lantern" src="https://www.evernote.com/shard/s209/sh/ebdd003b-5c06-430f-a239-ea4a28c444cf/3f6d143232be6ffe1b1d0edcc5cf309d/deep/0/Fullscreen%208/18/13%209:00%20PM.png" />
+<p class="caption">working lantern</p>
+</div>
+<p>Enquanto a sua navegação está conectando relatórios Lantern na
+atividade. No mapa, haverá uma linha entre o seu computador e os
+computadores dos seus amigos (ou com os <a class="reference internal" href="Servidores-Lantern-na-Nuvem.html#servidores-lantern-na-nuvem"><em>Servidores Lantern na Nuvem</em></a>. Além disso, no canto superior
+direito da lanterna mostra a largura de banda ativa subindo e descendo -
+isto vai mudar enquanto você navega.</p>
+<p>Se não estiver funcionando, então verifique se o site que você quer está
+em seu <em class="xref std std-ref">proxied-sites-configuration</em>, e adicione se
+não estiver na lista.</p>
+<p>Se você não é capaz de acessar você pode tentar convidar mais amigos em
+países sem censura que iria partilhar a sua ligação com você, ou
+patrocinar um ou mais <a class="reference internal" href="Servidores-Lantern-na-Nuvem.html#servidores-lantern-na-nuvem"><em>Servidores Lantern na Nuvem</em></a> para
+ajudar a rede Lantern. Se as coisas ainda não estão funcionando vá para
+o <a class="reference external" href="https://groups.google.com/forum/#!forum/lantern-users-en">Fórum</a> e
+você pode obter assistência lá.</p>
+</div>
+<div class="section" id="usuarios-dando-acesso">
+<h2>Usuários <strong>Dando Acesso</strong><a class="headerlink" href="#usuarios-dando-acesso" title="Permalink to this headline">¶</a></h2>
+<p>Os usuários que estão dando acesso muitas vezes não terão conexões
+imediatas. Se você quiser ter certeza de que Lantern está funcionando,
+você pode experimentar o modo <strong>Pegar Acesso</strong>.</p>
+<div class="figure">
+<img alt="getting access" src="https://www.evernote.com/shard/s209/sh/e1e59fee-9976-47c0-a9b9-856c4888c521/f34171fc3725a47efb0cdbfd3f163b2a/deep/0/Lantern%20and%20Freedom%20House.png" />
+<p class="caption">getting access</p>
+</div>
+<p>Basta ir a &#8220;Configurações&#8221; e alterar o modo &#8216;pegando acesso&#8217;, e tentar
+os passos acima.</p>
+</div>
+<div class="section" id="todos-os-usuarios">
+<h2>Todos os Usuários<a class="headerlink" href="#todos-os-usuarios" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="explorando-a-rede-lantern">
+<h3>Explorando a rede Lantern<a class="headerlink" href="#explorando-a-rede-lantern" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<img alt="lantern network" src="https://www.evernote.com/shard/s209/sh/57a422d3-27f1-4b45-b05c-09b87636ab23/8b8d1d84c456798cd0f3e045590dc3e7/deep/0/Lantern.png" />
+<p class="caption">lantern network</p>
+</div>
+<p>Você pode explorar o mapa da rede Lantern. A parte inferior da tela
+mostra as estatísticas globais para todos na rede - quantos usuários
+estão online agora, se já esteve online, e da largura de banda total
+transferido (atualmente quebrado). Se você passa o mouse sobre um país
+irá mostrar-lhe as estatísticas semelhantes para aquele país. Você
+também pode passar o mouse sobre o seu próprio usuário e os usuários que
+você está se conectando, como pontos no mapa.</p>
+</div>
+<div class="section" id="adicionando-amigos">
+<h3>Adicionando Amigos<a class="headerlink" href="#adicionando-amigos" title="Permalink to this headline">¶</a></h3>
+<p>Construindo sua rede Lantern adicionando amigos é a principal tarefa
+para os usuários que dão acesso de países abertos. Adicionando outros em
+países sem censura é a chave para a expansão da rede. E qualquer amigo
+em um país censurado que você adicionar à sua lista irá beneficiar
+imediatamente de sua conexão e os de seus outros amigos.</p>
+<p>E isso é fundamental para que os usuários obtenham acesso para convidar
+os usuários mais confiáveis​​, para melhorar a rede. Adicionar amigos em
+países sem censura é diretamente benéfico para melhores conexões. Mas
+ajudar outros amigos em seu país também ajuda a construir a rede Lantern
+e conectá-lo a mais proxies Lantern.</p>
+<div class="figure">
+<img alt="add friends" src="https://www.evernote.com/shard/s209/sh/69dfc002-b2c8-4f31-9c77-baf39d9e97a2/ecd8f30823d03d085fd271a6f77923c5/deep/0/Lantern.png" />
+<p class="caption">add friends</p>
+</div>
+<p>Você pode adicionar amigos a qualquer momento com o botão amigo no canto
+inferior direito.</p>
+<div class="figure">
+<img alt="friends" src="https://www.evernote.com/shard/s209/sh/5f777d62-6c2f-405d-b065-1fb8ba948e6c/c3493f15bd539a174f5a901d5404dea9/deep/0/Lantern.png" />
+<p class="caption">friends</p>
+</div>
+<p>Isso traz a tela de &#8216;Lantern Friends&#8217;. Você pode digitar o endereço de
+email de qualquer amigo que tenha uma conta do Google. Qualquer endereço
+gmail vai certamente funcionar. Se você não tem certeza de que você pode
+apenas tentar adicioná-los, como muitas pessoas têm outros endereços de
+e-mail configurado para trabalhar com o Google. Adicionando-os irá
+enviar um convite para participar de Lantern, com um link para o
+download. Uma vez que assinar ao mesmo tempo que você está no seu status
+a sua janela de amigos vai mudar.</p>
+<p>A imagem abaixo mostra os amigos transferindo com sucesso a partir de um
+usuário no modo de &#8216;dar&#8217;.</p>
+<div class="figure">
+<img alt="friends transferring" src="https://www.evernote.com/shard/s209/sh/ba32dfb0-959d-494b-9065-2053aab61875/839570ec5c5e0df068455bc7a00daa96/deep/0/Lantern%20and%20Editing%20Using%20Lantern%20%C2%B7%20getlantern/lantern%20Wiki.png" />
+<p class="caption">friends transferring</p>
+</div>
+<p>Note que não haverá sempre linhas de conexão entre os amigos. Isso
+acontece quando a localização aproximada não pode ser estabelecida. Você
+sempre será capaz de ver se a transferência está acontecendo, olhando no
+canto superior direito, ou ver a lista de amigos.</p>
+<p>Removendo as pessoas de sua lista de amigos vai fazê-lo com que não
+possam acessar sua conexão com a internet e vice-versa.</p>
+</div>
+<div class="section" id="deixe-o-lantern-rodando">
+<h3>Deixe o Lantern rodando<a class="headerlink" href="#deixe-o-lantern-rodando" title="Permalink to this headline">¶</a></h3>
+<p>Nós encorajamos você a deixar o Lantern em funcionamento, para que ele
+possa estar ajudando outras pessoas, mesmo se você não estiver usando-o
+no momento.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+ 
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Atualizando-para-uma-nova-versão-do-Lantern.html" title="Atualizando para uma nova versão do Lantern"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Configuração.html" title="Configuração"
+             >previous</a> |</li>
+        <li><a href="index.html">Lantern 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        <footer id="footer" class="footer">
+            <div class="footer-logo">
+          <img src="https://getlantern.org/images/a7a84d10.lantern-footer-logo.jpg" alt="Lantern">
+    </div>    
+                <nav>
+          <ul class="navlink-list main-nav">
+            <li><a target="_blank" ng-href="https://groups.google.com/group/lantern-users-en" ng-bind-template="Forums" class="ng-binding" href="https://groups.google.com/group/lantern-users-en">Forums</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Privacy" ng-bind-template="Privacy" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Privacy">Privacy</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Get-Involved" ng-bind-template="Get Involved" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Get-Involved">Get Involved</a>&nbsp;</li>
+          </ul>
+        </nav>
+        
+        
+                <nav>
+          
+          <ul class="social-media-icons">
+            <li><a target="_blank" ng-href="https://twitter.com/getlantern" href="https://twitter.com/getlantern"><span class="icon-twitter"></span></a></li>
+            <li><a target="_blank" ng-href="https://www.facebook.com/getlantern" href="https://www.facebook.com/getlantern"><span class="icon-facebook"></span></a></li>
+            <li><a target="_blank" ng-href="http://get-lantern.tumblr.com/" href="http://get-lantern.tumblr.com/"><span class="icon-tumblr"></span></a></li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern" href="https://github.com/getlantern/lantern"><span class="icon-github"></span></a></li>
+            
+          </ul>
+        </nav>
+
+
+        <nav ng-show="NLANGS &gt; 1">
+          <ul class="navlink-list lang-list">
+            <!-- ngRepeat: lang in LANGS --><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding">English</a>
+              <a ng-href="#en_US" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#en_US" style="display: none;">English</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Español</a>
+              <a ng-href="#es" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#es">Español</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">فارسی</a>
+              <a ng-href="#fa_IR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fa_IR">فارسی</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Français</a>
+              <a ng-href="#fr_FR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fr_FR">Français</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">中文</a>
+              <a ng-href="#zh_CN" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#zh_CN">中文</a>
+            </li>
+            <li>
+              <a ng-href="https://github.com/getlantern/lantern/wiki/Translating-Lantern" target="_blank" ng-bind-template="Help Translate" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Translating-Lantern">Help Translate</a>
+            </li>
+          </ul>
+        </nav>
+        
+        
+        </div>
+      <div class="constrained">
+
+
+          
+
+ </div>
+ <!-- -->
+        <div class="copyright">
+          <p ng-bind-template="© 2014 Brave New Software" class="ng-binding">© 2014 Brave New Software</p>
+
+    <p>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b3.<p>
+        </div>
+      
+    </div></footer>
+
+  </body>
+</html>

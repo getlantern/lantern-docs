@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Threat Model &mdash; Lantern 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/lanternDoc.css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Lantern 1.0 documentation" href="index.html" />
+    <link rel="next" title="Questions and Answers for Developers" href="[developers]-Questions-and-Answers.html" />
+    <link rel="prev" title="Releasing Jars to Maven Central" href="[developers]-Releasing-jars-to-maven-central.html" /> 
+  </head>
+  <body>
+<div id="content-container">
+<header id="topbar" class="header">
+<nav class="section-nav">
+          <ul class="section-list">
+            <li><a href="https://getlantern.org/#about" ng-bind-template="About" class="ng-binding">About</a></li>
+            <li><a href="https://getlantern.org/#faq" ng-bind-template="FAQ" class="ng-binding">FAQ</a></li>
+            <li><a ng-href="https://github.com/getlantern/lantern/wiki" target="_blank" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a></li>
+          </ul>
+        </nav>
+        <div class="wrap clearfix">
+          <div class="site-logo">
+            <a href="https://getlantern.org/images/91bc035f.lantern-logo.png">
+              <img src="https://getlantern.org/images/91bc035f.lantern-logo.png" alt="Lantern">
+              <span class="beta ng-binding" ng-bind-template="Beta">Beta</span>
+            </a>
+          </div>
+        </div>
+      </header>
+     
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="[developers]-Questions-and-Answers.html" title="Questions and Answers for Developers"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="[developers]-Releasing-jars-to-maven-central.html" title="Releasing Jars to Maven Central"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Lantern 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+
+  
+
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Threat Model</a><ul>
+<li><a class="reference internal" href="#abstract">Abstract</a></li>
+<li><a class="reference internal" href="#capabilities-of-adversaries">Capabilities of Adversaries</a></li>
+<li><a class="reference internal" href="#limitations-of-adversaries">Limitations of Adversaries</a></li>
+<li><a class="reference internal" href="#goals-of-lantern">Goals of Lantern</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="[developers]-Releasing-jars-to-maven-central.html"
+                        title="previous chapter">Releasing Jars to Maven Central</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="[developers]-Questions-and-Answers.html"
+                        title="next chapter">Questions and Answers for Developers</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/Threat-Model.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="threat-model">
+<h1>Threat Model<a class="headerlink" href="#threat-model" title="Permalink to this headline">¶</a></h1>
+<p>(work in progress)</p>
+<div class="section" id="abstract">
+<h2>Abstract<a class="headerlink" href="#abstract" title="Permalink to this headline">¶</a></h2>
+<p>We discuss the threat model for Lantern as a whole, addressing Lantern
+subsystems in more detail where appropriate. We discuss the problems
+Lantern solves as well as what it explicitly does not solve.</p>
+</div>
+<div class="section" id="capabilities-of-adversaries">
+<h2>Capabilities of Adversaries<a class="headerlink" href="#capabilities-of-adversaries" title="Permalink to this headline">¶</a></h2>
+<p>Lantern assumes that all adversaries are equipped with sophisticated
+Deep Packet Inspection (DPI) technology capable of inspecting,
+modifying, or blocking every packet going in and out of the region they
+control (typically country borders) as well as within that region.
+Adversaries are capable of applying sophisticated system-wide rules to
+standard protocols. We assume these DPI tools are capable of identifying
+all standardized protocols and can be taught to identify custom
+protocols. Using these tools, adversaries can:</p>
+<ul class="simple">
+<li>Block IP addresses of their choosing</li>
+<li>Block specific DNS lookups</li>
+<li>Use any unique characteristics of given network connections to block
+and drop that connection, such as TLS handshakes</li>
+</ul>
+<p>In addition, adversaries are assumed to be able to:</p>
+<ul class="simple">
+<li>Control their own certificate authorities to issue certificates for
+any domain</li>
+<li>Pose as legitimate users on the network in an attempt to learn of as
+many access points as possible</li>
+</ul>
+</div>
+<div class="section" id="limitations-of-adversaries">
+<h2>Limitations of Adversaries<a class="headerlink" href="#limitations-of-adversaries" title="Permalink to this headline">¶</a></h2>
+<p>Adversaries are assumed to have limited ability to manipulate traffic on
+individual connections.</p>
+<p>We do not protect against the full compromise of users&#8217; machines,
+including the gaining of remote access to those machines through
+mechanisms such as malware as well as adversaries gaining access to
+users&#8217; machines directly through means such as arresting users.</p>
+<p>We do take steps to mitigate the damage of this threat, including:</p>
+<ul class="simple">
+<li>Encrypting sensitive Lantern files on the local machine</li>
+<li>Re-generating all TLS keys on every run of Lantern</li>
+<li>Use of ephemeral Diffie-Hellman key exchange to preserve forward
+secrecy</li>
+</ul>
+<p>We do not, however, protect against every form of attack that is
+possible with a full system compromise.</p>
+</div>
+<div class="section" id="goals-of-lantern">
+<h2>Goals of Lantern<a class="headerlink" href="#goals-of-lantern" title="Permalink to this headline">¶</a></h2>
+<p>Lantern&#8217;s primary goal is to provide a blocking-resistant way of
+offering access to all web sites on the internet, particularly sites
+that are blocked in certain regions. It <strong>does not necessarily hide your
+IP address from those sites</strong>. If you are performing some task that
+might put you in danger, we encourage the use of tools that devote more
+resources to protecting your anonymity online, such as
+<a class="reference external" href="http://www.torproject.org">Tor</a>.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+ 
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="[developers]-Questions-and-Answers.html" title="Questions and Answers for Developers"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="[developers]-Releasing-jars-to-maven-central.html" title="Releasing Jars to Maven Central"
+             >previous</a> |</li>
+        <li><a href="index.html">Lantern 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        <footer id="footer" class="footer">
+            <div class="footer-logo">
+          <img src="https://getlantern.org/images/a7a84d10.lantern-footer-logo.jpg" alt="Lantern">
+    </div>    
+                <nav>
+          <ul class="navlink-list main-nav">
+            <li><a target="_blank" ng-href="https://groups.google.com/group/lantern-users-en" ng-bind-template="Forums" class="ng-binding" href="https://groups.google.com/group/lantern-users-en">Forums</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Privacy" ng-bind-template="Privacy" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Privacy">Privacy</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Get-Involved" ng-bind-template="Get Involved" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Get-Involved">Get Involved</a>&nbsp;</li>
+          </ul>
+        </nav>
+        
+        
+                <nav>
+          
+          <ul class="social-media-icons">
+            <li><a target="_blank" ng-href="https://twitter.com/getlantern" href="https://twitter.com/getlantern"><span class="icon-twitter"></span></a></li>
+            <li><a target="_blank" ng-href="https://www.facebook.com/getlantern" href="https://www.facebook.com/getlantern"><span class="icon-facebook"></span></a></li>
+            <li><a target="_blank" ng-href="http://get-lantern.tumblr.com/" href="http://get-lantern.tumblr.com/"><span class="icon-tumblr"></span></a></li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern" href="https://github.com/getlantern/lantern"><span class="icon-github"></span></a></li>
+            
+          </ul>
+        </nav>
+
+
+        <nav ng-show="NLANGS &gt; 1">
+          <ul class="navlink-list lang-list">
+            <!-- ngRepeat: lang in LANGS --><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding">English</a>
+              <a ng-href="#en_US" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#en_US" style="display: none;">English</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Español</a>
+              <a ng-href="#es" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#es">Español</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">فارسی</a>
+              <a ng-href="#fa_IR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fa_IR">فارسی</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Français</a>
+              <a ng-href="#fr_FR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fr_FR">Français</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">中文</a>
+              <a ng-href="#zh_CN" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#zh_CN">中文</a>
+            </li>
+            <li>
+              <a ng-href="https://github.com/getlantern/lantern/wiki/Translating-Lantern" target="_blank" ng-bind-template="Help Translate" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Translating-Lantern">Help Translate</a>
+            </li>
+          </ul>
+        </nav>
+        
+        
+        </div>
+      <div class="constrained">
+
+
+          
+
+ </div>
+ <!-- -->
+        <div class="copyright">
+          <p ng-bind-template="© 2014 Brave New Software" class="ng-binding">© 2014 Brave New Software</p>
+
+    <p>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b3.<p>
+        </div>
+      
+    </div></footer>
+
+  </body>
+</html>
