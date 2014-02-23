@@ -18,6 +18,7 @@ Lantern Developer Documentation
    	[developers]-Release-process
    	[developers]-Releasing-jars-to-maven-central
    	Threat-Model
+	Fallback-Proxy-Load-Balancing
    	[developers]-Questions-and-Answers
    	
    	
