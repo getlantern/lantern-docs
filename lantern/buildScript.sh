@@ -14,13 +14,10 @@ fi
 #Add back the _build dir
 mkdir _build
 
-find . -name index.rst | xargs -I fPath dirname fPath | sed 's#\./##g' | xargs -I langDir sudo mkdir -p _build/langDir
 chmod a+rw  _build
 
 #Find all the directories that have an index.rst file and create a new subfolder under _build
-#for each language and category (user or developer) of the docs. 
-
-find . -name index.rst | xargs -I fPath dirname fPath | sed 's#\./##g' | xargs -I langDir sudo mkdir -p _build/langDir
+find . -name index.rst | xargs -I fPath dirname fPath | sed 's#\./##g' | xargs -I langDir mkdir -p _build/langDir
 
 chmod -R a+rw _build
 
