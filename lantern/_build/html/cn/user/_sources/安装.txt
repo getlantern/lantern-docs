@@ -1,0 +1,17 @@
+下载Lantern
+~~~~~~~~~~~
+
+Lantern目前正处于内部beta测试阶段，这意味着你不能从网上直截下载它，而是先要被人邀请，然后才能参加测试。如果你没有能发出邀请的朋友，那么你可以去
+http://GetLantern.org
+填写一个申请表，把自己的email地址填进去。当我们可以把你加进来的时候，你就会收到我们的邮件通知。
+
+安装Lantern
+~~~~~~~~~~~
+
+一旦你收到了邀请邮件，会在里面看到下载链接。选择适合你电脑系统的那个链接，就可以到达相应的下载页面了。
+
+-  `安装：Linux <https://github.com/getlantern/lantern/wiki/Installation%3A-Linux>`__
+-  `安装：Windows <https://github.com/getlantern/lantern/wiki/Installation%3A-windows>`__
+-  `安装：Mac <https://github.com/getlantern/lantern/wiki/Installation%3A-Mac>`__
+
+Lantern对上述这三个平台都有很好的安装支持。如果你已经下载好了，并且已经启动了Lantern，你现在可以直截跳转到\ `设置 <https://github.com/getlantern/lantern/wiki/Setup>`__\ 部分。如果你想把Lantern安装在服务器（比如EC2）上来为大家提供全天候服务，那就看看\ `安装：服务器 <https://github.com/getlantern/lantern/wiki/Installation%3A-server>`__\ 。如果你的系统平台还没有被Lantern支持的话，你可以\ `从源代码开始编译安装 <https://github.com/getlantern/lantern/blob/master/README.md#setting-up-a-development-environment>`__\ 。

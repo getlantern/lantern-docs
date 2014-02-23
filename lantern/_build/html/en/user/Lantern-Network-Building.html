@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Lantern Network Building &mdash; Lantern 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/lanternDoc.css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Lantern 1.0 documentation" href="index.html" />
+    <link rel="next" title="Questions and Answers" href="Questions-and-Answers.html" />
+    <link rel="prev" title="Translating Lantern" href="Translating-Lantern.html" /> 
+  </head>
+  <body>
+<div id="content-container">
+<header id="topbar" class="header">
+<nav class="section-nav">
+          <ul class="section-list">
+            <li><a href="https://getlantern.org/#about" ng-bind-template="About" class="ng-binding">About</a></li>
+            <li><a href="https://getlantern.org/#faq" ng-bind-template="FAQ" class="ng-binding">FAQ</a></li>
+            <li><a ng-href="https://github.com/getlantern/lantern/wiki" target="_blank" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a></li>
+          </ul>
+        </nav>
+        <div class="wrap clearfix">
+          <div class="site-logo">
+            <a href="https://getlantern.org/images/91bc035f.lantern-logo.png">
+              <img src="https://getlantern.org/images/91bc035f.lantern-logo.png" alt="Lantern">
+              <span class="beta ng-binding" ng-bind-template="Beta">Beta</span>
+            </a>
+          </div>
+        </div>
+      </header>
+     
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Questions-and-Answers.html" title="Questions and Answers"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Translating-Lantern.html" title="Translating Lantern"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Lantern 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+
+  
+
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Lantern Network Building</a><ul>
+<li><a class="reference internal" href="#tools">Tools</a><ul>
+<li><a class="reference internal" href="#finding-and-inviting-friends">Finding and inviting friends</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#education-and-encouragement">Education and Encouragement</a><ul>
+<li><a class="reference internal" href="#email-schedule">Email Schedule</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#related-tickets">Related Tickets</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Translating-Lantern.html"
+                        title="previous chapter">Translating Lantern</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Questions-and-Answers.html"
+                        title="next chapter">Questions and Answers</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/Lantern-Network-Building.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="lantern-network-building">
+<h1>Lantern Network Building<a class="headerlink" href="#lantern-network-building" title="Permalink to this headline">¶</a></h1>
+<p>Lantern depends on a strong trust network of users that spans the
+censorship divide and that includes enough Give mode users to have
+proxies available when censored users need them.</p>
+<p>To this end, both Give and Get mode users need tools to help them grow
+their trust networks. The benefits of growing the Lantern trust network
+aren&#8217;t immediately palpable to users. It may take Give mode users a
+while before they see any Get mode users connecting through their proxy.
+Due to the immediate availability of fallback proxies, Get mode users
+may not sense the importance of building their trust network in order to
+improve the speed and reliability of the Lantern proxy network.</p>
+<p>Given these challenges, Lantern should both make it as easy as possible
+to grow one&#8217;s trust network, as well as provide education,
+encouragement, and engaging experiences to get users to do so.</p>
+<p>The tools for growing ones network are applicable for both Give and Get
+mode, while education and encouragement need to be sensitive to
+differences in the Give and the Get mode experiences.</p>
+<p>This document outlines approaches for addressing all of these aspects of
+building the trust network.</p>
+<p>note - It is important to remember that much network building can
+proceed informally and outside of the Lantern application - ultimately
+Lantern just needs to know once the connection has been made. Before
+going too far down the road of building specific tooling, we should make
+sure to talk with our &#8220;connectors&#8221;, i.e. the people who have
+relationships that bridge the censorship divide and who are likely to be
+the lynchpins of the Lantern trust network in its early stages.</p>
+<div class="section" id="tools">
+<h2>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="finding-and-inviting-friends">
+<h3>Finding and inviting friends<a class="headerlink" href="#finding-and-inviting-friends" title="Permalink to this headline">¶</a></h3>
+<p>Lantern should make it easy to find Lantern friends, in particular ones
+who can help bridge the censorship divide. To this end, Lantern should
+integrate with popular social networks</p>
+<ul class="simple">
+<li>Email via Google contacts (already implemented)</li>
+<li>Google+ circles</li>
+<li>LinkedIn</li>
+<li>Facebook</li>
+<li>Twitter</li>
+</ul>
+<p>Not all friends are created equally. We want to connect users from
+uncensored countries with users in censored countries. To this end, we
+want to prioritize relationships where:</p>
+<ol class="arabic simple">
+<li>The friends have different censorship status</li>
+<li>One of the friends has connections to people with a different
+censorship status</li>
+</ol>
+<p>Item 1 can be accomplished with most social APIs that include location
+information about friends (which is most of them). The problem is that
+there aren&#8217;t necessarily a lot of people who have friends across the
+censorship divide.</p>
+<p>Item 2 can be accomplished with LinkedIn. The upside to this is that it
+can help us expand the pool of &#8220;connectors&#8221;.</p>
+<p>What else do we need here? Many social networking invite systems have a
+way of tracking replies, resending reminders and so on...</p>
+</div>
+</div>
+<div class="section" id="education-and-encouragement">
+<h2>Education and Encouragement<a class="headerlink" href="#education-and-encouragement" title="Permalink to this headline">¶</a></h2>
+<p>There are many angles to this. It is instructive to look at what both
+social networks and electronic appliances like the <a class="reference external" href="http://nest.com/">Nest
+thermostat</a>.</p>
+<p>Social networks repeatedly encourage you to build out your network by:</p>
+<ul class="simple">
+<li>Suggesting new friends based on existing friends and interests</li>
+<li>Suggesting new friends based on contacts in your contact list</li>
+<li>Providing a mechanism for friends to message each other</li>
+<li>Reminding you about events in friends&#8217; lives (e.g. birthdays) to get
+you to reach out and communicate with that friend. In the case of
+Lantern, this could be something like &#8220;Sally got access through Joe
+for the first time ever&#8221; (see
+<a class="reference external" href="https://github.com/getlantern/lantern/issues/1048">https://github.com/getlantern/lantern/issues/1048</a>)</li>
+</ul>
+<p>The Nest thermostat has some interesting parallels with Lantern because
+it&#8217;s also something with which you interact infrequently and that you
+use to meet a very specific goal (saving energy while staying
+comfortable). Two things that the Nest thermostat does particularly well
+are:</p>
+<ol class="arabic simple">
+<li>It collects a variety of interesting metrics but distills these down
+into a single easy-to-understand number, namely how many hours your
+heating/cooling system ran in the last month. From there, one can
+drill down into the other metrics to understand what led to that
+usage, but having that single bottom-line number makes it easy to
+keep track of what&#8217;s happening without having to invest too much
+mental bandwidth.</li>
+<li>It uses monthly emails to let you know how you&#8217;re doing, make you
+feel like part of a community and remind you that there&#8217;s a team of
+people constantly making Nest better.</li>
+</ol>
+<p>In the case of Lantern, Give and Get mode users have complementary but
+slightly different goals.</p>
+<p>Get mode users are interested in availability and speed. Give mode users
+are interested in helping out as many people as possible (or specific
+people), but also limiting how much of their bandwidth is consumed, and
+what sites are being visited through their connections.</p>
+<p>This suggests a hierarchy of metrics like the following (all broken down
+on a monthly basis if possible):</p>
+<ul class="simple">
+<li>Number of bytes proxied</li>
+<li>Number of peers active at any time during month</li>
+<li>Number of hours that Lantern was running (see
+<a class="reference external" href="https://github.com/getlantern/lantern/issues/1025">https://github.com/getlantern/lantern/issues/1025</a>)</li>
+<li>Top 5 domains proxied by # of requests (see
+<a class="reference external" href="https://github.com/getlantern/lantern/issues/1027">https://github.com/getlantern/lantern/issues/1027</a>)</li>
+<li>???</li>
+</ul>
+<p>The first two sub-metrics, # of peers and # of hours, present points for
+clear calls to action when the numbers are low, namely &#8220;grow your
+network&#8221; and &#8220;run lantern&#8221;.</p>
+<p>These are both things about which we can and should remind people via
+email.</p>
+<div class="section" id="email-schedule">
+<h3>Email Schedule<a class="headerlink" href="#email-schedule" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Welcome to Lantern</li>
+<li>(If user hasn&#8217;t added any friends) - Add Some Friends</li>
+<li>Monthly Status Update</li>
+<li>???</li>
+</ol>
+</div>
+</div>
+<div class="section" id="related-tickets">
+<h2>Related Tickets<a class="headerlink" href="#related-tickets" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/988">https://github.com/getlantern/lantern/issues/988</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/972">https://github.com/getlantern/lantern/issues/972</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/971">https://github.com/getlantern/lantern/issues/971</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/969">https://github.com/getlantern/lantern/issues/969</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/967">https://github.com/getlantern/lantern/issues/967</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/966">https://github.com/getlantern/lantern/issues/966</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/965">https://github.com/getlantern/lantern/issues/965</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/654">https://github.com/getlantern/lantern/issues/654</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/964">https://github.com/getlantern/lantern/issues/964</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/647">https://github.com/getlantern/lantern/issues/647</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/580">https://github.com/getlantern/lantern/issues/580</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/960">https://github.com/getlantern/lantern/issues/960</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/947">https://github.com/getlantern/lantern/issues/947</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/946">https://github.com/getlantern/lantern/issues/946</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/945">https://github.com/getlantern/lantern/issues/945</a></li>
+<li><a class="reference external" href="https://github.com/getlantern/lantern/issues/937">https://github.com/getlantern/lantern/issues/937</a></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+ 
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Questions-and-Answers.html" title="Questions and Answers"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Translating-Lantern.html" title="Translating Lantern"
+             >previous</a> |</li>
+        <li><a href="index.html">Lantern 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        <footer id="footer" class="footer">
+            <div class="footer-logo">
+          <img src="https://getlantern.org/images/a7a84d10.lantern-footer-logo.jpg" alt="Lantern">
+    </div>    
+                <nav>
+          <ul class="navlink-list main-nav">
+            <li><a target="_blank" ng-href="https://groups.google.com/group/lantern-users-en" ng-bind-template="Forums" class="ng-binding" href="https://groups.google.com/group/lantern-users-en">Forums</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Privacy" ng-bind-template="Privacy" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Privacy">Privacy</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Get-Involved" ng-bind-template="Get Involved" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Get-Involved">Get Involved</a>&nbsp;</li>
+          </ul>
+        </nav>
+        
+        
+                <nav>
+          
+          <ul class="social-media-icons">
+            <li><a target="_blank" ng-href="https://twitter.com/getlantern" href="https://twitter.com/getlantern"><span class="icon-twitter"></span></a></li>
+            <li><a target="_blank" ng-href="https://www.facebook.com/getlantern" href="https://www.facebook.com/getlantern"><span class="icon-facebook"></span></a></li>
+            <li><a target="_blank" ng-href="http://get-lantern.tumblr.com/" href="http://get-lantern.tumblr.com/"><span class="icon-tumblr"></span></a></li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern" href="https://github.com/getlantern/lantern"><span class="icon-github"></span></a></li>
+            
+          </ul>
+        </nav>
+
+
+        <nav ng-show="NLANGS &gt; 1">
+          <ul class="navlink-list lang-list">
+            <!-- ngRepeat: lang in LANGS --><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding">English</a>
+              <a ng-href="#en_US" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#en_US" style="display: none;">English</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Español</a>
+              <a ng-href="#es" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#es">Español</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">فارسی</a>
+              <a ng-href="#fa_IR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fa_IR">فارسی</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Français</a>
+              <a ng-href="#fr_FR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fr_FR">Français</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">中文</a>
+              <a ng-href="#zh_CN" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#zh_CN">中文</a>
+            </li>
+            <li>
+              <a ng-href="https://github.com/getlantern/lantern/wiki/Translating-Lantern" target="_blank" ng-bind-template="Help Translate" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Translating-Lantern">Help Translate</a>
+            </li>
+          </ul>
+        </nav>
+        
+        
+        </div>
+      <div class="constrained">
+
+
+          
+
+ </div>
+ <!-- -->
+        <div class="copyright">
+          <p ng-bind-template="© 2014 Brave New Software" class="ng-binding">© 2014 Brave New Software</p>
+
+    <p>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b3.<p>
+        </div>
+      
+    </div></footer>
+
+  </body>
+</html>

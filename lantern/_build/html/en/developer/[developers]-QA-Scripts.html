@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>QA Scripts &mdash; Lantern 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/lanternDoc.css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Lantern 1.0 documentation" href="index.html" />
+    <link rel="next" title="Lantern Debugging" href="[developers]-Lantern-Debugging.html" />
+    <link rel="prev" title="Sending Bulk Invites" href="[developers]-Bulk-Invites.html" /> 
+  </head>
+  <body>
+<div id="content-container">
+<header id="topbar" class="header">
+<nav class="section-nav">
+          <ul class="section-list">
+            <li><a href="https://getlantern.org/#about" ng-bind-template="About" class="ng-binding">About</a></li>
+            <li><a href="https://getlantern.org/#faq" ng-bind-template="FAQ" class="ng-binding">FAQ</a></li>
+            <li><a ng-href="https://github.com/getlantern/lantern/wiki" target="_blank" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a></li>
+          </ul>
+        </nav>
+        <div class="wrap clearfix">
+          <div class="site-logo">
+            <a href="https://getlantern.org/images/91bc035f.lantern-logo.png">
+              <img src="https://getlantern.org/images/91bc035f.lantern-logo.png" alt="Lantern">
+              <span class="beta ng-binding" ng-bind-template="Beta">Beta</span>
+            </a>
+          </div>
+        </div>
+      </header>
+     
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="[developers]-Lantern-Debugging.html" title="Lantern Debugging"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="[developers]-Bulk-Invites.html" title="Sending Bulk Invites"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Lantern 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+
+  
+
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">QA Scripts</a><ul>
+<li><a class="reference internal" href="#basic-get-mode-test-script">Basic Get Mode test script</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="[developers]-Bulk-Invites.html"
+                        title="previous chapter">Sending Bulk Invites</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="[developers]-Lantern-Debugging.html"
+                        title="next chapter">Lantern Debugging</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/[developers]-QA-Scripts.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="qa-scripts">
+<h1>QA Scripts<a class="headerlink" href="#qa-scripts" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="basic-get-mode-test-script">
+<h2>Basic Get Mode test script<a class="headerlink" href="#basic-get-mode-test-script" title="Permalink to this headline">¶</a></h2>
+<p>The test script should still succeed as long as Lantern can reach a
+fallback proxy. When we switch to give mode about halfway through the
+script, you&#8217;ll enter the following in your /etc/hosts file:</p>
+<div class="highlight-python"><pre>0.0.0.0 talk.google.com
+0.0.0.0 accounts.google.com
+0.0.0.0 google.com</pre>
+</div>
+<p>Alternately, if you have access to a firewall, you can block the below
+ip ranges</p>
+<div class="highlight-python"><pre>216.239.32.1 - 216.239.63.254
+54.233.160.1 - 54.233.191.254
+66.249.80.1 - 66.249.95.254
+72.14.192.1 - 72.14.255.254
+209.85.128.1 - 209.85.255.254
+74.125.0.1 - 74.125.255.254
+207.126.144.1 - 207.126.159.254</pre>
+</div>
+<p>Note - these will change over time. Up to date ranges can be obtained by
+calling <tt class="docutils literal"><span class="pre">dig</span> <span class="pre">&#64;ns1.google.com</span> <span class="pre">-t</span> <span class="pre">txt</span> <span class="pre">_netblocks.google.com</span></tt> and
+converting the resulting _netblocks to ip ranges using this <a class="reference external" href="http://jodies.de/ipcalc">online ip
+calculator</a>.</p>
+<ol class="arabic simple">
+<li>Make sure Lantern is not running</li>
+<li>Open up your system proxy settings and verify that you have no
+system proxy set. If your OS keeps this window up-to-date with your
+system proxy settings without your having to close and reopen it (OS
+X does, Ubuntu doesn&#8217;t, afaik), keep this window visible while you
+interact with Lantern in the following steps so you can see exactly
+if and when Lantern changes the settings.</li>
+<li>Nuke your ~/.lantern directory if you have one</li>
+<li>Install Lantern from an install wrapper on Amazon S3 that was sent
+to you in an email (it&#8217;s okay if this is an old version of Lantern)</li>
+<li>Shut down Lantern</li>
+<li>Install the test build of Lantern (which will have the effect of
+starting it)</li>
+<li>Choose Give Access</li>
+<li>Choose Sign In</li>
+<li>Sign in to Google with an invited account and click Allow access</li>
+<li>Click Continue (on the Lantern Friends modal)</li>
+<li>Click Finish</li>
+<li>Verify your green dot is in an accurate spot on the map, and when
+you hover over it all your details (including IP address) are
+accurate</li>
+<li>Visit whatismyipaddress.com in a browser</li>
+<li>Verify your public IP is the same as what was shown on the map</li>
+<li><strong>We&#8217;re now going go switch to get access mode</strong>. Add the google
+mappings above to your /etc/hosts file to simulate Google being
+blocked (see beginning)</li>
+<li>Click Settings button (gear icon)</li>
+<li>Click Get Access</li>
+<li>You should be taken to the Proxied Sites modal. Click Continue
+(should be &#8220;Continue&#8221; and not &#8220;Close&#8221; if setupComplete was correctly
+set back to false)</li>
+<li>Check your system proxy settings are now configured to use Lantern&#8217;s
+PAC file.</li>
+<li>Back in Lantern, you should have been taken back to the
+visualization. Your dot should now be orange. When you hover over
+it, your details should be the same as before (including IP
+address).</li>
+<li>You should now see a dark green dot corresponding to your fallback
+proxy. Hover over it and make a note of its IP.</li>
+<li>Reload whatismyipaddress.com, and see that an arc is drawn
+connecting your orange dot to the green dot.</li>
+<li>Verify the IP that whatismyipaddress.com is showing is now that of
+the fallback proxy, and that this matches the fallback proxy that
+should have been assigned to you based on your install wrapper from
+Amazon S3.</li>
+<li>Click Proxied Sites button (web icon)</li>
+<li>Add geoiptool.com to the textarea and click Continue</li>
+<li>Visit geoiptool.com and verify the IP and location it shows for you
+are the same as the fallback proxy&#8217;s and not your orange dot&#8217;s.</li>
+<li>Quit Lantern</li>
+<li>Check your system proxy settings now have no proxy set</li>
+<li>Repeat steps 13-14</li>
+<li>Restart Lantern</li>
+<li>Check your system proxy settings now have Lantern&#8217;s pac file set</li>
+<li>Repeat steps 22-23 and then step 26</li>
+<li>Go back to Settings and click Reset</li>
+<li>Repeat steps 7-14</li>
+</ol>
+<p>Also Test:</p>
+<ul class="simple">
+<li>autostart on system startup</li>
+<li>p2p</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+ 
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="[developers]-Lantern-Debugging.html" title="Lantern Debugging"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="[developers]-Bulk-Invites.html" title="Sending Bulk Invites"
+             >previous</a> |</li>
+        <li><a href="index.html">Lantern 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        <footer id="footer" class="footer">
+            <div class="footer-logo">
+          <img src="https://getlantern.org/images/a7a84d10.lantern-footer-logo.jpg" alt="Lantern">
+    </div>    
+                <nav>
+          <ul class="navlink-list main-nav">
+            <li><a target="_blank" ng-href="https://groups.google.com/group/lantern-users-en" ng-bind-template="Forums" class="ng-binding" href="https://groups.google.com/group/lantern-users-en">Forums</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Privacy" ng-bind-template="Privacy" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Privacy">Privacy</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Get-Involved" ng-bind-template="Get Involved" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Get-Involved">Get Involved</a>&nbsp;</li>
+          </ul>
+        </nav>
+        
+        
+                <nav>
+          
+          <ul class="social-media-icons">
+            <li><a target="_blank" ng-href="https://twitter.com/getlantern" href="https://twitter.com/getlantern"><span class="icon-twitter"></span></a></li>
+            <li><a target="_blank" ng-href="https://www.facebook.com/getlantern" href="https://www.facebook.com/getlantern"><span class="icon-facebook"></span></a></li>
+            <li><a target="_blank" ng-href="http://get-lantern.tumblr.com/" href="http://get-lantern.tumblr.com/"><span class="icon-tumblr"></span></a></li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern" href="https://github.com/getlantern/lantern"><span class="icon-github"></span></a></li>
+            
+          </ul>
+        </nav>
+
+
+        <nav ng-show="NLANGS &gt; 1">
+          <ul class="navlink-list lang-list">
+            <!-- ngRepeat: lang in LANGS --><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding">English</a>
+              <a ng-href="#en_US" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#en_US" style="display: none;">English</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Español</a>
+              <a ng-href="#es" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#es">Español</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">فارسی</a>
+              <a ng-href="#fa_IR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fa_IR">فارسی</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Français</a>
+              <a ng-href="#fr_FR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fr_FR">Français</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">中文</a>
+              <a ng-href="#zh_CN" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#zh_CN">中文</a>
+            </li>
+            <li>
+              <a ng-href="https://github.com/getlantern/lantern/wiki/Translating-Lantern" target="_blank" ng-bind-template="Help Translate" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Translating-Lantern">Help Translate</a>
+            </li>
+          </ul>
+        </nav>
+        
+        
+        </div>
+      <div class="constrained">
+
+
+          
+
+ </div>
+ <!-- -->
+        <div class="copyright">
+          <p ng-bind-template="© 2014 Brave New Software" class="ng-binding">© 2014 Brave New Software</p>
+
+    <p>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b3.<p>
+        </div>
+      
+    </div></footer>
+
+  </body>
+</html>

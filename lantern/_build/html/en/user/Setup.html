@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Setting Up Lantern &mdash; Lantern 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/lanternDoc.css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Lantern 1.0 documentation" href="index.html" />
+    <link rel="next" title="Using Lantern" href="Using-Lantern.html" />
+    <link rel="prev" title="Installing and Uninstalling" href="Installing.html" /> 
+  </head>
+  <body>
+<div id="content-container">
+<header id="topbar" class="header">
+<nav class="section-nav">
+          <ul class="section-list">
+            <li><a href="https://getlantern.org/#about" ng-bind-template="About" class="ng-binding">About</a></li>
+            <li><a href="https://getlantern.org/#faq" ng-bind-template="FAQ" class="ng-binding">FAQ</a></li>
+            <li><a ng-href="https://github.com/getlantern/lantern/wiki" target="_blank" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a></li>
+          </ul>
+        </nav>
+        <div class="wrap clearfix">
+          <div class="site-logo">
+            <a href="https://getlantern.org/images/91bc035f.lantern-logo.png">
+              <img src="https://getlantern.org/images/91bc035f.lantern-logo.png" alt="Lantern">
+              <span class="beta ng-binding" ng-bind-template="Beta">Beta</span>
+            </a>
+          </div>
+        </div>
+      </header>
+     
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Using-Lantern.html" title="Using Lantern"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Installing.html" title="Installing and Uninstalling"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Lantern 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+
+  
+
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Setting Up Lantern</a><ul>
+<li><a class="reference internal" href="#give-or-get-access">Give or Get access</a></li>
+<li><a class="reference internal" href="#signing-in-to-google">Signing in to Google</a></li>
+<li><a class="reference internal" href="#adding-friends">Adding Friends</a></li>
+<li><a class="reference internal" href="#configuring-your-sites">Configuring your sites</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Installing.html"
+                        title="previous chapter">Installing and Uninstalling</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Using-Lantern.html"
+                        title="next chapter">Using Lantern</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/Setup.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="setting-up-lantern">
+<span id="id1"></span><h1>Setting Up Lantern<a class="headerlink" href="#setting-up-lantern" title="Permalink to this headline">¶</a></h1>
+<p>When you first run Lantern you will be asked a series of questions.</p>
+<div class="section" id="give-or-get-access">
+<h2>Give or Get access<a class="headerlink" href="#give-or-get-access" title="Permalink to this headline">¶</a></h2>
+<p>The first question is if you want to &#8216;give&#8217; or &#8216;get&#8217; access.</p>
+<p><strong>&#8216;Give Access&#8217;</strong> is for users in uncensored countries who want to share
+their internet connection. This turns their computer in to a proxy that
+their trusted Lantern friends can use for free to access the open
+internet. Lantern runs in the background, and we encourage you to leave
+it on whenever you can, so your friends can always use your connection.</p>
+<p><strong>&#8216;Get Access&#8217;</strong> is for users in censored countries who want access to
+the internet. Lantern uses a &#8216;peer-to-peer&#8217; approach to stream internet
+access from all your trusted Lantern friends at once. So the more
+Lantern friends in other countries that you add the better your
+connection will be.</p>
+</div>
+<div class="section" id="signing-in-to-google">
+<h2>Signing in to Google<a class="headerlink" href="#signing-in-to-google" title="Permalink to this headline">¶</a></h2>
+<p>The next step is to sign in to your Google account. Lantern leverages
+your existing Google contacts to build up its social network.</p>
+<p>The sign-in page is served directly from Google. Your password goes
+straight to Google&#8217;s servers, Lantern never stores or even sees the
+password.</p>
+<img alt="google signin" src="https://www.evernote.com/shard/s209/sh/e7bcf743-984e-45ac-b525-b7f4517cf341/7c4a237f1aa7cb1bf6fb245d76f4a49b/deep/0/Lantern.png" />
+<p>After you enter your information you will be prompted to authorize
+Lantern to view your email and basic information, and to view and send
+chat messages. Lantern asks about chat messages because it uses Google&#8217;s
+chat communication channels to bootstrap its network. Hit authorize, or
+Lantern will not work properly.</p>
+<img alt="authorize" src="https://www.evernote.com/shard/s209/sh/bd03de45-d5ac-4cc3-93da-62f24d527687/3bb1691886c46b3f30bc832f2211cdd7/deep/0/Lantern.png" />
+</div>
+<div class="section" id="adding-friends">
+<h2>Adding Friends<a class="headerlink" href="#adding-friends" title="Permalink to this headline">¶</a></h2>
+<p>After you sign-in to Google, you can add friends to your Lantern network. It is important
+to only add people you trust to your Lantern network. For more details on adding friends, see <a class="reference internal" href="Using-Lantern.html#adding-friends"><em>Adding Friends</em></a>.</p>
+<img alt="Adding Friends" src="https://dl.dropboxusercontent.com/u/253631/Add_Lantern_Friends.png" />
+</div>
+<div class="section" id="configuring-your-sites">
+<h2>Configuring your sites<a class="headerlink" href="#configuring-your-sites" title="Permalink to this headline">¶</a></h2>
+<p>If you chose Get, see <a class="reference internal" href="Proxied-sites-configuration.html#config-proxied-sites"><em>Configuring Proxied Sites</em></a>.
+Note that the proxied sites configuration page can be reached at any time by
+Get users by clicking on the globe icon in the lower right.</p>
+<p>Users Giving access will not see this step. Though you are welcome to
+switch modes to experience what Lantern would be like for a user Getting
+access.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+ 
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Using-Lantern.html" title="Using Lantern"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Installing.html" title="Installing and Uninstalling"
+             >previous</a> |</li>
+        <li><a href="index.html">Lantern 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        <footer id="footer" class="footer">
+            <div class="footer-logo">
+          <img src="https://getlantern.org/images/a7a84d10.lantern-footer-logo.jpg" alt="Lantern">
+    </div>    
+                <nav>
+          <ul class="navlink-list main-nav">
+            <li><a target="_blank" ng-href="https://groups.google.com/group/lantern-users-en" ng-bind-template="Forums" class="ng-binding" href="https://groups.google.com/group/lantern-users-en">Forums</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Privacy" ng-bind-template="Privacy" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Privacy">Privacy</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Get-Involved" ng-bind-template="Get Involved" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Get-Involved">Get Involved</a>&nbsp;</li>
+          </ul>
+        </nav>
+        
+        
+                <nav>
+          
+          <ul class="social-media-icons">
+            <li><a target="_blank" ng-href="https://twitter.com/getlantern" href="https://twitter.com/getlantern"><span class="icon-twitter"></span></a></li>
+            <li><a target="_blank" ng-href="https://www.facebook.com/getlantern" href="https://www.facebook.com/getlantern"><span class="icon-facebook"></span></a></li>
+            <li><a target="_blank" ng-href="http://get-lantern.tumblr.com/" href="http://get-lantern.tumblr.com/"><span class="icon-tumblr"></span></a></li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern" href="https://github.com/getlantern/lantern"><span class="icon-github"></span></a></li>
+            
+          </ul>
+        </nav>
+
+
+        <nav ng-show="NLANGS &gt; 1">
+          <ul class="navlink-list lang-list">
+            <!-- ngRepeat: lang in LANGS --><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding">English</a>
+              <a ng-href="#en_US" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#en_US" style="display: none;">English</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Español</a>
+              <a ng-href="#es" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#es">Español</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">فارسی</a>
+              <a ng-href="#fa_IR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fa_IR">فارسی</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Français</a>
+              <a ng-href="#fr_FR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fr_FR">Français</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">中文</a>
+              <a ng-href="#zh_CN" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#zh_CN">中文</a>
+            </li>
+            <li>
+              <a ng-href="https://github.com/getlantern/lantern/wiki/Translating-Lantern" target="_blank" ng-bind-template="Help Translate" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Translating-Lantern">Help Translate</a>
+            </li>
+          </ul>
+        </nav>
+        
+        
+        </div>
+      <div class="constrained">
+
+
+          
+
+ </div>
+ <!-- -->
+        <div class="copyright">
+          <p ng-bind-template="© 2014 Brave New Software" class="ng-binding">© 2014 Brave New Software</p>
+
+    <p>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b3.<p>
+        </div>
+      
+    </div></footer>
+
+  </body>
+</html>
