@@ -3,17 +3,15 @@
 Contributing Code
 =================
 
+This page is focused on software development. If you are not a developer, there are many other ways to `get involved <../user/Get_Involved.html>`_.
+
 Our goal is to make Lantern a truly collaborative open source project with contributors
 from many organizations and countries.
 
 How We Work
 -----------
 
-If you aren't familiar with open source development processes we highly
-recommend reading `Producing Open Source Software <http://producingoss.com/>`__. It's 
-available for free but don't hesitate to buy the book (it's written by a friend of Lantern). 
-We try to follow the best practices details in this book, so it's a good way to get familiar
-with how we work.
+If you aren't familiar with open source development we highly recommend reading `Producing Open Source Software <http://producingoss.com/>`__. It's available for free but don't hesitate to buy the book (it's written by a friend of Lantern). We try to follow the best practices details in this book, so it's a good way to get familiar with how we work.
 
 Getting Started
 ---------------
