@@ -6,55 +6,40 @@ Getting Involved
 As with any open source project, Lantern will only be truly successfully
 if *you* help out. Right now we're in a 'beta' state, with tons to do
 before we spread it to the world. And most of the tasks we need help on
-require no programming knowledge. Developers are of course more than
+require no programming knowledge. Of course Developers are more than
 welcome, but this page is for everyone else to find a way to help make
 Lantern great.
-
-Lantern is currently in private beta, but we are `accepting
-applications <https://docs.google.com/forms/d/11LiZoCMptcc_lj4b01It9n64gngaDPU53_ge3mhiaIM/viewform>`__
-for 'Ambassadors' - early testers who are excited to get involved. If
-you're interested in one or more of the tasks below please mention it in
-your application. We are particularly interested in people with trusted
-contacts in both censored and uncensored countries. But a willingness to
-dive in to any of the tasks below is all you really need.
 
 Use and Spread Lantern
 ----------------------
 
 If you have an uncensored internet connection, you can make a difference
-simply by keeping Lantern running. Every additional user sharing her
-connection makes the Lantern network work that much better, and that
-much harder to block for censors.
+simply by keeping Lantern running. Every additional user sharing thier
+connection improves the Lantern network and makes it harder for censors to block.
 
 Whether or not you have an uncensored internet connection, you can also
 help by inviting people you trust to join the Lantern network. Lantern
-relies on a large network of users who trust one another to share
-internet connections, so the more trusted connections in the network,
-the better Lantern will work. So if you are an early user please spread
+relies on a large network of users who trust each other to share
+internet connections. The more trusted connections in the network,
+the better Lantern will work. If you are an early user, please spread
 Lantern among your trusted friends to help the network grow.
 
 Report Problems
 ---------------
 
-At the current 'beta' stage of development one of the most valuable
-things you can do is report to us if it is *not* working for you. The
-ideal way to do this is on the `users
-forum <https://groups.google.com/group/lantern-users-en>`__. If you
-don't feel comfortable with your name in public feel free to use dummy
-account / name. You can also use the 'contact' form from Lantern itself
-to send a message privately to the core developers.
+At the current beta stage of development one of the most valuable
+things you can do is report to us if Lantern is *not* working for you. The
+ideal way to do this is on the `users forum <https://groups.google.com/group/lantern-users-en>`__. If you
+don't feel comfortable with your name in public feel free to use a fake
+account / name. You can also use the 'contact' form from Lantern itself to send a message privately to the core developers.
 
 .. image:: https://www.evernote.com/shard/s209/sh/b0ebafae-f50e-41e7-b003-11299102d348/feefe49505573ab528410b708e48b0e1/deep/0/Lantern%20and%20Welcome%20to%20Mail.png
    :alt: contact
 
-
 The most important thing to let us know is if you are in a censored
-country and are unable to connect at all. But feel free to report more
-minor errors, and also to make suggestions about ways that Lantern could
-work better for you. Try to give as much detail as possible. See this
-`how to report bugs
-effectively <http://www.chiark.greenend.org.uk/-sgtatham/bugs.html>`__
-for general guidelines. For Lantern be sure to include your operating
+country and are unable to connect at all, but feel free to report more
+minor errors and also to make suggestions about ways that Lantern could
+work better for you. See this `how to report bugs effectively <http://www.chiark.greenend.org.uk/-sgtatham/bugs.html>`__ for general guidelines. Be sure to include your operating
 system, where you are, and if you are in 'give' or 'get' mode (all users
 in censored countries are automatically in 'get'), and what version of
 Lantern you're running.
