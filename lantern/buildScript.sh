@@ -2,7 +2,7 @@
 
 #Delete the build directory and recreate it to make sure sphinx-doc pulls in any updates to template files
 
-DIR="html"
+DIR="_build/html"
 
 #Check that it exists before trying to delete
 
