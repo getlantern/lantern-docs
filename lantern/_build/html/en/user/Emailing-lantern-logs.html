@@ -68,17 +68,6 @@
 
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="index.html">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Emailing Lantern Logs</a><ul>
-<li><a class="reference internal" href="#windows-vista-7-8">Windows Vista/7/8</a></li>
-<li><a class="reference internal" href="#windows-xp">Windows XP</a></li>
-<li><a class="reference internal" href="#osx">OSX</a></li>
-<li><a class="reference internal" href="#ubuntu">Ubuntu</a></li>
-</ul>
-</li>
-</ul>
-
   <h4>Previous topic</h4>
   <p class="topless"><a href="Switching-Google-Accounts.html"
                         title="previous chapter">Switching Google Accounts</a></p>
@@ -116,32 +105,28 @@
             
   <div class="section" id="emailing-lantern-logs">
 <span id="sending-lantern-logs"></span><h1>Emailing Lantern Logs<a class="headerlink" href="#emailing-lantern-logs" title="Permalink to this headline">¶</a></h1>
-<p>Occasionally the core Lantern developers will request for you to email
-them your logs to better diagnose an issue.</p>
-<p>To do this you need to find the logs directory on your platform:</p>
-<div class="section" id="windows-vista-7-8">
-<h2>Windows Vista/7/8<a class="headerlink" href="#windows-vista-7-8" title="Permalink to this headline">¶</a></h2>
-<p><tt class="docutils literal"><span class="pre">C:\Users\USERNAME\AppData\Roaming\Lantern\logs</span></tt></p>
+<p>Occasionally, the core Lantern developers will request that you send them your logs to diagnose a problem.</p>
+<p>The logs are located in the following directories:</p>
+<ul class="simple">
+<li>Windows Vista/7/8 - <tt class="docutils literal"><span class="pre">C:\Users\USERNAME\AppData\Roaming\Lantern\logs</span></tt></li>
+<li>Windows XP - <tt class="docutils literal"><span class="pre">C:\Documents</span> <span class="pre">and</span> <span class="pre">Settings\USERNAME\Application</span> <span class="pre">Data\Lantern\Logs</span></tt></li>
+<li>OSX - <tt class="docutils literal"><span class="pre">~/Library/Logs/Lantern</span></tt></li>
+<li>Ubuntu - <tt class="docutils literal"><span class="pre">~/.lantern/logs</span></tt></li>
+</ul>
+<p>There may be multiple files in the <cite>logs</cite> directory, but <cite>java.log</cite> is the most important one.</p>
+<ol class="arabic">
+<li><p class="first">Compress the <cite>logs</cite> directory into a zip file.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Send the zip file to contact [at] getlantern.org.</dt>
+<dd><div class="first last admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you are very security focused and want a pgp email address to send it to let us know and we can provide one.</p>
 </div>
-<div class="section" id="windows-xp">
-<h2>Windows XP<a class="headerlink" href="#windows-xp" title="Permalink to this headline">¶</a></h2>
-<p><tt class="docutils literal"><span class="pre">C:\Documents</span> <span class="pre">and</span> <span class="pre">Settings\USERNAME\Application</span> <span class="pre">Data\Lantern\Logs</span></tt></p>
-</div>
-<div class="section" id="osx">
-<h2>OSX<a class="headerlink" href="#osx" title="Permalink to this headline">¶</a></h2>
-<p><tt class="docutils literal"><span class="pre">~/Library/Logs/Lantern</span></tt></p>
-</div>
-<div class="section" id="ubuntu">
-<h2>Ubuntu<a class="headerlink" href="#ubuntu" title="Permalink to this headline">¶</a></h2>
-<p><tt class="docutils literal"><span class="pre">~/.lantern/logs</span></tt></p>
-<p>The directory should have files in it like <tt class="docutils literal"><span class="pre">java.log</span></tt>,
-<tt class="docutils literal"><span class="pre">installer.log</span></tt> and others. Zip up the whole directory in to a single
-zip file. Sometimes it may only contain java.log, which is the most
-important file. You can zip it to be smaller, or just send it as is.</p>
-<p>Attach the zip or the java log file to an email sent to contact [at]
-getlantern.org. If you are very security focused and want a pgp email
-address to send it to let us know and we can provide one.</p>
-</div>
+</dd>
+</dl>
+</li>
+</ol>
 </div>
 
 

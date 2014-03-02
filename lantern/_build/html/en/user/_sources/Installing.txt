@@ -2,7 +2,7 @@ Installing and Uninstalling
 ===========================
 This section provides details on how to install and uninstall Lantern on multiple operating systems.
 
-Once you are invited, you will receive an email with links to download the installer for your operating system.
+Once you are invited, you will receive an email with links to the installers.
 
 .. image:: https://github-camo.global.ssl.fastly.net/6a8e1af9a0053337263343727132eacab1920d88/687474703a2f2f692e696d6775722e636f6d2f347652615436382e706e67
 	:alt: Lantern Invitation
@@ -13,7 +13,7 @@ Linux
 Supported Versions
 ^^^^^^^^^^^^^^^^^^
 Currently, installation on Linux is only available on Ubuntu.
-We greatly appreciate any `contributions <../../developer/html/contributing.html>`_ for other Linux distributions or help with improvements to make better use of package managers. You can also `build from source <https://github.com/getlantern/lantern/blob/master/README.md#wiki-setting-up-a-development-environment>`_.
+We greatly appreciate any `contributions <../developer/contributing.html>`_ for other Linux distributions or help with improvements to make better use of package managers. You can also `build from source <https://github.com/getlantern/lantern/blob/master/README.md#wiki-setting-up-a-development-environment>`_.
 
 Installing
 ^^^^^^^^^^ 
