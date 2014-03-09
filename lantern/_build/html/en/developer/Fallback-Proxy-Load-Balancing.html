@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Fallback Proxy Load Balancing &mdash; Lantern 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/lanternDoc.css">
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Lantern 1.0 documentation" href="index.html" />
+    <link rel="next" title="Questions and Answers for Developers" href="[developers]-Questions-and-Answers.html" />
+    <link rel="prev" title="Threat Model" href="Threat-Model.html" /> 
+  </head>
+  <body>
+<div id="content-container">
+<header id="topbar" class="header">
+<nav class="section-nav">
+          <ul class="section-list">
+            <li><a href="https://getlantern.org/#about" ng-bind-template="About" class="ng-binding">About</a></li>
+            <li><a href="https://getlantern.org/#faq" ng-bind-template="FAQ" class="ng-binding">FAQ</a></li>
+            <li><a ng-href="https://github.com/getlantern/lantern/wiki" target="_blank" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a></li>
+          </ul>
+        </nav>
+        <div class="wrap clearfix">
+          <div class="site-logo">
+            <a href="https://getlantern.org/images/91bc035f.lantern-logo.png">
+              <img src="https://getlantern.org/images/91bc035f.lantern-logo.png" alt="Lantern">
+              <span class="beta ng-binding" ng-bind-template="Beta">Beta</span>
+            </a>
+          </div>
+        </div>
+      </header>
+     
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="[developers]-Questions-and-Answers.html" title="Questions and Answers for Developers"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Threat-Model.html" title="Threat Model"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Lantern 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+
+  
+
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Fallback Proxy Load Balancing</a><ul>
+<li><a class="reference internal" href="#assigning-fallback-proxies">Assigning Fallback Proxies</a></li>
+<li><a class="reference internal" href="#solution-for-problem-1-expanded-inviter-tree-for-a-single-proxy">Solution for Problem 1 - Expanded inviter tree for a single proxy</a></li>
+<li><a class="reference internal" href="#solution-for-problem-2-multiple-fallback-proxies-per-inviter">Solution for Problem 2 - Multiple Fallback Proxies per Inviter</a></li>
+<li><a class="reference internal" href="#approach-a-kaleidoscope">Approach A: Kaleidoscope</a></li>
+<li><a class="reference internal" href="#approach-b-controller-based-fallback-reassignment">Approach B: Controller-based fallback reassignment</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Threat-Model.html"
+                        title="previous chapter">Threat Model</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="[developers]-Questions-and-Answers.html"
+                        title="next chapter">Questions and Answers for Developers</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/Fallback-Proxy-Load-Balancing.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+
+
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="fallback-proxy-load-balancing">
+<span id="id1"></span><h1>Fallback Proxy Load Balancing<a class="headerlink" href="#fallback-proxy-load-balancing" title="Permalink to this headline">¶</a></h1>
+<p>Lantern maintains a set of <a class="reference external" href="../user/Lantern-Cloud-Servers.html">cloud fallback proxy servers</a> for users who aren&#8217;t able to connect through a peer in their trust network. This can happen because none of their peers are online or none of their peers are reachable.</p>
+<p>In addition to helping users access the Internet, these fallback proxies are vitally important during the installation and setup of Lantern. They allow access to Google Accounts and Google Talk so that users can join the Lantern network in countries where these services are blocked.</p>
+<div class="section" id="assigning-fallback-proxies">
+<h2>Assigning Fallback Proxies<a class="headerlink" href="#assigning-fallback-proxies" title="Permalink to this headline">¶</a></h2>
+<p>Every Lantern instance is assigned to only one fallback proxy, which is set by the
+installer wrapper they received in their invite e-mail. In addition to downloading and
+executing a Lantern installer, these wrappers create a file (<cite>~/.lantern fallback.json</cite>)
+with the fallback proxy data. Other proxies are possibly discoverable through the
+kaleidoscope network.</p>
+<p>When a user invites another user, Lantern ensures that there is only one fallback proxy on
+behalf of the inviter. This fallback proxy is assigned to the invitee as their fallback proxy.
+Future invitees by the original inviter are assigned to that same fallback proxy. When one
+of the invitees invites someone new, Lantern spins up a new fallback proxy for that user,
+which becomes the fallback for all of their invitees, and so on.</p>
+<p>An original rationale for this approach of spinning up fallback proxies
+tied to inviters was to limit the exposure of users should a fallback
+proxy have been compromised by the inviter. Per aranhoide, this
+rationale is questionable. aranhoide - &#8220;I used to think so; not anymore.&#8221;</p>
+<p>If a proxy is compromised <em>n</em> users will have degraded service. Assuming the node was
+discovered by infiltration, there is some poetic justice in the fact that these will be neighbours of the
+infiltrator, but the damage is no more or less than if any other <em>n</em> users anywhere else in the
+trust graph were affected instead. The constraint that we must have all proxies serve invitees
+of the same inviter, either directly, as currently, or transitively, as in this proposal,
+only adds unwarranted difficulties to any recovery plan, IMO&#8221;</p>
+<p>The current approach creates two problems:</p>
+<ol class="arabic simple">
+<li>Many proxies end up under-utilized because the corresponding inviter
+invites too few other Lantern users, or too few of them end up using
+Lantern. This ends up wasting capacity that costs money to maintain.</li>
+<li>Some proxies end up over-utilized because the sub-tree contains too
+many users. This adversely impacts the user experience of users who
+rely on those fallback proxies.</li>
+</ol>
+<p>In order to address both of these problems, we need to introduce some
+sort of load balancing that allows us to:</p>
+<ol class="arabic simple">
+<li>Allow a single fallback proxy to serve the invitees of multiple
+inviters</li>
+<li>Use multiple fallback proxies to serve the invitees of a single
+inviter</li>
+</ol>
+</div>
+<div class="section" id="solution-for-problem-1-expanded-inviter-tree-for-a-single-proxy">
+<h2>Solution for Problem 1 - Expanded inviter tree for a single proxy<a class="headerlink" href="#solution-for-problem-1-expanded-inviter-tree-for-a-single-proxy" title="Permalink to this headline">¶</a></h2>
+<p>I&#8217;ll let aranhoide expand on this, but the basic idea is that when a
+user with no associated fallback proxy invites another user, rather than
+spinning up a new proxy, we search the inviter&#8217;s trust graph to find the
+nearest user with an available fallback proxy and use this for the
+invitee.</p>
+</div>
+<div class="section" id="solution-for-problem-2-multiple-fallback-proxies-per-inviter">
+<h2>Solution for Problem 2 - Multiple Fallback Proxies per Inviter<a class="headerlink" href="#solution-for-problem-2-multiple-fallback-proxies-per-inviter" title="Permalink to this headline">¶</a></h2>
+<p>Currently, fallback proxies are assigned to users during the invitation
+process. This is necessary because it allows us to provide customized
+installers that contain the correct fallback proxy and allow Lantern
+users to get online via that fallback proxy in case Google Accounts
+and/or Google Talk are blocked in their country.</p>
+<p>Unfortunately, the invitation process does not give us a good mechanism
+to load balance amongst fallback proxies because we don&#8217;t know how
+heavily utilized a fallback proxy is until someone actually installs
+Lantern and starts using it. In the most extreme case, one can imagine
+that a very lightly utilized fallback ends up getting included in a
+large number of invitations. If all, or many, of these invitations get
+accepted and these users end up actively using Lantern, their fallback
+proxy will end up over-utilized.</p>
+<p>This means that we need a mechanism for re-balancing after invitations
+have already gone out. There are a few different approaches available:</p>
+</div>
+<div class="section" id="approach-a-kaleidoscope">
+<h2>Approach A: Kaleidoscope<a class="headerlink" href="#approach-a-kaleidoscope" title="Permalink to this headline">¶</a></h2>
+<p>Kaleidoscope already provides us with a mechanism for using trust
+relationships between peers to connect to peer proxies. From the
+perspective of a Give mode user, every proxy that runs under a trusted
+identity is made available for proxying and the Lantern client already
+load balances amongst these. Fallback proxies are in fact just Lantern
+instances, so perhaps we can leverage Kaleidoscope to make them
+discoverable to Give mode users.</p>
+<p>The basic idea would be that when we create the install wrapper, in
+addition to adding the fallback proxy&#8217;s ip address to the Lantern
+client&#8217;s list of fallbacks, we also permanently add that Proxy&#8217;s XMPP
+identity to the client&#8217;s roster.</p>
+<p>The client would use the fallback IP only if it doesn&#8217;t know about any
+other proxies (fallback or peer). Once the client learns about the proxy
+instance via KScope, the client would start using that instead. If the
+fallback gets overloaded, we can spool up additional instances under the
+same XMPP identity, which will become available to the client via
+KScope. The client will automatically load balance amongst these
+instances.</p>
+</div>
+<div class="section" id="approach-b-controller-based-fallback-reassignment">
+<h2>Approach B: Controller-based fallback reassignment<a class="headerlink" href="#approach-b-controller-based-fallback-reassignment" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Currently, LanternUser keeps track of an installerLocation
+corresponding to a custom installer that encapsulates the fallback
+proxy that will be used by that user&#8217;s invitees. Let&#8217;s change this to
+be a List of installerLocations that can keep track of new installers
+as we add them.</li>
+<li>When sending out an invitation from an existing user with an existing
+fallback proxy, use the most recent installerLocation from the list
+(as opposed to just the single installerLocation like we do today).</li>
+<li>Have fallback proxies track and report the maximum # of distinct
+clients that have connected to that proxy via Librato (already
+implemented).</li>
+<li>Implement a batch job in the controller that monitors all fallback
+proxies for activity using the metric from #3. If a fallback proxy
+gets too busy (i.e. # of distinct clients exceeds threshold):</li>
+<li>Spin up a new fallback proxy for LanternUser who owns it</li>
+<li>Randomly reassign N LanternUsers in the sub-tree to the new fallback
+proxy, where N = max distinct clients - threshold (this probably
+requires us to add a property to LanternUser that tracks the fallback
+proxy that they&#8217;re using (as opposed to the one their invitees will
+use).</li>
+<li>Implement a protocol between Lantern instances and the controller
+(probably on the XMPP channel) that tells Lantern instances which
+fallback proxy they should be using.</li>
+<li>In the Lantern client, if the client is told to use a different
+fallback proxy than the one currently in use, switch to the new
+fallback proxy and save this in .lantern for future startups. The old
+one should no longer be used at this point.</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+ 
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="[developers]-Questions-and-Answers.html" title="Questions and Answers for Developers"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Threat-Model.html" title="Threat Model"
+             >previous</a> |</li>
+        <li><a href="index.html">Lantern 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        <footer id="footer" class="footer">
+            <div class="footer-logo">
+          <img src="https://getlantern.org/images/a7a84d10.lantern-footer-logo.jpg" alt="Lantern">
+    </div>    
+                <nav>
+          <ul class="navlink-list main-nav">
+            <li><a target="_blank" ng-href="https://groups.google.com/group/lantern-users-en" ng-bind-template="Forums" class="ng-binding" href="https://groups.google.com/group/lantern-users-en">Forums</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Privacy" ng-bind-template="Privacy" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Privacy">Privacy</a>&nbsp;</li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Get-Involved" ng-bind-template="Get Involved" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Get-Involved">Get Involved</a>&nbsp;</li>
+          </ul>
+        </nav>
+        
+        
+                <nav>
+          
+          <ul class="social-media-icons">
+            <li><a target="_blank" ng-href="https://twitter.com/getlantern" href="https://twitter.com/getlantern"><span class="icon-twitter"></span></a></li>
+            <li><a target="_blank" ng-href="https://www.facebook.com/getlantern" href="https://www.facebook.com/getlantern"><span class="icon-facebook"></span></a></li>
+            <li><a target="_blank" ng-href="http://get-lantern.tumblr.com/" href="http://get-lantern.tumblr.com/"><span class="icon-tumblr"></span></a></li>
+            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern" href="https://github.com/getlantern/lantern"><span class="icon-github"></span></a></li>
+            
+          </ul>
+        </nav>
+
+
+        <nav ng-show="NLANGS &gt; 1">
+          <ul class="navlink-list lang-list">
+            <!-- ngRepeat: lang in LANGS --><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding">English</a>
+              <a ng-href="#en_US" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#en_US" style="display: none;">English</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Español</a>
+              <a ng-href="#es" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#es">Español</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">فارسی</a>
+              <a ng-href="#fa_IR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fa_IR">فارسی</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Français</a>
+              <a ng-href="#fr_FR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fr_FR">Français</a>
+            </li><li ng-repeat="lang in LANGS" class="ng-scope">
+              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">中文</a>
+              <a ng-href="#zh_CN" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#zh_CN">中文</a>
+            </li>
+            <li>
+              <a ng-href="https://github.com/getlantern/lantern/wiki/Translating-Lantern" target="_blank" ng-bind-template="Help Translate" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Translating-Lantern">Help Translate</a>
+            </li>
+          </ul>
+        </nav>
+        
+        
+        </div>
+      <div class="constrained">
+
+
+          
+
+ </div>
+ <!-- -->
+        <div class="copyright">
+          <p ng-bind-template="© 2014 Brave New Software" class="ng-binding">© 2014 Brave New Software</p>
+
+    <p>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2b3.<p>
+        </div>
+      
+    </div></footer>
+
+  </body>
+</html>

@@ -11,7 +11,8 @@ Lantern User Documentation
 
 .. toctree::
    	:maxdepth: 1
-
+	
+	Making-Sure-Lantern-Is-Genuine
 	Downloading
 	Installing
 	Setup
