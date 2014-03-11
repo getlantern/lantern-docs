@@ -5,52 +5,25 @@ Questions and Answers
 Is Lantern safe for me to use?
 -------------------------------
 
-**Lantern is a tool to provide access, it is not designed to prevent monitoring and it is not an anonymity tool**.
+* Lantern IS a tool to provide access.
+* Lantern IS NOT an anonymity tool.
+* Lantern IS NOT designed to prevent monitoring.
 
-We take great pains to ensure that users are safe, but there are
-cases we cannot protect against. For users in censored regions itʼs extremely
-important that you only choose Lantern friends who you really trust.
-Your Internet traffic will run through the computers of the people you are connected with. If you add people
-you donʼt trust, you risk adding a user that could be monitoring you. **Only add Lantern friends that you really trust**.
 
-Beyond that, **Lantern also sends your traffic through peers up to
-four degrees away from you**. That is, friends of friends of friends of
-friends. We do this to build a more connected and scalable network because most
-users don’t directly know anyone on the other side of the
-censorship divide. However, every additional link in the chain exposes
+**Only add Lantern friends that you really trust**. If you are in a censored region, itʼs extremely
+important you only choose Lantern friends you really trust. Your internet traffic will run through the computers of the people you are connected with on Lantern. If you add people you donʼt trust, you risk adding a user that could be monitoring you.
+
+**Lantern sends your traffic through peers up to four degrees away from you**. To build a more connected and scalable network your traffic can be sent through friends of friends of friends of friends. We do this because most
+users don’t directly know anyone across the censorship divide. Every additional link in the chain exposes
 you to a less and less trusted user.
 
-If you require that the sites you
-visit do not learn your IP address or physical location (they normally
-can, which may come as a surprise), or you cannot risk network monitors
-being able to determine what sites you visit, we recommend you use
-`Tor <https://www.torproject.org>`__. Tor is great software, and we
-communicate with the Tor team frequently. Again, Lantern’s purpose is
-access. Tor’s purpose is anonymity.
+**Use Tor if you want anonimity.** If you don't want sites you visit to have access to your IP address, physical location, or you can't risk network monitors determining what sites you visit, `Tor <https://www.torproject.org>`__ is great software. We communicate with the Tor team frequently. Again, Lantern’s purpose is access. Tor’s purpose is anonymity.
 
-One last point on safety: With any tool, including both Lantern and Tor,
-you should never post sensitive content to a website that is hosted in
-a region where the government pursues people who post such content,
-especially if you live there. This is because a global network observer
-like the government can identify you as the user who uploaded that
-content and will be able to geolocate you.
-
-**Lantern is not designed to be an anonymity tool.** If you require that
-the websites you visit do not learn your physical location (they
-normally can, which may come as a surprise!) or you cannot risk network
-monitors being able to determine what web sites you visit, we recommend
-you use `Tor <https://www.torproject.org>`__. Tor is great software, and
-we communicate with the Tor team frequently. Lantern is much more
-focused on access whereas Tor’s goal is anonymity.
-
-One last point on safety: with any tool, including both Lantern and Tor,
-you should never post sensitive content to a web site that is hosted in
-your country if you live in a censoring region. The reason is simple: a
-global network observer, such as the government, will be able to
-identify you as the user who uploaded that content and will be able to
-geo-locate you. This is probably the most dangerous thing you could do,
+**Don't post sensitive content to sites hosted in regions where the government will pursue you.** With any tool, including both Lantern and Tor, you should never post sensitive content to a website that is hosted in a region where the government will pursue you for posting such content. This is especially important if you live there. A global network observer
+like the government can identify you as the person who uploaded the
+content and will be able to geolocate you. *This is probably the most dangerous thing you could do,
 so make particularly sure you're posting to sites hosted outside of the
-country if you think that content could be controversial in some way.
+country if you think that content could be controversial in some way.*
 
 How does Lantern work if I can't reach any users giving access?
 ----------------------------------------------------------------
