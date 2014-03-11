@@ -5,24 +5,22 @@ Questions and Answers
 Is Lantern safe for me to use?
 -------------------------------
 
-Lantern takes great pains to ensure that users are safe, but there are
-cases we cannot protect against, so users need to be aware of how they
-can use Lantern safely. For users in censored regions itʼs extremely
-important that you only choose Lantern friends who you really trust.
-Your Internet traffic will run through those peers. If you add people
-who you donʼt trust, you run the risk of adding a user who could be
-monitoring you. So **only add Lantern friends that you really trust**.
-Beyond that, **Lantern will also send your traffic through peers up to
-four degrees away from you**, that is, friends of friends of friends of
-friends. We do this to build a more connected, scalable network, as
-users often don’t directly know anyone on the other side of the
-censorship divide. However, every additional link in the chain exposes
-you to a less and less trusted user (i.e. you trust your friends’
-friends less than you trust your friends). Always keep in mind that
-**Lantern is a tool to provide access, it is not designed to prevent
-monitoring**.
+**Lantern is a tool to provide access, it is not designed to prevent monitoring and it is not an anonymity tool**.
 
-**Lantern is not an anonymity tool**. If you require that the sites you
+We take great pains to ensure that users are safe, but there are
+cases we cannot protect against. For users in censored regions itʼs extremely
+important that you only choose Lantern friends who you really trust.
+Your Internet traffic will run through the computers of the people you are connected with. If you add people
+you donʼt trust, you risk adding a user that could be monitoring you. **Only add Lantern friends that you really trust**.
+
+Beyond that, **Lantern also sends your traffic through peers up to
+four degrees away from you**. That is, friends of friends of friends of
+friends. We do this to build a more connected and scalable network because most
+users don’t directly know anyone on the other side of the
+censorship divide. However, every additional link in the chain exposes
+you to a less and less trusted user.
+
+If you require that the sites you
 visit do not learn your IP address or physical location (they normally
 can, which may come as a surprise), or you cannot risk network monitors
 being able to determine what sites you visit, we recommend you use
@@ -31,7 +29,7 @@ communicate with the Tor team frequently. Again, Lantern’s purpose is
 access. Tor’s purpose is anonymity.
 
 One last point on safety: With any tool, including both Lantern and Tor,
-you should never post sensitive content to a web site that is hosted in
+you should never post sensitive content to a website that is hosted in
 a region where the government pursues people who post such content,
 especially if you live there. This is because a global network observer
 like the government can identify you as the user who uploaded that
