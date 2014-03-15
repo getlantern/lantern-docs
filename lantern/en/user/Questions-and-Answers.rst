@@ -24,16 +24,9 @@ you to a less and less trusted user.
 How does Lantern work if I can't reach any users giving access?
 ----------------------------------------------------------------
 
-To help get the Lantern network started we have set up [[Lantern Cloud
-Servers]]. These serve as fallbacks to proxy traffic when no other users
-are available to give access. Our hope is that as the Lantern network
-grows, there will be enough users giving access that we will need fewer
-and fewer fallback servers.
+To help get the Lantern network started, we set up :ref:`lantern-cloud-servers`. These servers handle traffic when no other users are available to give access. Our hope is that as the Lantern network grows, we will need less cloud servers.
 
-Our other plan is to give people an option to sponsor additional Lantern
-Cloud Servers dedicated for them and their friends. We also hope to
-partner with companies that have spare computing capacity and want to
-help internet freedom by donating servers to the Lantern network.
+Our other plan is to give people an option to sponsor additional cloud servers dedicated for them and their friends. We also hope to partner with companies that have spare computing capacity and want to help internet freedom by donating servers to the Lantern.
 
 How does Lantern compare to other tools?
 ----------------------------------------
