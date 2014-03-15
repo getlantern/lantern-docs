@@ -17,103 +17,80 @@ you to a less and less trusted user.
 
 **Use Tor if you want anonimity.** If you don't want sites you visit to have access to your IP address and physical location, or you can't risk network monitors determining what sites you visit, use `Tor <https://www.torproject.org>`__. Tor is great software. We communicate with the Tor team frequently. Again, Lantern’s purpose is access. Tor’s purpose is anonymity.
 
+.. warning:: **DO NOT POST SENSITIVE CONTENT TO SITES HOSTED IN REGIONS WHERE THE GOVERNMENT WILL PURSUE YOU. This applies to any tool, including Lantern or Tor. A global network observer, like the government, can identify you as the person who uploaded the content. They will be able to geolocate you. If you think the content could be controversial in any way, make sure you are posting to sites hosted outside of the country.**
 
+Why should I only add people I trust as friends?
+-------------------------------------------------------------------------------------
 
-.. warning:: **DO NOT POST SENSITIVE CONTENT TO SITES HOSTED IN REGIONS WHERE THE GOVERNMENT WILL PURSUE YOU. This applies to any tool, including Lantern or Tor. A global network observer, like the government, can identify you as the person who uploaded the content. They will be able to geolocate you. If you think the content could be controversial in any way, make sure you're posting to sites hosted outside of the country.**
+Anyone giving access on the network can monitor or block traffic that is being proxied through their computer. Anyone that is getting access can post sensitive or private content and it will appear as though the traffic is coming from the computer that is giving access. **Due to these risks, everyone running Lantern should only friend people they trust, and only use Lantern to proxy traffic that is not private or sensitive**.
+
+By only adding people you trust, you protect not only yourself, but also
+your friends, their friends, their friendsʼ friends, and so on.
+
+How does the trust network work?
+--------------------------------
+
+Lantern is built on a trust network. This network connects people who
+trust one another so they can share internet connections. When you and another
+user are Lantern friends, you can proxy traffic for each other using Lantern. 
+
+If Lantern proxied only through direct friends, users would often not have proxies available. To mitigate this, Lantern users getting access can discover users giving access that are up to 4 degrees away from them in the trust network. By allowing users to discover users farther away from them in the trust network, Lantern increases available proxies while maintaining blocking resistance.
+
+.. important:: Lantern will never send your traffic through any peer without your explicit approval, regardless of how far away they are in the trust network. **You have to explicitly approve each user who will proxy access for you**. 
 
 How does Lantern work if I can't reach any users giving access?
 ----------------------------------------------------------------
 
-To help get the Lantern network started, we set up :ref:`lantern-cloud-servers`. These servers handle traffic when no other users are available to give access. Our hope is that as the Lantern network grows, we will need less cloud servers.
+To help get the Lantern network started, we set up :ref:`lantern-cloud-servers`. These servers handle traffic when no other users are available to give access. Our hope is that we will need less cloud servers as the Lantern network grows.
 
-Our other plan is to give people an option to sponsor additional cloud servers dedicated for them and their friends. We also hope to partner with companies that have spare computing capacity and want to help internet freedom by donating servers to the Lantern.
+We also plan to give people an option to sponsor additional cloud servers dedicated for them and their friends. We also hope to partner with companies that have spare computing capacity and want to help internet freedom by donating servers to Lantern.
 
 How does Lantern compare to other tools?
 ----------------------------------------
 
 Lanternʼs goal is to give users access while being fast, secure, and
 easy to use. `Tor <https://www.torproject.org>`__ is one of the most
-popular tools in this space with a primary focus on anonymity. For those
-who do not care about being completely anonymous, Lantern provides an
+popular tools in this space with a primary focus on anonymity. 
+
+For those who do not care about complete anonimity, Lantern provides an
 alternative with typically faster access. Compared to other tools aimed
-at access (GoAgent, Freegate, Ultrasurf, Psiphon, Autoproxy) Lanternʼs
-strength is the ease with which it can be installed and used, as well as
-its trusted peer-to-peer network architecture designed to scale in the
-presence of censors. **The use of real-world trust relationships in
+at access (GoAgent, Freegate, Ultrasurf, Psiphon, Autoproxy), Lanternʼs
+strength is that is can be easily installed and used, as well as
+its trusted peer-to-peer network architecture that is designed to scale in the
+presence of censors. *The use of real-world trust relationships in
 Lantern also makes it extremely resilient to blocking attempts.**
 
-By default, Lantern runs as a system proxy, which means that browsers on
-your computer will use it automatically, without your having to change
-any of their settings. Some other tools only work with one specific
-browser, or require complex configuration.
+By default, Lantern runs as a system proxy. This means that internet browsers on your machine will use it automatically. You don't have to change any of your computer settings for it to work. Some other tools work only with one specific browser or have complex configurations.
 
-Another unique aspect in Lanternʼs design is its peer-to-peer
+Another unique aspect of Lanternʼs design is its peer-to-peer
 architecture, which allows data to come from many computers at once,
 rather than a single server. Peer-to-peer architectures also allow
 networks to scale to millions of users at a fraction of the cost of more
 centralized architectures.
 
+How is Lantern different from uProxy?
+-------------------------------------
+
 Recently, the Lantern team has contributed to
 `uProxy <https://uproxy.org>`__, a new effort sponsored by Google Ideas.
 While there are similarities between the two, there are also some
-important differences. For one, Lantern is an independent app that stays
-running in the background, while uProxy is a browser extension, and
-currently requires asking a single friend to proxy for you on a
-per-session basis, so with Lantern you can have many peers give you
-access at the same time as opposed to just one. Another difference is
-Lantern allows friends of friends up to 4 degrees away to connect to one
-another, whereas uProxy only allows direct friends. Finally, to be
-faster and more blocking resistant, by default Lantern proxies access
-only to a specific set of sites you configure (see below), whereas
-uProxy reroutes traffic to all sites through your uProxy peer while you
-have it enabled.
+important differences. 
+
+For one, Lantern is an independent app that stays running in the background, while uProxy is a browser extension, and currently requires asking a single friend to proxy for you on a per-session basis. With Lantern, you can have many peers give you
+access at the same time as opposed to just one. 
+
+Another difference is that Lantern allows friends of friends, up to 4 degrees away, to connect to one another. uProxy only allows direct friends. 
+
+Finally, to be faster and more blocking resistant, Lantern provides access
+only to a configurable set of sites. uProxy reroutes traffic to all sites through your uProxy peer while you have it enabled.
 
 Why does Lantern not proxy every site by default?
 --------------------------------------------------
 
 By default, Lantern only provides access to a list of known blocked
-sites. We do this for a couple of reasons. First, it is always faster to
-go to a site directly rather than through a proxy regardless of how fast
-or efficient that proxy is. So sites that arenʼt blocked will be fastest
-if they are reached directly instead of through Lantern.
+sites. We do this for multiple reasons. 
 
-The second reason is that not proxying access to sites that are known to
-be unblocked frees up Lantern network resources. Because the Lantern
-network as a whole doesn't have to carry the burden of providing access
-to unblocked sites, it can instead use those resources to provide you
-with better access to blocked sites.
-
-How does the trust network work? What happens when I add someone as a Lantern friend?
--------------------------------------------------------------------------------------
-
-Lantern is built on a trust network. This network connects people who
-trust one another to share internet connections. When you and another
-user are Lantern friends with one another, you can proxy traffic for one
-another using Lantern. However, if Lantern proxied only through direct
-friends, users would often have no proxies available whenever none of
-their direct friends were online giving access.
-
-To mitigate this, Lantern users getting access can discover a subset of
-the users giving access up to 4 degrees away from them in the trust
-network. So for instance, if you use Lantern to get access, your
-brother’s partner’s mother’s friend could end up proxying your Lantern
-traffic. If this person is a censor, she could block or analyze your
-traffic. On the other hand, if you use Lantern to read or post something
-private or sensitive, it will look as though this traffic is coming from
-her computer. Because of this, everyone running Lantern should only
-friend people they trust, and **only use Lantern to proxy traffic that
-is not private or sensitive**.
-
-By only adding people you trust, you protect not only yourself, but also
-your friends, their friends, their friendsʼ friends, and so on. And by
-allowing users to discover a subset of users farther away from them in
-the trust network, Lantern increases available proxies while maintaining
-blocking resistance.
-
-In any scenario, however, **you have to explicitly approve each user who
-will proxy access for you**. You are always in control. Lantern will
-never send your traffic through any peer, regardless of how far away
-they are in the trust network, without your explicit approval.
+It is always faster to go to a site directly, rather than through a proxy. Sites that arenʼt blocked will be fastest if they are accessed directly. Another reason is that it frees up Lantern network resources to provide better access to sites that are actually blocked.
 
 How do I download Lantern?
 ---------------------------
@@ -128,7 +105,7 @@ I live in an uncensored region and don't know anyone in a censored region. Can I
 Definitely! People in censored regions can still learn about you through
 your friends. So while you donʼt know anyone directly living in censored
 regions, your friends might, and the odds are even better that their
-friends might (and so on). If you keep Lantern running and adding the
+friends might, and so on. If you keep Lantern running and keep adding the
 people you trust, eventually youʼll be connected with users who need
 access. **Thatʼs why itʼs really important to invite your friends to
 Lantern**. It maximizes the likelihood that your social network will
