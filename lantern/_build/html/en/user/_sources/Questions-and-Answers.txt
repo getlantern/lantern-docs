@@ -9,35 +9,24 @@ Is Lantern safe for me to use?
 * Lantern IS NOT an anonymity tool.
 * Lantern IS NOT designed to prevent monitoring.
 
+**Only add Lantern friends that you really trust**. If a censor infiltrates the network, they will be able to disrupt traffic and discover the IP addresses of some Lantern users. If you are in a censored region, your internet traffic will run through the computers of the people you are connected with on Lantern. If you add people you donʼt trust, you risk adding a user that could be monitoring you.
 
-**Only add Lantern friends that you really trust**. If you are in a censored region, itʼs extremely
-important you only choose Lantern friends you really trust. Your internet traffic will run through the computers of the people you are connected with on Lantern. If you add people you donʼt trust, you risk adding a user that could be monitoring you.
-
-**Lantern sends your traffic through peers up to four degrees away from you**. To build a more connected and scalable network your traffic can be sent through friends of friends of friends of friends. We do this because most
+**Lantern sends your traffic through peers up to four degrees away from you**. In order to build a more connected and scalable network, your traffic can be sent through friends of friends of friends of friends. We do this because most
 users don’t directly know anyone across the censorship divide. Every additional link in the chain exposes
 you to a less and less trusted user.
 
-**Use Tor if you want anonimity.** If you don't want sites you visit to have access to your IP address, physical location, or you can't risk network monitors determining what sites you visit, `Tor <https://www.torproject.org>`__ is great software. We communicate with the Tor team frequently. Again, Lantern’s purpose is access. Tor’s purpose is anonymity.
+**Use Tor if you want anonimity.** If you don't want sites you visit to have access to your IP address and physical location, or you can't risk network monitors determining what sites you visit, use `Tor <https://www.torproject.org>`__. Tor is great software. We communicate with the Tor team frequently. Again, Lantern’s purpose is access. Tor’s purpose is anonymity.
 
-**Don't post sensitive content to sites hosted in regions where the government will pursue you.** With any tool, including both Lantern and Tor, you should never post sensitive content to a website that is hosted in a region where the government will pursue you for posting such content. This is especially important if you live there. A global network observer
-like the government can identify you as the person who uploaded the
-content and will be able to geolocate you. *This is probably the most dangerous thing you could do,
-so make particularly sure you're posting to sites hosted outside of the
-country if you think that content could be controversial in some way.*
+
+
+.. warning:: **DO NOT POST SENSITIVE CONTENT TO SITES HOSTED IN REGIONS WHERE THE GOVERNMENT WILL PURSUE YOU. This applies to any tool, including Lantern or Tor. A global network observer, like the government, can identify you as the person who uploaded the content. They will be able to geolocate you. If you think the content could be controversial in any way, make sure you're posting to sites hosted outside of the country.**
 
 How does Lantern work if I can't reach any users giving access?
 ----------------------------------------------------------------
 
-To help get the Lantern network started we have set up [[Lantern Cloud
-Servers]]. These serve as fallbacks to proxy traffic when no other users
-are available to give access. Our hope is that as the Lantern network
-grows, there will be enough users giving access that we will need fewer
-and fewer fallback servers.
+To help get the Lantern network started, we set up :ref:`lantern-cloud-servers`. These servers handle traffic when no other users are available to give access. Our hope is that as the Lantern network grows, we will need less cloud servers.
 
-Our other plan is to give people an option to sponsor additional Lantern
-Cloud Servers dedicated for them and their friends. We also hope to
-partner with companies that have spare computing capacity and want to
-help internet freedom by donating servers to the Lantern network.
+Our other plan is to give people an option to sponsor additional cloud servers dedicated for them and their friends. We also hope to partner with companies that have spare computing capacity and want to help internet freedom by donating servers to the Lantern.
 
 How does Lantern compare to other tools?
 ----------------------------------------
