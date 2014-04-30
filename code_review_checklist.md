@@ -1,5 +1,7 @@
 # Code Review Checklist
 
+[ ] Code developed on a branch from devel
+[ ] Code pull requested to devel
 [ ] Everything checked in
 [ ] Unit tests updated
 [ ] All unit tests passing
