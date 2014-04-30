@@ -6,7 +6,7 @@
 [ ] Unit tests updated
 [ ] All unit tests passing
 [ ] Docs updated
-[ ] Manually tested Lantern UI
+[ ] Manually [smoke tested](manual_smoke_test.md)
 [ ] Code reviewed in person
 [ ] Translation strings submitted
 [ ] Todos documented code
