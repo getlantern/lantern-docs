@@ -3,7 +3,7 @@
 - [] Code developed on a branch from devel
 - [] Code pull requested to devel
 - [] Everything checked in
-- [] Unit tests updated
+- [] New unit tests for new functionality
 - [] All unit tests passing
 - [] Docs updated
 - [] Manually [smoke tested](manual_smoke_test.md)
