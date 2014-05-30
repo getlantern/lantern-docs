@@ -7,7 +7,7 @@ Configuring Proxied Sites
    :alt: Proxied Sites
 
    Proxied Sites
-The Proxied Sites screen is part of configuration for people using
+The Proxied Sites screen is part of the configuration for people using
 Lantern to Get Access, and is available through the globe icon in the
 lower right.
 
@@ -43,17 +43,14 @@ Wiki <https://github.com/getlantern/lantern-proxied-sites-lists/wiki>`__
 where you can find country specific lists of blocked sites. If you live
 in a country with a list and it's been updated recently then it will
 likely work better for you than the default list that ships with
-lantern.
+Lantern.
 
 .. image:: https://www.evernote.com/shard/s209/sh/1410658e-531a-44aa-b01b-7867e074637c/b88cfe3ce617b30a394cf6c56b3ea20a/deep/0/Autoproxy%20list%20for%20china%20%C2%B7%20getlantern/lantern-proxied-sites-lists%20Wiki.png
    :alt: china autoproxy list
 
    china autoproxy list
-To make use of the a new simply go to one of the lists, then select and
-copy the whole list, and paste it in to your list of domains to proxy.
-You can do this with the mouse, selecting the list and then doing a copy
-on the page and a paste in your lantern. Be sure you delete your
-existing list (or copy over it), so you don't get duplicates and don't
+Simply go to one of the lists, then select and copy the whole list, and paste it in to your list of domains to proxy 
+in your Lantern. Be sure you delete your existing list (or copy over it), so you don't get duplicates and don't
 proxy sites you don't need to.
 
 .. image:: https://www.evernote.com/shard/s209/sh/345d4873-a0b1-49e1-8188-c5356c2e5c56/d668a756c91454b8f1eaeaf79e6a79a3/deep/0/Lantern.png
