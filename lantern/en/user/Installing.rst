@@ -52,7 +52,7 @@ The invitation to Lantern has a link to an installation script that:
 		
 	.. note:: There is no status message indicating the installation is complete. 
 		
-		If you receive a message indicating there is no suitable Java Virtual Machine, you need to download Java. See the `Ubuntu documentation <https://help.ubuntu.com/community/Java>`_ for details.
+		If you receive a message indicating there is no suitable Java Virtual Machine, you need to install Java. See the `Ubuntu documentation <https://help.ubuntu.com/community/Java>`_ for details.
 
 5. Click the **Ubuntu** button and type Lantern.
 
@@ -87,7 +87,7 @@ Uninstalling
 	.. image:: http://i.imgur.com/PW3hiCF.png
 		:alt: A terminal window showing the command to uninstall Lantern.
 		
-3. Click **Next** to start uninstalling lantern.
+3. Click **Next** to start uninstalling Lantern.
 	A message appears when the uninstallation is complete.
 	
 	.. image:: http://i.imgur.com/7XZayjD.png
@@ -111,7 +111,7 @@ Installing
 
 #. Click the **Mac OS X 10.6+** link in the invitation email.
 
-#. Double-click the **.dmg** file that downloads, then double-click on the **Lantern Installer** icon.
+#. Double-click the downloaded **.dmg** file, then double-click on the **Lantern Installer** icon.
 	The Lantern Fetcher window appears and starts downloading the most recent installation files.
 	
 	.. image:: https://www.evernote.com/shard/s209/sh/b39a5f0d-4aa9-4518-8a26-fd0a86de8737/9d3090f5eab319830f4510bc13bba90e/deep/0/Lantern%20Fetcher.png
@@ -135,7 +135,7 @@ Uninstalling
 
 1. Right-click on the **Lantern** status bar icon and select **Quit Lantern**.
 
-2. In the **Applications** folder, move **Lantern.app** to the **Trash**.
+2. In the **Applications** folder, move **Lantern** to the **Trash**.
 	This also uninstalls Lantern's Java Runtime Environment.
 
 3. To delete all your settings, open a terminal window and change to the directory in your **Home** directory.
@@ -167,17 +167,17 @@ Installing
 1. Click the **Windows XP+** link in the invitation email.
 	.. warning:: It is important to follow the next steps to make sure that the `digital signature <http://en.wikipedia.org/wiki/Digital_signature>`_ is valid.
 
-#. Right click the **.exe** file that downloaded and click the **Digital Signatures** tab. 
+#. Right click the Lantern (**.exe**) file that downloaded and click the **Digital Signatures** tab. 
 
-#. In the **General** tab, click **View Certificate**. 
+#. After clicking on **Details**, in the **General** tab, click **View Certificate**. 
 
 #. Under **Details**, verify the signature.
-	Each .exe file is digitally by signed by Brave New Software Project, Inc. For June 11, 2013 to June 11, 2016, the SHA1 thumbprint should be ‎44:99:0c:72:fb:a0:e6:dd:f9:2a:b9:34:46:02:e7:56:00:d8:be:3c.
+	Each .exe file is digitally signed by Brave New Software Project, Inc. For June 11, 2013 to June 11, 2016, the SHA1 thumbprint should be ‎44:99:0c:72:fb:a0:e6:dd:f9:2a:b9:34:46:02:e7:56:00:d8:be:3c.
 
 	.. image:: http://i.imgur.com/iTljBxR.jpg
 		:alt: Certificate Details Window
 	
-#. Once you have verified the signature, double-click the **.exe** file. If you are prompted to allow the installer to make changes to your computer, click **Yes**.
+#. Once you have verified the signature, double-click the Lantern icon (**.exe** file). If you are prompted to allow the installer to make changes to your computer, click **Yes**.
 	When installation is complete, the Lantern window appears.
 
 	.. image:: http://i.imgur.com/K6yBha5.png)
