@@ -53,7 +53,7 @@ country and are unable to connect at all. But feel free to report more
 minor errors, and also to make suggestions about ways that Lantern could
 work better for you. Try to give as much detail as possible. See this
 `how to report bugs
-effectively <http://www.chiark.greenend.org.uk/-sgtatham/bugs.html>`__
+effectively <http://www.chiark.greenend.org.uk/~sgtatham/bugs.html>`__
 for general guidelines. For Lantern be sure to include your operating
 system, where you are, and if you are in 'give' or 'get' mode (all users
 in censored countries are automatically in 'get'), and what version of
@@ -93,7 +93,7 @@ Help with documentation
 
 This collaboratively-maintained wiki documentation is a work in
 progress. If you see an area that needs more work and you would like to
-pitch in, we welcome your help. Right now you needed to be added to the
+pitch in, we welcome your help. Right now you need to be added to the
 Documentation Team to edit, just let us know of your interest on the
 `forum <https://groups.google.com/forum/#!forum/lantern-users-en>`__.
 Then to edit just use the "New Page" or "Edit Page" buttons near the top
