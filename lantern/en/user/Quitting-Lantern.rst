@@ -1,9 +1,8 @@
 Quitting Lantern 
 ================
 
-We encourage you to just leave Lantern running in the
-background, so it can help censored users get access even while
-you're doing other tasks. If you close the Network Map window, a lantern icon still appears in your notification area. 
+We encourage you to just leave Lantern running in the background, so it can help censored users get access even while you're doing other tasks. 
+If you close the Network Map window, a lantern icon still appears in your notification area. 
 
 The following instructions show you how to quit the Lantern application on different operating systems.
 
