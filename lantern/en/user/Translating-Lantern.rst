@@ -7,22 +7,16 @@ Translating Lantern
 Introduction
 -----------
 
-One of the best ways to help Lantern grow is by translating it to your
-local language. Our hope is to have Lantern available in as many
-languages as possible. We've started a
-**`forum <https://groups.google.com/group/lantern-i18n>`__
-(lantern-i18n@googlegroups.com)** coordinating localization ("l10n") /
-internationalization ("i18n") of Lantern. If you'd like to get involved
-don't hesitate to introduce yourself there. You can also just start on
-translations and get in touch there when you need help. Also feel free
-to look for us in our IRC channel, **`#lantern on
-Freenode <http://webchat.freenode.net/?channels=lantern>`__**, to chat
-with us in real time.
+One of the best ways to help Lantern grow is by translating it to your local language. 
+Our hope is to have Lantern available in as many languages as possible. 
+We've started a `forum <https://groups.google.com/group/lantern-i18n>`__ coordinating localization ("l10n") / internationalization ("i18n") of Lantern. 
+If you'd like to get involved don't hesitate to introduce yourself there. 
+You can also just start on translations and get in touch there when you need help. 
+Also feel free to look for us in our IRC channel, `#lantern on Freenode <http://webchat.freenode.net/?channels=lantern>`__, to chat with us in real time.
 
-There are a few different aspects of Lantern that need translation. We
-list them below in sections, roughly ordered by importance. And the more
-important ones are the ones we've spent more time on making it easy to
-translate.
+There are a few different aspects of Lantern that need translation. 
+We list them below in sections, roughly ordered by importance. 
+And the more important ones are the ones we've spent more time on making it easy to translate.
 
 Transifex for Lantern Application and Video
 -------------------------------------------
