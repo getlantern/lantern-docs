@@ -30,8 +30,6 @@ And then just head to the `Lantern Transifex Project <https://www.transifex.com/
 .. image:: https://www.evernote.com/shard/s209/sh/d2b67dcd-c1c0-420c-87e5-0f374b0b714d/a1aa1697af0dc827888cc81559bc1780/deep/0/Lantern%20localization.png
    :alt: lantern on transifex
 
-   lantern on transifex
-   
 If you're not already a Transifex user you can easily `sign up <https://www.transifex.com/signup/>`__. 
 It's totally free for any translator, and they generously provide their full toolset to open source projects like Lantern. 
 Their tools are quite intuitive to use, and they provide a nice `overview <http://support.transifex.com/customer/portal/articles/972120-introduction-to-the-web-editor>`__.
@@ -45,8 +43,6 @@ After you click on your language you'll see a number of different 'language reso
 .. image:: https://www.evernote.com/shard/s209/sh/e396390c-acce-4ea8-9bd5-05ae3e75686f/941ba9184932bba96b6e38b9953029fa/deep/0/Turkish%20Translation%20for%20Lantern%20%7C%20Transifex.png
    :alt: transifex
 
-   transifex
-   
 Hit 'join team' to get started, and the admins should approve you quickly. 
 We **highly** recommend hitting the 'watch this language' button (at the top of 'history'), as you'll know immediately when there are new translation tasks. 
 After you've started watching, pick which uncompleted resource to contribute to:
