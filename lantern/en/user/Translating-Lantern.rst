@@ -37,6 +37,7 @@ Project <https://www.transifex.com/projects/p/lantern/>`__.
    :alt: lantern on transifex
 
    lantern on transifex
+   
 If you're not already a Transifex user you can easily `sign
 up <https://www.transifex.com/signup/>`__. It's totally free for any
 translator, and they generously provide their full toolset to open
@@ -46,16 +47,17 @@ and they provide a nice
 
 The `Lantern Project <https://www.transifex.com/projects/p/lantern/>`__
 on transifex lists the status of all the languages. To translate just
-select your language and get started. If your language is not list there
+select your language and get started. If your language is not listed there
 then just hit 'Request Language' and the admins will get it created.
 
-After you click on your language you'll see three different 'language
+After you click on your language you'll see a number of different 'language
 resources':
 
 .. image:: https://www.evernote.com/shard/s209/sh/e396390c-acce-4ea8-9bd5-05ae3e75686f/941ba9184932bba96b6e38b9953029fa/deep/0/Turkish%20Translation%20for%20Lantern%20%7C%20Transifex.png
    :alt: transifex
 
    transifex
+   
 Hit 'join team' to get started, and the admins should approve you
 quickly. We **highly** recommend hitting the 'watch this language'
 button (at the top of 'history'), as you'll know immediately when there
