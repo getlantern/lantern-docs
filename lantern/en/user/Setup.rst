@@ -15,7 +15,7 @@ The first question is if you want to 'give' or 'get' access.
 
    give/get
 **'Give Access'** is for users in uncensored countries who want to share
-their internet connection. This turns their computer in to a proxy that
+their internet connection. This turns their computer into a proxy that
 their trusted Lantern friends can use for free to access the open
 internet. Lantern runs in the background, and we encourage you to leave
 it on whenever you can, so your friends can always use your connection.
