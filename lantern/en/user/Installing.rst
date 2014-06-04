@@ -158,8 +158,8 @@ Windows
 Supported Versions 
 ^^^^^^^^^^^^^^^^^^
 
-Lantern supports Windows version XP and higher and requires that Google Chrome is installed. If you don't
-have Chrome you can get it `here <https://www.google.com/intl/en/chrome/browser/>`_.
+Lantern supports Windows version XP and higher and requires that Google Chrome is installed. 
+If you don't have Chrome you can get it `here <https://www.google.com/intl/en/chrome/browser/>`_.
 
 Installing
 ^^^^^^^^^^
