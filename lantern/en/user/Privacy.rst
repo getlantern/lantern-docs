@@ -16,7 +16,7 @@ Giving Access
 -------------
 Participating in the Lantern network in Give Access mode means that people in your Lantern network can access the Internet through your computer. Your Lantern network is made up of the people you are friends with on Lantern, and their friends, branching out through 4 levels of connections.
 
-We use the `Kaleidoscope Limited Advertisement Protocol <https://github.com/getlantern/kaleidoscope#kaleidoscope-limited-advertisement-protocol>`_ ensure that Lantern users only share internet connections with people they are connected with through trusted friends.
+We use the `Kaleidoscope Limited Advertisement Protocol <https://github.com/getlantern/kaleidoscope#kaleidoscope-limited-advertisement-protocol>`_ to ensure that Lantern users only share internet connections with people they are connected with through trusted friends.
 
 Commitment to Your Privacy and Safety
 -------------------------------------
@@ -24,7 +24,7 @@ Lantern takes the responsibility of providing internet access very seriously. It
 
 All Lantern software and infrastructure has been configured with strong security protections and our data deletion policies are in accordance with our goal to allow everyone safe and uncensored access to the Internet. Only the core lantern developers have access to information that could identify you. Any contact they have with your data is related to making sure that Lantern is working correctly.
 
-We will not use any information we collect for any other purpose other than providing the Lantern service to you and others. If you would like us to delete your account and its associated information, please send us an e-mail at team@getlantern.org.
+We will not use any information we collect for any purpose other than providing the Lantern service to you and others. If you would like us to delete your account and its associated information, please send us an e-mail at team@getlantern.org.
 
 Data Storage
 ------------
@@ -32,7 +32,7 @@ Lantern uses third party vendors and hosting partners to provide the necessary h
 
 Responsible Disclosure
 ----------------------
-Lantern may be compelled to disclose information we have collected under special circumstances, such as to comply with subpoenas. Lantern will challenge any requests for information we believe to be unjust and will notify you of any requests for your data about whenever possible.
+Lantern may be compelled to disclose information we have collected under special circumstances, such as to comply with subpoenas. Lantern will challenge any requests for information we believe to be unjust and will notify you of any requests for your data whenever possible.
 
 Usage Data
 ----------
