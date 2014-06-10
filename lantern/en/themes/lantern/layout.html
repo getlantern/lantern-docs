@@ -25,7 +25,7 @@
 {%- endif %}
 
 {%- macro relbar() %}
-    <div class="related">
+    <!--<div class="related">
       <h3>{{ _('Navigation') }}</h3>
       <ul>
         {%- for rellink in rellinks %}
@@ -42,11 +42,11 @@
         {%- endfor %}
         {%- block relbaritems %} {% endblock %}
       </ul>
-    </div>
+  </div>-->
 {%- endmacro %}
 
 {%- macro sidebar() %}
-      {%- if render_sidebar %}
+      {%- if reneder_sidebar %}
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
           {%- block sidebarlogo %}
@@ -100,17 +100,37 @@
 {%- endmacro %}
 
 {%- macro css() %}
-    <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
-    <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
+    <!--<link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+    <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}"
+    type="text/css" />-->
     {%- for cssfile in css_files %}
     <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
     {%- endfor %}
-    <link rel="stylesheet" href="_static/lanternDoc.css">
+    <!--<link rel="stylesheet" href="_static/lanternDoc.css">-->
 {%- endmacro %}
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html class="no-js" id="ng-app" ng-app="lantern_www">
   <head>
+
     <meta http-equiv="Content-Type" content="text/html; charset={{ encoding }}" />
+
+    <meta name="description" content="Defeat internet censorship. Give or get
+    access to the open internet by sharing connections through your social
+    network." ng-attr-content="{{'{{'}}'META_DESC' | translate{{'}}'}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <!-- build:css({.tmp,app}) ../styles/main.css -->
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css(.tmp) ../styles/main.css -->
+    <link rel="stylesheet" href="/styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js ../scripts/loadfirst.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+
     {{ metatags }}
     {%- block htmltitle %}
     <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
@@ -154,25 +174,120 @@
 {%- block extrahead %} {% endblock %}
   </head>
   <body>
-{%- block header %}
-<div id="content-container">
-<header id="topbar" class="header">
-<nav class="section-nav">
-          <ul class="section-list">
-            <li><a href="https://getlantern.org/#about" ng-bind-template="About" class="ng-binding">About</a></li>
-            <li><a href="https://getlantern.org/#faq" ng-bind-template="FAQ" class="ng-binding">FAQ</a></li>
-            <li><a ng-href="https://github.com/getlantern/lantern/wiki" target="_blank" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a></li>
-          </ul>
-        </nav>
-        <div class="wrap clearfix">
-          <div class="site-logo">
-            <a href="https://getlantern.org/images/91bc035f.lantern-logo.png">
-              <img src="https://getlantern.org/images/91bc035f.lantern-logo.png" alt="Lantern">
-              <span class="beta ng-binding" ng-bind-template="Beta">Beta</span>
-            </a>
-          </div>
+      <!--[if lt IE 8]>
+      <p class="chromeframe">You are using an outdated browser. Please <a href="https://www.google.com/chrome/">upgrade your browser</a> or <a href="https://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> and try again.</p>
+      <![endif]-->
+
+      <!--[if lt IE 9]>
+      <script src="bower_components/es5-shim/es5-shim.min.js"></script>
+      <script src="bower_components/json3/lib/json3.min.js"></script>
+      <![endif]-->
+
+      <!-- uncomment out to enable firebug lite (useful for IE)
+      <script src="http://getfirebug.com/releases/lite/1.2/firebug-lite-compressed.js"></script>
+      -->
+
+<noscript>
+<div lang="en" dir="ltr">JavaScript is required.</div>
+<div lang="zh_CN" dir="ltr">需要启用JavaScript。</div>
+<div lang="fa_IR" dir="rtl">جاوا اسکریپت مورد نیاز است.</div>
+<div lang="ar" dir="rtl">مطلوب جافا سكريبت.</div>
+</noscript>
+
+<div class="ng-cloak" lang="{{'{{'}}activeLang.code{{'}}'}}" dir="{{'{{'}}activeLang.dir{{'}}'}}">
+
+        <!-- site content starts here -->
+        <section class="header-spacer">
+
+        </section>
+ 
+        <div class="checkdomain {{'{{'}}domainType|lowercase{{'}}'}}" ng-show="domainType == 'MIRROR' || domainType == 'UNRECOGNIZED'">
+            <span ng-show="domainType == 'MIRROR'"
+                ng-bind-template="{{'{{'}}'OFFICIAL_MIRROR' |
+                translate{{'}}'}}">You are viewing...</span>
+            <span ng-show="domainType == 'UNRECOGNIZED'"
+                ng-bind-template="{{'{{'}}'UNOFFICIAL_MIRROR' |
+                translate{{'}}'}}">Caution...</span>
+            <a ng-href="{{'{{'}}valByLang(BEWARE_OF_PHONIES_URLS){{'}}'}}"
+                target="_blank" ng-bind-template="{{'{{'}}'BEWARE_OF_PHONIES'
+                | translate{{'}}'}}">Beware of phonies</a>
         </div>
-      </header>
+        <div class="lightbox hide" lightbox>
+            <a class="lightbox-close" lightbox-close>&times;</a>
+            <div class="media-container" id="player"></div>
+        </div>
+ 
+{%- block header %}
+<div id="content-container" style="background-color: #10283a;">
+    <header id="topbar" class="header sticky" ng-init="isCollapsed = true">
+              <div id="logo-header" class="clearfix" scroll-class="small" offset="1">
+                <div class="site-logo clearfix">
+                  <a href="/" class="clearfix">
+                    <img src="../images/lantern-header-logo-scaled.png" alt="Lantern" />
+                  </a>
+                </div>
+                <nav class="languages" ng-show="NLANGS > 1">
+                <ul class="navlink-list lang-list" dir="ltr">
+                  <li>
+                  <a class="active-lang">{{"{{activeLang.name}}"}}</a>
+                  </li>
+                  <li role="presentation" class="ng-scope">
+                  <a role="menuitem" ng-href="#en_US" ng-class="{'hidden': activeLang.code == 'en_US'}" ng-click="changeLang('en_US')" class="lang ng-binding" href="#en_US">English</a>
+                  </li>
+                  <li role="presentation" class="ng-scope">
+                  <a role="menuitem" ng-href="#fa_IR" ng-class="{'hidden': activeLang.code == 'fa_IR'}" ng-click="changeLang('fa_IR')" class="lang ng-binding" href="#fa_IR">فارسی</a>
+                  </li>
+                  <li role="presentation" class="ng-scope">
+                  <a role="menuitem" ng-href="#zh_CN" ng-class="{'hidden': activeLang.code == 'zh_CN'}" ng-click="changeLang('zh_CN')" class="lang ng-binding" href="#zh_CN">中文</a>
+                  </li>
+                  <li class="dropdown">
+                  <a ng-click="isCollapsed = !isCollapsed">
+                      <b ng-bind-template="{{'{{'}}'MORE' | translate{{'}}'}}">More </b><span class="caret"></span>
+                  </a>
+                  <ul collapse="isCollapsed" class="menu" role="menu">
+                    <li ng-repeat="lang in LANGS" role="presentation">
+                    <a role="menuitem" ng-href="#{{'{{'}}lang.code{{'}}'}}" ng-class="{'active-lang': lang.code == activeLang.code}" ng-click="changeLang(lang.code)" class="lang">{{'{{'}}lang.name{{'}}'}}</a>
+                    </li>
+                    <li>
+                    <strong><a ng-href="{{HELP_TRANSLATE_URL}}"
+                            target="_blank"
+                            ng-bind-template="{{'{{'}}'HELP_TRANSLATE' |
+                            translate{{'}}'}}">
+                        Help Translate
+                    </a></strong>
+                    </li>
+                  </ul>
+                  </li>
+                </ul>
+                </nav>
+              </div>
+              <div id="header-nav" class="clearfix">
+                <nav class="section-nav">
+                <ul class="section-list">
+                    <li><a href="#about" ng-bind-template="{{'{{'}}'ABOUT' |
+                        translate{{'}}'}}">About</a></li>
+                    <li><a href="#faq" ng-bind-template="{{'{{'}}'FAQ' |
+                        translate{{'}}'}}">FAQ</a></li>
+                    <li><a href="/blog" ng-bind-template="{{'{{'}}'BLOG' |
+                        translate{{'}}'}}">Blog</a></li>
+                    <li><a href="/docs" ng-bind-template="{{'{{'}}'DOCS' |
+                        translate{{'}}'}}">Docs</a></li>
+                  <li><a href="https://rally.org/getlantern" target="_blank"
+                      ng-bind-template="{{'{{'}}'DONATE' | translate{{'}}'}}">Donate</a></li>
+                </ul>
+                </nav>
+                <nav class="social-media">
+                <!-- XXX DRY .social-media-icons in header -->
+                <ul class="social-media-icons">
+                  <li><a target="_blank" ng-href="{{TWITTER_URL}}"><span class="icon-twitter"></span></a></li>
+                  <li><a target="_blank" ng-href="{{FACEBOOK_URL}}"><span class="icon-facebook"></span></a></li>
+                  <li><a target="_blank" ng-href="{{TUMBLR_URL}}"><span class="icon-tumblr"></span></a></li>
+                  <li><a target="_blank" ng-href="{{GITHUB_URL}}"><span class="icon-github"></span></a></li>
+                </ul>
+                </nav>
+              </div>
+              </header>
+            
      {% endblock %}
 
 {%- block relbar1 %}{{ relbar() }}{% endblock %}
@@ -185,13 +300,13 @@
 
 
 
-    <div class="document">
+    <div class="section docs document">
   {%- block document %}
       <div class="documentwrapper">
       {%- if render_sidebar %}
         <div class="bodywrapper">
       {%- endif %}
-          <div class="body">
+          <div class="body doc-text">
             {% block body %} {% endblock %}
           </div>
       {%- if render_sidebar %}
@@ -208,77 +323,49 @@
 {%- block relbar2 %}{{ relbar() }}{% endblock %}
 
 {%- block footer %}
-    <div class="footer">
-        <footer id="footer" class="footer">
-            <div class="footer-logo">
-          <img src="https://getlantern.org/images/a7a84d10.lantern-footer-logo.jpg" alt="Lantern">
-    </div>    
-                <nav>
-          <ul class="navlink-list main-nav">
-            <li><a target="_blank" ng-href="https://groups.google.com/group/lantern-users-en" ng-bind-template="Forums" class="ng-binding" href="https://groups.google.com/group/lantern-users-en">Forums</a>&nbsp;</li>
-            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki" ng-bind-template="Docs" class="ng-binding" href="https://github.com/getlantern/lantern/wiki">Docs</a>&nbsp;</li>
-            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Privacy" ng-bind-template="Privacy" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Privacy">Privacy</a>&nbsp;</li>
-            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern/wiki/Get-Involved" ng-bind-template="Get Involved" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Get-Involved">Get Involved</a>&nbsp;</li>
-          </ul>
-        </nav>
-        
-        
-                <nav>
+<footer id="footer" class="footer">
+<div class="wrap clearfix">
+    <nav class="clearfix">
+    <ul class="navlink-list main-nav">
+        <li><a target="_blank"
+            ng-href="{{'{{'}}valByLang(FORUMS_URLS){{'}}'}}"
+            ng-bind-template="{{'{{'}}'FORUMS' | translate{{'}}'}}">Forums</a></li>
+        <li><a ng-href="/docs"
+            ng-bind-template="{{'{{'}}'DOCS' | translate{{'}}'}}">Docs</a></li>
+        <li><a ng-href="/docs/Privacy.html"
+            ng-bind-template="{{'{{'}}'PRIVACY' | translate{{'}}'}}">Privacy</a></li>
+        <li><a ng-href="/docs/Get_Involved.html"
+            ng-bind-template="{{'{{'}}'GET_INVOLVED' | translate{{'}}'}}">Get Involved</a></li>
+    </ul>
+    </nav>
+</div>
+</footer>
+{%- endblock %}
+ <!-- build:js scripts/loadlast.js -->
+        <script src="/bower_components/session.js/session.js"></script>
+        <script src="/bower_components/angular/angular.js"></script>
+        <script src="/bower_components/angular-cookies/angular-cookies.js"></script>
+        <script src="/bower_components/angular-sanitize/angular-sanitize.js"></script>
+        <script src="/bower_components/angular-translate/angular-translate.js"></script>
+        <script src="/bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.js"></script>
+        <script src="/bower_components/angular-bootstrap/src/transition/transition.js"></script>
+        <script src="/bower_components/angular-bootstrap/src/collapse/collapse.js"></script>
+        <script src="/bower_components/angular-bootstrap/src/modal/modal.js"></script>
+        <script src="/bower_components/angular-bootstrap/src/dropdownToggle/dropdownToggle.js"></script>
+
+        <script src="/scripts/app.js"></script>
+        <script src="/scripts/constants.js"></script>
+        <script src="/scripts/controllers/download.js"></script>
+        <script src="/scripts/directives/lightbox.js"></script>
+        <script src="/scripts/directives/signup.js"></script>
+        <script src="/scripts/directives/windowScroll.js"></script>
+        <script src="/scripts/directives/videoOnClick.js"></script>
+        <script src="/scripts/services/osSniffer.js"></script>
+        <script src="/scripts/services/installerDataFetcher.js"></script>
+        <!-- generated by "grunt jsFromJSON"; populates window.translations with data from locale/*.json -->
+        <script src="/scripts/jsFromJSON/translations.js"></script>
+        <!-- endbuild-->
           
-          <ul class="social-media-icons">
-            <li><a target="_blank" ng-href="https://twitter.com/getlantern" href="https://twitter.com/getlantern"><span class="icon-twitter"></span></a></li>
-            <li><a target="_blank" ng-href="https://www.facebook.com/getlantern" href="https://www.facebook.com/getlantern"><span class="icon-facebook"></span></a></li>
-            <li><a target="_blank" ng-href="http://get-lantern.tumblr.com/" href="http://get-lantern.tumblr.com/"><span class="icon-tumblr"></span></a></li>
-            <li><a target="_blank" ng-href="https://github.com/getlantern/lantern" href="https://github.com/getlantern/lantern"><span class="icon-github"></span></a></li>
-            
-          </ul>
-        </nav>
-
-
-        <nav ng-show="NLANGS &gt; 1">
-          <ul class="navlink-list lang-list">
-            <!-- ngRepeat: lang in LANGS --><li ng-repeat="lang in LANGS" class="ng-scope">
-              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding">English</a>
-              <a ng-href="#en_US" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#en_US" style="display: none;">English</a>
-            </li><li ng-repeat="lang in LANGS" class="ng-scope">
-              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Español</a>
-              <a ng-href="#es" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#es">Español</a>
-            </li><li ng-repeat="lang in LANGS" class="ng-scope">
-              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">فارسی</a>
-              <a ng-href="#fa_IR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fa_IR">فارسی</a>
-            </li><li ng-repeat="lang in LANGS" class="ng-scope">
-              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">Français</a>
-              <a ng-href="#fr_FR" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#fr_FR">Français</a>
-            </li><li ng-repeat="lang in LANGS" class="ng-scope">
-              <a ng-show="lang.code == activeLang.code" class="active-lang ng-binding" style="display: none;">中文</a>
-              <a ng-href="#zh_CN" ng-hide="lang.code == activeLang.code" ng-click="changeLang(lang.code)" class="ng-binding" href="https://getlantern.org/#zh_CN">中文</a>
-            </li>
-            <li>
-              <a ng-href="https://github.com/getlantern/lantern/wiki/Translating-Lantern" target="_blank" ng-bind-template="Help Translate" class="ng-binding" href="https://github.com/getlantern/lantern/wiki/Translating-Lantern">Help Translate</a>
-            </li>
-          </ul>
-        </nav>
-        
-        
-        </div>
-      <div class="constrained">
-
-
-          
-
- </div>
- <!-- -->
-        <div class="copyright">
-          <p ng-bind-template="© 2014 Brave New Software" class="ng-binding">© 2014 Brave New Software</p>
-
-    <p>{%- if show_sphinx %}
-      {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
-    {%- endif %}<p>
-   
-	{%- endblock %}
-        </div>
-      
-    </div></footer>
 
   </body>
 </html>

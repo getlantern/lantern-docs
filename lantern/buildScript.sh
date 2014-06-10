@@ -26,4 +26,4 @@ chmod -R a+rw $DIR
 
 find . -name index.rst | xargs -I fPath dirname fPath | sed 's#\./##g' | xargs -I langDir sphinx-build -b html langDir $DIR/langDir
 
-
+cp -r _build/html/en/user/* ~/Dev/lantern/www/www.getlantern.org/app/docs
