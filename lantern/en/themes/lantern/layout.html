@@ -46,8 +46,8 @@
 {%- endmacro %}
 
 {%- macro sidebar() %}
-      {%- if reneder_sidebar %}
-      <div class="sphinxsidebar">
+      {%- if render_sidebar %}
+      <div class="sidebar section">
         <div class="sphinxsidebarwrapper">
           {%- block sidebarlogo %}
           {%- if logo %}
@@ -68,9 +68,6 @@
             {%- endblock %}
             {%- block sidebarrel %}
             {%- include "relations.html" %}
-            {%- endblock %}
-            {%- block sidebarsourcelink %}
-            {%- include "sourcelink.html" %}
             {%- endblock %}
             {%- if customsidebar %}
             {%- include customsidebar %}
