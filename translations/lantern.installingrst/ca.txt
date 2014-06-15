@@ -1,0 +1,212 @@
+Instal·lant i desinstal·lant
+===========================
+En aquesta secció veurem els detalls per instal·lar i desinstal·lar Lantern en una colla de sistemes operatius.
+
+Un cop t'han convidat, rebràs un correu electrònic amb enllaços per descarregar l'instal·lador pel teu sistema operatiu.
+
+.. image:: https://github-camo.global.ssl.fastly.net/6a8e1af9a0053337263343727132eacab1920d88/687474703a2f2f692e696d6775722e636f6d2f347652615436382e706e67
+	:alt: Invitació de Lantern
+
+Linux
+-----
+
+Versions compatibles
+^^^^^^^^^^^^^^^^^^
+Actualment, la instal·lació a Linux només està disponible per Ubuntu.
+Agraïm de tot cor qualsevol `contributions <../../developer/html/contributing.html>`_ per altres distribucions de Linux o qualsevol ajuda per millorar l'ús dels gestors de paquets. També pots `build from source <https://github.com/getlantern/lantern/blob/master/README.md#wiki-setting-up-a-development-environment>`_.
+
+Instal·lant
+^^^^^^^^^^ 
+La invitació a Lantern té un enllaç a un script d'instal·lació que: 
+
+* Descarrega un fitxer `.deb`. 
+* Crea un script per desinstal·lar en el directori `/opt/lantern-net-installer`.
+* Crea un directori de preferències d'usuari.
+* *No* auto-inicia cap servei de Lantern.
+
+#. Fes clic a **Ubuntu 12.04+** en el correu d'invitació.
+	S'obre una finestra del navegador i apareix un diàleg demanant que obris o desis l'instal·lador. 
+
+	.. image:: http://i.imgur.com/justLyz.png
+		:alt: Diàleg Obrir Fitxer
+
+#. Obre una nova finestra de terminal i vés al directori on has descarregat l'instal·lador.
+	:: 
+		
+		cd Downloads/
+
+#. Fes que l'script d'instal·lació sigui executable.
+	::
+	
+		chmod 700 lantern-net-installer_unix.sh
+
+#. Executa l'script d'instal·lació.
+	::
+		
+		sudo ./lantern-net-installer_unix.sh
+	
+	La finestra de terminal mostra un missatge indicant que l'instal·lador s'està iniciant i apareix el diàleg de Lantern Fetcher.
+	
+	.. image:: http://i.imgur.com/S2hBiEY.png
+		:alt: Finestra de terminal i diàleg de Lantern Fetcher indicant l'estat de la descàrrega.
+		
+	.. note:: No hi ha cap missatge d'estat indicant que s'ha completat la instal·lació. 
+		
+		Si reps un missatge indicant que no hi ha cap Màquina Virtual Java adient, cal que descarreguis Java. Veure detalls a `Ubuntu documentation <https://help.ubuntu.com/community/Java>`_ .
+
+5. Fes clic al botó **Ubuntu** i escriu Lantern.
+
+6. Fes clic a la icona de **Lantern**.
+	Apareix la finestra de configuració de Lantern.
+	
+	.. image:: http://i.imgur.com/nnXoFjr.png
+		:alt: La finestra de configuració de Lantern demanant que facis clic a Donar Accés o Obtenir Accés.
+	
+	.. note:: Si reps un missatge indicant que Google Chrome no està instal·lat, caldrà que el descarreguis.
+		
+		Veure detalls a https://www.google.com/intl/en/chrome/browser/ . 
+
+#. Veure :ref:`setting-up-lantern`.
+
+.. _uninstalling-linux:
+Desinstal·lant
+^^^^^^^^^^^^
+
+1. In a terminal window, change to the installation directory.
+	::
+	
+		cd /usr/local/lantern-net-installer/
+		
+2. Run the uninstall program.
+	::
+	
+		sudo ./uninstall
+	
+	The Lantern Uninstall window appears.
+		
+	.. image:: http://i.imgur.com/PW3hiCF.png
+		:alt: A terminal window showing the command to uninstall Lantern.
+		
+3. Click **Next** to start uninstalling lantern.
+	A message appears when the uninstallation is complete.
+	
+	.. image:: http://i.imgur.com/7XZayjD.png
+		:alt: The Lantern Uninstall window showing a message indicating that Lantern has been successfully uninstalled.
+	
+4. Click **Finish**.
+
+.. _installing-mac:
+Mac
+---
+Versions compatibles
+^^^^^^^^^^^^^^^^^^
+
+Lantern supports OS/X version 10.6 and higher,
+64-bit only. 
+
+.. note:: During installation, Lantern checks if you have Java installed. If not, it will download the Java Runtime Environment from the web.
+
+Instal·lant
+^^^^^^^^^^
+
+#. Fes clic a l'enllaç de **Mac OS X 10.6+** en el correu d'invitació.
+
+#. Double-click the **.dmg** file that downloads, then double-click on the **Lantern Installer** icon.
+	The Lantern Fetcher window appears and starts downloading the most recent installation files.
+	
+	.. image:: https://www.evernote.com/shard/s209/sh/b39a5f0d-4aa9-4518-8a26-fd0a86de8737/9d3090f5eab319830f4510bc13bba90e/deep/0/Lantern%20Fetcher.png
+		:alt: Lantern Downloader
+		
+	.. Important:: As of beta2 the installer will *not* work if you are not running as an admin user. If you are not the admin user, nothing will happen when you click the installer icon. We are `working <https://github.com/getlantern/lantern/issues/819>`_ on getting it to prompt for the admin password instead of not responding.
+
+#. In the password dialog that appears, enter your administrator user name and password. This allows Lantern to install and make changes to your proxy settings so that your internet connection can be shared.
+	.. image:: https://www.evernote.com/shard/s209/sh/c92df454-472a-4ce1-a578-fc06843802d7/04fd633f4deb9fbeecc44562dff2ea78/deep/0/Screenshot%208/16/13%207:52%20PM.png
+		:alt: A window prompting you to enter a user name and password to allow changes.
+	
+	The installer downloads and extracts the files. When the installation is complete, the Lantern window appears.
+
+	.. image:: https://dl.dropboxusercontent.com/u/253631/Installing_Mac_Setup_Window.png
+		:alt: The Lantern window appears prompting you to start the setup process.
+		
+#. Veure :ref:`setting-up-lantern`.
+	
+Desinstal·lant
+^^^^^^^^^^^^
+
+1. Right-click on the **Lantern** status bar icon and select **Quit Lantern**.
+
+2. In the **Applications** folder, move **Lantern.app** to the **Trash**.
+	This also uninstalls Lantern's Java Runtime Environment.
+
+3. To delete all your settings, open a terminal window and change to the directory in your **Home** directory.
+	::
+	
+		cd ~
+		
+	.. note:: If you don't delete your settings, Lantern uses them the next time you install the application.
+		
+4. Esborra el directori **./lantern**.
+	::
+	
+		rm -r .lantern
+
+
+.. _installing-windows:
+Windows
+-------
+
+Versions compatibles 
+^^^^^^^^^^^^^^^^^^
+
+Lantern supports Windows version XP and higher and requires that Google Chrome is installed. If you don't
+have Chrome you can get it `here <https://www.google.com/intl/en/chrome/browser/>`_.
+
+Instal·lant
+^^^^^^^^^^
+
+1. Click the **Windows XP+** link in the invitation email.
+	.. warning:: It is important to follow the next steps to make sure that the `digital signature <http://en.wikipedia.org/wiki/Digital_signature>`_ is valid.
+
+#. Right click the **.exe** file that downloaded and click the **Digital Signatures** tab. 
+
+#. In the **General** tab, click **View Certificate**. 
+
+#. Under **Details**, verify the signature.
+	Each .exe file is digitally by signed by Brave New Software Project, Inc. For June 11, 2013 to June 11, 2016, the SHA1 thumbprint should be ‎44:99:0c:72:fb:a0:e6:dd:f9:2a:b9:34:46:02:e7:56:00:d8:be:3c.
+
+	.. image:: http://i.imgur.com/iTljBxR.jpg
+		:alt: Certificate Details Window
+	
+#. Once you have verified the signature, double-click the **.exe** file. If you are prompted to allow the installer to make changes to your computer, click **Yes**.
+	When installation is complete, the Lantern window appears.
+
+	.. image:: http://i.imgur.com/K6yBha5.png)
+		:alt: The Lantern window appears prompting you to start the setup process.
+
+#. Veure :ref:`setting-up-lantern`.
+
+
+Desinstal·lant
+^^^^^^^^^^^^
+
+1. Obre el **Tauler de Control** i fes clic a **Programes**.
+	.. image:: http://i.imgur.com/lF9ldIE.png
+		:alt: El Tauler de Control de Windows.
+
+#. In the list of installed programs, click the **Lantern**.
+	
+#. Click the **Uninstall/Change** button.
+	.. image:: http://i.imgur.com/0fTDSYF.png
+		:alt: Desinstal·lar Lantern
+
+#. Fes clic a **Següent**.
+	Lantern is uninstalled.
+
+	.. image:: http://i.imgur.com/TGQeclS.png
+		:alt: Uninstall Window
+
+
+
+
+	
+	

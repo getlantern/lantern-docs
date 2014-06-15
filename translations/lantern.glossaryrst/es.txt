@@ -1,0 +1,50 @@
+Glosario
+========
+
+.. glossary::
+
+HTTP
+	Protocolo de Transferencia de Hipertexto. Se usa para transferir contenidos tales como páginas web
+	a través de Internet. El contenido se envía sin cifrar, así que cualquier
+	`intermediario <#wiki-intermediary>`__ podría potencialmente leerlo en
+	tránsito. Por tanto HTTP no está asegurado. `HTTPS <#wiki-https>`__ es la
+	contraparte segura de HTTP.
+
+HTTPS
+	Una versión segura de `HTTP <#wiki-http>`__. El contenido se envía cifrado para
+	prevenir que un `intermediario <#wiki-intermediary>`__ pueda leerlo
+	en tránsito.
+
+Install4g 
+	Install4g es un programa que usamos para hacer la experiencia de instalación de Lantern más uniforme entre todas las plataformas.
+	
+Intermediario
+	Una entidad, en una red de computadoras, interpuesta entre el solicitante de algún contenido
+	y el servidor que lo aloja, ej: un `proxy <#wiki-proxy>`__ o un
+	`proveedor de servicios de Internet <#wiki-isp>`__.
+
+ISP
+	El proveedor de servicios de Internet es una organización que proporciona acceso
+	a Internet. El tráfico saliente de la red local de una computadora (red doméstica, de oficina,
+	cibercafé, etc.) llega allí antes de que o bien sea reenviado a su
+	destino, o bloqueado en el caso de que el ISP aplique censura.
+	Así mismo, el tráfico ligado a su computadora tiene que pasar a través de su ISP
+	antes de que pueda llegar a usted.
+
+Par (peer)
+	Otro usuario al cual usted está conectado en una red de computadoras.
+
+Entre-pares (P2P)
+	Describe una arquitectura de red donde cada computadora en la red puede
+	actuar como cliente y servidor, opuestamente a que sólo uno o unos pocos servidores
+	proporcionasen servicio a muchos clientes. Las redes entre-pares (peer-to-peer, P2P) son
+	descentralizadas y por tanto más difíciles de clausurar.
+
+Proxy
+	Es un `intermediario <#wiki-intermediary>`__ que reenvía tráfico entre
+	un usuario solicitante de contenidos y el servidor que los aloja, a menudo a causa
+	de que el usuario no puede alcanzar el servidor directamente debido a la censura
+
+Proxy de sistema
+	Un programa que proxyfica tráfico (se interpone y lo reenvía) para todos los programas de una computadora que
+	acceden a la red.

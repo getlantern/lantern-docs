@@ -1,0 +1,127 @@
+.. _getting-involved:
+
+加入我们
+=================
+
+与很多开源项目一样，Lantern 只有在“您”的帮助下
+才会真正成功。现在我们正处于“测试”阶段，在向全世界
+发布之前我们还有很多事情需要做。其中，我们需要协助的大部分事项
+不需要任何有关编程的知识。如果有开发者想要加入，
+那当然是好事，但这个页面是给除此之外的其他人一个机会来帮助
+Lantern 做得更好。
+
+Lantern 现在处于内测阶段，但我们接受成为“代表”的申请
+表单 <https://docs.google.com/forms/d/11LiZoCMptcc_lj4b01It9n64gngaDPU53_ge3mhiaIM/viewform>`__
+——也就是乐于参与的早期测试者。如果
+您对以下一项或多项内容感兴趣，请在您的表单中
+提及这一点。我们对住在受限或非受限国家
+且有可信联系人的用户特别感兴趣。但您真正需要做的
+是愿意投身于完成以下内容。
+
+使用和传播 Lantern
+----------------------
+
+如果您有一个不受限的网络连接，您可以通过
+让 Lantern 一直运行来做出改变。每一个新增的分享其
+连接的用户能使 Lantern 网络更好地工作，也使审查者
+更难封锁。
+
+无论您有没有一个不受限的网络连接，您也可以通过
+邀请您信任的人加入 Lantern 网络来协助我们。Lantern
+依赖一个相互信任并分享网络连接的
+庞大网络运行着，所以如果网络中可信的连接更多，
+Lantern 也就能更好地工作。所以如果您是一个老用户，请
+Lantern among your trusted friends to help the network grow.
+
+Report Problems
+---------------
+
+At the current 'beta' stage of development one of the most valuable
+things you can do is report to us if it is *not* working for you. The
+ideal way to do this is on the `users
+forum <https://groups.google.com/group/lantern-users-en>`__. If you
+don't feel comfortable with your name in public feel free to use dummy
+account / name. You can also use the 'contact' form from Lantern itself
+to send a message privately to the core developers.
+
+.. image:: https://www.evernote.com/shard/s209/sh/b0ebafae-f50e-41e7-b003-11299102d348/feefe49505573ab528410b708e48b0e1/deep/0/Lantern%20and%20Welcome%20to%20Mail.png
+   :alt: contact
+
+
+The most important thing to let us know is if you are in a censored
+country and are unable to connect at all. But feel free to report more
+minor errors, and also to make suggestions about ways that Lantern could
+work better for you. Try to give as much detail as possible. See this
+`how to report bugs
+effectively <http://www.chiark.greenend.org.uk/-sgtatham/bugs.html>`__
+for general guidelines. For Lantern be sure to include your operating
+system, where you are, and if you are in 'give' or 'get' mode (all users
+in censored countries are automatically in 'get'), and what version of
+Lantern you're running.
+
+.. image:: https://www.evernote.com/shard/s209/sh/dca46162-f8f4-4e19-9719-f83405a35305/0167dda5f704e71697bbe7124a8a1b79/deep/0/Lantern%20and%20Create%20New%20Page%20%C2%B7%20getlantern/lantern%20Wiki.png
+   :alt: lantern version
+
+The above is 1.0.0-beta2, you should see some number there.
+
+You also may be asked to email your logs for the developers to diagnose.
+See :ref:`sending-lantern-logs`.
+
+Translate Lantern
+------------------
+
+If you are a fluent speaker of another language and would like to help
+translate Lantern's web site, documentation, or the application itself,
+we would welcome your participation. See :ref:`translating-lantern`.
+
+Promote Lantern
+---------------
+
+We also welcome people who are interested in helping spread the word
+about Lantern. We are mostly software developers, but unlike most
+developers our software will only work if lots of people in uncensored
+countries run it. So we welcome ideas and actions to get more and more
+people to run Lantern. Social media campaigns, magazine articles, blog
+posts, videos, kickstarter, etc. - if you've got experience promoting
+great stuff then get in touch. And no idea is too big or too small. For
+right now just introduce yourself on the `users
+forum <https://groups.google.com/group/lantern-users-en>`_. If we get
+enough people there we will start a dedicated forum.
+
+Help with documentation
+------------------------
+
+This collaboratively-maintained wiki documentation is a work in
+progress. If you see an area that needs more work and you would like to
+pitch in, we welcome your help. Right now you needed to be added to the
+Documentation Team to edit, just let us know of your interest on the
+`forum <https://groups.google.com/forum/#!forum/lantern-users-en>`__.
+Then to edit just use the "New Page" or "Edit Page" buttons near the top
+of any wiki page.
+
+Develop
+--------
+
+If you are a developer and are interested in helping build Lantern, see
+`Contributing Code <../../developer/html/Contributing.html>`_.
+
+赞助商
+--------
+
+Besides running Lantern on your own computer to share an uncensored
+internet connection, you can also pledge a one-time or monthly donation
+to sponsor a Lantern cloud proxy, which provides an additional
+high-capacity internet connection to the network 24 hours a day, even
+while your computer is off or disconnected.
+
+Alternatively, if there is some feature or bugfix you'd like to see in
+the next version of Lantern, you can sponsor its development.
+
+Please contact the Lantern developers about either of these options if
+you would like to inquire further.
+
+You can also just make a 1-click microdonation to the cause in general
+using Flattr or GitTip:
+
+Thank you for your interest in contributing to Lantern. A vibrant and
+active community is vital to our existence.

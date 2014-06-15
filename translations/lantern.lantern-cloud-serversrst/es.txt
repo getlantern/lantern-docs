@@ -1,0 +1,24 @@
+.. _lantern-cloud-servers:
+
+=====================
+Servidores de Lantern en la nube
+=====================
+
+Los servidores de Lantern en la nube son pequeñas `instancias de EC2
+<http://es.wikipedia.org/wiki/Amazon_EC2>`__ de Amazon
+que sirven como respaldo cuando no hay suficientes usuarios pares (peers) conectados.
+
+Esto asegura que la gente podrá conseguir conectarse, incluso si un amigo
+no está conectado. Estos ayudan a hacer a la red Lantern mucho más robusta.
+
+Desafortunadamente estos servidores cuesta mucho dinero mantenerlos, así que Brave New
+Software, la organización detrás de Lantern, sólo puede ofrecer un limitado
+número de ellos. Si quisiese ayudar, pronto podrá patrocinar su propio
+servidor de Lantern en la nube en http://rally.org (próximamente). Si está en un
+país bajo censura, este proporcionará acceso directo para usted y sus amigos.
+Y es una estupenda manera de otorgar acceso desde países sin censura, que incrementa
+la fiabilidad de la red Lantern.
+
+Como nuestra integración con rally.org aún no está operativa, por favor contacte mediante
+contact [en] getlantern.org y podremos recoger su donación e iniciar un
+servidor dedicado para usted.

@@ -1,0 +1,6 @@
+Lantern のダウンロード
+===================
+
+Lantern は現在、クローズド ベータ版です。Lantern をダウンロードするには、Lantern を
+既に使用している人から招待してもらう必要があります。招待してくれる知り合いがいない場合は、
+email address to the `signup form <http://GetLantern.org>`_.

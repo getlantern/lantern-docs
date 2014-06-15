@@ -1,0 +1,58 @@
+.. _privacy
+
+Privacidad
+=======
+
+Los servidores centrales de Lantern almacenan la siguiente información:
+
+* Su dirección de correo electrónico.
+* La dirección de correo electrónico de la cuenta que le invitó.
+* Las direcciones de correo electrónico de cualquiera que usted invite.
+* Una (credencial de refresco) "refresh token" de Google Hangouts (antes Google Talk) que permite que Lantern se ejecute bajo su cuenta desde la nube, cuando su computadora esté en suspensión.
+
+Para detalles más específicos sobre a qué información tiene acceso Lantern, vea la `Matriz de Revelación de Información de Lantern <https://docs.google.com/a/getlantern.org/spreadsheet/pub?key=0Ap6nn0WEcFTRdHUtTm9GcFpsNFpoOGFXQlBfODN4TkE&single=true&gid=0&output=html>`_.
+
+Otorgar acceso
+-------------
+Participar en la red Lantern en modo Otorgar Acceso significa que las personas en su red Lantern pueden acceder a Internet a través de su computadora. Su red Lantern está constituida por las personas con las que usted tiene amistad en Lantern, y los amigos de estos, y así sucesivamente ramificándose hasta 4 niveles de conexión desde usted.
+
+Usamos el `Protocolo de Anunciado Limitado de Kaleidoscope <https://github.com/getlantern/kaleidoscope#kaleidoscope-limited-advertisement-protocol>`_  que asegura que los usuarios de Lantern sólo comparten conexiones a Internet con personas con las que estén conectados a través de amigos de confianza.
+
+Compromiso con su privacidad y seguridad
+-------------------------------------
+Lantern asume muy seriamente la responsabilidad de proporcionar acceso a Internet. Es extremadamente importante para nosotros que limitemos cuanta información almacenamos, y que mantengamos en secreto su información.
+
+Todo el software e infraestructura de Lantern ha sido configurado con protecciones de seguridad robustas, y nuestras políticas de borrado de datos son concordantes con nuestra meta de permitir acceso a Internet seguro y sin censura para todos. Únicamente el núcleo de desarrolladores de Lantern tiene acceso a información que pudiera identificarle. Cualquier contacto que ellos tengan con sus datos estará relacionado con asegurarse de que Lantern está funcionando correctamente.
+
+No usaremos información alguna que recojamos para cualquier otro propósito distinto de proporcionar el servicio Lantern para usted y para otros. Si desea que borremos su cuenta con la información asociada a esta, por favor envíenos un correo a team@getlantern.org
+
+Almacenamiento de datos
+------------
+Lantern utiliza suministradores terceros y alojamiento con asociados para proporcionarse el necesario hardware, software, redes, almacenamiento, y la tecnología relacionada requerida para  Lantern. Aunque Lantern posee el código, las bases de datos, y todos los derechos de la aplicación Lantern, usted conserva todos los derechos sobre sus datos.
+
+Revelación responsable
+----------------------
+Lantern puede verse obligado a revelar información que hemos recogido bajo circunstancias especiales, tales como cumplir con requerimientos judiciales de declaración. Lantern se enfrentará a cualquier petición de información que creamos que sea injusta, y le notificaremos de cualquier solicitud acerca de sus datos siempre que sea posible.
+
+Uso de datos
+----------
+Al usar Lantern, puede elegir proporcionarnos sus datos de uso.
+
+Si habilita esta opción usaremos:
+
+* Google Analytics (analíticas de Google) con `Anonimización de IP <https://support.google.com/analytics/answer/2763052?hl=es>`_ para almacenar información sobre su uso.
+* Exceptional.io para almacenar información sobre errores en el software Lantern.
+* Google App Engine (motor de aplicaciones de Google) para almacenar información acerca de los países desde los que ha iniciado sesión, y el número de bytes que ha enviado y recibido.
+
+Cuando instale Lantern, le preguntaremos si quiere aportar esta información. Puede cambiar esta configuración en cualquier momento en el menú de configuraciones.
+
+.. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Settings_Icon_Crop.png
+	:alt: Icono de configuraciones
+
+Cambios en esta política
+----------------------
+Lantern puede actualizar periódicamente esta política. Le notificaremos sobre cambios significativos en la forma en que tratamos la información personal enviándole un aviso a la dirección de correo electrónico asociada con su cuenta de Lantern, o colocando un aviso prominente en el software Lantern.
+
+Preguntas
+---------
+Cualquier pregunta acerca de esta política o cualquier preocupación sobre privacidad deben ser dirigidas a team@getlantern.org

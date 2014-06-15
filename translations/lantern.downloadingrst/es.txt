@@ -1,0 +1,6 @@
+Descargando Lantern
+===================
+
+Actualmente, Lantern está en fase privada beta. Para descargar Lantern, necesita ser invitado por
+alguien que ya lo esté usando. Si no tiene ningún amigo que pueda invitarlo, agregue su
+dirección de correo electrónico al `formulario de registro <http://GetLantern.org>`_.

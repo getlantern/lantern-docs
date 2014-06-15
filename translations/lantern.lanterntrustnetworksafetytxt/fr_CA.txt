@@ -1,0 +1,15 @@
+Ne partager Lantern qu'avec vos amis de confiance.
+
+Nous sommes ravis d'accueillir tant de nouveaux utilisateurs dans le réseau Lantern. La croissance ces dernières semaines a été phénoménale avec plus de 16 000 personnes utilisant Lantern pour accéder à l'Internet non censuré. Pour garder le réseau sécuritaire, fort et croissant, nous voulons rappeler à tous les utilisateurs de N'INVITER QUE LEURS AMIS ET CONTACTS DE CONFIANCE. Nous avons remarqué quelques tentatives bien intentionnées de connecter des étrangers par des invitations Lantern. Bien que nous voulions que tout le monde ait accès, il est crucial à l'architecture de Lantern à ce stade que les invitations d'utilisateur aillent SEULEMENT à des personnes de confiance que vous connaissez déjà. Si vous ajoutez de parfaits étrangers en tant qu'amis Lantern, nous seulement vous vous exposez à des attaquants potentiels, mais vous y exposez aussi vos amis de confiance.
+
+Lantern repose sur un réseau de confiance. Il est conçu pour le partage de connexions Internet par des personnes se faisant confiance mutuellement. Quand vous et un autre utilisateur êtes des amis Lantern, vous vous relayez votre trafic. Si vous partager avec un censeur, il/elle pourrait bloquer ou analyser votre trafic. À cause de ceci, tous les utilisateurs de Lantern ne devraient être amis qu'avec des personnes dignes de confiance.
+
+Nous voulons souligner également que Lantern est un outil qui fournit de l'accès. Il n'est pas conçu pour empêcher la surveillance et ce n'est pas un outil d'anonymat. Si vous exigez l'anonymat, nous vous recommandons d'utiliser Tor.
+
+Par dessus tout, l'intégrité et la sécurité du réseau Lantern dépendent seulement sur l'invitation de personnes que vous connaissez. Veuillez continuer à partager Lantern avec vos amis de confiance et sachez qu'en ajoutant uniquement des personnes en qui vous avez confiance, vous vous protégez, ainsi que vos amis, leurs amis, et le reste du réseau Lantern.
+
+-L'équipe Lantern
+
+Partagez Lantern seulement avec vos AMIS DE CONFIANCE. Aidez-nous à garder le réseau SÉCURITAIRE ET FORT.
+
+

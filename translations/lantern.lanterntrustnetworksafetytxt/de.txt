@@ -1,0 +1,15 @@
+Teilen Sie Lantern nur mit vertrauenswürdigen Freunden.
+
+Wir sind begeistert, so viele neue Nutzer im Lantern-Netzwerk begrüßen zu dürfen. Das Wachstum in den letzten Wochen war phänomenal, mehr als 16 Tausend Menschen benutzen Lantern, um auf das unzensierte Internet zuzugreifen. Um das Netzwerk sicher, stark und weiter wachsend zu haben, wollen wir jeden Benutzer daran erinnern, NUR IHRE FREUNDE UND KONTAKT DENEN SIE VERTRAUEN EINZULADEN. Wir haben einige gut gemeinte Bemühungen bemerkt, Fremde mit Lantern-Einladungen zu verbinden. Während wir wollen, dass jeder Zugang haben kann, ist es von entscheidender Bedeutung für die Architektur von Lantern an dieser Stelle, dass die Benutzer-Einladungen nur an Leute, die Sie bereits kennen und vertrauen gehen. Wenn Sie komplett Fremde als Lantern-Freunde hinzufügen, setzen Sie nicht nur sich potentiellen Angreifern aus, sondern auch Ihre vertrauten Freunde.
+
+Lantern ist auf ein Vertrauensnetzwerk aufgebaut. Es ist für Menschen konzipiert, die einander vertrauen, um ihre Internet-Verbindungen zu teilen. Wenn Sie und ein anderer Benutzer, Lantern-Freunde sind, können Sie Datenverkehr für einander vermitteln. Wenn Sie mit einem Zensor teilen, kann er / sie Ihren Verkehr blockieren oder analysieren. Aus diesem Grund sollte jeder, der Lantern einsetzt, nur Menschen, denen er vertraut zu Freunden machen.
+
+Wir möchten auch betonen, dass Lantern ein Werkzeug ist, um Zugang bereitzustellen, es ist nicht vorgesehen, um Überwachung zu verhindern, und es ist kein Anonymitätswerkzeug. Wenn Sie Anonymität benötigen, empfehlen wir Ihnen die Verwendung von Tor.
+
+Vor allem die Integrität und die Sicherheit des Lantern-Netzwerks ist davon abhängig, nur Menschen einzuladenden, die Sie kennen. Teilen Sie Lantern bitte weiterhin nur mit vertrauenswürdigen Freunden und beachten Sie, dass nur durch das Hinzufügen von Personen Ihres Vertrauens, Sie sich selbst, Ihre Freunde, deren Freunde und den Rest des Lantern-Netzwerks schützen können.
+
+-Lantern-Gruppe
+
+Lantern ausschließlich mit vertrauenswürdigen Freunden teilen. Helfen Sie uns, das Netzwerk sicher und stark zu halten.
+
+

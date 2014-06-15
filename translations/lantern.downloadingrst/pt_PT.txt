@@ -1,0 +1,6 @@
+Transferência do Lantern
+===================
+
+O Lantern atualmente, está numa fase beta fechada. Para transferir o Lantern, precisa de ser convidado por
+por alguém que já esteja a usar o Lantern. Se não tiver amigos que o possam convidar, adicione o seu
+endereço de e-mail para `signup form <http://GetLantern.org>`_.

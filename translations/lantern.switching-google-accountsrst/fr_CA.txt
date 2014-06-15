@@ -1,0 +1,49 @@
+Changer de compte Google
+=========================
+
+Vous pouvez changer l'adresse courriel Google que vous utilisez avec Lantern en réinitialisant
+Lantern et en lançant la séquence initiale de configuration.
+
+Montrer la carte du réseau Lantern
+----------------------------
+
+Aussi fantastique que cela soit de regarder les connexions Lantern traversant la planète,
+la plupart du temps vous exécuterez Lantern sans que
+la carte du réseau ne soit visible.
+
+Choisissez Montrer Lantern depuis l'icône Lantern dans la barre de notification.
+
+.. image:: https://dl.dropboxusercontent.com/u/253631/Show_Lantern.png
+   :alt: Montrer Lantern
+
+   Montrer Lantern
+
+Réinitialiser Lantern
+-------------
+
+Ensuite, réinitialisez Lantern et relancer la séquence initiale de configuration. Réinitialiser
+Lantern efface toutes les informations enregistrées depuis votre dernière configuration.
+
+1. Cliquez sur l'icône Paramètres.
+
+   .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Settings_Icon.png
+      :alt: Montrer Lantern
+
+      Montrer Lantern
+
+2. Cliquez sur Réinitialiser.
+
+   .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Reset_Button.png
+      :alt: Montrer Lantern
+
+   Un message apparaît vous demandant de confirmer que vous voulez réinitialiser
+   Lantern.
+
+3. Cliquez sur Réinitialiser.
+
+   .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Confirm_Reset.png
+      :alt: Montrer Lantern
+
+   Lantern se réinitialise et vous pouvez lancer le processus de configuration en utilisant un
+   compte différent. Voir :ref:`configurer-lantern`.
+

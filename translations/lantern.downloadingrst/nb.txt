@@ -1,0 +1,6 @@
+Nedlasting av Lantern
+===================
+
+Lantern er for øyeblikket i lukket beta. For å laste ned Lantern, må du bli invitert av
+noen som allerede bruker Lantern. Dersom du ikke har noen venner som kan invitere deg, legg til din
+e-postadresse i `registreringsskjemaet <http://GetLantern.org>`_.

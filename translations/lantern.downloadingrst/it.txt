@@ -1,0 +1,6 @@
+Scarico Lantern
+===================
+
+Attualmente Lantern è in fase beta limitata. Per scaricare Lantern devi essere invitato
+da qualcuno che usa già Lantern. Se non hai nessun amico che può invitarti, aggiungi il tuo
+indirizzo mail all'indirizzo '<http://GetLantern.org>'_.

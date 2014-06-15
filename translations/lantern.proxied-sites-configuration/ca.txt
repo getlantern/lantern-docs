@@ -1,0 +1,221 @@
+.. _config-proxied-sites:
+
+Configurant Llocs direccionats
+=========================
+
+.. image:: https://www.evernote.com/shard/s209/sh/a6ffd5ed-9f38-4a27-9e75-1b940be94582/2f741aad7056c2bccf76844e7814773c/deep/0/Lantern.png
+   :alt: Llocs direccionats
+
+   Llocs direccionats
+The Proxied Sites screen is part of the configuration for people using
+Lantern per Obtenir Accés, i està disponible a la icona del globus
+a la part inferior dreta.
+
+.. image:: https://www.evernote.com/shard/s209/sh/9dd170e2-800d-412c-bfef-8fb21819f517/22b89c58ddadf34a4dee969b2e9fe9ff/deep/0/Lantern.png
+   :alt: llocs direccionats
+
+   llocs direccionats
+Aquí, els usuaris Obtenint Accés configuren els llocs que volen accedir a través dels amics de Lantern,
+enlloc d'accedir-hi directament. 
+Si accedeixes amb Lantern als llocs que altrament estarien bloquejats, i accedint directament 
+als llocs que no estan bloquejats, la teva experiència serà més ràpida, i Lantern 
+serà més eficient i difícil de bloquejar. La pantalla
+dels llocs direccionats controla els llocs accedits a través de Lantern, 
+no els llocs accedits directament.
+
+Configuració inicial
+~~~~~~~~~~~~~~~~~~~~~
+
+Actualment, la llista inicial és tan sols de llocs bloquejats habitualment.
+Aviat confiem elaborar la llista més dinàmicament depenent del que 
+estigui bloquejat realment a cada país. De moment, recomanem que
+l'ajustis a les teves necessitats. Si passes per algun lloc que sembla 
+bloquejat, comprova si està a la llista, i afegeix-lo si no hi està. Recomanem
+també que esborris els llocs de la llista que no estan bloquejats, així
+es carregaran més ràpid i faran que la xarxa sigui més eficient.
+
+Usant una llista de servidors creada per la gent
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Tot i no disposar encara d'una perfecta integració, hem configurat una
+`Proxied Sites List
+Wiki <https://github.com/getlantern/lantern-proxied-sites-lists/wiki>`__
+on trobaràs llistes de llocs bloquejats específiques de cada país. Si vius
+en un país amb una llista que s'hagi actualitzat recentment, llavors
+segurament funcionarà millor que la llista per defecte que conté
+Lantern.
+
+.. image:: https://www.evernote.com/shard/s209/sh/1410658e-531a-44aa-b01b-7867e074637c/b88cfe3ce617b30a394cf6c56b3ea20a/deep/0/Autoproxy%20list%20for%20china%20%C2%B7%20getlantern/lantern-proxied-sites-lists%20Wiki.png
+   :alt: llista autodireccionada xinesa
+
+   llista autodireccionada xinesa
+Simply go to one of the lists, then select and copy the whole list, and paste it in to your list of domains to proxy 
+in your Lantern. Be sure you delete your existing list (or copy over it), so you don't get duplicates and don't
+llocs direccionats que et calen.
+
+.. image:: https://www.evernote.com/shard/s209/sh/345d4873-a0b1-49e1-8188-c5356c2e5c56/d668a756c91454b8f1eaeaf79e6a79a3/deep/0/Lantern.png
+   :alt: enganxant a lantern.
+
+   enganxant a lantern.
+Si la llista és molt llarga, serà ben feixuc seleccionar-la a mà.
+Molt llocs tindran un enllaç a la 'llista sense processar', que hauria de ser
+un gran fitxer amb només llocs. Si hi vas, fes ctrl-a (seleccionar tot),
+ctrl-c (copiar) i ctrl-v (enganxar). Hauries d'esborrar la llista per defecte,
+de forma que no tinguis duplicats i que no direccionis llocs que 
+no necessites.
+
+Trobant Llocs
+~~~~~~~~~~~~~
+
+Abans d'afegir un lloc nou, pots comprovar si ja el tens a la llista de llocs
+direccionats. Això ho pots fer desplaçant-te per la llista, però el trobaràs
+més ràpid al quadre de cerca de la dreta.
+
+.. image:: https://www.evernote.com/shard/s209/sh/f97bd235-eeeb-4e07-a6bd-a47f991254c1/f048f14a6d5d9aeae030ec1b00a445bb/deep/0/Lantern.png
+   :alt: cercant
+
+   cercant
+Afegint un lloc nou
+~~~~~~~~~~~~~~~~~
+
+Per afegir un lloc nou, només cal que l'afegeixis en una nova línia dins
+del quadre de text. Ho pots fer a la posició on vulguis; prement la tecla
+'Enter' per afegir una línia i afegint el lloc en aquesta línia.
+
+.. image:: https://www.evernote.com/shard/s209/sh/d1cf2497-2202-4929-847d-7c8c725bbdda/0028e5ba5c860863e4ca3d72014822bf/deep/0/Lantern.png
+   :alt: afegint
+
+   afegint
+Verifica que prems 'actualitzar' després d'afegir-la. Lantern desarà els
+canvis, i el proper cop que accedeixis al lloc, es direccionarà a través d'un 
+usuari Lantern de la teva xarxa per eludir qualsevol bloqueig.
+
+Quines parts cal usar de la direcció d'un lloc
+'''''''''''''''''''''''''''''''''''''
+
+Enlloc d'especificar les pàgines individuals d'un lloc on vols accedir a través 
+de Lantern, Lantern et permet especificar el lloc sencer en un moment.
+Dit d'una altra manera, només has d'escriure el nom de domini dels llocs
+on vols accedir a través de Lantern. Per exemple, no cal que escriguis la
+direcció completa de la pàgina
+``nobelprize.org/nobel_prizes/peace/laureates/2010``; enlloc d'això, només
+cal que afegeixis el lloc sencer: ``nobelprize.org``. Els termes de cerca són
+semblants - només cal que posis el motor de cerca sencer, i tot el que
+cerquis amb aquest motor de cerca anirà a través de Lantern.
+
+Subdominis
+          
+
+Si tens ``foo.blogspot.com`` i ``bar.blogspot.com`` a la teva llista,
+ambdós s'accediran a través de Lantern, però no ``baz.blogspot.com``.
+No obstant, si tens ``blogspot.com`` a la teva llista, llavors qualsevol lloc
+blogspot.com s'accedirà a través de Lantern.
+
+Addició massiva de llocs nous
+''''''''''''''''''''''''
+
+Si disposes d'una llista de llocs per direccionar d'una altra font que no
+utilitza el format de Lantern, segurament hauràs d'adaptar la formatació.
+Per exemple, si la llista inclou
+[comentaris](https://en.wikipedia.org/wiki/Comment\_(computer\_programming)),
+ho hauràs d'esborrar, donat que actualment Lantern no admet comentaris.
+Verifica que compleixes tots els requeriments de formatació més amunt.
+Si coneixes les `regular
+expressions <http://www.regular-expressions.info/>`__ et seran força
+útils per netejar la llista.
+
+Lantern treballa bé amb l'addició massiva només si la llista compleix la
+formatació de Lantern. Si enganxes una llarga llista de lloc que no estan en 
+el format de Lantern, pots rebre un error de 'línia invàlida'.
+report that line, so we recommend copying that and then searching for it
+with Ctrl-F or Edit > Find in the program you pasted the list from. In a
+pinch you can do this in Lantern too (in Windows and Ubuntu), but it's
+best to work on your list outside of Lantern, then paste it in and keep
+editing until there are no more errors.
+
+Removing sites
+~~~~~~~~~~~~~~
+
+We recommend scrolling through the list and removing any sites that you
+know are not blocked in your country. To remove sites just select them
+in the text field and hit 'delete'. Be sure to hit 'update' when you're
+done.
+
+.. image:: https://www.evernote.com/shard/s209/sh/81bd9e5b-808c-4b3a-bb8f-487fee2601fd/bf5af2b060b92a44336a9ccc7ff8988b/deep/0/Lantern.png
+   :alt: update
+
+   update
+Sharing
+~~~~~~~
+
+If you would like to share your list of proxied sites with a friend
+who's using Lantern, simply select all the sites you'd like to share
+with your mouse, or click inside the text box and hit Ctrl-A (Command-A
+on OS X) to select them all, copy them to the clipboard with Ctrl-C
+(Command-C), and paste them into an email to your friend using Ctrl-V
+(Command-V). Your friend can then copy the sites you sent her and then
+paste them into her Proxied Sites screen in Lantern.
+
+If you'd like to share your list of proxied sites publicly, feel free to
+add them to a new page on the `Lantern Proxied Sites List
+Wiki <https://github.com/getlantern/lantern-proxied-sites-lists/wiki>`__.
+Just click the green 'New Page' button, give your page a name, then on
+the Create New Page screen, paste your list in between two lines
+containing only three back-tick characters, like so:
+
+\`\`\`
+
+site1.com
+
+site2.com
+
+site3.com
+
+\`\`\`
+
+Feel free to add a post to the `User
+Forums <https://groups.google.com/group/lantern-users-en>`__ with a link
+to the list you just created so other users can check it out!
+
+Making a 'raw' list
+'''''''''''''''''''
+
+If your list is super long it can be a pain for people to copy and paste
+it from the wiki. Some lists are put in the GitHub repository, and then
+linked to from the wiki page, so they can be copied much more easily.
+
+If you're not that comfortable with tech then feel free to email a
+Lantern user's group and someone can easily do it for you. If you are
+super comfortable with github just fork the repo and make a pull
+request. For everyone else read on.
+
+To add a new list to the repository you need a GitHub account. There
+should be a link to 'sign up' in the upper right hand corner. Once
+you've done that go to
+https://github.com/getlantern/lantern-proxied-sites-lists and hit the
+'plus' button.
+
+.. image:: https://www.evernote.com/shard/s209/sh/f7185f3d-9ca5-45bf-aac5-8978f7fefb39/6868a4884f375bb854b24b4f663fab91/deep/0/getlantern/lantern-proxied-sites-lists.png
+   :alt: add
+
+   add
+This will 'clone' the main repository, making a copy of all the files
+that are under your control. You can create and edit these files, and it
+won't affect the main repository - they're your private copy. You should
+then create a new file under a country folder. You can do this by just
+entering the folder name and then typing '/'. So just enter like
+\`china/my-folder/list.txt', and that will create it under the china
+folder.
+
+.. image:: http://i.stack.imgur.com/9Ifmj.gif
+   :alt: animated folders
+
+   animated folders
+After you've made your list you can propose the changes to the core
+contributors. To do this you create a 'pull request'. To do this you hit
+the green 'compare & review' button from your repository. And then hit
+'create pull request'. The contributors on the main site will then
+review and pull it in.
+
+Note you can also use pull requests to update or correct other lists.
+Just make the edits from your repository and then create a pull request.

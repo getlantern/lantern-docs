@@ -1,0 +1,15 @@
+Bare del Lantern med venner du stoler på.
+
+Vi er overlykkelige over å få ønske så mange nye brukere velkommen til Lantern-nettverket. Veksten i de siste par ukene har vært fenomenal med mer enn 16.000 folk som benytter seg av Lantern for å få tilgang til det usensurerte Internettet. For å holde nettverket trygt, sterkt og stadig voksende, ønsker vi å minne alle brukere på å KUN INVITERE PÅLITELIGE VENNER OG KONTAKTER. Vi har lagt merke til velment innsats i å la fremmede motta invitasjoner til Lantern. Selv om vi ønsker at alle skal ha tilgang, er det uhyre viktig for Lantern sin arkitektur på dette punktet at brukerinvitasjoner KUN går til folk du allerede kjenner og stoler på. Når du legger til totalt fremmede som Lantern-venner, utsetter du ikke bare deg selv for potensielle angrep, men du kan også utsette vennene du stoler på for det samme.
+
+Lantern bygger på et nettverk basert på tillit. Det er designet for folk som stoler på at hver av dem vil dele sine Internett-tilkoblinger. Når du og en annen bruker er Lantern-venner, kjører dere hverandres trafikk via proxy. Dersom du deler med en sensurinstans, kan han/hun blokkere eller analysere trafikken din. Det er på grunn av dette at alle som kjører Lantern kun bør legge til venner de kan stole på.
+
+Vi ønsker også å understreke at Lantern er et verktøy for å gi tilgang, ikke for å motvirke overvåkning og det er heller ikke et verktøy for anonymitet. Dersom du trenger anonymitet, foreslår vi at du bruker Tor.
+
+Fremfor alt så er integriteten og sikkerheten til Lantern-nettverket avhengig av at du kun inviterer folk du kjenner. Fortsett med å dele Lantern med venner du kan stole på, og vit at ved kun å legge til betrodde folk, beskytter du deg selv, vennene dine, deres venner og resten av Lantern-nettverket.
+
+-Lantern-teamet
+
+Del Lantern kun med VENNER DU STOLER PÅ. Hjelp oss med å holde nettverket SIKKERT OG STERKT.
+
+

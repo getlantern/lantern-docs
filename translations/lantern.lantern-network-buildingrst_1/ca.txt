@@ -1,0 +1,158 @@
+Bastint la Xarxa Lantern
+========================
+
+Lantern depèn d'una xarxa forta d'usuaris de confiança que abasta tota la
+divisòria de la censura i que inclou un nombre suficient d'usuaris en mode
+Donar, de forma que hi hagi servidors disponibles per als usuaris censurats.
+
+Amb aquesta finalitat, tant als usuaris en mode Donar com en mode Obtenir
+els calen eines per ajudar a créixer les seves xarxes de confiança. Els
+beneficis d'aquest creixement no es veuen de forma immediata. Pot caldre
+un temps abans els usuaris en mode Donar no vegin usuaris en mode Obtenir que es connectin a través del seu servidor intermediari.
+Degut a la disponibilitat efectiva de servidors alternatius, potser alguns
+usuaris en mode Donar no donen importància al fet de bastir la seva pròpia
+xarxa de confiança per tal de millorar la rapidesa i fiabilitat de la xarxa.
+
+Davant d'aquests reptes, Lantern hauria de simplificar la forma de fer créixer
+la pròpia xarxa de confiança, així com proporcionar formació, ànims, i
+experiències engrescadores perquè els usuaris ho facin.
+
+Les eines per fer créixer la pròpia xarxa serveixen pels modes Donar i 
+Obtenir, mentre que la formació i l'ànim han de ser sensibles a les
+diferents experiències dels modes Donar i Obtenir.
+
+Aquest document esbossa els punts de vista per tractar tots els aspectes
+de com bastir la xarxa de confiança.
+
+note - It is important to remember that much network building can
+proceed informally and outside of the Lantern application - ultimately
+Lantern just needs to know once the connection has been made. Before
+going too far down the road of building specific tooling, we should make
+sure to talk with our "connectors", i.e. the people who have
+relationships that bridge the censorship divide and who are likely to be
+the lynchpins of the Lantern trust network in its early stages.
+
+Eines
+~~~~~
+
+Trobant i convidant amics
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Lantern hauria de facilitar la cerca dels amics Lantern, especialment
+aquells que ajuden a travessar la divisòria de la censura. Amb aquesta
+finalitat, Lantern s'hauria d'integrar amb les xarxes socials populars
+
+-  Correu electrònic via els contactes de Google (ja està implementat)
+- Cercles Google+
+-  LinkedIn
+-  Facebook
+-  Twitter
+
+No tots els amics es fan de la mateixa manera. Volem connectar els 
+usuaris de països sense censura amb els de països amb censura. Amb
+aquest objectiu, volem prioritzar les relacions on:
+
+1. Els amics tenen una situació de censura diferent
+2. Un dels amics coneix persones que tenen una situació de 
+   censura diferent.
+
+El punt 1 es pot realitzar amb la majoria d'APIs socials, que inclouen 
+informació de localització dels amics (que són la majoria). El problema és 
+que no hi ha necessàriament molta gent que tingui amics a través de la
+divisòria de la censura.
+
+El punt 2 es pot dur a terme amb Linkedin. L'avantatge d'això és que pot
+ajudar a ampliar el grup de "connectors".
+
+What else do we need here? Many social networking invite systems have a
+way of tracking replies, resending reminders and so on...
+
+Formació i Ànims
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are many angles to this. It is instructive to look at what both
+social networks and electronic appliances like the `Nest
+thermostat <http://nest.com/>`__.
+
+Social networks repeatedly encourage you to build out your network by:
+
+-  Suggesting new friends based on existing friends and interests
+-  Suggesting new friends based on contacts in your contact list
+-  Providing a mechanism for friends to message each other
+-  Reminding you about events in friends' lives (e.g. birthdays) to get
+   you to reach out and communicate with that friend. In the case of
+   Lantern, this could be something like "Sally got access through Joe
+   for the first time ever" (see
+   https://github.com/getlantern/lantern/issues/1048)
+
+El termòstat Nest té interessants paral·lelismes amb Lantern perquè
+és un objecte amb el qual interactues ben poc i que utilitzes per aconseguir
+un objectiu específic (estalviar energia i sentir-te còmode).
+Dues coses que el termòstat Nest assoleix particularment bé
+són:
+
+1. It collects a variety of interesting metrics but distills these down
+   into a single easy-to-understand number, namely how many hours your
+   heating/cooling system ran in the last month. From there, one can
+   drill down into the other metrics to understand what led to that
+   usage, but having that single bottom-line number makes it easy to
+   keep track of what's happening without having to invest too much
+   mental bandwidth.
+
+2. It uses monthly emails to let you know how you're doing, make you
+   feel like part of a community and remind you that there's a team of
+   people constantly making Nest better.
+
+In the case of Lantern, Give and Get mode users have complementary but
+slightly different goals.
+
+Get mode users are interested in availability and speed. Give mode users
+are interested in helping out as many people as possible (or specific
+people), but also limiting how much of their bandwidth is consumed, and
+what sites are being visited through their connections.
+
+This suggests a hierarchy of metrics like the following (all broken down
+on a monthly basis if possible):
+
+-  Number of bytes proxied
+-  Number of peers active at any time during month
+-  Number of hours that Lantern was running (see
+   https://github.com/getlantern/lantern/issues/1025)
+-  Top 5 domains proxied by # of requests (see
+   https://github.com/getlantern/lantern/issues/1027)
+-  ???
+
+The first two sub-metrics, # of peers and # of hours, present points for
+clear calls to action when the numbers are low, namely "grow your
+network" and "run lantern".
+
+These are both things about which we can and should remind people via
+email.
+
+Email Schedule
+^^^^^^^^^^^^^^
+
+1. Welcome to Lantern
+2. (If user hasn't added any friends) - Add Some Friends
+3. Monthly Status Update
+4. ???
+
+Related Tickets
+~~~~~~~~~~~~~~~
+
+-  https://github.com/getlantern/lantern/issues/988
+-  https://github.com/getlantern/lantern/issues/972
+-  https://github.com/getlantern/lantern/issues/971
+-  https://github.com/getlantern/lantern/issues/969
+-  https://github.com/getlantern/lantern/issues/967
+-  https://github.com/getlantern/lantern/issues/966
+-  https://github.com/getlantern/lantern/issues/965
+-  https://github.com/getlantern/lantern/issues/654
+-  https://github.com/getlantern/lantern/issues/964
+-  https://github.com/getlantern/lantern/issues/647
+-  https://github.com/getlantern/lantern/issues/580
+-  https://github.com/getlantern/lantern/issues/960
+-  https://github.com/getlantern/lantern/issues/947
+-  https://github.com/getlantern/lantern/issues/946
+-  https://github.com/getlantern/lantern/issues/945
+-  https://github.com/getlantern/lantern/issues/937

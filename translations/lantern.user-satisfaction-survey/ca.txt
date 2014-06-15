@@ -1,0 +1,70 @@
+Enquesta de Satisfacció d'Usuaris Lantern
+Si us plau explica'ns sobre tu
+
+Gràcies per trobar el temps per completar aquesta enquesta. Ens ajudarà a l'Equip Lantern a millorar encara més Lantern.
+Com vas obtenir una invitació a Lantern?
+De l'Equip Lantern
+D'un amic
+Altres (especifica si us plau)
+Si us plau Especifica
+
+Has convidat algun amic a Lantern?
+Sí
+No
+Si la resposta és no, per quin motiu?
+
+Com utilitzes Lantern?
+Per accedir a llocs web que estan bloquejats en el meu país
+Per accedir a llocs web que estan bloquejats a la feina
+Per ajudar a persones en països censurats a accedir a la Internet oberta
+
+Utilitzes algun connector en el navegador per gestionar la configuració del servidor intermediari? (Marca tots els que corresponguin)
+ProxySwitchySharp
+FoxyProxy
+
+Utilitzes altres eines d'elusió? (Marca totes les que corresponguin)
+Tor
+GoAgent
+Psiphon
+Ultrasurf
+Freegate
+alkasir
+
+ Quines altres eines tens desbloquejades actualment? (Marca totes les que corresponguin)
+
+
+Programari
+
+Si us plau fes-nos saber la teva experiència utilitzant Lantern
+Totalment d'acord
+D'acord
+Neutral
+En desacord
+Totalment en desacord
+N/A
+Obtenir una invitació per Lantern és senzill
+Descarregar Lantern és senzill
+Instal·lar Lantern és senzill
+Configurar Lantern per direccionar els llocs que desitjo és senzill
+Lantern em permet accedir a tots els llocs bloquejats que desitjo
+Navegant amb Lantern és tan ràpid com navegar sense lantern
+Quan Lantern s'executa en segon pla, ni tan sols m'adono
+Lantern no es bloqueja mai
+Lantern m'ho fa saber quan s'està executant
+Lantern m'ofereix informació d'interès sobre la xarxa Lantern
+Convidar amics a utilitzar Lantern és fàcil
+Actualitzar Lantern és senzill
+Què podem fer perquè et vagi encara millor Lantern?
+
+
+Atenció al Client
+
+Si us plau fes-nos saber la teva experiència obtenint suport per Lantern
+Saps on trobar la documentació d'ajuda en línia de Lantern
+Saps com contactar amb l'Equip Lantern per obtenir ajuda
+L'Equip Lantern respon ràpidament a les teves peticions
+Quan tens un problema, l'Equip Lantern està habitualment disponible per ajudar-te a resoldre'l
+Se't notifica quan hi ha noves versions de Lantern disponibles
+Si us plau indica'ns què podem fer per millorar l'atenció al client de Lantern
+
+Gràcies per trobar el temps per respondre a aquestes preguntes i ajudar-nos a continuar millorant Lantern

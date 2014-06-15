@@ -1,0 +1,43 @@
+.. _contribuer-à-lantern-dev:
+
+Contribuer du code
+=================
+
+Cette page se concentre sur le développement logiciel. Si vous n'êtes pas un développeur, il y a de nombreuses autres façons de `s'impliquer <../user/Get_Involved.html>`_.
+
+Notre but est de faire de Lantern un projet libre réellement collaboratif avec des contributeurs
+provenant de nombreuses organisations et pays.
+
+Notre façon de travailler
+-----------
+
+Si vous n'êtes pas familier avec les logiciels libres, nous vous recommandons de lire `Produire un logiciel libre <http://producingoss.com/fr/>`__. Il est disponible gratuitement mais n'hésitez pas à acheter le livre (qui est écrit par un ami de Lantern). Nous essayons de suivre les règles de bonne pratique de ce livre, et c'est donc une bonne façon de se familiariser avec la manière dont nous travaillions.
+
+Débuter
+---------------
+
+La première étape est de consulter dans notre fichier
+`CONTRIBUTING <https://github.com/getlantern/lantern/blob/master/CONTRIBUTING.md>`__
+les informations pertinentes. Nous suivons le modèle
+github habituel d'envoi d'extraction de requêtes et de révision
+par les auteurs principaux.
+
+Communication
+--------------
+La majorité de nos communications passe par des
+`billets <https://github.com/getlantern/lantern/issues>`__. Vous pouvez 
+`surveiller <https://help.github.com/articles/watching-repositories>`_ le projet 
+sur GitHub et obtenir des notifications quand un problème est mis à jour.
+
+Nous avons aussi un `forum pour les développeurs <https://groups.google.com/forum/#!forum/lantern-devel>`__ sur les Google Groupes que 
+nous utilisons pour communiquer. N'hésitez pas à vous présenter sur le forum. Nous pouvons
+trouver des tâches qui pourraient vous intéresser.
+
+Vous pouvez aussi vous inscrire pour nous aider au triage des problèmes sur `CodeTriage <http://www.codetriage.com/getlantern/lantern>`_.
+
+Prendre des décisions
+----------------
+
+Les décisions concernant Lantern sont prises par tous les développeurs principaux. Toute personne
+contribuant suffisamment au développement peut devenir un développeur principal
+et aider à décider du futur de Lantern.

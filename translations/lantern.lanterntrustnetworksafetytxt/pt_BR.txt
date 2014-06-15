@@ -1,0 +1,15 @@
+Apenas compartilhe o Lanterna com os amigos nos quais vocês confiam.
+
+Nós estamos muito entusiasmados em acolher tantos usuários novos à rede Lanterna. O crescimento nas últimas semanas tem sido fenomenal, com mais de 16K de pessoas usando o Lanterna para acessar a Internet sem censura. Para manter a rede forte, segura e crescendo, queremos lembrar a cada usuário para convidar APENAS AMIGOS E CONTATOS NOS QUAIS VOCÊS CONFIAM. Nós percebemos alguns esforços bem intencionados para conectar estranhos com os convites do lanterna. Enquanto nós queremos que todos tenham acesso; é crucial para a arquitetura do lanterna neste momento; que os convites aos usuários vão APENAS para as pessoas nas quais vocês já conhecem e confiam. Devemos lembrá-los novamente que, ao adicionar estranhos aos amigos do lanterna, você não só se expõe à atacantes potenciais, mais como também você pode expor seus amigos de confiança a estes agressores potenciais.
+
+O Lanterna foi construído dentro de uma rede de confiança. Isto significa que ele foi desenhado por pessoas que confiam uma nas outras para compartilharem conexões de internet. Quando você e um outro usuário são amigos Lanterna, vocês estão usando uma conexão de proxy de um para o outro. Se você por acaso, estiver compartilhando com um sensor, ele poderá bloquear ou analisar a sua conexão. Por esta razão, é muito importante que todos os que estão executando o Lanterna devem aceitar apenas as pessoas nas quais eles estreitamente confiam.
+
+Nós queremos enfatizar que o Lanterna é uma ferramenta de acesso e por conseguinte não foi desenhada para prevenir o monitoramento nem tampouco o seu anonimato. Se você quiser ficar anônimo, nós recomendamos o uso do Navegador Tor.
+
+Saibam que, acima de tudo, a integridade e a segurança da rede Lanterna são dependentes dos convites de pessoas nas quais vocês realmente conhecem e confiam. Por favor, continuem compartilhando o Lanterna com os amigos nas quais vocês conhecem e confiam. E saibam que adicionando só pessoas de confiança, é que você não só está protegendo a sim mesmo mais como também os seus amigos, os amigos dos seus amigos e o resto da rede Lanterna.
+
+-Time Lanterna
+
+Compartilhe o Lanterna SOMENTE COM SEUS AMIGOS DE CONFIANÇA. Assim, você estará ajudando a conservar uma rede FORTE E SEGURA.
+
+

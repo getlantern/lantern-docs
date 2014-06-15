@@ -1,0 +1,158 @@
+Construire un réseau Lantern
+========================
+
+Lantern dépend d'un fort réseau de confiance d'utilisateurs de part et d'autre
+du mur de la censure et qui inclut assez d'utilisateurs donneurs pour avoir
+des mandataires disponibles quand les utilisateurs censurés en ont besoin.
+
+À cette fin, les utilisateurs donneurs et receveurs ont besoin d'outils pour les aider à agrandir
+leurs réseaux de confiance. Les bénéfices d’accroître le réseau de confiance de Lantern
+ne sont pas immédiatement palpables pour les utilisateurs. Il peut falloir du temps aux utilisateurs donneurs
+avant qu'ils ne voient des utilisateurs receveurs se connecter par leur serveur mandataire.
+De part la disponibilité immédiate des serveurs mandataires de repli, les utilisateurs donneurs
+pourraient ne pas apprécier l'importance de construire leur réseau de confiance afin
+d'améliorer la vitesse et la fiabilité du réseau de mandataires Lantern.
+
+Prenant ces défis en considération, Lantern devrait autant que possible, et faciliter
+la croissance d'un réseau de confiance, et fournir une éducation, des encouragements,
+des expériences enrichissantes pour porter les utilisateurs à le faire.
+
+Les outils pour accroître un réseau sont applicables aussi bien aux donneurs qu'aux receveurs,
+alors que l'éducation et les encouragements doivent être adaptés aux
+différences d'expérience pour le donneur et pour le receveur.
+
+Ce document expose les approches pour traiter tous les aspects
+de la construction du réseau de confiance.
+
+note - il est important de se souvenir qu'une grande partie de la construction du réseau peut
+avoir lieu de manière informelle et en dehors de l'application Lantern - en fin de compte,
+Lantern doit juste en être informé quand la connexion a été faite. Avant
+d'explorer plus loin la mise en place d'outils, nous devrions nous
+assurer de parler à nos « connecteurs », c.-à-d. les personnes qui ont
+des relations par-delà le mur de la censure et qui seront probablement
+les pivots du réseau de confiance de Lantern à ses débuts.
+
+Outils
+~~~~~
+
+Trouver et inviter des amis
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Lantern devrait faciliter la recherche d'amis, particulièrement ceux
+qui peuvent aider à passer par-dessus le mur de la censure. Pour ce faire, Lantern devrait
+s'intégrer avec les réseaux sociaux populaires
+
+- Courriel avec les contacts Google (déjà implémenté)
+- Les cercles Google+
+-  LinkedIn
+-  Facebook
+-  Twitter
+
+Tous les amis ne sont pas créés égaux. Nous voulons connecter des utilisateurs de
+pays censurés avec des utilisateurs de pays non-censurés. Pour ce faire, nous
+voulons prioriser les relations quand :
+
+1. Les amis ont différents statuts de censure
+2. Un des amis a des connexions vers des personnes ayant des statuts
+    de censure différents
+
+L'article 1 peut être accompli avec la plupart des API sociales incluant des informations
+de localisation sur les amis. Le problème est qu'il
+n'y a pas nécessairement beaucoup de personnes qui aient des amis par-delà
+le mur de la censure.
+
+L'article 2 peut être accompli avec Linkedin. L'avantage ici est de pouvoir
+élargir le bassin de « connecteurs ».
+
+De quoi d'autre avons-nous besoin ici? De nombreux systèmes d'invitation de réseaux sociaux ont une
+façon de suivre les réponses, envoyant des rappels, etc...
+
+Éducation et encouragements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Il y a ici plusieurs aspects. Il est instructif de regarder à la fois les
+réseaux sociaux et les appareils électroniques tel que le `Thermostat
+Nest <https://nest.com/ca/fr/>`__.
+
+Les réseaux sociaux vous encourage à répétition à construire votre réseau en :
+
+- suggérant de nouveaux amis d'après vos amis existants et vos intérêts
+- suggérant de nouveaux amis d'après les contacts dans votre liste de contacts
+- fournissant un mécanisme afin que les amis puissent clavarder
+- vous rappelant les événements dans la vie de vos amis (p.ex. fêtes) pour vous pousser
+   à prendre contact et à communiquer avec ces amis. Dans le cas de
+   Lantern, ceci pourrait être quelque chose comme « Annick vient d'obtenir l'accès grâce à Olivier
+   pour la première fois » (voir
+   https://github.com/getlantern/lantern/issues/1048)
+
+Le thermostat Nest à des parallèles intéressants avec Lantern car c'est
+aussi quelque chose avec lequel vous interagissez rarement et que
+vous utilisez dans un but très précis (économiser de l'énergie dans
+le confort). Deux choses que le thermostat Nest fait particulièrement bien
+sont :
+
+1. il collecte une variété de mesures intéressantes mais les distille en
+   un simple nombre facile à comprendre, à savoir le nombre d'heures
+   de fonctionnement de votre système de chauffage/climatisation durant le dernier mois. À partir de là, l'on peut
+   approfondir les autres mesures pour comprendre ce qui nous a amené à cette
+   utilisation, mais avoir ce simple nombre facilite
+   le suivi de ce qu'il se passe sans avoir à trop investir
+   bande passante mentale.
+
+2. Il utilise des courriels mensuels pour vous évaluer, vous donner
+   l'impression de faire partie de la communauté et vous rappeler qu'il y a une équipe
+   de personne améliorant Nest continuellement.
+
+Dans le cas de Lantern, les donneurs et les receveurs ont des buts
+complémentaires mais légèrement différents.
+
+Les receveurs sont intéressés par la disponibilité et la vitesse. Les donneurs
+sont intéressés à aider autant de personnes que possible (ou des personnes
+spécifiques), mais aussi à limiter la quantité de leur bande passante utilisée, et
+quels sites sont visités avec leurs connexions.
+
+Ceci suggère une hiérarchie de mesures comme suit (divisée
+mensuellement si possible) :
+
+- nombres d'octets relayés
+- nombre de pairs actifs à n'importe quel moment pendant le mois
+- nombre d'heures d'exécution de Lantern (voir
+   https://github.com/getlantern/lantern/issues/1025)
+- les 5 domaines les plus relayés par nbre. de demandes (voir
+   https://github.com/getlantern/lantern/issues/1027)
+-  ???
+
+Les deux premières sous-mesures, nbre. de pairs et nbre. d'heures, soulignent
+clairement que des actions sont nécessaire quand ces nombres sont bas, à savoir « agrandissez
+votre réseau » et « exécutez Lantern ».
+
+Voici deux choses que nous pouvons et devons rappeler aux gens par
+courriel.
+
+Calendrier des courriels
+^^^^^^^^^^^^^^
+
+1. Bienvenue à Lantern
+2. (Si l'utilisateur n'a pas ajouté d'amis) - Ajoutez des amis
+3. Mise à jour d'état mensuelle
+4. ???
+
+Billets associés
+~~~~~~~~~~~~~~~
+
+-  https://github.com/getlantern/lantern/issues/988
+-  https://github.com/getlantern/lantern/issues/972
+-  https://github.com/getlantern/lantern/issues/971
+-  https://github.com/getlantern/lantern/issues/969
+-  https://github.com/getlantern/lantern/issues/967
+-  https://github.com/getlantern/lantern/issues/966
+-  https://github.com/getlantern/lantern/issues/965
+-  https://github.com/getlantern/lantern/issues/654
+-  https://github.com/getlantern/lantern/issues/964
+-  https://github.com/getlantern/lantern/issues/647
+-  https://github.com/getlantern/lantern/issues/580
+-  https://github.com/getlantern/lantern/issues/960
+-  https://github.com/getlantern/lantern/issues/947
+-  https://github.com/getlantern/lantern/issues/946
+-  https://github.com/getlantern/lantern/issues/945
+-  https://github.com/getlantern/lantern/issues/937

@@ -1,0 +1,49 @@
+Canviant els Comptes de Google
+=========================
+
+Per canviar el correu electrònic de Google que utilitzes amb Lantern, pots reinicialitzar
+Lantern i passar per la seqüència de configuració inicial
+
+Mostra el Mapa de Xarxa de Lantern
+----------------------------
+
+Tan impressionant com és de veure les connexions de Lantern creuant el món,
+i probablement la major part del temps estaràs executant Lantern
+sense visualitzar el mapa de xarxa.
+
+Selecciona Mostra Lantern des de la icona de Lantern a la Barra d'Estat.
+
+.. image:: https://dl.dropboxusercontent.com/u/253631/Show_Lantern.png
+   :alt: Mostra Lantern
+
+   Mostra Lantern
+
+Reinicialitza Lantern
+-------------
+
+A continuació, reinicialitza Lantern i passa de nou pel procés de configuració.
+Al reinicialitzar Lantern s'esborra tota la informació desada des de la darrera configuració.
+
+1. Fes clic a la icona de Configuració.
+
+   .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Settings_Icon.png
+      :alt: Mostra Lantern
+
+      Mostra Lantern
+
+2. Fes clic a Reinicialitzar.
+
+   .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Reset_Button.png
+      :alt: Mostra Lantern
+
+   Apareix un missatge demanant confirmació de que realment vols reinicialitzar
+   Lantern.
+
+3. Fes clic a Reinicialitzar.
+
+   .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Confirm_Reset.png
+      :alt: Mostra Lantern
+
+   Lantern es reinicialitza i pots passar pel procés de configuració utilitzant
+   un compte diferent. Veure :ref:`setting-up-lantern`.
+

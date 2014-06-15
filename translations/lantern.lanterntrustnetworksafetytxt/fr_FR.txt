@@ -1,0 +1,15 @@
+Partagez Lanterne uniquement avec vos amis de confiance.
+
+Nous sommes ravis d'accueillir autant de nouveaux utilisateurs sur le réseau Lanterne. La croissance au cours des dernières semaines a été phénoménale avec plus de 16'000 personnes utilisant Lanterne pour accéder à un Internet non censuré. Pour maintenir le réseau en toute sécurité, fort et en croissance, nous voulons rappeler à chaque utilisateur de N'INVITER QUE VOS AMIS ET CONTACTS DE CONFIANCE. Nous avons remarqué quelques efforts bien intentionnés de connecter des étrangers à des invitations Lanterne. Alors que nous voulons que chacun ait accès au réseau, il est crucial pour l'architecture de Lanterne à ce stade que les invitations d'utilisateurs aillent UNIQUEMENT aux gens que vous connaissez déjà et de confiance. Lorsque vous ajoutez de parfaits inconnus comme amis Lanterne, non seulement vous vous exposez à des agresseurs potentiels, mais vous pouvez aussi exposer vos amis de confiance à des attaquants potentiels.
+
+Lanterne est construit sur un réseau de confiance. Il est conçu pour les personnes qui se font mutuellement confiance pour partager leurs connexions Internet. Lorsque vous et un autre utilisateur êtes amis Lanterne, vous faites office de relais (proxy) l'un pour l'autre. Si vous partagez avec un censeur, il / elle peut bloquer ou analyser votre trafic. Pour cette raison, toute personne utilisant Lanterne doit uniquement accepter pour ami des personnes de confiance.
+
+Nous tenons également à souligner que Lanterne est un outil pour fournir un accès; il n'est pas conçu pour empêcher la surveillance et ce n'est pas un outil pour préserver votre anonymat. Si vous avez besoin d'anonymat, nous vous recommandons d'utiliser Tor.
+
+Par dessus tout, l'intégrité et la sécurité du réseau Lanterne dépendent du fait que vous invitiez uniquement des gens que vous connaissez. S'il vous plaît continuez à partagez Lanterne avec vos amis de confiance en gardant à l'esprit qu'en ajoutant uniquement des personnes de confiance, vous protégez vous-même, vos amis, leurs amis, et le reste du réseau Lanterne.
+
+-L'équipe Lanterne
+
+Partagez Lanterne avec vos AMIS DE CONFIANCE. Aidez-nous à maintenir le réseau sûr et fort.
+
+

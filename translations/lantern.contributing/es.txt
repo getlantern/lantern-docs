@@ -1,0 +1,43 @@
+.. _contributing-to-lantern-dev:
+
+Contribuir código
+=================
+
+Está página está enfocada al desarrollo de software. Si no es un desarrollador, hay muchas otras formas de `involucrarse <../user/Get_Involved.html>`_.
+
+Nuestra meta es hacer de Lantern un proyecto de código abierto verdaderamente colaborativo con contribuidores
+de muchas organizaciones y países.
+
+Cómo trabajamos
+-----------
+
+Si no está familiarizado con el desarrolo de código abierto le recomendamos intensamente `Producing Open Source Software <http://producingoss.com/>`__. Está disponible gratuitamente, pero no dude en comprar el libro (está escrito por un amigo de Lantern). Tratamos de detallar las mejores prácticas en este libro, así que es una buena senda para familiarizarse con cómo trabajamos.
+
+Comenzar
+---------------
+
+El primer paso es revisar nuestro
+`CONTRIBUIR <https://github.com/getlantern/lantern/blob/master/CONTRIBUTING.md>`__
+fichero en busca de información relevante. Seguimos el modelo
+de GitHub estandar de contribuidores enviando pull requests (peticiones de unificación) que luego reciben
+revisión por los autores principales
+
+Comunicarse
+--------------
+La mayoría de nuestra comunicación ocurre mediante
+`notas <https://github.com/getlantern/lantern/issues>`__. Puede 
+`seguir <https://help.github.com/articles/watching-repositories>`_ el proyecto 
+en GitHub y obtener notificaciones cuando un asunto sea actualizado.
+
+También tenemos un `foro de desarrolladores <https://groups.google.com/forum/#!forum/lantern-devel>`__ en Google Groups que 
+usamos para comunicarnos. Por favor, no dude en presentarse a si mismo en el foro. Podemos
+encontrar tareas en las que podría estar interesado.
+
+También puede registrarse para ayudarnos en asuntos de asignación de prioridades en `CodeTriage <http://www.codetriage.com/getlantern/lantern>`_.
+
+Tomar decisiones
+----------------
+
+Las decisiones en Lantern se toman por todos los desarrolladores principales. Cualquiera
+que contribuya suficientemente al desarrollo puede convertirse en un desarrollador principal
+y ayudar a decidir el futuro de Lantern.

@@ -1,0 +1,221 @@
+.. _config-proxied-sites:
+
+Configurar sitios proxyficados
+=========================
+
+.. image:: https://www.evernote.com/shard/s209/sh/a6ffd5ed-9f38-4a27-9e75-1b940be94582/2f741aad7056c2bccf76844e7814773c/deep/0/Lantern.png
+   :alt: Sitios proxyficados
+
+   Sitios proxyficados
+La pantalla de Sitios Proxyficados es parte de la configuración para las personas que usan
+Lantern para Obtener Acceso, y está disponible a través del icono del globo terráqueo en la
+parte inferior derecha.
+
+.. image:: https://www.evernote.com/shard/s209/sh/9dd170e2-800d-412c-bfef-8fb21819f517/22b89c58ddadf34a4dee969b2e9fe9ff/deep/0/Lantern.png
+   :alt: proxyficar sitios
+
+   proxyficar sitios
+Aquí es donde los usuarios Obteniendo Acceso pueden configurar a qué sitios acceder a través de
+amigos en Lantern en lugar de acceder directamente. Accediendo sólo
+a sitios a través de Lantern que de otra manera estarían bloqueados, y accediendo
+a sitios que no están bloqueados directamente, su experiencia será más rápida, y
+Lantern será más difícil de bloquear y más eficiente. La pantalla de
+Sitios Proxyficados controla qué sitios son enrutados a través de Lantern preferiblemente a que
+se acceda a estos directamente.
+
+Configuración inicial
+~~~~~~~~~~~~~~~~~~~~~
+
+Ahora mismo, la lista inicial es de sólo un cierto número de sitios comúnmente bloqueados.
+En el futuro esperamos construir la lista de forma más dinámica basándose en lo qué
+está bloqueado actualmente en cada país. Pero por ahora recomendamos ajustarlo
+a sus necesidades. Si tropieza con algún sitio que parece bloqueado, puede
+comprobar si está en la lista, y añadirlo si no lo está. También recomendamos
+eliminar sitios de la lista que no estén bloqueados actualmente, ya que entonces
+estos cargarán más rápido para usted, y ayudarán a que la red funcione más eficientemente.
+
+Usar una lista de proxys elaborada-por-la-gente
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Aunque aún no tenemos una integración suave, hemos elaborado un `Wiki
+con la lista de sitios
+proxyficados <https://github.com/getlantern/lantern-proxied-sites-lists/wiki>`__
+donde puede encontrar listas específicas de sitios bloqueados por país. Si vive
+en un país que tiene una lista que ha sido actualizada recientemente, entonces
+probablemente funcionará mejor para usted que la lista predeterminada que viene con
+Lantern.
+
+.. image:: https://www.evernote.com/shard/s209/sh/1410658e-531a-44aa-b01b-7867e074637c/b88cfe3ce617b30a394cf6c56b3ea20a/deep/0/Autoproxy%20list%20for%20china%20%C2%B7%20getlantern/lantern-proxied-sites-lists%20Wiki.png
+   :alt: lista de autoproxyficación para China
+
+   lista de autoproxyficación para China
+Simplemente vaya a una de las listas, luego seleccione y copie la lista completa, y péguela en su lista de dominios a proxyficar 
+en su Lantern. Asegúrese de que borra su lista existente (o sobreescríbala), de forma que no obtenga duplicados y no
+proxyfica sitios que usted no necesita.
+
+.. image:: https://www.evernote.com/shard/s209/sh/345d4873-a0b1-49e1-8188-c5356c2e5c56/d668a756c91454b8f1eaeaf79e6a79a3/deep/0/Lantern.png
+   :alt: pegarlos en Lantern.
+
+   pegarlos en Lantern.
+Si la lista es realmente larga, puede que sea un suplicio seleccionarlos todos a mano.
+Muchos sitios tendrán un enlace hacia la 'lista en crudo', que debería ser un largo
+fichero sólo con sitios. Si va allí puede usar Ctrl-A (para seleccionar todos),
+Ctrl-C (copiar), y Ctrl-V (pegar) los accesos directos. Debe borrar la
+lista por defecto, así no obtendrá duplicados, y no proxyficará sitios
+que no necesite.
+
+Encontrar sitios
+~~~~~~~~~~~~~
+
+Antes de añadir un nuevo sitio, puede comprobar y ver si ya está en su
+lista de proxyficación. Esto puede realizarse desplazándose recorriendo la lista, pero el
+campo de búsqueda de la derecha le permite buscarlo más rápidamente:
+
+.. image:: https://www.evernote.com/shard/s209/sh/f97bd235-eeeb-4e07-a6bd-a47f991254c1/f048f14a6d5d9aeae030ec1b00a445bb/deep/0/Lantern.png
+   :alt: buscando
+
+   buscando
+Añadir un nuevo sitio
+~~~~~~~~~~~~~~~~~
+
+Para añadir un nuevo sitio, sólo necesita añadirlo a una nueva línea en el campo
+de texto. Puede hacer esto en cualquier posición que quiera. Tan solo pulse 'Intro' para insertar una nueva
+línea y añada el sitio en esa línea.
+
+.. image:: https://www.evernote.com/shard/s209/sh/d1cf2497-2202-4929-847d-7c8c725bbdda/0028e5ba5c860863e4ca3d72014822bf/deep/0/Lantern.png
+   :alt: añadir
+
+   añadir
+Asegúrese de pulsar 'actualizar' después de que lo haya introducido. Lantern guardará sus
+cambios, y la próxima vez que acceda a ese sitio, este será enrutado.
+a través de un usuario de Lantern de su red de confianza, para eludir cualquier bloqueo.
+
+Qué partes de la dirección de un sitio usar
+'''''''''''''''''''''''''''''''''''''
+
+En lugar de que tenga que especificar páginas individuales de un sitio a las que le gustaría
+acceder a través de Lantern, Lantern le permite especificar sitios enteros de una
+vez. En otras palabras, debe introducir sólo el nombre del domino de los sitios a los que
+quiera acceder a través de Lantern. Por ejemplo, no introduciría la dirección
+completa de la página
+``nobelprize.org/nobel_prizes/peace/laureates/2010``; en su lugar debería
+añadir sólo la dirección genérica del sitio: ``nobelprize.org``. Con los términos de búsqueda es similar - tan sólo
+introduzca la dirección genérica del motor de búsqueda, y todas sus búsquedas sobre ese motor
+de búsqueda irán a través de Lantern.
+
+Subdominios
+          
+
+Si tiene ``foo.blogspot.com`` y ``bar.blogspot.com`` en su lista,
+se accederá a ambos a través de Lantern, pero para ``baz.blogspot.com``
+no se hará. Sin embargo, si sólo tiene ``blogspot.com`` en su lista, entonces
+se accederá a cualquier sitio de blogspot.com a través de Lantern.
+
+Adición masiva de nuevos sitios
+''''''''''''''''''''''''
+
+Si tiene una lista de sitios a proxyficar de otra fuente que no
+usa el formato de Lantern, probablemente tendrá que despojarla del formato.
+Por ejemplo, si la lista incluye
+[comments](https://es.wikipedia.org/wiki/Comentario\_(informática)),
+tendrá que eliminarlos, ya que Lantern actualmente no soporta
+comentarios. Asegúrese de que cumple todos los requisitos de formato de arriba.
+Si conoce las `expresiones
+regulares <http://www.regular-expressions.info/>`__ estas pueden serle
+bastante útiles para despojar de formato la lista.
+
+Observe que Lantern funciona bien para la adición masiva únicamente de listas en
+formato de Lantern. Si pega sitios en una lista larga de sitios que no están en
+formato de Lantern, puede que obtenga un error de 'línea no válida'. Lantern
+advertirá sobre esa línea, así que recomendamos que la copie y la busque
+con Ctrl-F, o Editar > Buscar, en el programa desde el que pegó la lista. En pocas
+palabras, esto puede hacerlo también en Lantern (en Windows y Ubuntu), pero es
+mejor trabajar en su lista fuera de Lantern, y luego pegarla dentro y seguir
+editando hasta que no haya más errores.
+
+Eliminar sitios
+~~~~~~~~~~~~~~
+
+Recomendamos desplazarse recorriendo la lista y eliminando cualquier sitio que
+sepa que no está bloqueado en su país. Para eliminar sitios tan solo selecciónelos
+en el campo de texto, y pulse 'borrar'. Asegúrese de pulsar 'actualizar' cuando
+termine.
+
+.. image:: https://www.evernote.com/shard/s209/sh/81bd9e5b-808c-4b3a-bb8f-487fee2601fd/bf5af2b060b92a44336a9ccc7ff8988b/deep/0/Lantern.png
+   :alt: actualizar
+
+   actualizar
+Compartir
+~~~~~~~
+
+Si quisiese compartir su lista de sitios proxyficados con un amigo
+que esté usando Lantern, simplemente seleccione todos los sitios que le gustaría compartir
+con su ratón, o haga clic dentro del campo de texto y pulse Ctrl-A (CMD-A
+en OS X) para seleccionarlos todos, cópielos al portapapeles con Ctrl-C
+(CMD-C), y péguelos en un correo electrónico para su amigo usando Ctrl-V
+(CMD-V). Su amigo puede luego copiar los sitios que le envió, y luego
+pegarlos en su pantalla de Sitios Proxyficados en Lantern.
+
+Si quisiese compartir públicamente su lista de sitios proxyficados, con toda libertad
+añádala a una nueva página en la `Lista de sitios proxyficados del
+wiki <https://github.com/getlantern/lantern-proxied-sites-lists/wiki>`__.
+Tan solo haga clic en el botón verde 'Nueva página', dele un nombre a su página, y luego, en
+la pantalla Crear Nueva Página, pegue su lista entre medias de dos líneas
+que contengan sólo tres caracteres de acento-grave, de esta forma:
+
+\`\`\`
+
+sitio1.com
+
+sitio2.com
+
+sitio3.com
+
+\`\`\`
+
+Con total libertad añada un mensaje en los `Foros
+de usuario <https://groups.google.com/group/lantern-users-en>`__ con un enlace
+hacia la lista que acaba de crear ¡para que otros usuarios puedan revisarla!
+
+Elaborar una lista 'en crudo'
+'''''''''''''''''''
+
+Si su lista es super larga puede ser un suplicio copiarla y pegarla para la gente
+desde el wiki. Algunas listas se depositan en el repositorio de GitHub, y luego son
+enlazadas desde la página del wiki, de forma que pueden copiarse mucho más fácilmente.
+
+Si no está tan familiarizado con la tecnología, entonces escriba con toda confianza al
+grupo de usuarios de Lantern, y alguien podrá hacerlo fácilmente por usted. Si se siente
+super comfortable con GitHub, simplemente ramifique (fork) el repositorio (repo), y realice una pull
+request (petición de unificación). Para que todos los demás continúen leyéndola.
+
+Para añadir una nueva lista al repositorio, necesita una cuenta de GitHub. Debería
+haber un enlace para 'registrarse' en la esquina superior derecha. Una vez
+haya hecho eso, vaya a 
+https://github.com/getlantern/lantern-proxied-sites-lists y pulse el
+botón 'plus'
+
+.. image:: https://www.evernote.com/shard/s209/sh/f7185f3d-9ca5-45bf-aac5-8978f7fefb39/6868a4884f375bb854b24b4f663fab91/deep/0/getlantern/lantern-proxied-sites-lists.png
+   :alt: añadir
+
+   añadir
+Esto 'clonará' el repositorio principal, haciendo una copia de todos los ficheros
+que están bajo su control. Puede crear y editar estos ficheros, y
+no afectará al repositorio principal - estos son su copia particular. Luego debe
+crear un fichero nuevo bajo una carpeta de país. Puede hacer esto tan solo
+introduciendo el nombre de la carpeta, y luego escribiendo '/'. Así que tan solo introduzca algo como
+\`china/mi-carpeta/lista.txt', y eso la creará bajo la carpeta de
+china.
+
+.. image:: http://i.stack.imgur.com/9Ifmj.gif
+   :alt: carpetas animadas
+
+   carpetas animadas
+Después de que haya elaborado su lista, puede proponer los cambios a los contribuidores
+principales. Para hacer esto cree una 'pull request' (petición de unificación). Y para hacer esto pulse
+el botón verde 'compare & review' (comparar y revisar) desde su repositorio. Y luego pulse
+'create pull request'. Los contribuidores en el sitio principal luego
+lo revisarán y lo unificarán (pull).
+
+Observe que también puede usar pull requests para actualizar o corregir otras listas.
+Tan solo realice las ediciones desde su repositorio, y luego cree una pull request (petición de unificiación).

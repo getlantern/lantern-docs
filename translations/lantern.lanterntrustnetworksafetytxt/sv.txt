@@ -1,0 +1,15 @@
+Dela bara Lantern med dina pålitliga vänner.
+
+Vi är glada över att välkomna så många nya användare till Lantern nätverket. Tillväxten dom senaste veckorna har varit fenomenal med över 16K personer som använder Lantern för att komma åt det ocensurerade Internet. För att hålla nätverket säkert, starkt och växande vill vi påminna varje användare att BARA BJUDA IN DINA PÅLITLIGA VÄNNER OCH KONTAKTER. Vi har märkt av några ansträngningar till att introducera främlingar till Lantern inbjudningar. Medan vi vill att alla ska ha tillgång är det kritiskt för Lanterns arkitektur vid denna tidpunkt att inbjudningar BARA skickas till personer du redan känner och litar på. När du lägger till främlingar som Lantern vänner så utsätter du inte bara dig själv för potentiela attacker utan också dina vänner.
+
+Lantern är byggt på ett förtroendebaserat nätverkt. Det är designar för folk som litar på varandra att dela deras internetanslutningar. När du och en annan användare är Lantern vänner agerar ni båda proxys för varandra. Om du delar med en censor kan han/hon blockera eller analysera din trafik. På grund av detta bör alla som kör Lantern endast bli vän med personer dom litar på.
+
+Vi vill också betona att Lantern är ett verktyg för att ge tillgång, det är inte designar för att motverka övervakning och är inte ett anonymitetsverktyg. Om du kräver anonymitet rekommenderar vi att du använder Tor.
+
+Över allt annat så beror integriteten och säkerheten i Lantern nätverket på att bara bjuda in personer du känner. Var vänlig fortsätt att dela Lantern med dina pålitliga vänner och vet att genom att bara lägga till folk du litar på så skyddar du dig själv, dina vänner, deras vänner, och resten av Lantern nätverket.
+
+-Team Lantern
+
+Dela Lantern enbart med dina PÅLITLIGA VÄNNER. Hjälp oss hålla nätverket SÄKERT OCH STARKT.
+
+

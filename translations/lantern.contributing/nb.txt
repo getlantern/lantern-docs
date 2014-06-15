@@ -1,0 +1,43 @@
+..-bidrag-til-lantern-dev:
+
+Bidra med kode
+=================
+
+Denne siden fokuserer på programvareutvikling. Hvis du ikke er en utvikler, er det mange andre måter å involvere seg på <../user/Get_Involved.html>`_.
+
+Vårt mål er å gjøre Lantern til et sant friprog dugnadsprosjekt med utviklere
+fra mange organisasjoner og land.
+
+Hvordan vi arbeider
+-----------
+
+Hvis du ikke er kjent med utvikling av åpen kildekode anbefaler vi sterkt å lese 'Produksjon av åpen kildekode-programvare <http://producingoss.com/>`__. Det er gratis, men ikke nøl med å kjøpe boka (den er skrevet av en Lantern-venn). Vi forsøker å følge retningslinjene i boka, så det er en god måẗe å bekjentgjøre seg med hvordan vi jobber.
+
+Kom i gang
+---------------
+
+Første steg er å sjekke ut vår
+'BIDRA <https://github.com/getlantern/lantern/blob/master/CONTRIBUTING.md>`__
+fil for relevant informasjon. Vi følger standard
+github-modell av bidragsytere som sender inn forespørsler om å hente kode som så
+sentrale utviklere etterser.
+
+Kommunikasjon
+--------------
+Brorparten av vår kommunikasjon finner sted i
+`billettanmerkninger <https://github.com/getlantern/lantern/issues>`__. Du kan 
+`overse <https://help.github.com/articles/watching-repositories>`_ prosjektet 
+i GitHub og motta varslinger når en sak blir oppdatert.
+
+Vi har også et `utvikler-forum <<https://groups.google.com/forum/#!forum/lantern-devel>`__ på google-grupper som 
+vi bruker til å kommunisere. Ikke nøl med å presentere deg på forumet. Vi kan
+finne deg ting å gjøre som du kan fatte interesse for.
+
+Du kan også melde deg på for å hjelpe oss med å finne duplikater 'feilduplikater <http://www.codetriage.com/getlantern/lantern>`_.
+
+Treffe beslutninger
+----------------
+
+Beslutninger i Lantern tas av dets sentrale utviklere. Enhver
+som bidrar tilstrekkelig til utviklingen kan bli en sentral utvikler
+og hjelpe til med å forme Lanterns fremtid.

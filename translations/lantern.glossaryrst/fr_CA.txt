@@ -1,0 +1,50 @@
+Glossaire
+========
+
+.. glossaire::
+
+HTTP
+	Protocole de transfert hypertexte (HTTP). Utilisé pour transférer du contenu tel que des pages Web
+	par Internet. Le contenu est envoyé non chiffré, et n'importe quel
+	`intermédiaire <#wiki-intermédiare>`__ pourrait potentiellement le lire durant
+	le transit. HTTP n'est donc pas sécuritaire. `HTTPS <#wiki-https>`__ est
+	l'équivalent sécurisé de HTTP.
+
+HTTPS
+	Une version sécurisée de `HTTP <#wiki-http>`__. Le contenu est envoyé chiffré pour
+	empêcher qu'un `intermédiaire <#wiki-intermédiaire>`__ puisse le lire
+	durant le transit.
+
+Install4g 
+	Install4g est un programme que nous utilisons pour rendre l'expérience d'installation de Lantern plus agréable sur toutes les plate-formes.
+	
+Intermédiaire
+	Une entité sur un réseau informatique, entre le demandeur de contenu
+	et le serveur qui l'héberge, p. ex.. un `serveur mandataire <#wiki-serveur-mandataire>`__ ou un
+	`fournisseur de services Internet  <#wiki-fsi>`__.
+
+FSI
+	Le fournisseur de services Internet est une organisation qui fournit l'accès à
+	Internet. Le trafic quittant le réseau local d'un ordinateur (à la maison, au bureau,
+	dans un café Internet, etc...) y transite avant d'être soit dirigé vers sa
+	destination, soit d'être bloqué dans le cas où le FSI applique une censure.
+	Pareillement, le trafic dirigé vers votre ordinateur doit passer par le FSI
+	avant de pouvoir vous atteindre.
+
+Pair
+	Un autre utilisateur à qui vous êtes connecté sur un réseau informatique.
+
+Pair-à-pair
+	Décrit une architecture réseau dans laquelle chaque ordinateur du réseau peut
+	agir comme client et serveur, par opposition à juste un ou quelques serveurs
+	fournissant le service à de nombreux clients. les réseaux pair à pair sont
+	décentralisés et par conséquent plus difficile à arrêter.
+
+Serveur mandataire
+	Un `intermédiaire <#wiki-intermédiaire>`__ qui relaie le trafic entre
+	un utilisateur demandant du contenu et le serveur qui l'héberge, souvent parce que
+	l'utilisateur ne peut pas atteindre le serveur directement à cause de la censure.
+
+Mandataire système
+	Un programme qui relaie le trafic de tous les programmes sur un ordinateur qui
+	accède au réseau.

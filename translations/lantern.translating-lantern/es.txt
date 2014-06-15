@@ -1,0 +1,128 @@
+.. _translating-lantern:
+
+Traducir Lantern
+===================
+
+
+Introducción
+-----------
+
+Uno de los mejores caminos para ayudar a Lantern a crecer es traducirlo a su
+idioma local. Nuestra esperanza es tener Lantern disponible en cuantos más
+idiomas sea posible. Hemos iniciado un
+**`foro <https://groups.google.com/group/lantern-i18n>`__
+(lantern-i18n@googlegroups.com)** que coordina la localización ("l10n") /
+internacionalización ("i18n") de Lantern. Si quisiese involucrarse
+no dude en presentarse a si mismo allí. También puede simplemente comenzar con
+las traducciones y establecer contacto allí cuando necesite ayuda. También con toda confianza
+búsquenos en nuestro canal de IRC, **`#lantern en
+Freenode <http://webchat.freenode.net/?channels=lantern>`__**, para chatear
+con nosotros en tiempo real.
+
+Hay unos pocos aspectos diferentes de Lantern que necesitan traducción. Nosotros
+los listamos debajo en secciones, ordenadas toscamente por importancia. Y los más
+importantes son aquellos en los que hemos pasado más tiempo en hacerlos fáciles de
+traducir.
+
+Transifex para la aplicación y vídeo de Lantern
+-------------------------------------------
+
+Las dos cosas más fáciles e importantes de traducir son el mismo
+Lantern y los subtítulos para el
+`vídeo <https://www.youtube.com/watch?v=aiPkCugE-RY>`__ (presentado en 
+http://getlantern.org).
+
+`Transifex <http://transifex.com>`__ es la plataforma que usamos para gestionar
+las traducciones más importantes. Si no la ha usado antes, puede
+revisar su
+`descripción <http://support.transifex.com/customer/portal/articles/869950-what-is-transifex->`__.
+Y luego simplemente diríjase al `Proyecto Lantern
+en Transifex <https://www.transifex.com/projects/p/lantern/>`__.
+
+.. image:: https://www.evernote.com/shard/s209/sh/d2b67dcd-c1c0-420c-87e5-0f374b0b714d/a1aa1697af0dc827888cc81559bc1780/deep/0/Lantern%20localization.png
+   :alt: Lantern en Transifex
+
+   Lantern en Transifex
+Si aún no es un usuario de Transifex, puede fácilmente `registrarse
+<https://www.transifex.com/signup/>`__. Es totalmente gratuito para cualquier
+traductor, y proporcionan generosamente su juego de herramientas completo a proyectos
+de código abierto como Lantern. Sus herramientas son bastante intiutivas de usar,
+y proporcionan una agradable
+`interfaz <http://support.transifex.com/customer/portal/articles/972120-introduction-to-the-web-editor>`__.
+
+El `Proyecto Lantern <https://www.transifex.com/projects/p/lantern/>`__
+en Transifex lista el estado de todos los idiomas solicitados. Para traducir, simplemente
+seleccione su idioma y comience. Si su idioma no está listado allí,
+tan sólo pulse 'Solicitar idioma' y los administradores lo crearán.
+
+Después de que haga clic en su idioma verá tres 'recursos de idioma'
+diferentes:
+
+.. image:: https://www.evernote.com/shard/s209/sh/e396390c-acce-4ea8-9bd5-05ae3e75686f/941ba9184932bba96b6e38b9953029fa/deep/0/Turkish%20Translation%20for%20Lantern%20%7C%20Transifex.png
+   :alt: transifex
+
+   transifex
+Pulse 'Unirse al equipo' para comenzar, y los administradores deberían aprobarle
+rápidamente. Recomendamos **intensamente** pulsar el botón 'Seguir este
+idioma' (en la parte superior del 'historial'), de esta forma sabrá inmediatamente cuando haya
+nuevas tareas de traducción. Después de que haya iniciado el seguimiento, pulse sobre el
+recurso incompleto para contribuir con él:
+
+**ui** es el más importante. Este es la Interfaz de Usuario de Lantern - la
+aplicación principal. Hay cerca de 500 cadenas con menos de 2000 palabras
+en total. Como Lantern todavía está en fase beta, estos cambian relativamente a menudo, en tanto
+damos forma a la expresiones exactas. Así que si ve esto a menos de un 100%,
+por favor, póngase con las traducciones para que la próxima versión de Lantern esté actualizada
+con su idioma.
+
+**email** es el segundo más importante ya que es la forma en la que los nuevos usuarios
+interaccionarán primero con Lantern. Así que tener esto traducido asegurará que
+la gente verá ese texto en su idioma en lugar de inglés.
+
+**Lantern Video Captions** (subtítulos de vídeo de Lantern) es probablemente el más fácil, con sólo 224 palabras.
+Es una gran forma de comenzar, y tiene un gran impacto ya que podemos comunicar más
+fácilmente lo que es Lantern. Sus palabras traducidas se mostrarán
+como subtítulos en el `Vídeo
+de Lantern <https://www.youtube.com/watch?v=aiPkCugE-RY>`__. Notifique al
+`foro de
+internacionalización <https://groups.google.com/group/lantern-i18n>`__ cuando alcance
+el 100%, para que alguien pueda actualizar los subtítulos. Al contrario que la UI (interfaz de usuario) no será
+unificada (pulled) automáticamente.
+
+**www** es el sitio web en https://www.getlantern.org . Aún no lo hemos
+implementado completamente para cambiar de idioma fácilmente, pero llegará pronto, así
+las traducciones serán mucho más valiosas.
+
+Si todos están en un 100%, entonces tan solo asegúrese de pulsar 'Seguir este idioma' y
+se le notificará tan pronto como haya más material para traducir. Como Lantern está
+evolucionando continuamente, definitivamente habrá nuevas cadenas que traducir
+más pronto que tarde.
+
+Iniciar un foro para su idioma
+-------------------------------
+
+Si desease ayudar a otros usuarios en su idioma, le animamos a que
+cree un foro específico para ese idioma. Ahora mismo sólo tenemos uno en inglés,
+pero puede ayudar a crear uno para usted y promoverlo en Lantern. Tan solo envíe un
+correo electrónico al `foro de
+internacionalización <https://groups.google.com/group/lantern-i18n>`__ y podremos conseguir
+establecerle.
+
+Documentación
+-------------
+
+Nuestra documentación es muy coyuntural, ya que vamos a movernos pronto
+a otro sistema que debe estar mucho más adaptado a las traducciones. También
+puede que exploremos llevar los documentos a Transifex, pero eso probablemente será
+después de la 1.0, cuando la documentación se asiente un poco, ya que supondrá mucho
+que traducir.
+
+Entre tanto, si desease ayudar a traducir la documentación
+en este wiki, por favor envíenos una nota pidiendo ser añadido a nuestro equipo
+de traductores en GitHub. Una vez sea añadido puede comenzar a traducir la
+jerarquía de documentación. Tan solo vea qué páginas están en inglés y
+cree nuevas páginas con el nombre de la página traducido a su idioma.
+Todos los usuarios de los documentos verán las opciones de idioma en la parte superior de la página,
+que les llevarán a la bienvenida en su idioma. Desafortunadamente la barra lateral
+siempre estará en inglés, pero el futuro sistema será mejor. Y podremos
+transferir fácilmente el resultado de su duro trabajo allí.

@@ -1,0 +1,25 @@
+
+Actualizar a una nueva versión de Lantern
+======================================
+
+Cuando publiquemos una nueva versión, enviaremos un correo electrónico con un enlace para
+descargar el nuevo instalador. Ahora mismo, enviar este correo es un
+proceso manual.
+
+Si no recibe el correo electrónico, puede utilizar el enlace de su invitación
+original para descargar la última versión.
+
+.. image:: https://dl.dropboxusercontent.com/u/253631/download_links.png
+	:alt: Correo de invitación a Lantern
+
+   Correo de invitación a Lantern
+Estamos trabajando para añadir `notificaciones
+de actualización <https://github.com/getlantern/lantern/issues/992>`__ a
+Lantern. Mientras tanto, los mejores sitios para realizar seguimiento de nuevas versiones
+son:
+
+-  `Twitter <https://twitter.com/getlantern>`__
+-  `Tumblr <http://get-lantern.tumblr.com/>`__
+-  `Facebook <https://www.facebook.com/getlantern>`__
+-  `Google
+   Groups <https://groups.google.com/forum/#!forum/lantern-users-en>`__

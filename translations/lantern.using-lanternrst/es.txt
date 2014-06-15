@@ -1,0 +1,125 @@
+Usar Lantern
+=============
+
+Después de que haya finalizado :DOC:`Setup` está preparado para comenzar a usar Lantern.
+
+Usuarios **Obteniendo acceso**
+------------------------
+
+Si está en una región bajo censura y tiene instalado Lantern, simplemente abra
+su navegador favorito y navegue hacia cualquier sitio bloqueado. Cualquier navegador
+debería funcionar, ya que Lantern se configura a si mismo para manejar cualquier conexión desde
+su equipo.
+
+.. image:: https://www.evernote.com/shard/s209/sh/ebdd003b-5c06-430f-a239-ea4a28c444cf/3f6d143232be6ffe1b1d0edcc5cf309d/deep/0/Fullscreen%208/18/13%209:00%20PM.png
+   :alt: Lantern funcionando
+
+Mientras su navegación está conectando, Lantern informa de la actividad. En
+el mapa habrá una línea entre su equipo y las computadoras de
+sus amigos. Si sus amigos no están disponibles, puede que vean que usted está conectado
+a uno de los servidores de respaldo de Lantern. Vea :ref:`lantern-cloud-servers`.
+
+Puede ver su ancho de banda subiendo y bajando en la esquina superior derecha de Lantern. Esto irá
+cambiando cuando navegue.
+
+Si no puede acceder a un sitio web, puede que tenga que añadirlo a la Lista de Sitios de su Proxy.
+Vea :ref:`config-proxied-sites`.
+
+Si aún no puede conseguir acceso, puede intentar invitar a más amigos ubicados en
+países sin censura, quienes pueden compartir sus conexiones con usted. También podría
+patrocinar un servidor en la nube para ayudar a la red Lantern. Vea :ref:`lantern-cloud-servers`.
+
+También tenemos un `foro <https://groups.google.com/forum/#!forum/lantern-users-en>`_ donde 
+puede conseguir ayuda.
+
+Usuarios **Otorgando acceso**
+-----------------------
+
+Los usuarios que están otorgando acceso, a menudo no tendrán conexiones inmediatamente.
+Si quiere asegurarse de que Lantern está funcionando, puede comprobar el modo
+**Obtener acceso**.
+
+.. image:: https://www.evernote.com/shard/s209/sh/e1e59fee-9976-47c0-a9b9-856c4888c521/f34171fc3725a47efb0cdbfd3f163b2a/deep/0/Lantern%20and%20Freedom%20House.png
+   :alt: obteniendo acceso
+
+Simplemente vaya a las 'configuraciones', cambie al modo 'obtener acceso', e intente los
+pasos de arriba.
+
+Todos los usuarios
+---------
+
+Explorar la red Lantern
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: https://www.evernote.com/shard/s209/sh/57a422d3-27f1-4b45-b05c-09b87636ab23/8b8d1d84c456798cd0f3e045590dc3e7/deep/0/Lantern.png
+   :alt: red Lantern
+
+
+Puede explorar el mapa de la red Lantern. En la parte inferior de la pantalla
+se muestran las estadísticas globales de todos los participantes en la red - cuántos usuarios
+están conectados ahora, cuántos lo han estado alguna vez, y el ancho de banda total
+transferido (actualmente no funcional). Si pasa el puntero del ratón sobre un país se le mostrarán
+estadísticas similares referentes a ese país. También puede pasar el puntero del ratón sobre su
+propio usuario, y los usuarios con los que se está conectando, mostrados como puntos en el mapa.
+
+.. _adding-friends:
+
+Añadir amigos
+^^^^^^^^^^^^^^
+
+Construir su red Lantern añadiendo amigos es la principal tarea para
+los usuarios Otorgando Acceso desde países abiertos. Añadir otros usuarios de países
+sin censura es la clave para expandir la red. Y cualquier amigo en un país
+bajo censura que añada a su lista de nombres, instantáneamente se beneficiará de su
+conexión, y de la de aquellos otros amigos suyos.
+
+Y es crítico para los usuarios que están Obteniendo Acceso, invitar a más usuarios
+de confianza para mejorar la red. Añadir amigos de países sin censura es
+directamente beneficioso para mejorar las conexiones. Pero ayudar a otros amigos
+de dentro de su país también ayuda a construir la red Lantern y a conectarle a usted
+con más servidores proxy (interpuestos) de Lantern.
+
+.. image:: https://www.evernote.com/shard/s209/sh/69dfc002-b2c8-4f31-9c77-baf39d9e97a2/ecd8f30823d03d085fd271a6f77923c5/deep/0/Lantern.png
+   :alt: añadir amigos
+
+Puede añadir amigos en cualquier momento con el botón amigo en la parte inferior
+derecha.
+
+.. image:: https://www.evernote.com/shard/s209/sh/5f777d62-6c2f-405d-b065-1fb8ba948e6c/c3493f15bd539a174f5a901d5404dea9/deep/0/Lantern.png
+   :alt: amigos
+
+Esto levantará la pantalla 'Amigos en Lantern'. Puede introducir la dirección de
+correo electrónico de cualquier amigo que tenga una cuenta de Google. Cualquier dirección de Gmail
+definitivamente funcionará. Si no está seguro simplemente puede probar a añadirlos, ya
+que muchas personas tienen otra dirección de correo configurada para trabajar con Google.
+Al añadirles les enviará una invitación para unirse a Lantern, con un enlace a la
+descarga. Una vez que ellos inician sesión al mismo tiempo que usted la tiene iniciada, sus estados
+cambiarán en la ventana de amigos de usted.
+
+La imagen de debajo muestra amigos transfiriendo con éxito desde un usuario en
+modo 'otorgar'.
+
+.. image:: https://www.evernote.com/shard/s209/sh/ba32dfb0-959d-494b-9065-2053aab61875/839570ec5c5e0df068455bc7a00daa96/deep/0/Lantern%20and%20Editing%20Using%20Lantern%20%C2%B7%20getlantern/lantern%20Wiki.png
+   :alt: amigos transfiriendo
+
+Observe que no siempre habrá líneas de conexión entre amigos.
+Esto sucede cuando no puede establecerse la ubicación aproximada. Siempre
+podrá ver si está ocurriendo la transferencia mirando en la
+esquina superior derecha, u observando la lista de amigos.
+
+Eliminar personas de su lista de amigos provocará que no puedan
+acceder a su conexión a Internet, y viceversa.
+
+Dejar Lantern ejecutándose
+^^^^^^^^^^^^^^^^^^^^^
+
+Le animamos a que deje Lantern ejecutándose, para que así pueda estar ayudando a
+otros incluso si no está usándolo en ese momento. Cerrar la ventana de Lantern no detiene Lantern. El icono de Lantern todavía aparece en su barra de menú.
+
+Salir de Lantern
+^^^^^^^^^^^^^^^^
+
+Para salir de Lantern, haga clic en el icono de Lantern y seleccione 'Salir de Lantern'.
+
+.. image: https://www.evernote.com/shard/s209/sh/9308b039-b326-4160-b7d1-4f6f15c210a7/41fe4b0ebde601cb9ffd5d0ceb09a8c8/deep/0/Screen%20Shot%202013-08-16%20at%208.07.29%20PM.png
+	alt: El menú de Lantern con Salir de Lantern seleccionada.

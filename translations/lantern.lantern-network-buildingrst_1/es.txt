@@ -1,0 +1,158 @@
+Construir la red Lantern
+========================
+
+Lantern depende de una fuerte red de usuarios de confianza que abarca más
+allá de los límites de la censura, y que incluye suficientes usuarios en modo Otorgar para tener
+proxys disponibles cuando los usuarios bajo censura lo necesiten.
+
+Para este fin, los usuarios de ambos modos Otorgar y Obtener necesitan herramientas para ayudarles a hacer crecer
+sus redes de confianza. Los beneficios de hacer crecer la red de confianza de Lantern
+no son inmediatamente palpables para los usuarios. A los usuarios en modo Otorgar
+puede llevarles un tiempo antes de ver algún usuario conectándose en modo Obtener a través de sus proxys.
+Debido a la disponibilidad inmediata de proxys de respaldo, los usuarios en modo Obtener
+puede que no se den cuenta de la importancia de construir su red de confianza para
+mejorar la velocidad y fiabilidad de la red de proxys de Lantern.
+
+Dados estos desafíos, Lantern debe tanto facilitar cuanto sea posible
+hacer crecer la red de confianza de cada uno, como proporcionar educación,
+fomento, y experiencias atractivas, para conseguir que los usuarios lo realicen.
+
+Las herramientas para hacer crecer la red de cada uno son aplicables tanto para el modo
+Otorgar como el modo Obtener, aunque la formación y el estímulo han de ser sensibles a
+diferencias en las experiencias de los modos Otorgar y Obtener.
+
+Este documento da forma a aproximaciones para resolver todos estos aspectos de
+la construcción de la red de confianza.
+
+nota - Es importante recordar que gran parte de la construcción de la red puede
+continuar informalmente, y fuera de la aplicación Lantern - a la postre
+Lantern sólo necesita saber de ella una vez la conexión se ha establecido. Antes de
+ir demasiado lejos por el camino de la elaboración de herramientas específicas, debemos
+asegurarnos de hablar con nuestros "conectores", es decir, con las personas que tienen
+relaciones que hacen de puente en los límites de la censura, y que es probable que sean
+las piezas claves de la red de confianza de Lantern en sus etapas más tempranas.
+
+Herramientas
+~~~~~
+
+Encontrar e invitar amigos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Lantern debe facilitar encontrar amigos en Lantern, en particular unos
+que puedan ayudar establecer puentes en los límites de la censura. Para este fin, Lantern debe
+integrarse con redes sociales populares
+
+-  Envío de correo electrónico a través de Google Contacts (ya implementado)
+- Círculos de Google+
+- LinkedIn
+-  Facebook
+-  Twitter
+
+No todos los amigos son creados de la misma manera. Queremos conectar usuarios desde
+países sin censura con usuarios en países bajo censura. Para este fin,
+queremos priorizar relaciones donde:
+
+1. Los amigos se encuentren en diferentes situaciones de censura
+2. Uno de los amigos tenga conexiones con personas con una situación
+   de censura distinta
+
+El elemento 1 puede llevarse a cabo con la mayoría de APIs sociales que incluyen información
+de localización sobre amigos (que a su vez son la mayoría de ellas). El problema es que
+no hay necesariamente mucha gente que tenga amigos al otro lado
+de los límites de la censura.
+
+El elemento 2 puede llevarse a cabo con LinkedIn. La ventaja de esto es que
+puede ayudarnos a expandir la disponibilidad de "conectores".
+
+¿Qué más necesitamos aquí? Muchos sistemas de invitación de redes sociales tienen una
+forma de realizar seguimiento de las respuestas reenviando recordatorios y cosas así...
+
+Formación y estímulo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Hay muchos muchas formas de aproximarse a esto. Es instructivo mirar las inciativas que aúnan tanto
+redes sociales como a aparatos electrónicos, como el `Termostato
+Nest <http://nest.com/>`__.
+
+Las redes sociales repetidamente le estimulan a construir su red al:
+
+- Sugerir nuevos amigos en base a amigos e intereses existentes
+- Sugerir nuevos amigos basados en contatos de su lista de contactos
+- Proporcionar un mecanismo para que los amigos se envíen mensajes entre ellos
+- Recordarle eventos de la vidas de sus amigos (ej. cumpleaños) para conseguir
+   que usted contacte y se comunique con ese amigo. En el caso de
+   Lantern, esto podría ser algo parecido a "Sally obtuvo acceso a través de Joe
+   por primera vez" (vea
+   https://github.com/getlantern/lantern/issues/1048)
+
+El termostato Nest tiene algunos paralelismos interesantes con Lantern porque
+también es algo con lo que interacciona de forma infrecuente y que
+utiliza para lograr una meta muy específica (ahorrar energía mientras se mantiene
+cómodo). Dos cosas que el termostato Nest hace particularmente bien
+son:
+
+1. Recopila una variedad de medidas interesantes, pero las reduce
+   a un único número fácil-de-entender, concretamente cuántas horas funcionó
+   su sistema de climatización en el último mes. A partir de ahí, uno puede
+   profundizar en el resto de medidas para comprender qué llevó a aquel
+   uso, pero tener ese único número a modo de resumen hace que sea fácil
+   llevar un seguimiento de qué está sucediendo sin tener que invertir demasiado
+   'ancho de banda mental'.
+
+2. Utiliza correos electrónicos mensuales para hacerle saber sus detalles de uso, le hace
+   sentir parte de una comunidad, y le recuerda que hay un equipo de
+   personas constantemente mejorando Nest.
+
+En el caso de Lantern. los usuarios en los modos Otorgar y Obtener tienen objetivos
+complementarios pero ligeramente diferentes.
+
+Los usuarios en modo Obtener están interesados en disponibilidad y velocidad. Los usuarios en modo Otorgar
+están interesados en auxiliar a cuanta más personas sea posible (o a personas
+específicas), pero limitando también cuánto se consume de su ancho de banda, y
+qué sitios están siendo visitados a través de sus conexiones.
+
+Esto sugiere una jerarquía de medidas como las siguientes (todas desglosadas
+mensualmente si es posible):
+
+- Número de bytes proxyficados
+- Número de pares (peers) activos en alguna ocasión durante el mes
+- Número de horas que Lantern estuvo funcionando (vea
+   https://github.com/getlantern/lantern/issues/1025)
+- Los 5 dominios más proxyficados por número de peticiones (vea
+   https://github.com/getlantern/lantern/issues/1027)
+-  ¿¿¿???
+
+Las primeras dos sub-medidas, número de pares (peers) y número de horas, presentan puntos de
+claras llamadas a actuar cuando esos números sean bajos, particularmente a "hacer crecer su
+red" y a "ejecutar Lantern".
+
+Estas son dos cosas sobre las que podemos y debemos hacer recordatorios a la gente vía
+correo electrónico.
+
+Programación del correo electrónico
+^^^^^^^^^^^^^^
+
+1. Bienvenida a Lantern
+2. (Si el usuario no ha añadido ningún amigo) - Añadir algunos amigos
+3. Actualización mensual de estado
+4. ¿¿¿???
+
+Cola de asuntos relacionados
+~~~~~~~~~~~~~~~
+
+-  https://github.com/getlantern/lantern/issues/988
+-  https://github.com/getlantern/lantern/issues/972
+-  https://github.com/getlantern/lantern/issues/971
+-  https://github.com/getlantern/lantern/issues/969
+-  https://github.com/getlantern/lantern/issues/967
+-  https://github.com/getlantern/lantern/issues/966
+-  https://github.com/getlantern/lantern/issues/965
+-  https://github.com/getlantern/lantern/issues/654
+-  https://github.com/getlantern/lantern/issues/964
+-  https://github.com/getlantern/lantern/issues/647
+-  https://github.com/getlantern/lantern/issues/580
+-  https://github.com/getlantern/lantern/issues/960
+-  https://github.com/getlantern/lantern/issues/947
+-  https://github.com/getlantern/lantern/issues/946
+-  https://github.com/getlantern/lantern/issues/945
+-  https://github.com/getlantern/lantern/issues/937

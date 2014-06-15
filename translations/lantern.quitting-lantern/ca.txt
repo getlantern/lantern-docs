@@ -1,0 +1,25 @@
+Sortint de Lantern 
+================
+
+Us encoratgem a deixar Lantern executant-se
+en segon pla, de manera que els usuaris censurats puguin obtenir accés
+mentre tu fas altres tasques. Encara que tanquis la finestra del Mapa de Xarxa, la icona de Lantern continua mostrant-se a la barra de menús. 
+
+Les següents instruccions mostren com sortir de l'aplicació Lantern en funció del sistema operatiu.
+
+
+Mac
+^^^
+
+Fes clic a la icona de **Lantern** i selecciona **Sortir de Lantern**. 
+
+.. image:: https://www.evernote.com/shard/s209/sh/9308b039-b326-4160-b7d1-4f6f15c210a7/41fe4b0ebde601cb9ffd5d0ceb09a8c8/deep/0/Screen%20Shot%202013-08-16%20at%208.07.29%20PM.png
+	:alt:Icona de la Barra de Menú
+
+Windows
+^^^^^^
+
+Fes clic a la icona de **Lantern** i selecciona **Sortir de Lantern**.
+
+.. image:: http://i.imgur.com/7vk5vNz.png
+	:alt:Icona de la Barra de Menú

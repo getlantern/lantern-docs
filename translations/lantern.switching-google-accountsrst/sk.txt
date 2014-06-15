@@ -1,0 +1,49 @@
+Vymieňanie účtov Google
+=========================
+
+Môžete zmeniť vami používaný Google email pomocou resetovania
+Lanternu a opätovného úvodného konfiguračného procesu.
+
+Zobrazenie sieťovej mapy Lanternu
+----------------------------
+
+Aj keď je úžasné sledovať Lanternovské pripojenia prechádzať naprieč celým svetom,
+väčšinu času zrejme budete mať Lantern spustený bez
+zobrazenej sieťovej mapy.
+
+Zvoľte si možnosť Zobraziť Lantern z ikony Lanternu v stavovej lište.
+
+.. obrázok:: https://dl.dropboxusercontent.com/u/253631/Show_Lantern.png
+   :alt: Zobraziť Lantern
+
+   Zobraziť Lantern
+
+Resetovať Lantern
+-------------
+
+Ako ďalší krok resetujte Lantern a prejdite úvodným konfiguračným procesom znova. Resetovaním
+Lantern vyčistí všetky uložené informácie od doby vašej poslednej úvodnej konfigurácie.
+
+1. Kliknite na ikonu Nastavenia.
+
+   .. obrázok:: https://dl.dropboxusercontent.com/u/253631/Lantern_Settings_Icon.png
+      :alt: Zobraziť Lantern
+
+      Zobraziť Lantern
+
+2. Kliknite na tlačidlo resetovať.
+
+   .. obrázok:: https://dl.dropboxusercontent.com/u/253631/Lantern_Reset_Button.png
+      :alt: Zobraziť Lantern
+
+   Objaví sa dialóg vyžadujúci potvrdenie resetu.
+   Lantern.
+
+3. Kliknite na tlačidlo resetovať.
+
+   .. obrázok:: https://dl.dropboxusercontent.com/u/253631/Lantern_Confirm_Reset.png
+      :alt: Zobraziť Lantern
+
+   Lantern sa resetuje a vy bude môcť prejsť úvodným konfiguračným procesom za pomoci
+   iného účtu. Pozrite si aj :ref:`setting-up-lantern`.
+

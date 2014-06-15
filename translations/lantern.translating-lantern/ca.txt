@@ -1,0 +1,128 @@
+.. _translating-lantern:
+
+Traduint Lantern
+===================
+
+
+Introducció
+-----------
+
+Una de les millors tasques per ajudar a fer créixer Lantern és traduint-lo
+al teu idioma. El nostre desig és disposar de Lantern en el màxim
+nombre d'idiomes possible. Hem iniciat un
+**`forum <https://groups.google.com/group/lantern-i18n>`__
+(lantern-i18n@googlegroups.com)** coordinating localization ("l10n") /
+internationalization ("i18n") de Lantern. Si t'hi vols implicar,
+no dubtis en presentar-te aquí. També pots començar a 
+traduir i contactar amb el fòrum quan necessitis ajuda. També ens
+trobaràs al nostre canal de IRC, **`#lantern on
+Freenode <http://webchat.freenode.net/?channels=lantern>`__**,
+per fer un xat amb nosaltres en temps real.
+
+Hi ha diferents aspectes de Lantern que requereixen traducció.
+Els mostrem avall en seccions, per ordre de rellevància. Els més 
+importants són els que hi hem dedicat més temps per facilitar-ne la
+traducció.
+
+Transifex per l'Aplicació Lantern i Vídeo
+-------------------------------------------
+
+Les dues coses més fàcils i importants de traduir són la pròpia Lantern
+i els textos de llegendes per al
+`video <https://www.youtube.com/watch?v=aiPkCugE-RY>`__ (mencionat a
+http://getlantern.org).
+
+Utilitzem la plataforma `Transifex <http://transifex.com>`__ per gestionar
+les traduccions més rellevants. Si no l'has utilitzat abans,
+fes un cop d'ull a
+`explanation <http://support.transifex.com/customer/portal/articles/869950-what-is-transifex->`__.
+Tot seguit, vés al `Lantern Transifex
+Project <https://www.transifex.com/projects/p/lantern/>`__.
+
+.. image:: https://www.evernote.com/shard/s209/sh/d2b67dcd-c1c0-420c-87e5-0f374b0b714d/a1aa1697af0dc827888cc81559bc1780/deep/0/Lantern%20localization.png
+   :alt: lantern a transifex
+
+   lantern a transifex
+Si encara no ets usuari de Transifex, pots fàcilment `sign
+up <https://www.transifex.com/signup/>`__. És del tot gratuït per a 
+qualsevol traductor, i ofereixen una completa caixa d'eines per als 
+projectes de codi obert com ara Lantern. Les seves eines són força
+intuïtives d'utilitzar. Proporcionen una bonica
+`overview <http://support.transifex.com/customer/portal/articles/972120-introduction-to-the-web-editor>`__.
+
+El `Lantern Project <https://www.transifex.com/projects/p/lantern/>`__
+a transifex mostra una llista amb l'estat de tots els idiomes. Per traduir,
+només cal seleccionar el teu idioma i començar. Si el teu idioma no està 
+a la llista, simplement fes clic sobre 'Demanar idioma' i els administradors el
+
+crearan. Després de fer clic sobre el teu idioma, veuràs tres 'recursos
+d'idioma' diferents:
+
+.. image:: https://www.evernote.com/shard/s209/sh/e396390c-acce-4ea8-9bd5-05ae3e75686f/941ba9184932bba96b6e38b9953029fa/deep/0/Turkish%20Translation%20for%20Lantern%20%7C%20Transifex.png
+   :alt: transifex
+
+   transifex
+Fes clic a 'unir-se a l'equip' per començar, i els administradors t'haurien
+d'aprovar ràpidament. Recomanem **de totes totes** fer clic sobre el botó
+'segueix aquest idioma' (al capdamunt de 'història'). D'aquesta manera 
+estaràs assabentat immediatament quan hi hagi noves tasques de traducció.
+Un cop has iniciat el seguiment, tria algun dels recursos incomplets:
+
+El recurs més important és **ui**. Significa Interfície d'Usuari de Lantern - 
+l'aplicació principal. Hi ha al voltant de 500 cadenes amb gairebé 2000
+paraules. Això canvia sovint, doncs Lantern està encara en fase beta i 
+mirem de trobar les paraules precises. Així doncs, si està per sota del 100%
+si us plau fes-ne la traducció ben aviat, i així la propera versió de Lantern
+estarà al corrent amb el teu idioma.
+
+El segon en importància és **correu electrònic**, perquè és així com
+interactuen els usuaris per primer cop amb Lantern. Si aquesta part està 
+traduïda, assegurem que els usuaris veuran el text en l'idioma, no en anglès.
+
+El més senzill pot ser **Subtítols del Vídeo de Lantern**, amb 224 paraules.
+És una excel·lent forma de començar, i té un gran impacte, doncs
+permet comunicar més fàcilment què és Lantern. Les paraules que hagis
+traduït apareixeran com a Subtítols al `Lantern
+Video <https://www.youtube.com/watch?v=aiPkCugE-RY>`__. Notifica al
+`internationalization
+forum <https://groups.google.com/group/lantern-i18n>`__ quan arribis al
+100%, així algú podrà actualitzar els subtítols. A diferència de la UI, els
+textos no s'integren automàticament.
+
+**www** is the website at https://www.getlantern.org. We have not yet
+fully set it up to easily change languages, but it is coming soon, so
+translations are very much appreciated.
+
+If all are at 100% then just be sure to hit 'watch this language' and
+you'll be notified as soon as there is more to translate. As Lantern is
+continually evolving there will definitely be new strings to translate
+before long.
+
+Start a forum for your language
+-------------------------------
+
+If you'd like to help other users in your language we encourage you to
+create a language specific forum. Right now we only have an English one,
+but can help create one for you and promote it on Lantern. Just send an
+email to `internationalization
+forum <https://groups.google.com/group/lantern-i18n>`__ and we can get
+you set up.
+
+Documentation
+-------------
+
+Our documentation is very much in flux, as we are moving to another
+system soon that should be much more conducive to translations. We may
+also investigate getting docs in to transifex, but that will probably be
+post 1.0, when the documentation settles down a bit, as it will be a lot
+to translate.
+
+Mentrestant, si volguessis contribuir en la traducció de la documentació
+in this wiki, please send us a note asking to be added to our GitHub
+Translators team. Once you're added you can start translating the
+hierarchy of documentation. Just see what pages there are in english and
+create new pages with the name of the page translated to your language.
+All users to the docs will see the language options at the top page,
+going to the welcome in their language. Unfortunately the side bar will
+always be English, but the future system will be better. And we'll be
+able to easily transfer your hard work over.

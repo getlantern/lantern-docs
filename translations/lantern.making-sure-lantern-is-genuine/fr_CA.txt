@@ -1,0 +1,88 @@
+.. _s-assurer-que-lantern-est-authentique:
+
+S'assurer que Lantern est authentique
+==============================
+
+Des acteurs malicieux pourraient essayer d'imiter les pages Web officielles, 
+le logiciel, les courriels et autre contenu de Lantern pour répandre de fausses informations, suivre
+les utilisateurs potentiels de Lantern, ou diffuser des 
+`logiciels malveillants <https://fr.wikipedia.org/wiki/Logiciel_malveillant>`__ se faisant passer pour
+Lantern. **Il est très important de toujours s'assurer que le contenu de Lantern est
+authentique.**
+
+Heureusement, il est simple de vérifier l'authenticité du contenu
+de Lantern. 
+
+Comment puis-je savoir que cette page est authentique?
+-----------------------------------
+
+Regardez la barre d'adresse de votre navigateur et remarquez que l'adresse commence exactement par : ``https://github.com/getlantern``. C'est la page d'accueil officielle du projet Lantern sur github.com, qui est le site utilisé pour hébergé le code source de Lantern et sa documentation. 
+
+**(À FAIRE : mettre ceci à jour quand nous migrerons la
+documentation hors du wiki GitHub.)**
+
+getlantern.org
+^^^^^^^^^^^^^^
+Le site Web officiel de Lantern est https://getlantern.org. Remarquez le
+*https*, par opposition à *http*, au début de cette adresse.
+**Toujours utiliser l'adresse https signifie que votre navigateur garantira qu'il
+se connecte au site Web officiel getlantern.org.** Si quelqu'un ayant la
+capacité d'intercepter votre trafic, tel que votre gouvernement ou FSI, essayait
+de l'altérer, votre utilisation de https implique que votre navigateur peut détecter
+l'interférence et vous en avertir au lieu de charger le faux
+site.[1]
+
+Les similis getlantern
+-----------------------
+
+Remarquez que getlantern.org ressemble beaucoup à getIantern.org
+(un i majuscule à la place du l minuscule) et ressemble aussi beaucoup
+à "getlantem.org" (un m en place du rn). Pour empêcher ces substitutions nuisibles, l'Équipe Lantern a acheté tous ces similis domaines, et a aussi enregistrer les similis noms d'utilisateurs sur GitHub, Twitter et autres sites. Vous devriez quand même être conscient que cette ruse peut malgré tout apparaître à d'autres places.
+
+Miroir officiel getlantern.org
+------------------------------
+
+Le site Web getlantern.org est bloqué dans certains pays, mais Amazon
+S3 -- un fournisseur d'hébergement Web très utilisé -- est souvent accessible
+dans ces pays. Pour cette raison, les développeurs de Lantern maintiennent un miroir
+officiel de getlantern.org sur S3 à l'adresse suivante :
+
+https://s3.amazonaws.com/getlantern.org/index.html
+
+**C'est le seul et unique miroir officiel de getlantern.org.** 
+
+Si jamais vous voyez un site Web se réclamant être Lantern qui n'est ni
+https://getlantern.org ni le miroir officiel ci-dessus **ne lui faite pas
+confiance.**
+
+Courriel officiel de Lantern
+----------------------
+
+À FAIRE
+
+Logiciel officiel Lantern
+-------------------------
+
+À FAIRE
+
+Autres comptes officiels de Lantern
+-------------------------------
+
+Voici une liste exhaustive de tous les comptes officiels de Lantern. Si
+jamais vous rencontrez du contenu Lantern qui n'est pas listé ici, veuillez nous contacter par
+`courriel <mailto:team@getlantern.org?subject=Genuine+Content%3F>`__ à team@getlantern.org avec l'objet « Contenu authentique? / Genuine
+Content? » et nous le vérifierons et l'ajouterons ici.
+
+-  https://twitter.com/getlantern
+-  https://www.facebook.com/getlantern
+-  https://www.youtube.com/getlantern
+-  http://get-lantern.tumblr.com/
+-  http://lanterndev.tumblr.com/
+-  http://instagram.com/getlantern
+
+--------------
+
+[1] Les utilisateurs experts qui désirent vérifier le certificat https de getlantern.org
+peuvent s'assurer que son SHA1 correspond à l'empreinte suivante DE 5F B1 45
+AE 9A D3 15 30 D7 DB AF 85 91 C7 A8 62 F5 15 D3. Voir
+https://www.grc.com/fingerprints.htm pour une vérification par un tiers.

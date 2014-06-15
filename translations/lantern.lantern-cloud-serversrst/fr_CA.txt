@@ -1,0 +1,24 @@
+.. _serveurs-nuagiques-lantern:
+
+=====================
+Serveurs nuagiques Lantern
+=====================
+
+Les serveurs nuagiques Lantern sont des petites `instances
+EC2 d'Amazon <https://fr.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud>`__
+qui servent de repli quand il n'y a pas assez d'utilisateurs pairs en ligne.
+
+Ceci assure que l'on pourra se connecter, même si un ami n'est pas
+en ligne. Ils aident à rendre le réseau Lantern bien plus robuste.
+
+Malheureusement ces serveurs coûtent de l'argent et Brave New
+Sotware, l'organisation derrière Lantern, ne peut en fournir qu'un nombre
+limité. Si vous voulez aider, vous pourrez bientôt commanditer votre propre
+serveur nuagique Lantern sur http://rally.org (à venir) si vous êtes dans un
+pays censuré qui fournit un accès direct, à vous et à vos amis.
+Et c'est une très bonne façon de donner, depuis un pays non censuré, augmentant
+ainsi la fiabilité du réseau Lantern.
+
+Vu que notre intégration à Rally ne fonctionne pas encore, veuillez nous joindre à
+contact (à) getlantern.org et nous pourrons accepter votre don et démarrer
+pour vous un serveur dédié.

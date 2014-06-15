@@ -1,0 +1,6 @@
+Stažení Lanternu
+===================
+
+Lantern je nyní ve stavu zavřené bety. Pro stažení Lanternu je potřeba, abyste byl pozván
+někým, kdo již Lantern používá. pokud nemáte žádné přátele, kteří by vás mohli pozvat, přidejte svoji
+adresu elektronické pošty (e-mail) do přihlašovacího formuláře na stránkách <http://GetLantern.org>_.

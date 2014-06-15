@@ -1,0 +1,25 @@
+Saliendo de Lantern 
+================
+
+Le animamos a que simplemente deje Lantern ejecutándose en
+segundo plano, para que pueda ayudar a usuarios bajo censura a obtener acceso incluso mientras
+está haciendo otras tareas. Si cierra la ventana de Mapa de Red, todavía aparecerá un icono de Lantern en su barra de menú. 
+
+Las siguientes instrucciones le muetran cómo salir de la aplicación Lantern en diferentes sistemas operativos.
+
+
+Mac
+^^^
+
+Haga clic en el icono **Lantern** y seleccione **Salir de Lantern**. 
+
+.. image:: https://www.evernote.com/shard/s209/sh/9308b039-b326-4160-b7d1-4f6f15c210a7/41fe4b0ebde601cb9ffd5d0ceb09a8c8/deep/0/Screen%20Shot%202013-08-16%20at%208.07.29%20PM.png
+	:alt:Icono de la barra de menú
+
+Windows
+^^^^^^
+
+Haga clic en el icono **Lantern** y seleccione **Salir de Lantern**.
+
+.. image:: http://i.imgur.com/7vk5vNz.png
+	:alt:Icono de la barra de menú

@@ -1,0 +1,70 @@
+Lantern brukerundersøkelse for tilfredshet
+Vennligst fortell oss om deg
+
+Takk for at du tar deg tid til å fullføre denne undersøkelsen. Den vil hjelpe Lanterne-mannskapet med å forstå hvordan Lanter skal bli enda bedre.
+Hvordan fikk du en invitasjon til Lantern?
+Fra Lanterne-mannskapet
+Fra en venn
+Annet (vennligst spesifiser)
+Vennligst spesifiser
+
+Har du invitert noen venner til Lantern?
+Ja
+Nei
+Hvis Nei, hvorfor ikke?
+
+Hvordan bruker du Lantern?
+Til å besøke nettsider som er blokkert innenlands
+Til å besøke nettsider som er blokkert på jobb
+Til å hjelpe folk i land med sensur tilgang til et åpent internett
+
+Bruker du noen nettleser-tillegg for å behandle dine mellomtjener-innstillinger? (velg alle som er relevante)
+ProxySwitchySharp
+FoxyProxy
+
+Bruker du noen andre verktøy for å omgå sensur? (velg alle som er relevante)
+Tor
+GoAgent
+Psiphon
+Ultrasurf
+Freegate
+alkasir
+
+Hvilke andre verktøy er for tiden ikke blokkert for deg? (velg alle som er relevante)
+
+
+Programvare
+
+Vennligst fortell oss om din erfaring med bruk av Lantern
+Veldig enig
+Enig
+Nøytral
+Uenig
+Veldig uenig
+i/t
+Å bli invitert til Lantern er lett
+Nedlasting av Lantern er lett
+Installasjon av Lantern er lett
+Konfigurasjon av lantern for å mellomtjene sidene jeg ønsker er lett
+Lantern lar meg nå alle de blokkerte sidene jeg ønsker
+Suring med Lantern er så like raskt som surfing uten Lantern
+Når Lantern kjører i bakgrunnen, legger jeg ikke engang merke til det
+Lantern kræsjer aldri
+Lantern gjør meg kjent med når det kjører
+Lantern gir meg interessant informasjon om lanterne-nettverket
+Invitering av venner til Lantern er lett
+Oppgradering av Lantern er lett
+Hva kan vi gjøre for å gjøre Lantern bedre for deg?
+
+
+Brukerstøtte
+
+Vennligst fortell os om din erfaring med å få brukerstøtte for Lantern
+Du vet hvor man finner dokumentasjon av Lantern på nett
+Du vet hvordan du kontakter Lantern-mannskapet for hjelp
+Lanterne-mannskapet besvarer dine forespørsler betimelig
+Når du har et problem, kan vanligvis Lanterne-mannskapet hjelpe deg med å løse det
+Du er opplyst om hvorvidt nye versjoner av Lantern er tilgjengelig
+Vennligst fortell oss hva vi kan gjøre for å bedre Lanterns brukerstøtte
+
+Takk for at du tar deg tid til å svare på disse spørsmålene og hjelper oss med å fortsette å forbedre Lantern.

@@ -1,0 +1,38 @@
+.. _sending-lantern-logs:
+
+通过电子邮件发送 Lantern 日志
+====================
+
+有时，Lantern 核心开发人员会要求您通过电子邮件
+向他们发送您的日志文件以更好地诊断问题。
+
+要如此做，您需要在您的系统运行平台上找到日志文件目录：
+
+Windows Vista/7/8
+'''''''''''''''''
+
+``C:\Users\用户名\AppData\Roaming\Lantern\logs``
+
+Windows XP
+''''''''''
+
+``C:\Documents and Settings\用户名\Application Data\Lantern\Logs``
+
+OSX
+'''
+
+``~/Library/Logs/Lantern``
+
+Ubuntu
+''''''
+
+``~/.lantern/logs``
+
+目录下应该有像“java.log”、
+“installer.log”之类的文件。将整个目录下的文件
+压缩成一个 zip 文件。有时它可能只包含 java.log，这也是最
+重要的文件。您可以将它压缩以减少文件大小，或者直接发送。
+
+将 zip 或 java 日志文件作为附件发送至 contact [at]
+getlantern.org。如果您非常重视安全问题，并需要一个 PGP 电子邮件
+地址来发送它，请告知我们，我们会为您提供一个地址。

@@ -1,0 +1,15 @@
+Deel Lantern alleen met uw vertrouwde vrienden.
+
+Wij zijn erg blij om zo veel nieuwe gebruikers van harte welkom te heten bij het Lantern-netwerk. Afgelopen weken is de groei fenomenaal geweest. Met meer dan 16 duizend nieuwe Lantern-gebruikers die toegang krijgen tot ongecensureerd internet. Om het netwerk veilig, sterk en groeiende te houden willen wij iedere gebruiker eraan herinneren dat u ALLEEN VERTROUWDE VRIENDEN EN CONTACTEN uitnodigt. Wij hebben een aantal keer gemerkt dat sommige goedbedoelde pogingen om vreemden aan te sluiten op het Lantern-netwerk met de daarbij horende mogelijkheid om uitnodigingen te versturen. Terwijl wij willen dat iedereen toegang heeft, is het cruciaal om de architectuur van Lantern dusdanig te veranderen dan u ALLEEN mensen uitnodigt die u ken en vertrouwt. Wanneer u volslagen vreemden toevoegt als Lantern-vriend stel je niet alleen jezelf, maar ook je vertrouwde vrienden en andere gebruikers bloot aan potentiële aanvallers.
+
+Lantern is gebouwd op een vertrouwensnetwerk. Het is ontworpen voor mensen die elkaar vertrouwen om hun internetverbinding te delen. Wanneer u en een andere gebruiker bij Lantern vrienden geworden zijn, vormt u een proxy voor het internetverkeer van elkaar. Als u dit netwerk deelt met een censurerende partij dan kunnen zij uw netwerkverkeer analyseren of blokkeren. Vanwege deze mogelijkheid moet iedere gebruiker van Lantern alleen vrienden toevoegen die zij vertrouwen.
+
+Wij willen ook benadrukken dat Lantern een hulpmiddel is om toegang te verlenen. Het is niet ontworpen om het monitoren van uw netwerk te voorkomen en het biedt geen anonimiteit op het internet. Als u anoniem wilt zijn op het internet raden wij u aan om Tor te gebruiken.
+
+Bovenal is de integriteit en de veiligheid van het Lantern-netwerk afhankelijk van het alleen uitnodigen van mensen die je kent. Wij willen u vragen om Lantern dan ook alleen te delen met vertrouwde vrienden toe te voegen. Hiermee beschermt u uzelf, uw vrienden, hun vrienden en de rest van het Lantern-netwerk.
+
+- Het Lantern team
+
+Deel Lantern alleen met uw VERTROUWDE VRIENDEN. Help ons om te zorgen dat het netwerk VEILIG EN STERK blijft.
+
+

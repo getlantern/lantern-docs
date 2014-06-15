@@ -1,0 +1,25 @@
+退出 Lantern 
+================
+
+我们鼓励您让 Lantern 一直在
+后台运行，这样它就可以在您做其他事情时帮助受限用户
+取得连接。如果您关闭了网络地图窗口，一个灯笼的图标仍会在您的菜单栏中显示。 
+
+下面会指导您如何在不同的操作系统上退出 Lantern 应用程序。
+
+
+Mac
+^^^
+
+单击 **Lantern** 图标，然后选择 **退出 Lantern**。 
+
+.. image:: https://www.evernote.com/shard/s209/sh/9308b039-b326-4160-b7d1-4f6f15c210a7/41fe4b0ebde601cb9ffd5d0ceb09a8c8/deep/0/Screen%20Shot%202013-08-16%20at%208.07.29%20PM.png
+	:alt:菜单栏图标
+
+Windows
+^^^^^^
+
+单击 **Lantern** 图标，然后选择 **退出 Lantern**。
+
+.. image:: http://i.imgur.com/7vk5vNz.png
+	:alt:菜单栏图标

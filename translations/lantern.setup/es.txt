@@ -1,0 +1,74 @@
+.. _setting-up-lantern:
+
+Configurar Lantern
+==================
+
+La primera vez que ejecute Lantern se le realizará una serie de preguntas.
+
+Otorgar u Obtener acceso
+------------------
+
+La primera pregunta es si quiere 'otorgar' u 'obtener' acceso.
+
+.. image:: https://www.evernote.com/shard/s209/sh/72480b8b-2259-4eef-836b-1982a800bc31/71a941bce6482c90d2d66dcf21db57a8/deep/0/Lantern.png
+   :alt: otorgar/obtener
+
+   otorgar/obtener
+**'Otorgar Acceso'** es para usuarios en países sin censura que quieran compartir
+sus conexiones a Internet. Esto convierte su computadora en un proxy (interpuesto) que
+sus amigos de confianza en Lantern pueden usar gratuitamente para acceder al Internet
+abierto. Lantern se ejecuta en segundo plano, y le animamos a que lo deje
+activo siempre que pueda, para que sus amigos puedan siempre usar su conexión.
+
+**'Obtener Acceso'** es para usuarios en países bajo censura que quieran acceder a
+Internet. Lantern usa una aproximación 'peer-to-peer' (entre pares, P2P) para hacer fluir el acceso
+a Internet desde todos sus amigos de confianza en Lantern a la vez. Así que cuantos
+más amigos en Lantern añada de otros países, mejor será
+su conexión.
+
+Iniciar sesión en Google
+--------------------
+
+El siguiente paso es iniciar sesión en su cuenta de Google. Lantern usa
+sus contactos existentes en Google para expandir su red social.
+
+.. image:: https://www.evernote.com/shard/s209/sh/4d31dfce-7bab-4522-811a-51b380cafcdc/a673fb7fd2be64df8ca5b58828606d1f/deep/0/Lantern.png
+   :alt: requerimiento de Google
+
+   requerimiento de Google
+La página de inicio de sesión se sirve directamente desde Google. Su contraseña va
+directamente hasta los servidores de Google, Lantern nunca almacena, o siquiera ve, la
+contraseña.
+
+.. image:: https://www.evernote.com/shard/s209/sh/e7bcf743-984e-45ac-b525-b7f4517cf341/7c4a237f1aa7cb1bf6fb245d76f4a49b/deep/0/Lantern.png
+   :alt: inicio de sesión de Google
+
+Después de que introduzca su información se le requerirá que autorice
+a Lantern para que vea su correo electrónico e información básica, y para ver y enviar
+mensajes de chat. Lantern pregunta acerca de los mensajes de chat porque utiliza canales
+de comunicación del chat de Google para impulsar su red por sus propios medios. Pulse autorizar, o
+Lantern no funcionará adecuadamente.
+
+.. image:: https://www.evernote.com/shard/s209/sh/bd03de45-d5ac-4cc3-93da-62f24d527687/3bb1691886c46b3f30bc832f2211cdd7/deep/0/Lantern.png
+   :alt: autorizar
+   
+Añadir amigos
+--------------
+
+Después de que inicie sesión en Google, puede añadir amigos a su red Lantern. Es importante
+que sólo añada personas en las que confía a su red Lantern. Para más detalles sobre la adición de amigos, vea :ref:`adding-friends`.
+
+.. image:: https://dl.dropboxusercontent.com/u/253631/Add_Lantern_Friends.png
+	:alt: Añadir amigos
+
+
+Configurar sus sitios
+----------------------
+
+Si elige Obtener, vea :ref:`config-proxied-sites`. 
+Observe que la página de configuración de sitios proxyficados puede ser alcanzada en cualquier momento por
+usuarios Obteniendo acceso, al hacer clic en el icono del globo terráqueo en la parte inferior derecha.
+
+Los usuarios Otorgando acceso no verán este paso. Aunque le animamos a
+que haga cambios en los modos para experimentar como sería Lantern para un usuario Obteniendo
+acceso.

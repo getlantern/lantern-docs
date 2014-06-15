@@ -1,0 +1,6 @@
+Baixando o Lanterna
+===================
+
+O Lanterna está atualmente com o beta fechado. Para baixar o Lanterna, você precisa ser convidado por
+Para alguém que já esteja utilizando o Lanterna. Se você não possui nenhum amigo que possa te convidar, adicione
+seu endereço de e-mail no `formulário de inscrição <http://GetLantern.org>`_.

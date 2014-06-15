@@ -1,0 +1,70 @@
+Dotazník uživateľskej spokojnosti s Lanternom
+Prosíme povedzte nám o sebe
+
+Ďakujeme vám za váš čas strávený pri vypĺňaní tohto dotazníka. Pomôže tímu Lanternu pochopiť, ako program ešte viac vylepšiť.
+Ako ste dostali pozvanie k Lanternu?
+Od tímu Lanternu
+Od priateľa
+Iným spôsobom (prosíme upresnite)
+Prosíme upresnite
+
+Pozvali ste už nejakých priateľov k Lanternu?
+Áno
+Nie
+Ak nie, prečo?
+
+Ako používate Lantern?
+Na pristupovanie k stránkam, ktoré sú v mojej krajine blokované
+Na pristupovanie k stránkam, ktoré sú v práci blokované
+Na pomoc ľuďom v cenzurovaných krajinách pristupovať k otvorenému internetu
+
+Používate nejaké pluginy prehliadača na správu vašich nastavení proxy? (Zaškrtnite všetky, o ktorých to platí)
+ProxySwitchySharp
+FoxyProxy
+
+Používate nejaké ďalšie nástroje na obchádzanie cenzúry? (Zaškrtnite všetky, o ktorých to platí)
+Tor
+GoAgent
+Psiphon
+Ultrasurf
+Freegate
+alkasir
+
+Ktoré ďalšie nástroje pre vás aktuálne nie sú blokované? (Zaškrtnite všetky, o ktorých to platí)
+
+
+Softvér
+
+Prosíme povedzte nám o vašich skúsenostiach z používania Lanternu
+Plne súhlasím
+Súhlasím
+Neviem sa rozhodnúť
+Nesúhlasím
+Plne nesúhlasím
+N/A
+Získanie pozvania k Lanternu je ľahké
+Stiahnutie Lanternu je ľahké
+Nainštalovanie Lanternu je ľahké
+Nakonfigurovanie Lanternu tak, aby sprostredkovával mnou požadované stránky, je ľahké
+Lantern mi umožňuje dostať sa k všetkým blokovaným stránkam, ku ktorým chcem
+Prehliadanie webu s Lanternom je tak rýchle ako prehliadanie bez neho
+Keď Lantern beží v pozadí, ani si to nevšimnem
+Lantern nikdy nepadá
+Lantern ma upozorní, keď je spustený
+Lantern mi poskytuje zaujímavé informácie o jeho sieti
+Pozvanie priateľov k Lanternu je ľahké
+Aktualizovanie Lanternu je ľahké
+Čo môžeme urobiť pre to, aby bol Lantern ešte lepším?
+
+
+Zákaznícka podpora
+
+Prosíme povedzte nám o vašich skúsenostiach so získaním podpory k Lanternu
+Viete, kde nájsť online dokumentáciu Lanternu
+Viete, ako kontaktovať tím Lanternu so žiadosťou o pomoc
+Tím Lanternu okamžite reaguje na vaše žiadosti
+Keď máte nejaký problém, tím Lanternu je zvyčajne schopný vám pomôcť ho vyriešiť
+Ste upozornený vždy, keď sú k dispozícii nové verzie Lanternu
+Prosíme povedzte nám, čo môžeme urobiť pre zlepšenie zákazníckej podpory Lanternu
+
+Ďakujeme vám za váš čas strávený pri odpovedaní na tieto otázky a za pomoc na pokračovaní zlepšovania Lanternu

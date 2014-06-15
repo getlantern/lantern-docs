@@ -1,0 +1,6 @@
+Descarregant Lantern
+===================
+
+Lantern està actualment en versió beta tancada. Per descarregar Lantern, necessites ser convidat per
+algú que ja estigui utilitzant Lantern. Si no tens cap amic que et pugui convidar, afegeix la teva
+adreça electrònica al formulari d'accés <http://GetLantern.org>`_.

@@ -1,0 +1,70 @@
+Lantern 用户满意度调查
+请告诉我们有关于您的一些信息
+
+感谢您能抽出时间完成这份调查。这能帮助 Lantern 团队找到让 Lantern 更好的办法。
+您是如何获得 Lantern 邀请的？
+来自 Lantern 团队
+来自一位朋友
+其它（请注明）
+请注明
+
+您是否邀请过朋友加入 Lantern？
+是
+否
+如果没有，为什么？
+
+您是如何使用 Lantern 的？
+访问那些在我所在的国家被封锁的网站
+访问那些被我工作地点封锁的网站
+帮助受审查国家的人们访问开放的互联网
+
+您是否使用了浏览器插件来管理您的代理设置？（选出所有满足的选项）
+ProxySwitchySharp
+FoxyProxy
+
+您是否使用其它翻墙工具？（选出所有满足的选项）
+Tor
+GoAgent
+Psiphon（赛风）
+Ultrasurf（无界浏览）
+Freegate（自由门）
+alkasir
+
+现在您能正常使用的工具有哪一些？（选出所有满足的选项）
+
+
+软件
+
+请告诉我们您使用 Lantern 的感受
+强烈赞同
+赞同
+一般
+反对
+强烈反对
+N/A
+接收 Lantern 的邀请很容易
+下载 Lantern 很容易
+安装 Lantern 很容易
+配置 Lantern 代理我想要的网站很容易
+Lantern 可以让我随心所欲地访问被封锁的网站
+用 Lantern 浏览跟不使用 Lantern 浏览一样快
+当 Lantern 在后台运行时，我甚至能无视它的存在（免打扰）
+Lantern 从不崩溃
+Lantern 运行的时候会让我知道
+Lantern 会给我关于 Lantern 网络的有趣的信息
+邀请朋友使用 Lantern 很容易
+升级 Lantern 很容易
+为了让 Lantern 变得更好，我们还能做什么？
+
+
+客户服务
+
+请告诉我们您获取 Lantern 支持时的感受
+您知道在哪里能找到 Lantern 的在线帮助文档
+您知道如何联系 Lantern 团队以寻求帮助
+Lantern 团队能很快对您的请求作出答复
+当您有一个问题时，Lantern 团队通常都能帮您解决
+在有新版本 Lantern 可用时您能收到通知
+为了改善 Lantern 的客户服务，我们还能做什么？
+
+感谢您抽出时间回答这些问题，帮助我们继续改进 Lantern。

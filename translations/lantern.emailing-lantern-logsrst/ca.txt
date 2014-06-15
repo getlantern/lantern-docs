@@ -1,0 +1,38 @@
+.. _sending-lantern-logs:
+
+Enviant els Log de Lantern
+====================
+
+Eventualment, els desenvolupadors de Lantern et demanaran que els 
+enviïs els teus logs per diagnosticar millor un tema.
+
+Per fer-ho, necessites localitzar el directori de logs segons la plataforma:
+
+Windows Vista/7/8
+'''''''''''''''''
+
+``C:\Users\USERNAME\AppData\Roaming\Lantern\logs``
+
+Windows XP
+''''''''''
+
+``C:\Documents and Settings\USERNAME\Application Data\Lantern\Logs``
+
+OSX
+'''
+
+``~/Library/Logs/Lantern``
+
+Ubuntu
+''''''
+
+``~/.lantern/logs``
+
+El directori hauria de tenir fitxers com ara ``java.log``,
+``installer.log`` i d'altres. Comprimeix el directori sencer en un únic fitxer zip.
+Segons com, només contindrà el fitxer java.log, que és el més important.
+Pots comprimir-lo perquè sigui més petit, o enviar-lo tal qual està.
+
+Adjunta el zip o el fitxer java.log en un correu electrònic enviat al contacte
+a getlantern.org. Si et preocupa molt la seguretat i prefereixes enviar-ho
+a una direcció pgp, fes-nos-ho saber i te'n farem arribar una.

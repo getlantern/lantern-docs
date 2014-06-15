@@ -1,0 +1,70 @@
+Pesquisa de Satisfação do Usuário do Lanterna
+Por Favor, Nos Fale Sobre Você
+
+Obrigado por dedicar esse tempo para responder à pesquisa. Ela vai ajudar a Equipe do Lanterna a entender como tornar o Lanterna ainda melhor.
+Como você recebeu um convite para usar o Lanterna?
+Da Equipe do Lanterna
+De um amigo
+Outro (por favor especifique)
+Por favor, Especifique
+
+Você já convidou alguns amigos para usarem o Lanterna?
+Sim
+Não
+Se não, por quê?
+
+Com que finalidade você usa o Lanterna?
+Para acessar sites que são bloqueados em meu país
+Para acessar sites que são bloqueados no meu trabalho
+Para ajudar pessoas em países com censura a ter acesso à Internet aberta
+
+Você usa plugins de navegador para administrar as configurações de proxy? (Marque todas as que se aplicam)
+ProxySwitchySharp
+FoxyProxy
+
+Você usa alguma ferramenta de camuflagem? (Marque todas as que se aplicam)
+Tor
+GoAgent
+Psiphon
+Ultrasurf
+Freegate
+alkasir
+
+Quais outras ferramentas estão atualmente desbloqueadas para você? (Marque todas as que se aplicam)
+
+
+Software
+
+Por favor, nos conte sobre sua experiência com o Lantern
+Concordo totalmente
+Concordo
+Não concordo, nem discordo
+Discordo
+Discordo totalmente
+Não se aplica
+Ser convidado para usar o Lantern é fácil
+Baixar o Lantern é fácil
+Instalar o Lantern é fácil
+Configurar o Lantern para pré-carregar os sites que eu quero é fácil
+O Lantern me permite acessar todos os sites bloqueados que eu quero
+Navegar com o Lantern é tão rápido quanto sem ele
+Quando o Lantern está rodando em segundo plano, eu nem noto
+O Lantern nunca trava
+O Lantern me avisa quando está rodando
+O Lantern me dá informações interessantes sobre a rede Lantern
+Convidar amigos para usar o Lantern é fácil
+Atualizar o Lantern é fácil
+O que nós podemos fazer para que o Lantern fique ainda melhor para você?
+
+
+Atendimento ao usuário
+
+Por favor, nos conte sobre a sua experiencia ao buscar ajuda para usar o Lantern
+Você sabe onde encontrar a documentação online do Lantern?
+Você sabe como entrar em contato com a Equipe do Lantern para conseguir ajuda?
+A Equipe do Lantern responde aos seus contatos prontamente
+Quando você tem um problema, a Equipe do Lantern normalmente é capaz de ajudá-lo a resolver
+Você é avisado quando novas versões do Lantern estão disponíveis
+Por favor, nos diga o que podemos fazer para melhorar o atendimento ao usuário do Lantern
+
+Obrigado por dedicar esse tempo para responder a essas perguntas e nos ajudar a continuar melhorando o Lantern.

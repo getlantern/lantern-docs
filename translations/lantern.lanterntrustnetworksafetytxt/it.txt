@@ -1,0 +1,15 @@
+Condividi Lantern solamente con gli utenti di cui ti fidi.
+
+We’re thrilled to welcome so many new users to the Lantern network. Growth in the last few weeks has been phenomenal with more than 16K people using Lantern to access the uncensored Internet. To keep the network safe, strong and growing, we want to remind every user to ONLY INVITE YOUR TRUSTED FRIENDS AND CONTACTS. We’ve noticed some well-intentioned efforts to connect strangers to Lantern invites. While we want everyone to have access, it’s crucial to the architecture of Lantern at this point that user invitations go ONLY to people you already know and trust. When you add complete strangers as Lantern friends, you not only expose yourself to potential attackers, but you also could expose your trusted friends to potential attackers.
+
+Lantern is built on a trust network. It is designed for people who trust one another to share their internet connections. When you and another user are Lantern friends, you proxy traffic for each other. If you are sharing with a censor, he/she could block or analyze your traffic. Because of this, everyone running Lantern should only friend people they trust.
+
+Vogliamo inoltre sottolineare che Lantern è uno strumento per fornire accessi, non è pensato per eludere il monitoraggio o per ottenere l'anonimato. Se quello di cui hai bisogno è l'anonimato ti consigliamo di usare Tor.
+
+Above all, the integrity and the safety of the Lantern network are dependent on only inviting people you know. Please continue to share Lantern with your trusted friends and know that by only adding people you trust, you protect yourself, your friends, their friends, and the rest of the Lantern network.
+
+-Team Lantern
+
+Condividi Lantern unicamente con AMICI FIDATI. Aiutaci a tenere la rete SICURA E INTEGRA.
+
+

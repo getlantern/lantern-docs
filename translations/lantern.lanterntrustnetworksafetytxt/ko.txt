@@ -1,0 +1,15 @@
+Lantern은 신뢰하는 친구와만 공유하십시오.
+
+We’re thrilled to welcome so many new users to the Lantern network. Growth in the last few weeks has been phenomenal with more than 16K people using Lantern to access the uncensored Internet. To keep the network safe, strong and growing, we want to remind every user to ONLY INVITE YOUR TRUSTED FRIENDS AND CONTACTS. We’ve noticed some well-intentioned efforts to connect strangers to Lantern invites. While we want everyone to have access, it’s crucial to the architecture of Lantern at this point that user invitations go ONLY to people you already know and trust. When you add complete strangers as Lantern friends, you not only expose yourself to potential attackers, but you also could expose your trusted friends to potential attackers.
+
+Lantern은 신뢰하는 네트워크 상에 구축됩니다. 서로를 믿고 서로의 인터넷 커넥션을 공유하는 사람들을 위해 설계되었습니다. 여러분과 다른 사용자가 Lantern 친구이면, 서로에 대해 인터넷 트래픽에서 프록시 역할을 합니다. 공유 중에 검열을 하면, 상대방이 여러분의 인터넷 트래픽을 차단하고 분석할 수 있습니다. 이런 이유 때문에, Lantern을 실행하는 누구나가 서로 신뢰하는 친구여야만 합니다. 
+
+Lantern은 접근권을 제공하기 위한 도구임을 강조합니다. Lantern은 감시를 막도록 설계되지 않았고 익명성 도구도 아닙니다. 익명성이 필요하다면 Tor을 사용하시도록 권장합니다.
+
+Lantern 네트워크의 완전성과 안전성은 사용자 여러분이 아는 사람만 초대해야 지켜질 수 있습니다. 신뢰하는 친구와만 Lantern을 공유하십시오. 신뢰하는 사람만 추가해야, 여러분 자신을, 여러분의 친구를, 그들의 친구를, 그리고 Lantern 네트워크를 지킬 수 있다는 것에 유념하시기 바랍니다. 
+
+-Lantern 팀
+
+Lanter은 신뢰하는 친구와만 공유하십시오. 안전하고 강한 네트워크로 유지할 수 있도록 협조해 주십시오.
+
+

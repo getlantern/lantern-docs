@@ -1,0 +1,25 @@
+Quitter Lantern 
+================
+
+Nous vous encourageons à laisser Lantern tourner en
+arrière-plan afin qu'il puisse aider les utilisateurs censurés à obtenir l'accès même
+lorsque vous exécutez d'autres tâches. Si vous fermez la fenêtre de la carte du réseau, une icône Lantern apparaît encore dans votre barre de notification. 
+
+Les instructions suivantes vous indique comment quitter l'application Lantern sur différents systèmes d'exploitation.
+
+
+Mac
+^^^
+
+Cliquez sur l'icône **Lantern** et choisissez **Quitter Lantern**. 
+
+.. image:: https://www.evernote.com/shard/s209/sh/9308b039-b326-4160-b7d1-4f6f15c210a7/41fe4b0ebde601cb9ffd5d0ceb09a8c8/deep/0/Screen%20Shot%202013-08-16%20at%208.07.29%20PM.png
+	:alt: Icône de la barre de notification
+
+Windows
+^^^^^^
+
+Cliquez sur l'icône **Lantern** et choisissez **Quitter Lantern**.
+
+.. image:: http://i.imgur.com/7vk5vNz.png
+	:alt: Icône de la barre de notification

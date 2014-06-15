@@ -1,0 +1,6 @@
+Lantern letöltése
+===================
+
+A Lantern jelenleg zárt béta állapotú szoftver. Letöltéséhez meghívóra van szüksége
+valakitől, aki már használja a programot. Ha Önnek nincs olyan ismerőse, aki meghívhatná, akkor adja meg
+email címét a `bejelentkezési űrlapon <http://GetLantern.org>`_.

@@ -1,0 +1,70 @@
+Lantern User Satisfaction Survey
+Please Tell Us About You
+
+Thank you for taking the time to complete this survey. It will help Team Lantern understand how to make Lantern even better.
+How did you get a Lantern invitation?
+From Team Lantern
+From a friend
+Other (please specify)
+Please Specify
+
+Have you invited any friends to Lantern?
+Yes
+No
+If no, why not?
+
+How do you use Lantern?
+To access websites that are blocked in my country
+To access websites that are blocked at work
+To help people in censored countries access an open internet
+
+Do you use any browser plugins to manage your proxy settings? (Check all that apply)
+ProxySwitchySharp
+FoxyProxy
+
+Do you use any other circumvention tools? (Check all that apply)
+Tor
+GoAgent
+Psiphon
+Ultrasurf
+Freegate
+alkasir
+
+Which other tools are currently unblocked for you? (Check all that apply)
+
+
+Software
+
+Please tell us about your experience using Lantern
+Strongly Agree
+Agree
+Neutral
+Disagree
+Strongly Disagree
+N/A
+Getting Invited to Lantern is easy
+Downloading Lantern is easy
+Installing Lantern is easy
+Configuring Lantern to proxy the sites I want is easy
+Lantern lets me get to all the blocked sites I want
+Browsing with Lantern is as fast as browsing without Lantern
+When Lantern is running in the background, I don't even notice it
+Lantern never crashes
+Lantern lets me know when it is running
+Lantern gives me interesting information about the Lantern network
+Inviting friends to use Lantern is easy
+Upgrading Lantern is easy
+What can we do to make Lantern even better for you?
+
+
+Customer Support
+
+Please tell us about your experience getting support for Lantern
+You know where to find Lantern's online help documentation
+You know how to contact Team Lantern for help
+Team Lantern responds promptly to your requests
+When you have a problem, Team Lantern is usually able to help you resolve it
+You are notified when new versions of Lantern are available
+Please tell us what we can do to improve Lantern's customer support
+
+Thank you for taking the time to answer these questions and helping us to continue improving Lantern.

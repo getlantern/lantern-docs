@@ -1,0 +1,221 @@
+.. _configuration--sites-relayés:
+
+Configuration des sites relayés
+=========================
+
+.. image:: https://www.evernote.com/shard/s209/sh/a6ffd5ed-9f38-4a27-9e75-1b940be94582/2f741aad7056c2bccf76844e7814773c/deep/0/Lantern.png
+   :alt: Sites relayés
+
+   Sites relayés
+L'écran des Sites relayés fait partie de la configuration pour les personnes utilisant
+Lantern pour obtenir l'accès et est disponible par l'icône de mappemonde
+en bas à droite.
+
+.. image:: https://www.evernote.com/shard/s209/sh/9dd170e2-800d-412c-bfef-8fb21819f517/22b89c58ddadf34a4dee969b2e9fe9ff/deep/0/Lantern.png
+   :alt: sites relayés
+
+   sites relayés
+C'est ici que les utilisateurs obtenant l'accès peuvent définir quels sites sont accessibles en passant
+par les amis Lantern, par opposition à un accès direct. En accédant uniquement
+par Lantern aux sites qui seraient autrement bloqués et en accédant
+directement aux sites qui ne sont pas bloqués, votre expérience sera plus rapide, et
+Lantern sera plus difficile à bloquer et plus efficace. L'écran des sites
+relayés contrôle quels sites sont acheminés par Lantern au lieu d'un
+accès direct.
+
+Configuration initiale
+~~~~~~~~~~~~~~~~~~~~~
+
+La liste initiale comporte présentement un nombre de sites habituellement bloqués.
+Dans le future nous espérons construire une liste plus dynamique fondée sur ce qui
+est réellement bloqué dans chaque pays. Mais pour l'instant nous recommandons de l'ajuster
+pour vos besoins. Si vous rencontrez un site qui semble bloqué, vous pouvez
+vérifier si il est sur la liste et l'ajoutez si il ne l'est pas. Nous recommandons aussi
+d'enlever de la liste les sites qui ne sont en fait pas bloqués car ils
+chargerons plus rapidement et cela aidera au fonctionnement plus efficace du réseau.
+
+Utiliser une liste collective de mandataires
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Quoique nous n'ayons pas encore une intégration fluide, nous avons mis en place un `wiki
+ de listes de sites relayés
+<https://github.com/getlantern/lantern-proxied-sites-lists/wiki>`__
+sur lequel vous pouvez trouvez des listes de sites bloqués spécifiques aux pays. Si vous habitez
+dans un pays avec une liste et qu'elle a été mise à jour récemment, elle
+fonctionnera alors sûrement mieux pour vous que la liste qui vient avec
+Lantern.
+
+.. image:: https://www.evernote.com/shard/s209/sh/1410658e-531a-44aa-b01b-7867e074637c/b88cfe3ce617b30a394cf6c56b3ea20a/deep/0/Autoproxy%20list%20for%20china%20%C2%B7%20getlantern/lantern-proxied-sites-lists%20Wiki.png
+   :alt: liste d'auto-relais pour la Chine
+
+   liste d'auto-relais pour la Chine
+Rendez-vous simplement sur une des listes, ensuite sélectionnez et copiez toute la liste et collez-la dans votre liste de domaines à relier 
+dans votre Lantern. Assurez-vous de supprimer votre liste existante ((ou écrasez le contenu) afin de ne pas avoir de doublons, et ne
+ne pas relayer des sites dont vous n'avez pas besoin.
+
+.. image:: https://www.evernote.com/shard/s209/sh/345d4873-a0b1-49e1-8188-c5356c2e5c56/d668a756c91454b8f1eaeaf79e6a79a3/deep/0/Lantern.png
+   :alt: coller dans lantern.
+
+   coller dans Lantern.
+Si la liste est vraiment longue, il peut être difficile de la sélectionner manuellement.
+De nombreux sites auront un lien vers une « liste brute » qui devrait être un long
+fichier avec seulement des sites. Vous pouvez alors y utiliser les raccourcis
+Ctrl-A (tout sélectionner), Ctrl-C (copier) et Ctrl-V(coller). Vous devriez supprimer la
+liste par défaut afin de ne pas avoir de doublons et de ne pas relayer des sites
+ dont vous n'avez pas besoin.
+
+Trouver des sites
+~~~~~~~~~~~~~
+
+Avant d'ajouter un nouveau site, vous pouvez vérifier si il est déjà sur votre
+liste de sites relayés. Vous pouvez le faire en faisant défiler la liste, mais la
+boîte de recherche sur la droite vous permet de le trouver plus rapidement :
+
+.. image:: https://www.evernote.com/shard/s209/sh/f97bd235-eeeb-4e07-a6bd-a47f991254c1/f048f14a6d5d9aeae030ec1b00a445bb/deep/0/Lantern.png
+   :alt: rechercher
+
+   rechercher
+Ajouter un nouveau site
+~~~~~~~~~~~~~~~~~
+
+Pour ajouter un nouveau site, il vous faut juste l'ajouter sur une nouvelle ligne dans la boîte
+de texte. Vous pouvez le faire où vous voulez. Appuyez sur « Entrée » pour créer une nouvelle
+ligne et y ajouter le site.
+
+.. image:: https://www.evernote.com/shard/s209/sh/d1cf2497-2202-4929-847d-7c8c725bbdda/0028e5ba5c860863e4ca3d72014822bf/deep/0/Lantern.png
+   :alt: ajout
+
+   ajout
+Assurez-vous de cliquer sur « Mise à jour » après l'avoir saisie. Lantern enregistrera vos
+changements et, la prochaine fois que vous accéderez à ce site, il sera acheminé
+par un utilisateur Lantern de votre réseau pour contourner tout blocage.
+
+Quelle partie de l'adresse d'un site utiliser
+'''''''''''''''''''''''''''''''''''''
+
+Plutôt qu'avoir à spécifier les pages individuelles d'un site auxquelles vous aimeriez
+accéder par Lantern, Lantern vous permet de spécifier des sites entiers.
+En d'autres mots, vous devriez uniquement saisir les noms de domaine de sites auxquels vous
+voulez accéder par Lantern. Par exemple, vous ne saisiriez pas
+l'adresse entière de la page
+``nobelprize.org/nobel_prizes/peace/laureates/2010``; vous ajouteriez plutôt
+le site entier : ``nobelprize.org``. Identiquement pour les termes de recherche - saisissez
+juste le moteur de recherche en entier et toutes vos recherches sur ce
+moteur passerons par Lantern.
+
+Sous-domaines
+          
+
+Vous avez ``foo.blogspot.com`` et ``bar.blogspot.com`` dans votre liste,
+vous accéderez à tous deux par Lantern, mais pas à ``baz.blogspot.com``.
+Cependant si vous avez ``blogspot.com`` dans votre liste, alors
+vous accéderez à tout site blogspot.com par Lantern.
+
+Ajout de nouveaux sites en nombre
+''''''''''''''''''''''''
+
+Si vous avez une liste de sites à relayer provenant d'une autre source qui
+n'utilise pas le format de Lantern, il vous faudra probablement nettoyer le format.
+Par exemple, si la liste inclut
+[commentaires](https://fr.wikipedia.org/wiki/Commentaire_%28informatique%29),
+il vous faudra les enlever car Lantern ne prend présentement pas en charge
+les commentaires. Assurez-vous de respecter tout le formatage exigé ci-dessus.
+Si vous connaissez les `expressions
+régulières <http://www.regular-expressions.info/>`__, elles peuvent être
+plutôt utiles pour nettoyer la liste.
+
+Remarquez que Lantern ne se prête bien à l'ajout en nombre que si les listes sont déjà
+au format Lantern. Si vous coller une longue liste de sites qui ne sont pas au
+format Lantern, vous pourriez avoir une erreur « ligne invalide ». Lantern
+signalera cette ligne, et donc nous recommandons de la copier et de la rechercher
+avec Ctrl-F ou Édition > Rechercher dans le programme dont vous avez copié la liste. À la
+rigueur vous pouvez aussi le faire dans Lantern (dans Ubuntu et Windows), mais il
+est préférable de travailler sur votre liste en dehors de Lantern, puis de la coller et de continuer
+à la modifier jusqu'à ce qu'il n'y ait plus d'erreur.
+
+Enlever des sites
+~~~~~~~~~~~~~~
+
+Nous vous recommandons de parcourir la liste et d'enlever tout site que vous
+savez être bloqué dans votre pays. Pour enlever des sites, sélectionnez-les
+dans le champ de texte et cliquez sur « Supprimer ». Assurez-vous de cliquez sur « Mise à jour » quand vous aurez
+terminé.
+
+.. image:: https://www.evernote.com/shard/s209/sh/81bd9e5b-808c-4b3a-bb8f-487fee2601fd/bf5af2b060b92a44336a9ccc7ff8988b/deep/0/Lantern.png
+   :alt: mise à jour
+
+   mise à jour
+Partager
+~~~~~~~
+
+Si vous voulez partager votre liste de sites relayés avec un ami
+qui utilise Lantern, sélectionnez simplement tous les sites que vous aimeriez partager
+avec votre souris, ou cliquez dans la boîte de texte et appuyez sur Ctrl-A (Command-A
+pour OS X) pour tous les sélectionner, copiez-les vers le presse-papiers avec Ctrl-C
+(Command-C) et collez-les dans un courriel pour votre ami avec Ctrl-V
+(Command-V). Votre ami peut alors copier les sites que vous lui avez envoyé et ensuite
+les coller dans son écran de Sites relayés dans Lantern.
+
+Si vous aimeriez partager votre liste de sites relayés publiquement, n'hésitez-pas à
+ajouter à une nouvelle page sur le `wiki de la liste des sites relayés
+de Lantern <https://github.com/getlantern/lantern-proxied-sites-lists/wiki>`__.
+Cliquez juste le bouton vert « Nouvelle page », donnez un nom à votre page, puis sur
+l'écran Créer une nouvelle page, collez votre liste entre les deux lignes
+contenant seulement trois accents graves, comme ceci :
+
+\`\`\`
+
+site1.com
+
+site2.com
+
+site3.com
+
+\`\`\`
+
+N'hésitez-pas à ajouter un billet aux `forums
+des utilisateurs francophones <https://groups.google.com/group/lantern-users-fr> ou anglophones <https://groups.google.com/group/lantern-users-fr>`__ avec un lien
+vers la liste que vous venez de créer afin que d'autres utilisateurs puissent en profiter!
+
+Créer une liste 'brute'
+'''''''''''''''''''
+
+Si votre liste est super longue, elle peut être difficile à copier et à coller
+à partir du wiki. Certaines listes se trouvent dans le dépôt GitHub et
+ont un lien sur la page du wiki afin de pouvoir être copiées avec plus de facilité.
+
+Si vous n'êtes pas à l'aise avec le côté technique, n'hésitez-pas à envoyer un courriel
+à un groupe d'utilisateurs Lantern et quelqu'un le fera facilement pour vous. Si vous êtes
+très à l'aise avec GitHub, créez un embranchement du dépôt et faîtes une demande
+d'extraction. Tous les autres peuvent continuer à lire.
+
+Pour ajouter une nouvelle liste au dépôt il vous faut un dépôt GitHub. Il
+devrait y avoir un lien d'inscription 'sign up' en haut à droite. Une
+fois que cela est fait, allez sur
+https://github.com/getlantern/lantern-proxied-sites-lists et cliquez sur le
+bouton 'plus'.
+
+.. image:: https://www.evernote.com/shard/s209/sh/f7185f3d-9ca5-45bf-aac5-8978f7fefb39/6868a4884f375bb854b24b4f663fab91/deep/0/getlantern/lantern-proxied-sites-lists.png
+   :alt: ajouter
+
+   ajouter
+Ceci 'clonera' le dépôt principal, copiant tous les fichiers
+sous votre contrôle. Vous pouvez créer et modifier ces fichiers et cela
+n'affectera pas le dépôt principal - ils en sont votre copie privée. Vous devriez
+ensuite créer un nouveau fichier dans un dossier de pays. Vous pouvez le faire en saisissant
+simplement le nom du dossier et en tapant ensuite '/'. Saisissez p. ex.
+\`china/mon-dossier/list.txt', et ceci le créera sous le dossier
+« china ».
+
+.. image:: http://i.stack.imgur.com/9Ifmj.gif
+   :alt: dossiers animés
+
+   dossiers animés
+Une fois que vous avez compilé votre liste, vous pouvez proposer les changement aux contributeurs
+principaux. Vous devez créez une 'demande d'extraction'. Pour ce faire vous cliquez
+le bouton vert de comparaison et de vérification 'compare & review' dans votre dépôt. Cliquez ensuite sur
+le bouton de création de demande d'extraction 'create pull request'. Les contributeurs du site principal la vérifieront
+alors et l'extrairont.
+
+Prenez note que vous pouvez utiliser des demandes d'extraction pour mettre à jour ou pour corriger d'autres listes.
+Apportez simplement les modifications dans votre dépôt et créez ensuite une demande d'extraction.

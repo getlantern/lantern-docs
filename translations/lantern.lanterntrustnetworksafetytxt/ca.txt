@@ -1,0 +1,16 @@
+Comparteix Lantern només amb els teus amics de confiança.
+
+Estem ben il·lusionats d'acollir tantíssims nous usuaris a la xarxa Lantern. El creixement en les darreres setmanes ha sigut magnífic, amb més de 16K persones utilitzant Lantern per accedir a Internet sense censura. Per mantenir la xarxa segura, forta i amb creixement, et volem recordar que NOMÉS CONVIDIS ELS AMICS I CONTACTES EN QUI CONFIES. Hem detectat afanys benintencionats de connectar persones desconegudes 
+amb invitacions a Lantern. Malgrat que volem que tothom tingui accés, és fonamental per l'arquitectura de Lantern que les invitacions siguin NOMÉS a persones que coneixes i en qui confies. Quan afegeixes persones desconegudes com amics a Lantern, no només et veus exposat a atacants potencials, sinó que també els amics en qui confies es podrien veure exposats.
+
+Lantern es basa en una xarxa de confiança. Està dissenyada per a persones que confien l'una en l'altra per tal de compartir connexions a Internet. Quan tu i un altre usuari sou amics a Lantern, us direccioneu el trànsit mútuament. Si comparteixes amb un censor, aquest podria bloquejar o analitzar el teu trànsit. Per aquest motiu, tothom que executa Lantern ha de tenir només els amics a Lantern amb qui confia.
+
+També volem subratllar que Lantern és una eina per proporcionar accés, no està dissenyada per evitar el monitoratge i no és una eina per mantenir l'anonimat. Si et cal mantenir l'anonimat, et recomanem que utilitzis Tor.
+
+Per sobre de tot, la integritat i seguretat de la xarxa Lantern es basen en què només convidis les persones que coneixes. Si us plau, continua compartint Lantern amb els teus amics de confiança i sàpigues que només afegint persones en qui confies, et protegeixes a tu mateix, els teus amics, els seus amics, i la resta de la xarxa Lantern.
+
+-Equip de Lantern
+
+Comparteix Lantern només amb els teus AMICS DE CONFIANÇA. Ajuda'ns a mantenir la xarxa FORTA i SEGURA.
+
+

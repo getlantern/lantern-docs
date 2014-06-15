@@ -1,0 +1,6 @@
+Lantern sa sťahuje
+===================
+
+Lantern je momentálne vo fáze uzavretej bety. Za účelom stiahnutia Lanternu musíte byť pozvaný niekým 
+kto ho už používa. Ak nemáte žiadnych priateľov, ktorí by vás mohli pozvať, zadajte svoju
+emailovú adresu do `registračného formulára na <http://GetLantern.org>`_.

@@ -1,0 +1,127 @@
+.. _getting-involved:
+
+Involucrarse
+=================
+
+Como con cualquier proyecto de código abierto, Lantern sólo será verdaderamente existoso
+si *usted* colabora. Justo ahora estamos en fase `beta`, con toneladas de cosas por hacer
+antes desplegarlo al mundo. Y la mayoría de las tareas en las que necesitamos ayuda
+no requieren conocimientos de programación. Los desarrolladores por supuesto son más que
+bienvenidos, pero esta página es para que todo el resto de la gente encuentre una forma de ayudar a hacer
+grande a Lantern.
+
+Lantern actualmente está en fase beta privada, pero estamos `aceptando
+solicitudes <https://docs.google.com/forms/d/11LiZoCMptcc_lj4b01It9n64gngaDPU53_ge3mhiaIM/viewform>`__
+de 'Embajadores' - probadores tempranos que están deseosos de involucrarse. Si
+está interesado en una o más de las tareas de debajo por favor menciónelo en
+en su solicitud. Estamos particularmente interesados en gente con contactos
+de confianza tanto en países sin censura como bajo censura. Pero a voluntad de
+profundizar en cualquier de las tareas de debajo es todo lo que realmente necesita.
+
+Use y despliegue Lantern
+----------------------
+
+Si tiene una conexión a Intenet no censurada, usted puede marcar la diferencia
+simplemente manteniendo Lantern ejecutándose. Cualquier usuario adicional que comparta su
+conexión hace que la red Lantern funcione mucho mejor, y que
+sea tanto más difícil bloquearla para los censores.
+
+Tanto si tiene una conexión a Internet no censurada como si no, también puede
+ayudar invitando a personas en las que confíe a unirse a la red Lantern. Lantern
+confría en una gran red de usuarios que confían unos en otros para compartir
+conexiones a Internet, así que cuantas más conexiones de confianza en la red, 
+mejor funcionará Lantern. Así que si usted es un usuario precoz por favor divulgue
+Lantern entre sus amigos de confianza para ayudar a la red a crecer.
+
+Informe: Problemas
+---------------
+
+En la actual fase 'beta' de desarrollo, una de las más valiosas
+cosas que puede hacer es informarnos si *no* está funcionando para usted. La
+forma ideal de hacer esto es con uno de los `usuarios
+del foro <https://groups.google.com/group/lantern-users-en>`__. Si
+no se siente agusto con su nombre público, tómese la libertad de usar el
+nombre neutro / de cuenta. También uede usar el formulario de 'contacto' desde el mismo Lantern
+para enviar un mensaje de forma privada a los desarrolladores principales.
+
+.. image:: https://www.evernote.com/shard/s209/sh/b0ebafae-f50e-41e7-b003-11299102d348/feefe49505573ab528410b708e48b0e1/deep/0/Lantern%20and%20Welcome%20to%20Mail.png
+   :alt: contacto
+
+
+La cosa más importante que debe hacernos saber es si está en un país
+bajo censura y no puede conectarse en absoluto. Pero con toda confianza informe de más
+errores menores, y también realice sugerencias acerca de la maneras en que Lantern prodría
+funcionar mejor para usted. Intente dar cuantos más detalles sea posible. Vea esto
+`cómo informar de fallos
+con efectividad <http://www.chiark.greenend.org.uk/-sgtatham/bugs.html>`__
+para unas directrices generales. Para que en Lantern nos aseguremos, incluya su sistema
+operativo, el lugar en el que está, y si está en modo 'otorgar' u 'obtener' (todos los usuarios
+en paises bajo censura están automáticamente en modo 'obtener'), y qué versión de
+Lantern está ejecutando.
+
+.. image:: https://www.evernote.com/shard/s209/sh/dca46162-f8f4-4e19-9719-f83405a35305/0167dda5f704e71697bbe7124a8a1b79/deep/0/Lantern%20and%20Create%20New%20Page%20%C2%B7%20getlantern/lantern%20Wiki.png
+   :alt: versión de Lantern
+
+La de arriba es la 1.0.0.-beta2, debería ver algunos números ahí.
+
+También puede que se le pida que envíe por correo electrónico sus registros (logs) para que los desarrolladores diagnostiquen.
+Vea :ref:`sending-lantern-logs`.
+
+Traducir Lantern
+------------------
+
+Si es un hablante fluido de otro idioma y le gustaría ayudar
+a traducir el sitio web de Lantern, documentación, o la aplicación en si misma,
+daríamos la bienvenida a su participación. Vea :ref:`translating-lantern`.
+
+Promueva Lantern
+---------------
+
+También damos la bienvenida a la gente que está interesada en ayudar a correr la voz
+sobre la Lantern. Mayoritariamente somo desarrolladores de software, pero al contrario que el de la mayoría
+de desarrolladores, nuestro software sólo funciona con montones de gente en países
+no censurados ejecutándolo. Así que damos la bienvenida a ideas y acciones para obtener más y más
+personas que ejecuten Lantern. Campañas en medios sociales, artículos en revistas, o en blogs,
+vídeos, kickstarter, etc. - si tiene experiencia en grandes
+promociones entonces póngase en contacto. Y ninguna idea es demasiado grande o demasiado pequeña. Por
+el momento tan sólo preséntese a si mismo en el `foro
+de usuarios <https://groups.google.com/group/lantern-users-en>`_. Si conseguimos
+suficiente gente allí iniciaremos un foro dedicado.
+
+Ayude con la documentación
+------------------------
+
+Esta documentación wiki mantenida-colaborativamente es una labor en
+desarrollo. Si ve un área que necesite más trabajo y le gustaría
+entrar en juego, damos la bienvenida a su ayuda. Para editar en este momento tiene que ser añadido
+al Equipo de documentación, simplemente háganos saber su interés en el
+`foro <https://groups.google.com/forum/#!forum/lantern-users-en>`__.
+Luego, para editar use los botones "Nueva página" o "Editar página" próximos a la parte superior
+de cualquier página wiki.
+
+Desarrollar
+--------
+
+Si usted es un desarrollador y está interesado en ayudar a construir Lantern, vea
+`Contribuir al código <../../developer/html/Contributing.html>`_.
+
+Patrocinar
+--------
+
+Además de ejecutar Lantern por si mismo en su propio equipo para compartir una conexión
+a Internet sin censura, también puede colaborar realizando una donación única o mensual
+para patrocinar un proxy (servidor interpuesto) en la nube de Lantern, que proporciona una conexión
+a Internet de alta-capacidad adicional a la red 24 horas al día, incluso
+mientras su equipo está apagado o desconectado.
+
+De forma alternativa, si hay algunas características o reparaciones de fallos que le gustaría ver en
+la siguiente versión de Lantern, puede patrocinar su desarrollo.
+
+Por favor póngase en contacto con los desarrolladores de Lantern acerca de estas cualquiera de estas opciones si
+desease preguntar más en profundidad.
+
+También puede simplemente hacer una microdonación en 1-clic a la causa en general
+usando Flattr o GitTip:
+
+Gracias por su interés en contribuir a Lantern. Una comunidad
+vibrante y activa es vital para nuestra existencia.

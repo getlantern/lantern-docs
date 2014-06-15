@@ -1,0 +1,38 @@
+.. _envoi-des-journaux-de-lantern:
+
+Envoi des journaux de Lantern par courriel
+====================
+
+Occasionnellement, les développeurs principaux de Lantern vous demanderons de leur envoyer
+par courriel vos journaux afin de mieux diagnostiquer un problème.
+
+Pour ce faire vous devez trouver le répertoire des journaux sur votre plate-forme :
+
+Windows Vista/7/8
+'''''''''''''''''
+
+``C:\Utilisateurs\NOMDUTILISATEUR\AppData\Roaming\Lantern\logs``
+
+Windows XP
+''''''''''
+
+``C:\Documents and Settings\NOMDUTILISATEUR\Application Data\Lantern\Logs``
+
+OSX
+'''
+
+``~/Bibliothèque/Logs/Lantern``
+
+Ubuntu
+''''''
+
+``~/.lantern/logs``
+
+Le répertoire devrait contenir des fichiers tels que ``java.log``,
+``installer.log`` et autres. Compressez tout le répertoire en un seul
+fichier zip. java.log peut parfois être le seul fichier présent, c'est le
+fichier le plus important. Vous pouvez le compresser pour qu'il soit plus petit ou l'envoyer tel quel.
+
+Joignez le zip ou le fichier java.log à un courriel envoyé à contact [à] 
+getlantern.org. Si vous insistez beaucoup sur la sécurité et voulez une adresse
+courriel pgp vers laquelle l'envoyer, faites-en la demande et nous vous en fournirons une.

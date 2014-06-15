@@ -1,0 +1,15 @@
+Comparte Lantern sólo con tus amigos de confianza.
+
+Estamos emocionados de dar la bienvenida a tantos usarios nuevos a la red Lantern. El crecimiento en las últimas pocas semanas ha sido fenomenal con más de 16K personas usando Lantern para acceder a Internet sin censura. Para mantener la red segura, fuerte y creciendo, queremos recordar a todos los usuarios que SÓLO INVITEN A SUS AMIGOS Y CONTACTOS DE CONFIANZA. Hemos observado algunos esfuerzos bien-intencionados de asignar extraños a invitaciones de Lantern. Aunque queremos que cualquiera tenga acceso, es crucial para la arquitectura de Lantern en esta fase que las invitaciones de usuarios vayan SÓLO a personas a las que ya conozca y en las que confíe. Cuando usted añade completos extraños como amigos en Lantern, no sólo se expone a si mismo a atacantes potenciales, sino que también podría exponer a sus amigos de confianza a tales atacantes en potencia.
+
+Lantern está basado en una red de confianza. Está diseñado por gente que confían unos en otros para compartir sus conexiones a Internet. Cuando usted y otro usuario son amigos en Lantern, ambos proxyfican (hacen de interpuesto) el tráfico del otro. Si usted está compartiendo con un censor, el/ella podría bloquerar o analizar su tráfico. A causa de esto, cualquiera que ejecute Lantern sólo debe designar como amigos a personas en las que confíe.
+
+Queremos resaltar que Lantern es una herramienta para proporcionar acceso, no está diseñada para prevenir el monitoreo y no es una herramienta para anonimizar. Si necesita anonimato, le recomendamos que use Tor.
+
+Después de todo, la integridad y la seguridad de la red Lantern son dependientes de que sólo invite gente a la que conozca. Por favor continúe compartiendo Lantern con sus amigos de confianza, y sepa que sólo mediante la adición de personas de su confianza se está usted protegiendo a si mismo, a sus amigos, a los amigos de estos, y al resto de la red Lantern.
+
+-El equipo de Lantern
+
+Comparte Lantern sólo con tus amigos DE CONFIANZA. Ayúdanos a mantener la red FUERTE Y SEGURA.
+
+

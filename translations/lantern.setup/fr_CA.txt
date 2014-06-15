@@ -1,0 +1,74 @@
+.. _configurer-lantern:
+
+Configurer Lantern
+==================
+
+Lors de votre première utilisation de Lantern, une série de questions vous sera posée.
+
+Donner ou obtenir l'accès
+------------------
+
+La première question est de savoir si vous voulez donner ou obtenir l'accès.
+
+.. image:: https://www.evernote.com/shard/s209/sh/72480b8b-2259-4eef-836b-1982a800bc31/71a941bce6482c90d2d66dcf21db57a8/deep/0/Lantern.png
+   :alt: donner/recevoir
+
+   donner/recevoir
+**Donner l'accès** est pour les utilisateurs dans les pays non censurés voulant partager
+leur connexion Internet. Leur ordinateur devient ainsi un serveur mandataire qui
+peut être utilisé gratuitement par leurs amis Lantern de confiance pour accéder à l'Internet
+ouvert. Lantern tourne en arrière-plan et nous vous encourageons à le laisser
+tourner autant que possible afin que vos amis puissent toujours utiliser votre connexion.
+
+**Obtenir l'accès** est pour les utilisateurs dans des pays censurés qui veulent accéder à Internet.
+Lantern utilise une approche 'pair-à-pair' pour canaliser l'accès
+à Internet provenant de tous vos amis Lantern de confiance en même temps. Plus vous aurez
+d'amis Lantern de confiance dans d'autres pays, meilleure
+sera votre connexion.
+
+Se connecter à Google
+--------------------
+
+La prochaine étape est de vous connecter à votre compte Google. Lantern se base
+sur vos contacts Google existants pour construire son réseau social.
+
+.. image:: https://www.evernote.com/shard/s209/sh/4d31dfce-7bab-4522-811a-51b380cafcdc/a673fb7fd2be64df8ca5b58828606d1f/deep/0/Lantern.png
+   :alt: invite google
+
+   invite google
+La page de connexion est servie directement par Google. Votre mot de passe va
+directement aux serveurs Google. Lantern ne stocke jamais ni ne voit le
+mot de passe.
+
+.. image:: https://www.evernote.com/shard/s209/sh/e7bcf743-984e-45ac-b525-b7f4517cf341/7c4a237f1aa7cb1bf6fb245d76f4a49b/deep/0/Lantern.png
+   :alt: connexion à google
+
+Après avoir saisi vos informations l'on vous demandera d'autoriser
+Lantern à voir vos informations de base et de courriel, et de voir et d'envoyer
+des messages de clavardage. Lantern pose la question sur le clavardage car il utilise
+les canaux de communication par clavardage de Google pour amorcer son réseau. Cliquez sur Autoriser ou
+Lantern ne fonctionnera pas correctement.
+
+.. image:: https://www.evernote.com/shard/s209/sh/bd03de45-d5ac-4cc3-93da-62f24d527687/3bb1691886c46b3f30bc832f2211cdd7/deep/0/Lantern.png
+   :alt: autoriser
+   
+Ajouter des amis
+--------------
+
+Après vous être connecté à Google, vous pouvez ajouter des amis à votre réseau Lantern. Il est important
+de n'ajouter que des personnes en qui vous avez confiance à votre réseau Lantern. Pour plus de détails sur l'ajout d'amis, consultez :ref:`ajouter-des-amis`.
+
+.. image:: https://dl.dropboxusercontent.com/u/253631/Add_Lantern_Friends.png
+	:alt: Ajouter des amis
+
+
+Configurer vos sites
+----------------------
+
+Si vous choisissez Obtenir, consultez :ref:`configuration--sites-relayés`. 
+Prenez note que les receveurs peuvent accéder à la page de configuration des sites relayés en tout temps
+ en cliquant sur l'icône de mappemonde en bas à droite.
+
+Les utilisateurs donnant l'accès ne verront pas cette étape, bien que vous puissiez
+changer de mode pour tester ce qu'est Lantern pour les utilisateurs obtenant
+l'accès.

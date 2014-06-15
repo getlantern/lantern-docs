@@ -1,0 +1,25 @@
+
+Actualitzant a una nova versió de Lantern
+======================================
+
+Quan alliberem una nova versió, t'enviarem un correu electrònic amb un
+enllaç per descarregar el nou instal·lador. Actualment, el procés 
+d'enviar aquests correus electrònics és manual.
+
+Si no reps el correu electrònic, pots utilitzar l'enllaç que hi ha a la invitació
+original per tal de descarregar la darrera versió.
+
+.. image:: https://dl.dropboxusercontent.com/u/253631/download_links.png
+	:alt: Correu d'invitació de Lantern
+
+   Correu electrònic d'invitació a Lantern
+Estem enfeinats afegint `update
+notifications <https://github.com/getlantern/lantern/issues/992>`__ a
+Lantern. Mentrestant, el millors llocs per fer seguiment 
+de les noves versions són:
+
+-  `Twitter <https://twitter.com/getlantern>`__
+-  `Tumblr <http://get-lantern.tumblr.com/>`__
+-  `Facebook <https://www.facebook.com/getlantern>`__
+-  `Google
+   Grups <https://groups.google.com/forum/#!forum/lantern-users-en>`__

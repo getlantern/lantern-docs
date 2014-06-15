@@ -1,0 +1,38 @@
+.. _sending-lantern-logs:
+
+Enviar por correo electrónico los registros (logs) de Lantern
+====================
+
+Ocasionalmente los desarrolladores principales de Lantern le solicitarán que les envíe por correo
+electrónico sus registros (logs) para diagnosticar mejor el problema.
+
+Para hacer esto necesita encontrar el directorio de los registros (logs) en su plataforma:
+
+Windows Vista/7/8
+'''''''''''''''''
+
+``C:\Users\NOMBREDEUSUARIO\AppData\Roaming\Lantern\logs``
+
+Windows XP
+''''''''''
+
+``C:\Documents and Settings\NOMBREDEUSUARIO\Application Data\Lantern\Logs``
+
+OSX
+'''
+
+``~/Library/Logs/Lantern``
+
+Ubuntu
+''''''
+
+``~/.lantern/logs``
+
+El directorio debe tener ficheros en él como ``java.log``,
+``installer.log`` y otros. Empaquete el directorio entero en un único
+fichero zip. Algunas veces puede que sólo contenga java.log, que es el fichero
+más importante. Puede comprimirlo para sea más pequeño, o simplemente enviarlo como está.
+
+Adjunte el fichero zip, o el fichero log de java, en un correo electrónico enviado al contacto [en]
+getlantern.org . Si usted es muy observante de la seguridad y quiere una dirección de correo electrónico
+PGP para enviarlo, háganoslo saber y podremos proporcionarle una.
