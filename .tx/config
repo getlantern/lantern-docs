@@ -1,0 +1,142 @@
+[main]
+host = https://www.transifex.com/projects/p/lantern/
+type = PO
+
+[lantern.contributing]
+file_filter = translations/lantern.contributing/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.downloadingrst]
+file_filter = translations/lantern.downloadingrst/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.email]
+file_filter = translations/lantern.email/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = KEYVALUEJSON
+
+[lantern.emailing-lantern-logsrst]
+file_filter = translations/lantern.emailing-lantern-logsrst/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.get_involvedrst]
+file_filter = translations/lantern.get_involvedrst/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.glossaryrst]
+file_filter = translations/lantern.glossaryrst/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.installingrst]
+file_filter = translations/lantern.installingrst/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.lantern-cloud-serversrst]
+file_filter = translations/lantern.lantern-cloud-serversrst/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.lantern-network-buildingrst_1]
+file_filter = translations/lantern.lantern-network-buildingrst_1/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.lanterntrustnetworksafetytxt]
+file_filter = translations/lantern.lanterntrustnetworksafetytxt/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.video-captions]
+file_filter = translations/lantern.video-captions/<lang>.srt
+host = https://www.transifex.com
+source_lang = en_US
+type = SRT
+
+[lantern.making-sure-lantern-is-genuine]
+file_filter = translations/lantern.making-sure-lantern-is-genuine/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.privacyrst_1]
+file_filter = translations/lantern.privacyrst_1/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.proxied-sites-configuration]
+file_filter = translations/lantern.proxied-sites-configuration/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.quitting-lantern]
+file_filter = translations/lantern.quitting-lantern/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.setup]
+file_filter = translations/lantern.setup/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.switching-google-accountsrst]
+file_filter = translations/lantern.switching-google-accountsrst/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.translating-lantern]
+file_filter = translations/lantern.translating-lantern/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.ui]
+file_filter = translations/lantern.ui/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = KEYVALUEJSON
+
+[lantern.upgrading-to-a-new-version-of-lanternrst]
+file_filter = translations/lantern.upgrading-to-a-new-version-of-lanternrst/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.user-satisfaction-survey]
+file_filter = translations/lantern.user-satisfaction-survey/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.using-lanternrst]
+file_filter = translations/lantern.using-lanternrst/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = TXT
+
+[lantern.www]
+file_filter = translations/lantern.www/<lang>.json
+host = https://www.transifex.com
+source_lang = en_US
+type = KEYVALUEJSON
+

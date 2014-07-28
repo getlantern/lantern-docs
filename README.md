@@ -5,18 +5,17 @@ lantern-docs
 
 To setup the project:
 
-    # install sphinx
-    sudo pip install sphinx
-    # install sphinx utility tool to make translating general documents easy
-    sudo pip install sphinx-intl
-
+    # init project
+    tx-init --user=<transifex-username> --pass=<transifex-password>
+ 
     # setup transifex
     Add credentials to ~/.transifexrc
     Transifex instance [https://www.transifex.com/projects/p/lantern/]:
     pip install transifex-client
-    tx-init --user=<transifex-username> --pass=<transifex-password>
 
-    
+    # pull latest translations
+    tx pull 
 
-    
-    
+    # push updates to translations
+    tx push -t
+
