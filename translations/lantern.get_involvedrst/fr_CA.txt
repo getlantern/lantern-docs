@@ -40,8 +40,8 @@ Rapporter des problèmes
 importantes que vous puissiez faire est de nous rapporter ce qui ne fonctionne *pas*.
 La façon idéale de le faire est sur le `forum
 des utilisateurs francophones <https://groups.google.com/group/lantern-users-fr> ou anglophones <https://groups.google.com/group/lantern-users-en>`__.
-S vous n'êtes pas à l'aise avec l'idée de donner votre nom en public, n'hésitez pas à utiliser un
-compte / nom d'emprunt. Vous pouvez aussi utiliser le formulaire de « contact » dans Lantern
+Si vous n'êtes pas à l'aise avec l'idée de donner votre nom en public, n'hésitez pas à utiliser un
+compte/nom d'emprunt. Vous pouvez aussi utiliser le formulaire de « contact » dans Lantern
 pour envoyer un message privé aux développeurs principaux.
 
 .. image:: https://www.evernote.com/shard/s209/sh/b0ebafae-f50e-41e7-b003-11299102d348/feefe49505573ab528410b708e48b0e1/deep/0/Lantern%20and%20Welcome%20to%20Mail.png
@@ -60,7 +60,7 @@ dans des pays censurés sont automatiquement en mode « receveur »),
 et quelle version de Lantern vous utilisez.
 
 .. image:: https://www.evernote.com/shard/s209/sh/dca46162-f8f4-4e19-9719-f83405a35305/0167dda5f704e71697bbe7124a8a1b79/deep/0/Lantern%20and%20Create%20New%20Page%20%C2%B7%20getlantern/lantern%20Wiki.png
-   :alt: version de Lantern
+   :alt: Version de Lantern
 
 La version est 1.0.0-beta2, vous devriez voir des numéros.
 
@@ -82,9 +82,9 @@ Nous sommes principalement des développeur de logiciels, mais contrairement à 
 développeurs, notre logiciel ne fonctionnera que si de nombreuses personnes
 l'utilisent dans des pays non censurés. Ainsi nous accueillons vos idées et vos actions pour favoriser
 l'adoption de Lantern. Campagnes sur les médias sociaux, articles de magazines, billets de blogues,
-vidéos, kickstarter, etc... - si vous avez de l'expérience promotionnelle,
+vidéos, kickstarter, etc. - si vous avez de l'expérience promotionnelle,
 contactez-nous. Et aucune idée n'est trop grande ou trop petite. Pour
-l'instant, présentez-vous sur le `forums des utilisateurs francophones
+l'instant, présentez-vous sur le `forum des utilisateurs francophones
 <https://groups.google.com/group/lantern-users-fr> ou anglophones <https://groups.google.com/group/lantern-users-en>`_. Si nous
 obtenons assez de personnes, nous lancerons un forum dédié.
 
@@ -102,15 +102,15 @@ vers le haut de n'importe quelle page du wiki.
 Développer
 --------
 
-Si vous êtes un développeur et que vous êtes intéressé à aider à la construction de Lantern, consultez
-`Contribuer du code <../../developer/html/Contributing.html>`_.
+Si vous êtes un développeur intéressé à aider à la construction de Lantern, consultez
+`Contribuer au code <../../developer/html/Contributing.html>`_.
 
 Commanditaire
 --------
 
 En plus de l'exécution de Lantern sur votre propre ordinateur pour partager des connexions
 Internet non censurées, vous pouvez aussi vous engager à un don unique ou mensuel
-pour commanditer un serveur mandataire dans le nuage, fournissant une connexion
+pour commanditer un serveur nuagique mandataire Lantern, fournissant une connexion
 Internet à haute-capacité additionnelle au réseau, jour et nuit, même
 quand votre ordinateur est éteint ou déconnecté.
 
@@ -120,7 +120,7 @@ introduit dans la prochaine version de Lantern, vous pouvez commanditer son dév
 Veuillez contacter les développeurs de Lantern à propos de l'une ou l'autre
 de ces options pour de plus amples informations.
 
-Vous pouvez aussi faire un micro don en 1 clic à la cause en général
+Vous pouvez aussi simplement faire un micro don en 1 clic à la cause en général
 en utilisant Flattr or GitTip :
 
 Merci de votre intérêt sur comment contribuer à Lantern. Une communauté

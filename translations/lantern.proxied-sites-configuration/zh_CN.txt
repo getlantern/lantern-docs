@@ -1,167 +1,167 @@
 .. _config-proxied-sites:
 
-Configuring Proxied Sites
+配置通过代理的站点
 =========================
 
 .. image:: https://www.evernote.com/shard/s209/sh/a6ffd5ed-9f38-4a27-9e75-1b940be94582/2f741aad7056c2bccf76844e7814773c/deep/0/Lantern.png
    :alt: Proxied Sites
 
    通过代理的站点
-The Proxied Sites screen is part of the configuration for people using
-Lantern to Get Access, and is available through the globe icon in the
-lower right.
+设置 ”需代理的网站“ 是使用 Lantern所需要的配置过程的一部分
+用 Lantern 查看，可以通过右下角的图标。
+。
 
 .. image:: https://www.evernote.com/shard/s209/sh/9dd170e2-800d-412c-bfef-8fb21819f517/22b89c58ddadf34a4dee969b2e9fe9ff/deep/0/Lantern.png
    :alt: proxy sites
 
-   proxy sites
-This is where users Getting Access can set which sites to access through
-Lantern friends as opposed to accessing directly. By only accessing
-sites through Lantern that would otherwise be blocked, and accessing
-sites that aren't blocked directly, your experience will be faster, and
-Lantern will be harder to block and more efficient. The Proxied Sites
-screen controls what sites are routed through Lantern rather than
-accessed directly.
+   代理站点
+用户在这里设置，哪些站点通过 Lantern 朋友来访问，
+而不是直接访问。Lantern 朋友应只用来访问那些被屏蔽的网站，
+未屏蔽的网站应该直接访问。
+这样看网页才快，而且
+Lantern 也更不容易被屏蔽，效率也高。
+“被代理的网站” 用来控制通过 Lantern ，而不是直接
+访问的网站。
 
-Initial Configuration
+初始配置
 ~~~~~~~~~~~~~~~~~~~~~
 
-Right now the initial list is just a number of commonly blocked sites.
-In the future we hope to build the list more dynamically based on what
-is actually blocked in each country. But for now we recommend adjusting
-it to your needs. If you run across a site that seems blocked, you can
-check if it's on the list, and add it if it's not. We also recommend
-removing sites from the list that are not actually blocked, as they will
-then load faster for you and help the network run more efficiently.
+现在，初始列表是几个常常被屏蔽的网站。
+以后，我们希望能根据不同的国家，
+动态地建立这个表。现在，我们建议你根据需要自己调整，
+如果你发现不能访问一个站点，
+看一下他是不是在这个表里。如果不在，添上它。
+我们也建议你把没有被屏蔽的网站从表里删掉。
+这样你看网页会快一些，系统也更有效率。
 
-Using a crowd-sourced proxy list
+使用常用代理表
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-While we don't yet have a slick integration, we have set up a `Proxied
-Sites List
+虽然我们尚未把他们合成在一起，但我们确实做了一个
+·需代理的网站
 Wiki <https://github.com/getlantern/lantern-proxied-sites-lists/wiki>`__
-where you can find country specific lists of blocked sites. If you live
-in a country with a list and it's been updated recently then it will
-likely work better for you than the default list that ships with
-Lantern.
+，包含了按国家分类的被屏蔽的网站。
+如果你住在那儿，而且是最近更新过的，
+这个表比缺省的表更好用。
+。
 
 .. image:: https://www.evernote.com/shard/s209/sh/1410658e-531a-44aa-b01b-7867e074637c/b88cfe3ce617b30a394cf6c56b3ea20a/deep/0/Autoproxy%20list%20for%20china%20%C2%B7%20getlantern/lantern-proxied-sites-lists%20Wiki.png
    :alt: china autoproxy list
 
-   china autoproxy list
-Simply go to one of the lists, then select and copy the whole list, and paste it in to your list of domains to proxy 
-in your Lantern. Be sure you delete your existing list (or copy over it), so you don't get duplicates and don't
-proxy sites you don't need to.
+   中国自动代理网站表
+找到一个列表，选择和复制列表，粘帖到你的 Lantern 的列表上。 
+确保删掉原有的列表（或覆盖），以防止重复。不要
+这些网站
 
 .. image:: https://www.evernote.com/shard/s209/sh/345d4873-a0b1-49e1-8188-c5356c2e5c56/d668a756c91454b8f1eaeaf79e6a79a3/deep/0/Lantern.png
    :alt: pasting in lantern.
 
-   pasting in lantern.
-If the list is really long it can be a pain to select it all by hand.
-Many sites will have a link to the 'raw list', which should be a long
-file with just sites. If you go there you can use ctrl-a (select all),
-ctrl-c (copy), and ctrl-v (paste) shortcuts. You should delete the
-default list, so you don't get duplicates and don't proxy sites you
-don't need to.
+   不需要放入 Lantern。
+如果表格很长，手工操作就不容易。
+很多网站会链接到“原始表”，它是一个大文件，里面全是网站。
+你到那儿，用 ctrl-A（全选），
+ctrl-C（复制）和 ctrl-V（粘贴），就简单了。
+应该删掉缺省的表，以避免重复，
+也避免包含你不需要的。
 
-Finding Sites
+找网站
 ~~~~~~~~~~~~~
 
-Before adding a new site, you can check to see if it is already on your
-proxy list. This can be done by scrolling through the list, but the
-search box on the right lets you find it more quickly:
+在添加新网站之前，检查一下是不是已经在表里了。
+你可以挨个看，
+不过，使用右边的“搜索（Search）”也许更快。
 
 .. image:: https://www.evernote.com/shard/s209/sh/f97bd235-eeeb-4e07-a6bd-a47f991254c1/f048f14a6d5d9aeae030ec1b00a445bb/deep/0/Lantern.png
    :alt: searching
 
-   searching
-Adding a new site
+   搜索
+添加新网站
 ~~~~~~~~~~~~~~~~~
 
-To add a new site, you just need to add it to a new line in the text
-box. You can do this anywhere you want. Just hit 'enter' to make a new
-line and add the site on that line.
+要添加新网站，只要把他作为新的一行，填在文本框中。
+可以在框中任意地方，敲“Enter（回车）”键，就出现新的一行，
+把网站添加进去即可。
 
 .. image:: https://www.evernote.com/shard/s209/sh/d1cf2497-2202-4929-847d-7c8c725bbdda/0028e5ba5c860863e4ca3d72014822bf/deep/0/Lantern.png
    :alt: adding
 
-   adding
-Be sure to hit 'update' after you've entered it. Lantern will save your
-changes, and the next time you access that site, it will be routed
-through a Lantern user in your network to circumvent any blocking.
+   添加
+添加后，一定要点击“Update（更新）”。Lantern将会保存你的修改，
+下次你访问这个网站时，它将经过你的网络中
+的 Lantern 用户来躲过屏蔽。
 
-What parts of a site's address to use
+使用哪部分地址
 '''''''''''''''''''''''''''''''''''''
 
-Rather than having you specify individual pages on a site you'd like to
-access through Lantern, Lantern allows you to specify entire sites at a
-time. In other words, you should enter only the domain name of sites you
-want to access through Lantern. For example, you wouldn't enter the full
-address of the page
-``nobelprize.org/nobel_prizes/peace/laureates/2010``; instead you should
-just add whole site: ``nobelprize.org``. Search terms are similar - just
-put the entire search engine, and all your searches on that search
-engine will go through Lantern.
+不需要指定各个网页，
+可以指定整个网站。
+换句话说，你只需要输入网站的域名。
+比如，不需要输入整个地址 
+：
+``nobelprize.org/nobel_prizes/peace/laureates/2010``。只要输入
+ ``nobelprize.org``。搜索项目是也是，
+（这段原文不对吧？）
+。
 
-Subdomains
+子域名
           
 
-If you have ``foo.blogspot.com`` and ``bar.blogspot.com`` in your list,
-they will both be accessed through Lantern, but ``baz.blogspot.com``
-will not. However, if you have just ``blogspot.com`` in your list, then
-any blogspot.com site will be accessed through Lantern.
+如果 ``foo.blogspot.com`` 和 ``bar.blogspot.com`` 在表中，
+他们会经过 Lantern 访问，但是 ``baz.blogspot.com`` 不会经过。
+如果表里填的是 ``blogspot.com``，
+则整个 blogspot.com 网站都会经过 Lantern。
 
-Bulk Adding of new sites
+成批添加新网站
 ''''''''''''''''''''''''
 
-If you've got a list of sites to proxy from another source that doesn't
-use Lantern's format, you will likely have to clean up the formatting.
-For instance, if the list includes
+如果你从某个地方拿到很多需要代理的网站，但是没有用
+Lantern 的格式，你可能不得不修改他们的格式。
+比如，表里的格式是：
 [comments](https://en.wikipedia.org/wiki/Comment\_(computer\_programming)),
-you will have to remove them, as Lantern currently does not support
-comments. Make sure that you meet all the formatting requirements above.
-If you know `regular
-expressions <http://www.regular-expressions.info/>`__ then those can be
-quite useful in cleaning up the list.
+你就要把与网址无关的都删掉。Lantern 目前不支持嵌入式说明。
+请确保格式满足要求。
+如果你知道  `正则表达式
+ <http://www.regular-expressions.info/>`__ ，可以比较容易地
+清理这些格式。
 
-Note that Lantern works well for bulk adding only of lists already in
-Lantern's format. If you paste in a long list of sites that are not in
-Lantern's format, you may get an 'invalid line' error. Lantern will
-report that line, so we recommend copying that and then searching for it
-with Ctrl-F or Edit > Find in the program you pasted the list from. In a
-pinch you can do this in Lantern too (in Windows and Ubuntu), but it's
-best to work on your list outside of Lantern, then paste it in and keep
-editing until there are no more errors.
+请注意，Lantern 只能识别符合它的规则的网址。
+如果格式不对，会出 ”invalid line（非法行）”的错。Lantern 会报出
+出错的行。
+你可以复制那一行，
+然后，在地址表中搜索（Ctrl-F，或 Edit→Find）。
+虽然你可以在 Lantern 中这样操作，我们还是建议你在 Lantern 以外
+修改，然后粘贴回 Lantern，直到
+把错误都修正完。
 
-Removing sites
+删除网站
 ~~~~~~~~~~~~~~
 
-We recommend scrolling through the list and removing any sites that you
-know are not blocked in your country. To remove sites just select them
-in the text field and hit 'delete'. Be sure to hit 'update' when you're
-done.
+我们建议你检查一下网站列表，
+把你的国家不屏蔽的网站删掉。只要在文字框中，选择
+他们，点击 “Delete（删除）” 即可。
+删除后，要记得点击 “Update（更新）”。
 
 .. image:: https://www.evernote.com/shard/s209/sh/81bd9e5b-808c-4b3a-bb8f-487fee2601fd/bf5af2b060b92a44336a9ccc7ff8988b/deep/0/Lantern.png
    :alt: update
 
-   update
-Sharing
+   更新
+分享
 ~~~~~~~
 
-If you would like to share your list of proxied sites with a friend
-who's using Lantern, simply select all the sites you'd like to share
-with your mouse, or click inside the text box and hit Ctrl-A (Command-A
-on OS X) to select them all, copy them to the clipboard with Ctrl-C
-(Command-C), and paste them into an email to your friend using Ctrl-V
-(Command-V). Your friend can then copy the sites you sent her and then
-paste them into her Proxied Sites screen in Lantern.
+如果你想与朋友分享需要代理的网站表，
+用鼠标选择那些你想分享的网站，
+或者在文字框中点一下，然后 Ctrl-A 把他们全选上，用 Ctrl-C 复制，
+然后用 Ctrl-V 粘帖到Email中，
+发给朋友。
+你的朋友可以复制你送给他的网站，
+粘帖到他的 Lantern 的需代理的网站中。
 
-If you'd like to share your list of proxied sites publicly, feel free to
-add them to a new page on the `Lantern Proxied Sites List
+如果你想公开分享你的网站列表，
+可以把它放到 `Lantern Proxied Sites List
 Wiki <https://github.com/getlantern/lantern-proxied-sites-lists/wiki>`__.
-Just click the green 'New Page' button, give your page a name, then on
-the Create New Page screen, paste your list in between two lines
-containing only three back-tick characters, like so:
+你可以点击绿色的 ”New Page（新网页）“，给网页一个名字，
+在网页中，放上所有的网址，并且在第一行之前和最后一行之后
+加上一行，上面只包含三个反引号，像这样
 
 \`\`\`
 
@@ -173,49 +173,49 @@ site3.com
 
 \`\`\`
 
-Feel free to add a post to the `User
-Forums <https://groups.google.com/group/lantern-users-en>`__ with a link
-to the list you just created so other users can check it out!
+另外，在 `User
+Forums <https://groups.google.com/group/lantern-users-en>`__ 论坛里放个帖子
+链接到你做的网页上。这样，其他用户可以参考使用。
 
-Making a 'raw' list
+做原始列表
 '''''''''''''''''''
 
-If your list is super long it can be a pain for people to copy and paste
-it from the wiki. Some lists are put in the GitHub repository, and then
-linked to from the wiki page, so they can be copied much more easily.
+如果你的列表特别长，别人复制/粘贴会很麻烦。
+在 GitHub 库中有一些列表，并链接到 wiki 网页上，
+这样就很容易复制。
 
-If you're not that comfortable with tech then feel free to email a
-Lantern user's group and someone can easily do it for you. If you are
-super comfortable with github just fork the repo and make a pull
-request. For everyone else read on.
+如果你对技术不感兴趣，可以把列表Email给
+一个 Lantern 用户小组，有人会帮你做。
+如果你对 github 很熟悉，可以 fork 库，做个 pull request。
+既不熟悉又不害怕的，接着看。
 
-To add a new list to the repository you need a GitHub account. There
-should be a link to 'sign up' in the upper right hand corner. Once
-you've done that go to
-https://github.com/getlantern/lantern-proxied-sites-lists and hit the
-'plus' button.
+在库里添加新列表，你需要一个 GitHub 账号。
+在右上角有个 sign up。
+然后，去
+https://github.com/getlantern/lantern-proxied-sites-lists ，点击
+'plus' 按钮。
 
 .. image:: https://www.evernote.com/shard/s209/sh/f7185f3d-9ca5-45bf-aac5-8978f7fefb39/6868a4884f375bb854b24b4f663fab91/deep/0/getlantern/lantern-proxied-sites-lists.png
    :alt: add
 
-   add
-This will 'clone' the main repository, making a copy of all the files
-that are under your control. You can create and edit these files, and it
-won't affect the main repository - they're your private copy. You should
-then create a new file under a country folder. You can do this by just
-entering the folder name and then typing '/'. So just enter like
-\`china/my-folder/list.txt', and that will create it under the china
-folder.
+   添加
+这时，会克隆主库，把所有的文件都复制一份
+给你用。你可以创建和修改这些文件，
+但不会影响主库。他们是你私人的复制品。
+这时，在对应国家的文件夹内，创建一个新文件。
+可以在文件夹后加上 ‘/’，比如
+\`china/my-folder/list.txt', 这样就会在 china 文件夹中
+创建文件。
 
 .. image:: http://i.stack.imgur.com/9Ifmj.gif
    :alt: animated folders
 
-   animated folders
-After you've made your list you can propose the changes to the core
-contributors. To do this you create a 'pull request'. To do this you hit
-the green 'compare & review' button from your repository. And then hit
-'create pull request'. The contributors on the main site will then
-review and pull it in.
+   动画文件夹
+昨晚文件列表后，可以向核心成员提交你的修改。
+方法是创建一个 ’pull request‘。 
+在你的库里，点击绿色的 'compare & review' 按钮。
+然后点击 'create pull request'。核心成员会
+审核，并把它拉进去。
 
-Note you can also use pull requests to update or correct other lists.
-Just make the edits from your repository and then create a pull request.
+注意，你也可以用 ’pull request‘ 来更新或修改其他列表。
+只要在你的库里做修改，然后创建 ’pull request‘ 即可。

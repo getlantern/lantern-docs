@@ -1,43 +1,43 @@
-.. _contributing-to-lantern-dev:
+.. _contribuer-au-dévellopement-de-lantern:
 
-Contributing Code
+Contribuer au développement
 =================
 
-This page is focused on software development. If you are not a developer, there are many other ways to `get involved <../user/Get_Involved.html>`_.
+Cette page est dédiée au développement logiciel. Si vous n'êtes pas un développeur, il y a de nombreux autres moyens de `participer <../user/Get_Involved.html>`_.
 
-Our goal is to make Lantern a truly collaborative open source project with contributors
-from many organizations and countries.
+Notre but est de faire de Lantern un projet open source et collaboratif avec des contributeurs
+venant de nombreuses organisations et pays.
 
-How We Work
+Comment Lantern fonctionne
 -----------
 
-If you aren't familiar with open source development we highly recommend reading `Producing Open Source Software <http://producingoss.com/>`__. It's available for free but don't hesitate to buy the book (it's written by a friend of Lantern). We try to follow the best practices details in this book, so it's a good way to get familiar with how we work.
+Si vous êtes familier avec le développement en open source, nous vous recommandons de lire 'Production de logiciel Open Source '__. Vous pouvez y accéder gratuitement, mais n'hésitez pas à acheter le livre (il est écrit par un ami de Lantern). Nous essayons de suivre au mieux les méthodes de ce livre, donc c'est un bon moyen de comprendre comment nous travaillons.
 
-Getting Started
+Commencer
 ---------------
 
-The first step is to check out our
-`CONTRIBUTING <https://github.com/getlantern/lantern/blob/master/CONTRIBUTING.md>`__
-file for relevant information. We follow standard
-github model of contributors submitting pull requests and then having
+La première chose à faire et d'aller faire un tour sur
+`CONTRIBUER <https://github.com/getlantern/lantern/blob/master/CONTRIBUTING.md>`__
+Pour plus d'informations. Nous utilisons
+les modèles standards de contributeurs soumettant des requêtes sur GitHub que
 core authors review.
 
-Communicating
+Communication
 --------------
-The majority of our communication happens in
-`tickets <https://github.com/getlantern/lantern/issues>`__. You can 
-`watch <https://help.github.com/articles/watching-repositories>`_ the project 
-in GitHub and get notifications when an issue is updated.
+La majorité de nos échanges ont lieux dans la section
+`tickets <https://github.com/getlantern/lantern/issues>`__. Vous pouvez 
+`observer <https://help.github.com/articles/watching-repositories>`_ le projet 
+sur GitHub et recevoir des notifications quand une publication est mise à jour
 
-We also have a `developer forum <https://groups.google.com/forum/#!forum/lantern-devel>`__ on Google Groups that 
-we use to communicate. Please don't hesitate to introduce yourself on the forum. We can
-find tasks you might be interested in.
+Nous avons aussi un `forum pour les développeurs <https://groups.google.com/forum/#!forum/lantern-devel>`__ sur Google Groups que 
+nous utilisons pour communiquer. N'hésitez pas à venir vous présenter sur le forum. Nous pouvons
+trouver des taches qui pourraient vous convenir.
 
 You can also sign up to help us triage issues on `CodeTriage <http://www.codetriage.com/getlantern/lantern>`_.
 
-Making Decisions
+Prendre des décisions
 ----------------
 
-Lantern decisions are made by all core developers. Anyone
-who contributes sufficiently to development can become a core developer
-and help decide the future of Lantern.
+Les décisions faites sur le futur de Lantern le sont par les développeur du noyau. N'importe
+qui contribue suffisament au developpement peut devenir un développeur du noyau
+et aider à faire les choix qui décideront l'avenir de Lantern

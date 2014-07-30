@@ -1,6 +1,6 @@
 下载 Lantern
 ===================
 
-Lantern 目前处于内测阶段。要下载 Lantern，您需要被正在
-使用 Lantern 的用户邀请。如果您没有任何一个能邀请您的好友，请您将您的
-电子邮件地址填入 `注册表格 <http://GetLantern.org>`_。
+Lantern 目前处于内测阶段。要下载 Lantern，您需要通过邀请
+正在使用 Lantern 邀请的用户。如果您没有任何一个能您的好友，请您邀请添加
+填入电子邮件地址 `注册表格 <http://GetLantern.org>`_。

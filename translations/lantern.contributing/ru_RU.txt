@@ -1,43 +1,43 @@
 .. _contributing-to-lantern-dev:
 
-Contributing Code
+Усовершенствование кода
 =================
 
-This page is focused on software development. If you are not a developer, there are many other ways to `get involved <../user/Get_Involved.html>`_.
+Темой этой страницы является разработка ПО. Если вы не являетесь разработчиком, существует множество других путей сделать свой вклад <../user/Get_Involved.html>`_.
 
-Our goal is to make Lantern a truly collaborative open source project with contributors
-from many organizations and countries.
+Наша цель - сделать Lantern действительно совместным проектом с открытым кодом, в
+котором задействованы разработчики из множества организаций и стран.
 
-How We Work
+Как мы работаем
 -----------
 
-If you aren't familiar with open source development we highly recommend reading `Producing Open Source Software <http://producingoss.com/>`__. It's available for free but don't hesitate to buy the book (it's written by a friend of Lantern). We try to follow the best practices details in this book, so it's a good way to get familiar with how we work.
+Если вы не знакомы с концепцией открытого исходного кода, мы настоятельно рекомендуем вам прочитать `Разработка ПО с открытым кодом <http://producingoss.com/>`__ [анг.]. Материал доступен бесплатно, но вы можете также приобрести книгу (её написал друг проекта Lantern). Мы стараемся следовать всем практическим советам этой книги, то есть прочтение книги поможет понять, как мы работаем.
 
-Getting Started
+Первые шаги
 ---------------
 
-The first step is to check out our
+Для начала проверьте файл
 `CONTRIBUTING <https://github.com/getlantern/lantern/blob/master/CONTRIBUTING.md>`__
-file for relevant information. We follow standard
-github model of contributors submitting pull requests and then having
-core authors review.
+для получения важной информации. Мы создали стандартную
+модель участников github, которые присылают свои предложения по усовершенствованию, которые затем
+проверяются ключевыми авторами.
 
-Communicating
+Коммуникация
 --------------
-The majority of our communication happens in
-`tickets <https://github.com/getlantern/lantern/issues>`__. You can 
-`watch <https://help.github.com/articles/watching-repositories>`_ the project 
-in GitHub and get notifications when an issue is updated.
+Большая часть общения происходит в виде
+`билетов <https://github.com/getlantern/lantern/issues>`__. Вы можете 
+`просмотреть <https://help.github.com/articles/watching-repositories>`_ проект 
+в GitHub и получать уведомления, когда тема обновляется.
 
-We also have a `developer forum <https://groups.google.com/forum/#!forum/lantern-devel>`__ on Google Groups that 
-we use to communicate. Please don't hesitate to introduce yourself on the forum. We can
-find tasks you might be interested in.
+У нас таже есть `форум разработчиков <https://groups.google.com/forum/#!forum/lantern-devel>`__ в Google Groups, который 
+мы используем для общения. Пожалуйста, представьтесь на форуме. Мы можем
+найти задачи, которые могут показаться вам интересными.
 
-You can also sign up to help us triage issues on `CodeTriage <http://www.codetriage.com/getlantern/lantern>`_.
+Вы также можете зарегистрирваться и помогать нам сортировать проблемы на `CodeTriage <http://www.codetriage.com/getlantern/lantern>`_.
 
-Making Decisions
+Принятие решений
 ----------------
 
-Lantern decisions are made by all core developers. Anyone
-who contributes sufficiently to development can become a core developer
-and help decide the future of Lantern.
+Все решения Lantern принимаются ключевыми разработчиками. Каждый,
+кто делает весомый вклад в развитие ПО, может стать ключевым разработчиком
+и помогать определять будущее Lantern.

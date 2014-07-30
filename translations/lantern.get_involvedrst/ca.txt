@@ -10,8 +10,8 @@ per la majoria de tasques no calen coneixements de programació.
 Naturalment, els desenvolupadors són sempre benvinguts, però aquesta
 pàgina està pensada per a qualsevol que vulgui ajudar a eixamplar Lantern.
 
-Actualment, Lantern està en fase beta privada, però estem `accepting
-applications <https://docs.google.com/forms/d/11LiZoCMptcc_lj4b01It9n64gngaDPU53_ge3mhiaIM/viewform>`__
+Actualment, Lantern està en fase beta privada, però `acceptem
+aplicacions <https://docs.google.com/forms/d/11LiZoCMptcc_lj4b01It9n64gngaDPU53_ge3mhiaIM/viewform>`__
 per 'Ambaixadors' - provadors del producte ben implicats i entusiastes.
 Si estàs interessat en algunes de les tasques indicades avall, si us plau
 fes-ho saber a la teva petició. Ens interessen sobretot les persones amb 
@@ -24,48 +24,48 @@ Utilitza i Difon Lantern
 Si disposes d'una connexió Internet, pots fer una aportació ben positiva
 simplement mantenint Lantern en execució. Per cada usuari addicional
 que comparteix la xarxa Lantern, aquesta funciona molt millor, i és més
-complicada de bloquejar pels censors.
+complicat que la bloquegin els censors.
 
-Whether or not you have an uncensored internet connection, you can also
-help by inviting people you trust to join the Lantern network. Lantern
-relies on a large network of users who trust one another to share
-internet connections, so the more trusted connections in the network,
-the better Lantern will work. So if you are an early user please spread
-Lantern among your trusted friends to help the network grow.
+Tinguis o no tinguis una connexió Internet sense censura, també pots ajudar
+convidant persones en qui confies a que formin part de la xarxa Lantern. 
+Lantern compta amb una gran xarxa d'usuaris que confien l'un amb l'altre per
+compartir les connexions Internet. Com més connexions fiables tingui la xarxa, 
+millor funcionarà Lantern. Si ets usuari novell, si us plau fes conèixer Lantern
+entre els teus amics de confiança, per ajudar a créixer la xarxa.
 
-Report Problems
+Informar Problemes
 ---------------
 
-At the current 'beta' stage of development one of the most valuable
-things you can do is report to us if it is *not* working for you. The
-ideal way to do this is on the `users
-forum <https://groups.google.com/group/lantern-users-en>`__. If you
-don't feel comfortable with your name in public feel free to use dummy
-account / name. You can also use the 'contact' form from Lantern itself
-to send a message privately to the core developers.
+Dins l'actual fase 'beta' de desenvolupament, una de les més valuoses 
+aportacions que pots fer és informar-nos si el sistema *no* et funciona.
+La millor manera de fer-ho és al `fòrum
+d'usuaris <https://groups.google.com/group/lantern-users-en>`__. Si 
+t'incomoda veure el teu nom en públic, no et faci res utilitzar un compte
+d'usuari encobert. També pots enviar un missatge als desenvolupadors 
+del nucli, de forma privada, des del formulari 'contacte' de Lantern.
 
 .. image:: https://www.evernote.com/shard/s209/sh/b0ebafae-f50e-41e7-b003-11299102d348/feefe49505573ab528410b708e48b0e1/deep/0/Lantern%20and%20Welcome%20to%20Mail.png
    :alt: contacte
 
 
-The most important thing to let us know is if you are in a censored
-country and are unable to connect at all. But feel free to report more
-minor errors, and also to make suggestions about ways that Lantern could
-work better for you. Try to give as much detail as possible. See this
-`how to report bugs
-effectively <http://www.chiark.greenend.org.uk/-sgtatham/bugs.html>`__
-for general guidelines. For Lantern be sure to include your operating
-system, where you are, and if you are in 'give' or 'get' mode (all users
-in censored countries are automatically in 'get'), and what version of
-Lantern you're running.
+El més important que ens hauries de fer saber és si estàs a un país amb
+censura i no pots connectar de cap manera. Però no dubtis d'informar-nos
+sobre errors si trobes errors menors, i també de suggerir-nos qualsevol
+aspecte on Lantern pogués funcionar millor. Intenta donar el màxim detall. 
+Pots veure unes directrius generals de `com informar errors eficaçment
+<http://www.chiark.greenend.org.uk/-sgtatham/bugs.html>`__
+Per Lantern, verifica que inclous el teu sistema operatiu, 
+on ets, i si estàs en mode 'donar' o 'obtenir' (tots els usuaris de països amb
+censura estan automàticament en mode 'obtenir'), i quina versió de 
+Lantern estàs executant.
 
 .. image:: https://www.evernote.com/shard/s209/sh/dca46162-f8f4-4e19-9719-f83405a35305/0167dda5f704e71697bbe7124a8a1b79/deep/0/Lantern%20and%20Create%20New%20Page%20%C2%B7%20getlantern/lantern%20Wiki.png
-   :alt: lantern version
+   :alt: versió de Lantern
 
-The above is 1.0.0-beta2, you should see some number there.
+La d'aquí damunt és 1.0.0-beta2, hauries de veure-hi algun número.
 
-You also may be asked to email your logs for the developers to diagnose.
-See :ref:`sending-lantern-logs`.
+Potser et demanarem que ens enviïs els teus logs perquè els desenvolupadors en facin un diagnòstic.
+Veure :ref:`sending-lantern-logs`.
 
 Traduir Lantern
 ------------------
@@ -84,44 +84,44 @@ països sense censura executa Lantern. Ens interessen idees i accions
 per engrescar a que més gent executi Lantern. Campanyes a les xarxes
 socials, articles de revistes, publicacions a blogs, vídeos, etc. Si tens 
 experiència en grans promocions, contacta'ns. Cap idea és massa gran o
-petita. Presenta't ara mateix al `users
-forum <https://groups.google.com/group/lantern-users-en>`_. Si hi ha prou
+petita. Presenta't ara mateix al `fòrum 
+d'usuaris <https://groups.google.com/group/lantern-users-en>`_. Si hi ha prou
 gent, iniciarem un fòrum dedicat.
 
-Help with documentation
+Ajudar amb la documentació
 ------------------------
 
-This collaboratively-maintained wiki documentation is a work in
-progress. If you see an area that needs more work and you would like to
-pitch in, we welcome your help. Right now you needed to be added to the
-Documentation Team to edit, just let us know of your interest on the
-`forum <https://groups.google.com/forum/#!forum/lantern-users-en>`__.
-Then to edit just use the "New Page" or "Edit Page" buttons near the top
-of any wiki page.
+Aquesta documentació wiki es manté en col·laboració, i és una feina 
+en curs. Si detectes una àrea que requereix més feina i t'hi vols implicar, 
+agrairem el teu suport. Fins ara, per poder editar t'has hagut d'afegir a
+l'Equip de Documentació, fes-nos saber el teu interès al
+`fòrum <https://groups.google.com/forum/#!forum/lantern-users-en>`__.
+Llavors, per editar només et caldrà usar els botons "Pàgina nova" o 
+"Editar pàgina" prop de la part superior de qualsevol pàgina wiki.
 
-Develop
+Desenvolupar
 --------
 
-If you are a developer and are interested in helping build Lantern, see
-`Contributing Code <../../developer/html/Contributing.html>`_.
+Si ets desenvolupador i estàs interessat en ajudar a bastir Lantern, fes una ullada a
+`Aportant Codi <../../developer/html/Contributing.html>`_.
 
-Sponsor
+Patrocinador
 --------
 
-Besides running Lantern on your own computer to share an uncensored
-internet connection, you can also pledge a one-time or monthly donation
-to sponsor a Lantern cloud proxy, which provides an additional
-high-capacity internet connection to the network 24 hours a day, even
-while your computer is off or disconnected.
+A part d'executar Lantern al teu ordinador per compartir una connexió a 
+Internet sense censura, també et pots comprometre a una donació mensual,
+o una donació puntual, per patrocinar un servidor intermediari al núvol, que 
+proporciona una connexió addicional d'alta capacitat les 24 hores del dia, 
+fins i tot si el teu ordinador està apagat o desconnectat.
 
-Alternatively, if there is some feature or bugfix you'd like to see in
-the next version of Lantern, you can sponsor its development.
+D'altra banda, si trobes alguna característica o algun error que voldries veure
+implantat a la propera versió de Lantern, en pots patrocinar el desenvolupament.
 
-Please contact the Lantern developers about either of these options if
-you would like to inquire further.
+Si us plau, posa't en contacte amb els desenvolupadors de Lantern per 
+aclarir qualsevol dubte sobre aquestes opcions i saber-ne més.
 
-You can also just make a 1-click microdonation to the cause in general
-using Flattr or GitTip:
+També pots fer una microdonació amb 1 sol clic a la nostra causa en 
+general, usant Flattr o GitTip:
 
-Thank you for your interest in contributing to Lantern. A vibrant and
-active community is vital to our existence.
+Agraïm el teu interès en les aportacions a Lantern. Una comunitat ben 
+animada i activa és essencial per la nostra existència. 

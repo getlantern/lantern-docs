@@ -1,125 +1,125 @@
-Using Lantern
+使用 Lantern
 =============
 
-After you've finished :DOC:`Setup` you're ready to start using Lantern.
+配置（ :DOC:`Setup` ）完以后，就可以使用了。
 
-Users **Getting Access**
+“获得连接” 的用户
 ------------------------
 
-If you are in a censored region and have installed Lantern, simply open
-your favorite browser and navigate to any blocked site. Any browser
-should work, as Lantern configures itself to handle any connection from
-your computer.
+如果你在限制区，安装好 Lantern 后，
+只要打开你喜欢的浏览器，就可以看到被封锁的网站了。
+任何浏览器都应该可以，因为 Lantern 会处理你的电脑的
+所有的连接。
 
 .. image:: https://www.evernote.com/shard/s209/sh/ebdd003b-5c06-430f-a239-ea4a28c444cf/3f6d143232be6ffe1b1d0edcc5cf309d/deep/0/Fullscreen%208/18/13%209:00%20PM.png
    :alt: working lantern
 
-While your browsing is connecting Lantern reports on the activity. On
-the map there will be a line between your computer and the computers of
-your friends. If your friends aren't available you may see that you are connected
-to one of the Lantern fallback servers. See :ref:`lantern-cloud-servers`.
+你的浏览器连接的时候，Lantern 会报告这个动作。
+在网络图上，你的电脑和你的好友的电脑之间
+会画上一根线。如果你的好友不在线，你会看到你连到
+一个 Lantern 的后备服务器上。参见  :ref:`lantern-cloud-servers`（Lantern 的云服务器）。
 
-You can see your bandwidth going up and down in the top-right corner of Lantern. This will
-change as you browse.
+在 Lantern 的右上角，你可以看到你的带宽在上上下下地波动。
+你浏览的时候，他也会变。
 
-If you can't access a web site, you may have to add it to your Proxy Site List.
-See :ref:`config-proxied-sites`.
+如果不能访问一个网站，你可能要把它填到你的需代理的网站表中。
+参见  :ref:`config-proxied-sites`.（配置需代理的网站）
 
-If you are still unable to get access, you can try to invite more friends in
-uncensored countries who can share their connection with you. You could also
-sponsor a cloud server to help the lantern network. See :ref:`lantern-cloud-servers`.
+如果还是不能访问，你要邀请更多的
+在非限制区的好友，请他们分享他们的连接给你。
+你还可以赞助云服务器来帮助 Lanter 网络。参见 
 
-We also have a `forum <https://groups.google.com/forum/#!forum/lantern-users-en>`_ where you 
-can get help.
+还有一个论坛  `forum <https://groups.google.com/forum/#!forum/lantern-users-en>`_ ， 
+你可以得到帮助。
 
-Users **Giving Access**
+“提供连接” 的用户
 -----------------------
 
-Users who are giving access often will not have immediate connections.
-If you want to make sure that Lantern is working you can try out **Get
-Access** mode.
+对于 “提供连接” 的用户，他们常常不是马上被连接的。
+如果想确认 Lantern 是工作的，你可以试一下
+切换到 “获得连接” 方式。
 
 .. image:: https://www.evernote.com/shard/s209/sh/e1e59fee-9976-47c0-a9b9-856c4888c521/f34171fc3725a47efb0cdbfd3f163b2a/deep/0/Lantern%20and%20Freedom%20House.png
    :alt: getting access
 
-Just go to 'settings' and change the mode 'getting access', and try the
-steps above.
+只要去 “Settings” （配置），把模式改成 “获得连接”，
+并遵照上面的步骤。
 
-All Users
+所有用户
 ---------
 
-Exploring the Lantern Network
+探索 Lantern 网络
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: https://www.evernote.com/shard/s209/sh/57a422d3-27f1-4b45-b05c-09b87636ab23/8b8d1d84c456798cd0f3e045590dc3e7/deep/0/Lantern.png
    :alt: lantern network
 
 
-You can explore the map of the Lantern network. The bottom of the screen
-shows the global statistics for everyone on the network - how many users
-are online now, have ever been online, and the total bandwidth
-transferred (currently broken). If you mouse over a country it will show
-you similar statistics for that country. You can also mouse over your
-own user and the users you're connecting to, as dots on the map.
+你可以看看 Lantern 网络图。屏幕下方
+显示全局统计数据：有多少用户
+现在在线、曾经在线过、和总带宽。
+把鼠标放在一个国家上，就显示出
+这个国家的类似统计。可以把鼠标放在你自己的电脑上，
+或与你相连的电脑上，就是那些图上的点。
 
 .. _adding-friends:
 
-Adding Friends
+添加好友
 ^^^^^^^^^^^^^^
 
-Building your Lantern network by adding friends is the main task for
-users Giving Access from open countries. Adding others in uncensored
-countries is key for expanding the network. And any friend in a censored
-country that you add to your roster will instantly benefit from your
-connection and those of your other friends.
+非限制区的 “提供连接” 的用户的主要任务之一
+就是用添加好友的方式，构建Lantern网络。
+在非限制国家添加好友，是扩展网络的关键。你在限制区的朋友
+会马上享受到这些非限制区的好友所提供的连接。
+他的朋友们也将受益。
 
-And it is critical for users Getting Access to invite more trusted
-users, to improve the network. Adding friends in uncensored countries is
-directly beneficial for better connections. But helping other friends
-within your country also helps build the Lantern network and connect you
-to more Lantern proxies.
+“获得连接”的用户也要尽量多地邀请信任的用户，从而改进 Lantern 网络。
+在非限制区添加好友会直接
+增加连接的能量。而增加限制区里的朋友也同样扩展了 Lantern 网络，
+从而使你有更多的机会，连到更多的代理
+。
 
 .. image:: https://www.evernote.com/shard/s209/sh/69dfc002-b2c8-4f31-9c77-baf39d9e97a2/ecd8f30823d03d085fd271a6f77923c5/deep/0/Lantern.png
    :alt: add friends
 
-You can add friends at any time with the friend button on the lower
-right.
+可以在任何时间用右下角的
+朋友按钮添加好友。
 
 .. image:: https://www.evernote.com/shard/s209/sh/5f777d62-6c2f-405d-b065-1fb8ba948e6c/c3493f15bd539a174f5a901d5404dea9/deep/0/Lantern.png
    :alt: friends
 
-This brings up the 'Lantern Friends' screen. You can enter the email
-address of any friend who has a google account. Any gmail address will
-definitely work. If you aren't sure you can just try to add them, as
-many people have other email addresses set up to work with Google.
-Adding them will send an invitation to join Lantern, with a link to the
-download. Once they sign on at the same time as you are on their status
-in your friends window will change.
+点击后会出现 “Lantern Friend（Lantern 好友）” 屏幕。
+你可以输入任何有 google 帐号的人的 Email 地址。
+任何 Email 地址都可以。如果你不确认，可以试一下，填进去。
+因为很多人用其他 Email 地址建立了 google 帐号。
+添加后，他们会收到一个邀请，里面有
+下载用的连接。他们加入后，你的屏幕上的好友的状态会改变。
+下图
 
-The image below shows friends successfully transferring from a user in
-'give' mode.
+显示了好友变成了 “提供连接“
+。
 
 .. image:: https://www.evernote.com/shard/s209/sh/ba32dfb0-959d-494b-9065-2053aab61875/839570ec5c5e0df068455bc7a00daa96/deep/0/Lantern%20and%20Editing%20Using%20Lantern%20%C2%B7%20getlantern/lantern%20Wiki.png
    :alt: friends transferring
 
-Note that there will not always be connection lines between friends.
-This happens when the rough location can not be established. You will
-always be able to see if transferring is happening by looking in the
-upper right corner, or watching the friends list.
+注意：朋友间不一定总能连上。
+有时无法准确定位。
+你总能看到转换是否完成了，在右上角；
+或者，可以看看朋友列表。
 
-Removing people from your friend list will make it so they can not
-access your connection to the internet and vice versa.
+你可以把朋友从朋友列表中删除。
+之后，你们相互之间就不能连接了。
 
-Leave Lantern Running
+保持 Lantern 运行
 ^^^^^^^^^^^^^^^^^^^^^
 
-We encourage you to leave Lantern running, so that it can be helping
-others even if you are not using it right then. Closing the Lantern window does not stop Lantern. The Lantern icon still appears in your menubar.
+我们鼓励你保持 Lantern 运行，从而在你不用电脑的时候，
+仍旧可以帮助别人。关闭 Lantern 窗口并没有停止 Lantern。Lantern 图标还出现在菜单栏上。
 
 退出 Lantern
 ^^^^^^^^^^^^^^^^
 
-To quit Lantern, click the Lantern icon and select 'Quit Lantern'.
+要退出 Lantern，点击 Lantern 图标，选择 ”Quit Lanter（退出 Lantern）“。
 
 .. image: https://www.evernote.com/shard/s209/sh/9308b039-b326-4160-b7d1-4f6f15c210a7/41fe4b0ebde601cb9ffd5d0ceb09a8c8/deep/0/Screen%20Shot%202013-08-16%20at%208.07.29%20PM.png
 	alt: The Lantern menu with Quit Lantern selected.

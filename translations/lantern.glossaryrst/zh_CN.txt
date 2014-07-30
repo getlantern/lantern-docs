@@ -1,50 +1,50 @@
-Glossary
+词汇表
 ========
 
-.. glossary::
+.. 词汇表::
 
 HTTP
-	Hypertext Transfer Protocol. Used to transfer content such as web pages
-	over the internet. Content is sent unencrypted, so any
-	`intermediary <#wiki-intermediary>`__ could potentially read it in
-	transit. HTTP is therefore not secure. `HTTPS <#wiki-https>`__ is the
-	secure counterpart of HTTP.
+	超文本传输协议。用于传输的内容，如网页
+	在互联网上。发送未加密的内容，所有内容
+	`介绍 <#wiki-intermediary>`__ 您可以阅读它
+	通过。所以HTTP 是不是安全的。`HTTPS <#wiki-https>`__ 是
+	以安全为目标的HTTP通道。
 
 HTTPS
-	A secure version of `HTTP <#wiki-http>`__. Content is sent encrypted to
-	prevent an `intermediary <#wiki-intermediary>`__ from being able to read
-	it in transit.
+	`HTTP 安全版本<#wiki-http>`__。发送加密内容到
+	防止 `中介 <#wiki-intermediary>`__ 能够阅读
+	它在传输途中。
 
 Install4g 
-	Install4g is a program we use to make the Lantern install experience smoother across all platforms.
+	Install4g是我们用来制作 Lantern安装程序体验流畅度的跨平台程序。
 	
-Intermediary
-	An entity on a computer network in between the requester of some content
-	and the server which hosts it, e.g. a `proxy <#wiki-proxy>`__ or an
-	`internet service provider <#wiki-isp>`__.
+介绍
+	一些实体在计算机网络中与请求者之间的一些内容
+	和它承载它的服务器，例如一个`代理<#wiki-proxy>`__ 或者
+	`互联网服务提供商<#wiki-isp>`__。
 
 ISP
-	Internet service provider, an organization which provides internet
-	access. Traffic leaving a computer's local network (in a home, office,
-	internet cafe, etc.) goes here before either being forwarded to its
-	destination, or blocked in the case that the ISP employs censorship.
-	Traffic bound for your computer likewise must pass through your ISP
-	before it can reach you.
+	互联网服务供应商，企业或组织团体提供互联网供应服务
+	访问。传输保留了计算机的本地网络 (在家庭，办公室，
+	网吧等。) 放在这里要么被转发到其他
+	目的地, 或挡在了ISP采用审查的的情况下。
+	传输必须通过您的电脑也必须通过您的ISP
+	才可以联系到您。
 
 Peer
-	Another user you're connected to on a computer network.
+	你是在你计算机网络上连接到其他用户的网络。
 
-Peer-to-Peer (P2P)
-	Describes a network architecture where each computer in the network can
-	act as client and server, as opposed to just one or a few servers
-	providing service to many clients. Peer-to-peer networks are
-	decentralized and therefore more difficult to shut down.
+点对点 (P2P)
+	介绍了在网络中的每台计算机网络体系结构可以
+	作为客户端和服务器，而不是仅仅一个或几个服务器
+	提供服务给更多客户。点对点的网络是
+	更加分散的，因此更容易逃过审查。
 
 代理
-	An `intermediary <#wiki-intermediary>`__ which forwards traffic between
-	a user requesting content and the server that hosts it, often because
-	the user cannot reach the server directly due to censorship.
+	一个 `媒介<#wiki-intermediary>`__ 这之间转发流量是
+	其中一个用户请求的内容和承载它的服务器，往往是因为
+	用户由于审查不能直接到达服务器。
 
-System Proxy
-	A program which proxies traffic for all programs on a computer which
-	access the network.
+系统代理
+	此程式会透过代理流量连接计算机上的所有程序
+	访问网络

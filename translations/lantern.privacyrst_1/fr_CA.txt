@@ -18,7 +18,7 @@ Participer au réseau Lantern en tant que donneur d'accès signifie que les pers
 
 Nous utilisons le `protocole à publication limitée Kaleidoscope <https://github.com/getlantern/kaleidoscope#kaleidoscope-limited-advertisement-protocol>`_ pour nous assurer que les utilisateurs de Lantern ne partagent de connexions Internet qu'avec des personnes auxquelles ils sont connectés par des amis de confiance.
 
-Engagement envers votre confidentialité et votre sécurité
+Engagement envers la confidentialité et votre sécurité
 -------------------------------------
 Lantern prend très au sérieux la responsabilité de fournir l'accès à Internet. Il nous est extrêmement important de limiter la quantité d'informations que nous stockons et de garder vos informations secrètes.
 
@@ -28,7 +28,7 @@ Nous n'utiliserons aucune information que nous collections à des fins autres qu
 
 Stockage des données
 ------------
-Lantern utilise des tiers marchands et des partenaires d'hébergement pour fournir le matériel, les logiciels, la réseautique, le stockage et les technologies associées exigées pour exécuter Lantern. Bien que Lantern soit propriétaire du code, des bases de données et de tous les droits sur les applications Lantern, vous gardez tous les droits sur vos données.
+Lantern utilise des fournisseurs tiers et des partenaires d'hébergement pour fournir le matériel, les logiciels, la réseautique, le stockage et les technologies associées exigées pour exécuter Lantern. Bien que Lantern soit propriétaire du code, des bases de données et de tous les droits sur les applications Lantern, vous gardez tous les droits sur vos données.
 
 Divulgation responsable
 ----------------------
@@ -40,7 +40,7 @@ Lorsque vous utilisez Lantern, vous pouvez choisir de nous fournir des données 
 
 Si vous activez cette option nous utiliserons :
 
-* Google Analytique avec `anonymisation de l'IP <https://support.google.com/analytics/answer/2763052?hl=fr>`_ pour stocker des informations sur votre utilisation.
+* Analytique Google avec `anonymisation de l'IP <https://support.google.com/analytics/answer/2763052?hl=fr>`_ pour stocker des informations sur votre utilisation.
 * Exceptional.io pour stocker des informations sur les erreurs dans le logiciel Lantern.
 * Le moteur applicatif Google pour stocker des informations sur les pays d'où vous vous êtes connectés et le nombre d'octets que vous avez envoyé et reçu.
 

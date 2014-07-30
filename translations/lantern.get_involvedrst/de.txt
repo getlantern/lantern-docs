@@ -33,7 +33,7 @@ internet connections, so the more trusted connections in the network,
 the better Lantern will work. So if you are an early user please spread
 Lantern among your trusted friends to help the network grow.
 
-Report Problems
+Probleme berichten
 ---------------
 
 At the current 'beta' stage of development one of the most valuable
@@ -67,7 +67,7 @@ The above is 1.0.0-beta2, you should see some number there.
 You also may be asked to email your logs for the developers to diagnose.
 See :ref:`sending-lantern-logs`.
 
-Translate Lantern
+Lantern übersetzen
 ------------------
 
 If you are a fluent speaker of another language and would like to help
@@ -99,7 +99,7 @@ Documentation Team to edit, just let us know of your interest on the
 Then to edit just use the "New Page" or "Edit Page" buttons near the top
 of any wiki page.
 
-Develop
+Entwickeln
 --------
 
 If you are a developer and are interested in helping build Lantern, see

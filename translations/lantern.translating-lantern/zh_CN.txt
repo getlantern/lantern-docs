@@ -1,128 +1,128 @@
 .. _translating-lantern:
 
-Translating Lantern
+翻译 Lantern
 ===================
 
 
-Introduction
+引言
 -----------
 
-One of the best ways to help Lantern grow is by translating it to your
-local language. Our hope is to have Lantern available in as many
-languages as possible. We've started a
+最好的帮助 Lantern 成长的方法是把它翻译成
+当地语言。我们希望 Lantern 能用尽可能多的语言提供给用户。我们建立了一个论坛
+：
 **`forum <https://groups.google.com/group/lantern-i18n>`__
 (lantern-i18n@googlegroups.com)** coordinating localization ("l10n") /
-internationalization ("i18n") of Lantern. If you'd like to get involved
-don't hesitate to introduce yourself there. You can also just start on
-translations and get in touch there when you need help. Also feel free
-to look for us in our IRC channel, **`#lantern on
-Freenode <http://webchat.freenode.net/?channels=lantern>`__**, to chat
-with us in real time.
+internationalization ("i18n") of Lantern. 如果你想参与
+，不要犹豫，注册进来。你也可以
+直接开始翻译，遇到困难时到那儿求助。
+还可以通过 IRC 
+Freenode <http://webchat.freenode.net/?channels=lantern>`__**, 
+与我们聊天。
 
-There are a few different aspects of Lantern that need translation. We
-list them below in sections, roughly ordered by importance. And the more
-important ones are the ones we've spent more time on making it easy to
-translate.
+Lantern 中有几个需要翻译的。
+我们按照重要性，列在下面。
+越重要的，我们花在上面的时间也越多，
+而且翻译起来也越容易。
 
-Transifex for Lantern Application and Video
+Transifex（用于 Lantern 应用翻译的工具）
 -------------------------------------------
 
-The two easiest and most important things to translate are Lantern
-itself and captions for the
-`video <https://www.youtube.com/watch?v=aiPkCugE-RY>`__ (featured at
-http://getlantern.org).
+最容易和重要的两个要翻译的，是 Lantern 本身，和视频
+字幕
+`video <https://www.youtube.com/watch?v=aiPkCugE-RY>`__
+在 http://getlantern.org 播出).
 
-`Transifex <http://transifex.com>`__ is the platform we use to manage
-the most important translations. If you've not used it before you can
-check out their
+我们用 `Transifex <http://transifex.com>`__ 来管理
+最重要的翻译。如果你没用过，
+请参阅
 `explanation <http://support.transifex.com/customer/portal/articles/869950-what-is-transifex->`__.
-And then just head to the `Lantern Transifex
+直接跳到 `Lantern Transifex
 Project <https://www.transifex.com/projects/p/lantern/>`__.
 
 .. image:: https://www.evernote.com/shard/s209/sh/d2b67dcd-c1c0-420c-87e5-0f374b0b714d/a1aa1697af0dc827888cc81559bc1780/deep/0/Lantern%20localization.png
    :alt: lantern on transifex
 
    lantern on transifex
-If you're not already a Transifex user you can easily `sign
-up <https://www.transifex.com/signup/>`__. It's totally free for any
-translator, and they generously provide their full toolset to open
-source projects like Lantern. Their tools are quite intuitive to use,
-and they provide a nice
+如果你还不是 Transifex 用户，
+注册一个， <https://www.transifex.com/signup/>`__. 
+对翻译人员，它是免费的，并大方地把全部工具提供给像 Lantern 这样的开源社区。
+工具很直观。
+还有一个简介
 `overview <http://support.transifex.com/customer/portal/articles/972120-introduction-to-the-web-editor>`__.
 
 The `Lantern Project <https://www.transifex.com/projects/p/lantern/>`__
-on transifex lists the status of all the languages. To translate just
-select your language and get started. If your language is not list there
-then just hit 'Request Language' and the admins will get it created.
+列出了所有的语言的状态。
+只要选择你的语言，及可以开始了。如果你的语言不在列表中
+，可以点击 ”Request Language“，管理员会建立一个。
 
-After you click on your language you'll see three different 'language
-resources':
+点击你的语言后，可以看到三个不同的
+语言资源：
 
 .. image:: https://www.evernote.com/shard/s209/sh/e396390c-acce-4ea8-9bd5-05ae3e75686f/941ba9184932bba96b6e38b9953029fa/deep/0/Turkish%20Translation%20for%20Lantern%20%7C%20Transifex.png
    :alt: transifex
 
    transifex
-Hit 'join team' to get started, and the admins should approve you
-quickly. We **highly** recommend hitting the 'watch this language'
-button (at the top of 'history'), as you'll know immediately when there
-are new translation tasks. After you've started watching, pick which
-uncompleted resource to contribute to:
+点击 ”Join team“ 即可开始，管理员会很快批准。
+我们强烈建议你点击 ”Watch this language"
+按钮（在 “history” 上），这样有了新的任务时，
+你马上就知道。你开始注意这个语言后，
+挑选一个未完成的资源，开始翻译。
 
-**ui** is the most important one. This is Lantern's User Interface - the
-main application. There are about 500 strings with under 2000 words
-total. As Lantern is still in beta these change relatively often, as we
-figure out the exact wording. So if you see this at less than 100%
-please jump on translations so the next release of Lantern will be up to
-date with your language.
+**ui** 是最重要的。他是 Lantern 的用户界面。
+包含 500个字符串，约2000个单词。
+Lantern 还处于 beta 状态，因此，还会常常有变动。
+我们也在寻找最确切的表达方式。因此，如果你看到它少于 100%，
+请参加进来。这样，下一个版本中，你的语言
+就会是更新的了。
 
-**email** is the second most important, as it is how all new users will
-first interact with Lantern. So having this translated will ensure that
-people will see that text in their language instead of english.
+**email** 是第二重要的，因为他影响到所有的新用户。
+因此，有了这个翻译，用户
+就会看到他们熟悉的语言，而不是英语。
 
-**Lantern Video Captions** is probably the easiest, with only 224 words.
-It's a great way to get started, and has a big impact as we can more
-easily communicate what lantern is. Your translated words will show up
-as Captions in the `Lantern
-Video <https://www.youtube.com/watch?v=aiPkCugE-RY>`__. Notify the
-`internationalization
-forum <https://groups.google.com/group/lantern-i18n>`__ when you reach
-100%, so someone can update the captions. Unlike the UI it won't get
-pulled in automatically.
+**Lantern Video Caption** （视频字幕）可能是最容易的，只有224个字。
+是最好的起点，也具有最大的冲击力，因为我们
+用它来告诉大家，Lantern 是什么。你翻译的语句将变成
+字幕，出现在
+Video <https://www.youtube.com/watch?v=aiPkCugE-RY>`__之中。
+达到 100% 的时候，请通知 `internationalization
+forum <https://groups.google.com/group/lantern-i18n>`__ 
+，这样，有人会去更新字幕。它不像 UI（用户界面）的翻译，不会自动
+被包含进去。
 
-**www** is the website at https://www.getlantern.org. We have not yet
-fully set it up to easily change languages, but it is coming soon, so
-translations are very much appreciated.
+***www*** 是 https://www.getlantern.org 上的网页，
+我们还没有做成很容易改变语言的。不过也快了。
+因此，很需要翻译。
 
-If all are at 100% then just be sure to hit 'watch this language' and
-you'll be notified as soon as there is more to translate. As Lantern is
-continually evolving there will definitely be new strings to translate
-before long.
+当全部到达 100% 了，确保点击 “watch this language",
+这样，当需要更多翻译的时候，你会马上知道。
+因为 Lantern 还在不断改进，肯定会不断有新的字符串需要翻译
+。
 
-Start a forum for your language
+为你的语言建立一个论坛
 -------------------------------
 
-If you'd like to help other users in your language we encourage you to
-create a language specific forum. Right now we only have an English one,
-but can help create one for you and promote it on Lantern. Just send an
-email to `internationalization
-forum <https://groups.google.com/group/lantern-i18n>`__ and we can get
-you set up.
+如果你想帮助你的语言的其他用户，我们鼓励你
+创建一个相关语言的论坛。目前只有英语论坛。
+你可以建立一个你的论坛，并在 Lantern 上推广它。
+只需要发个Email给 
+forum <https://groups.google.com/group/lantern-i18n>`__ 
+，我们会帮你建立起来。
 
-Documentation
+文档
 -------------
 
-Our documentation is very much in flux, as we are moving to another
-system soon that should be much more conducive to translations. We may
-also investigate getting docs in to transifex, but that will probably be
-post 1.0, when the documentation settles down a bit, as it will be a lot
-to translate.
+我们的文档常常在变动，因为我们正在转移到另一个
+更容易翻译的系统。
+我们也在研究是否把文档放到 transifex，不过那要到 1.0 以后。
+1.0以后，文档比较稳定。
+那时会需要大量的翻译。
 
-In the meantime, if you would like to help translate the documentation
-in this wiki, please send us a note asking to be added to our GitHub
-Translators team. Once you're added you can start translating the
-hierarchy of documentation. Just see what pages there are in english and
-create new pages with the name of the page translated to your language.
-All users to the docs will see the language options at the top page,
-going to the welcome in their language. Unfortunately the side bar will
-always be English, but the future system will be better. And we'll be
-able to easily transfer your hard work over.
+同时，如果你想帮忙翻译文档
+，请给我们一个 Note，要求加入 GitHub 翻译团队。
+加入后，你可以开始
+翻译文档。看看都有哪些页面是英文的，然后
+创建你的语言的页面。
+文档的用户在页面的上部会看到语言选项。
+从那儿，可以进入相应的语言。不过，边栏还是英语的。
+当然，将来会更好些。
+我们也会把你的工作转过去。

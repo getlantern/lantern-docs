@@ -1,127 +1,127 @@
 .. _getting-involved:
 
-Getting Involved
+Как принять участие
 =================
 
-As with any open source project, Lantern will only be truly successfully
-if *you* help out. Right now we're in a 'beta' state, with tons to do
-before we spread it to the world. And most of the tasks we need help on
-require no programming knowledge. Developers are of course more than
-welcome, but this page is for everyone else to find a way to help make
-Lantern great.
+Как и любой другой проект с открытым кодом, Lantern сможет стать действительно успешным,
+если *вы* в этом ему поможете. В настоящее время мы находимся в процессе бета-тестирования и нам еще предстоит очень много сделать
+до того, как этот проект распространится по всему миру. Большинство задач с которыми нам нужна помощь
+требует знаний языков программирования. Разумеется мы наиболее рады
+профессиональным  разработчикам, но мы открыты любому человеку с идеей, которая 
+усовершенствует Lantern.
 
-Lantern is currently in private beta, but we are `accepting
-applications <https://docs.google.com/forms/d/11LiZoCMptcc_lj4b01It9n64gngaDPU53_ge3mhiaIM/viewform>`__
-for 'Ambassadors' - early testers who are excited to get involved. If
-you're interested in one or more of the tasks below please mention it in
-your application. We are particularly interested in people with trusted
-contacts in both censored and uncensored countries. But a willingness to
-dive in to any of the tasks below is all you really need.
+Lantern в настоящее время находится в ограниченном бета-доступе, но мы `принимаем
+заявки на участие <https://docs.google.com/forms/d/11LiZoCMptcc_lj4b01It9n64gngaDPU53_ge3mhiaIM/viewform>`__
+для 'Посланников' - ранних тестеров, которым нравится участие в проекте. Если
+вы заинтересовались в одном или нескольких нижеприведенных заданиях, пожалуйста, упомяните об этом в 
+своей заявке. Также мы частично заинтересованы в людях с доверенными 
+контактами в странах с цензурой и без нее. Но на самом деле, желание 
+погрузиться с головой в одно из следующих заданий  - это все, что вам нужно.
 
-Use and Spread Lantern
+Использование и распространение Lantern
 ----------------------
 
-If you have an uncensored internet connection, you can make a difference
-simply by keeping Lantern running. Every additional user sharing her
-connection makes the Lantern network work that much better, and that
-much harder to block for censors.
+Если у вас есть интернет соединение не подвергающееся цензуре, вы можете принести пользу
+запустив программу Lantern на своем компьютере. Каждый дополнительный пользователь, который делиться своим
+интернет соединением, делает работу сети Lantern лучше, и,
+тем самым, усложняет цензорам работу по блокировке.
 
-Whether or not you have an uncensored internet connection, you can also
-help by inviting people you trust to join the Lantern network. Lantern
-relies on a large network of users who trust one another to share
-internet connections, so the more trusted connections in the network,
-the better Lantern will work. So if you are an early user please spread
-Lantern among your trusted friends to help the network grow.
+Вне зависимости от того, подвергается ли цензуре ваше интернет соединение, вы в любом случае можете
+помочь, приглашая людей, которым вы доверяете, присоединиться к сети Lantern. 
+Lantern полагается на большую сеть пользователей, которые доверяют друг другу и деляться
+своими интернет соединениями, потому как, чем больше проверенных соединений будет в сети,
+тем лучше Lantern будет работать. Итак, если вы начинающий пользователь, то пожалуйста, распространите 
+Lantern среди своих надежных друзей для того, чтобы помочь сети расти.
 
-Report Problems
+Отчет об ошибке
 ---------------
 
-At the current 'beta' stage of development one of the most valuable
-things you can do is report to us if it is *not* working for you. The
-ideal way to do this is on the `users
-forum <https://groups.google.com/group/lantern-users-en>`__. If you
-don't feel comfortable with your name in public feel free to use dummy
-account / name. You can also use the 'contact' form from Lantern itself
-to send a message privately to the core developers.
+На текущей "бета" стадии развития значительнейшим является
+оповещение нас о том, что *не* работает у вас.
+Идеальный способ сделать это - воспользоваться `форумом
+пользователей <https://groups.google.com/group/lantern-users-en>`__. Если вы
+не хотите раскрывать свою личность публично, можете выдумать себе псевдоним 
+для аккаунта. Также вы можете использовать форму 'обратной связи' самого Lantern
+для того, чтобы в частном порядке отправить сообщение главным разработчикам.
 
 .. image:: https://www.evernote.com/shard/s209/sh/b0ebafae-f50e-41e7-b003-11299102d348/feefe49505573ab528410b708e48b0e1/deep/0/Lantern%20and%20Welcome%20to%20Mail.png
    :alt: contact
 
 
-The most important thing to let us know is if you are in a censored
-country and are unable to connect at all. But feel free to report more
-minor errors, and also to make suggestions about ways that Lantern could
-work better for you. Try to give as much detail as possible. See this
-`how to report bugs
-effectively <http://www.chiark.greenend.org.uk/-sgtatham/bugs.html>`__
-for general guidelines. For Lantern be sure to include your operating
-system, where you are, and if you are in 'give' or 'get' mode (all users
-in censored countries are automatically in 'get'), and what version of
-Lantern you're running.
+Очень важно сообщать нам в том случае, если вы вообще не можете установить соединение, 
+находясь в стране, где практикуется цензура. Но также вы можете сообщать и о менее
+важных ошибках и высказывать пожелания о том, какие бы еще функции Lantern 
+сделали программу лучше. Постарайтесь описывать все как можно подробнее. Просмотрите
+`как отослать отчет об ошибках
+наиболее эффективно  <http://www.chiark.greenend.org.uk/-sgtatham/bugs.html>`__
+для получения общих рекомендаций. Убедитесь, что указали вашу операционную 
+систему, в которой вы работаете, в каком режиме ("даю" или "получаю" доступ) находитесь (все пользователи 
+в странах, с наличием цензуры, автоматически попадают в разряд "получающих" доступ), и какую
+версию Lantern вы используете.
 
 .. image:: https://www.evernote.com/shard/s209/sh/dca46162-f8f4-4e19-9719-f83405a35305/0167dda5f704e71697bbe7124a8a1b79/deep/0/Lantern%20and%20Create%20New%20Page%20%C2%B7%20getlantern/lantern%20Wiki.png
-   :alt: lantern version
+   :alt: версия Lantern 
 
-The above is 1.0.0-beta2, you should see some number there.
+Выше указана версия 1.0.0-beta2, вы же увидите номер вашей версии программы.
 
-You also may be asked to email your logs for the developers to diagnose.
-See :ref:`sending-lantern-logs`.
+Вас также могут попросить отправить ваши логи разработчикам по электронной почте для их исследования.
+См.  :ref:`sending-lantern-logs`.
 
-Translate Lantern
+Перевод Lantern
 ------------------
 
-If you are a fluent speaker of another language and would like to help
-translate Lantern's web site, documentation, or the application itself,
-we would welcome your participation. See :ref:`translating-lantern`.
+Если вы свободно общаетесь на другом языке и хотели бы помочь
+перевести сайт Lantern, документацию или само приложение,
+мы будем рады вашему участию. См. :ref:`translating-lantern`.
 
-Promote Lantern
+Распространение Lantern
 ---------------
 
-We also welcome people who are interested in helping spread the word
-about Lantern. We are mostly software developers, but unlike most
-developers our software will only work if lots of people in uncensored
-countries run it. So we welcome ideas and actions to get more and more
-people to run Lantern. Social media campaigns, magazine articles, blog
-posts, videos, kickstarter, etc. - if you've got experience promoting
-great stuff then get in touch. And no idea is too big or too small. For
-right now just introduce yourself on the `users
-forum <https://groups.google.com/group/lantern-users-en>`_. If we get
-enough people there we will start a dedicated forum.
+Также мы будем рады и людям, которые заинтересованы в том, чтобы помочь распространить
+информацию о Lantern. В основном мы являемся разработчиками ПО, но в отличии от большинства
+других разработчиков, наше программное обеспечение будет работать только в том случае, если множество людей в странах, свободных от цензуры, 
+позволят программе работать на их компьютерах. Мы будем рады идеям и действиям, направленным на то, чтобы все большее количество 
+людей запускали Lantern. Кампании в соц.сетях, статьи в журналах, блогах
+посты, видео, кикстартеры, и т.д. - если у вас есть опыт в продвижении 
+хороших продуктов - свяжитесь с нами. И для нас нет слишком большой или очень маленькой идеи. Прямо
+сейчас представьтесь на `форуме
+пользователей <https://groups.google.com/group/lantern-users-en>`_. Если у нас будет
+достаточно пользователей, мы выделим для их общения отдельный форум.
 
-Help with documentation
+Помощь с документацией
 ------------------------
 
-This collaboratively-maintained wiki documentation is a work in
-progress. If you see an area that needs more work and you would like to
-pitch in, we welcome your help. Right now you needed to be added to the
-Documentation Team to edit, just let us know of your interest on the
-`forum <https://groups.google.com/forum/#!forum/lantern-users-en>`__.
-Then to edit just use the "New Page" or "Edit Page" buttons near the top
-of any wiki page.
+Работа над wiki документацией, поддерживаемой совместно, находится
+в процессе. Если вы увидите область, которая нуждается в доработке, и вы бы хотели 
+взяться за это, мы будем рады вашей помощи. В настоящее время для этого вам нужно
+войти в Команду по документации, чтобы редактировать статьи. Дайте нам знать о том, что заинтересовались этим, на 
+`форуме  <https://groups.google.com/forum/#!forum/lantern-users-en>`__.
+Затем для редактирования используйте кнопки "Новая страница" или "Редактировать страницу" вверху  
+любой из страниц wiki.
 
-Develop
+Совершенствование
 --------
 
-If you are a developer and are interested in helping build Lantern, see
-`Contributing Code <../../developer/html/Contributing.html>`_.
+Если вы являетесь разработчиком ПО и заинтересованы в том, чтобы помочь совершенствовать Lantern см.
+`Вклад в программирование  <../../developer/html/Contributing.html>`_.
 
-Спонсор
+Спонсоры
 --------
 
-Besides running Lantern on your own computer to share an uncensored
-internet connection, you can also pledge a one-time or monthly donation
-to sponsor a Lantern cloud proxy, which provides an additional
-high-capacity internet connection to the network 24 hours a day, even
-while your computer is off or disconnected.
+Кроме запуска Lantern на своем компьютере для того, чтобы разделить с другими людьми свое интернет
+соединение, не подвергнутое цензуре, вы также можете и сделать одноразовое или же ежемесячное пожертвование
+в целях спонсирования облачных прокси серверов Lantern, которые предоставляют дополнительное
+высокоскоростное интернет соединение, для возможности использования сети 24 часа в сутки, даже   
+когда ваш компьютер выключен или отключен от сети интернет.
 
-Alternatively, if there is some feature or bugfix you'd like to see in
-the next version of Lantern, you can sponsor its development.
+Также, если бы вы хотели увидеть какие-либо усовершенствования или исправления
+в следующей версии Lantern, вы можете спонсировать его доработку.
 
-Please contact the Lantern developers about either of these options if
-you would like to inquire further.
+Пожалуйста, свяжитесь с разработчиками Lantern по любым из вышеперечисленных вопросов или
+если вы хотите запросить дополнительную информацию.
 
-You can also just make a 1-click microdonation to the cause in general
-using Flattr or GitTip:
+Также вы можете сделать микропожертвование в 1 клик 
+используя Flattr или GetTip:
 
-Thank you for your interest in contributing to Lantern. A vibrant and
-active community is vital to our existence.
+Спасибо за ваш интерес к содействию в разработке Lantern. Энергичное и 
+активное сообщество - очень важно для нашего существования.

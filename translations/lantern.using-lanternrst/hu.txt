@@ -29,8 +29,8 @@ If you are still unable to get access, you can try to invite more friends in
 uncensored countries who can share their connection with you. You could also
 sponsor a cloud server to help the lantern network. See :ref:`lantern-cloud-servers`.
 
-We also have a `forum <https://groups.google.com/forum/#!forum/lantern-users-en>`_ where you 
-can get help.
+Van egy `fórumunk is <https://groups.google.com/forum/#!forum/lantern-users-en>`_ , ahol 
+kaphatsz segítséget.
 
 Users **Giving Access**
 -----------------------
@@ -64,7 +64,7 @@ own user and the users you're connecting to, as dots on the map.
 
 .. _adding-friends:
 
-Adding Friends
+Barátok hozzáadása
 ^^^^^^^^^^^^^^
 
 Building your Lantern network by adding friends is the main task for
@@ -116,7 +116,7 @@ Leave Lantern Running
 We encourage you to leave Lantern running, so that it can be helping
 others even if you are not using it right then. Closing the Lantern window does not stop Lantern. The Lantern icon still appears in your menubar.
 
-Quitting Lantern
+Kilépés a Lanternből
 ^^^^^^^^^^^^^^^^
 
 To quit Lantern, click the Lantern icon and select 'Quit Lantern'.

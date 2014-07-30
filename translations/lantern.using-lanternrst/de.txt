@@ -1,4 +1,4 @@
-Using Lantern
+Lantern benutzen
 =============
 
 After you've finished :DOC:`Setup` you're ready to start using Lantern.
@@ -45,7 +45,7 @@ Access** mode.
 Just go to 'settings' and change the mode 'getting access', and try the
 steps above.
 
-All Users
+Alle Benutzer
 ---------
 
 Exploring the Lantern Network
@@ -116,7 +116,7 @@ Leave Lantern Running
 We encourage you to leave Lantern running, so that it can be helping
 others even if you are not using it right then. Closing the Lantern window does not stop Lantern. The Lantern icon still appears in your menubar.
 
-Quitting Lantern
+Lantern beenden
 ^^^^^^^^^^^^^^^^
 
 To quit Lantern, click the Lantern icon and select 'Quit Lantern'.

@@ -16,7 +16,7 @@ senzill.
 Com Esbrino si aquesta Pàgina és Genuïna?
 -----------------------------------
 
-Look at the address bar in your browser and note that the address begins with exactly the following: ``https://github.com/getlantern``. This is the official home of the Lantern project on github.com, which is the site used to host Lantern's source code and documentation. 
+Observa la barra de direccions del teu navegador i veuràs que la direcció comença exactament amb el següent: ``https://github.com/getlantern``. Aquesta és la pàgina inicial oficial del projecte Lantern a github.com, que és el lloc per allotjar el codi font de Lantern i la documentació. 
 
 **(Coses a Fer: Actualitza això quan migrem els documents 
 des de la wiki de GitHub.)**
@@ -25,53 +25,53 @@ getlantern.org
 ^^^^^^^^^^^^^^
 El lloc web oficial de Lantern és https://getlantern.org. Tingues present 
 *https*, en contraposició amb *http*, a l'inici d'aquesta direcció.
-**Always using the https address means your browser will guarantee it's
-connecting to the official getlantern.org web site.** If anyone with the
-ability to intercept your traffic, such as your government or ISP, tried
-to tamper with it, your use of https means your browser can detect the
-interference and warn you about it rather than loading the phony
-site.[1]
+**Fent servir sempre la direcció https queda garantit que el teu navegador
+es connecta al lloc web oficial getlantern.org.** Si algú amb la capacitat
+d'interceptar el teu trànsit, com ara el govern o la ISP, intenta manipular-ho,
+si fas servir https implica que el teu navegador pot detectar la interferència
+i avisar-te sobre això, abans de carregar el lloc
+fals.[1]
 
-getlantern Look-alikes
+Els dobles de getlantern
 -----------------------
 
-Notice that getlantern.org looks a lot like getIantern.org
-(a capital i in place of the lowercase l) and also looks a lot
-like "getlantem.org" (an m in place of the rn). To prevent harmful impersonation, Team Lantern has bought up all these look-alike domains, as well as registered the look-alike usernames on GitHub, Twitter, and other sites. You should still be aware that this trick can still show up in other places.
+Fixa't que getlantern.org és molt semblant a getIantern.org
+(la majúscula i enlloc de la minúscula l) i també és molt semblant a
+"getlantem.org" (una m enlloc de rn). Per tal de prevenir danys fraudulents, l'Equip Lantern ha adquirit tots aquests dominis semblants, així com també ha registrat noms d'usuaris semblants a GitHub, Twitter i altres llocs. No obstant, tingues present que aquest truc pot aparèixer a d'altres llocs.
 
-getlantern.org Official Mirror
+Rèplica Oficial de getlantern.org
 ------------------------------
 
-The getlantern.org web site is blocked in certain countries, but Amazon
-S3 -- a widely used web hosting provider -- is often unblocked in these
-countries. For this reason, the Lantern developers maintain an official
-mirror of getlantern.org on S3 at the following address:
+El lloc web getlantern.org està bloquejat a diversos països, però Amazon
+S3 -- un proveïdor d'allotjament web àmpliament utilitzat -- està desbloquejat
+ben sovint en aquests països. Per aquest motiu, els desenvolupadors de
+Lantern mantenen una rèplica oficial dins S3 a la següent adreça:
 
 https://s3.amazonaws.com/getlantern.org/index.html
 
-**This is the one and only official mirror of getlantern.org.** 
+**Aquesta és l'oficial i única rèplica de getlantern.org.** 
 
-If you ever see a web site claiming to be Lantern that is neither
-https://getlantern.org nor the official mirror above, **don't trust
-it.**
+Si mai trobes un lloc web proclamant ser Lantern i no és ni 
+https://getlantern.org ni la rèplica oficial de més amunt, 
+**no t'ho empassis.**
 
-Official Lantern Email
+Correu electrònic de Lantern oficial
 ----------------------
 
-TODO
+Coses a fer
 
-Official Lantern Software
+Programari de Lantern oficial
 -------------------------
 
-TODO
+Coses a fer
 
-Other Official Lantern Accounts
+Altres Comptes de Lantern oficials
 -------------------------------
 
-The following is an exhaustive list of all official Lantern accounts. If
-you ever come across Lantern content that is not listed here, please
-`email <mailto:team@getlantern.org?subject=Genuine+Content%3F>`__ team@getlantern.org with subject "Genuine
-Content?" and we will verify it and add it here.
+La següent és una llista exhaustiva de tots els comptes oficials de Lantern.
+Si algun cop ensopegues amb contingut de Lantern que no està a la llista, 
+si us plau `envia un correu a <mailto:team@getlantern.org?subject=Genuine+Content%3F>`__ team@getlantern.org amb el tema 
+"Genuine Content?", ho verificarem i ho afegirem.
 
 -  https://twitter.com/getlantern
 -  https://www.facebook.com/getlantern

@@ -144,7 +144,7 @@ done.
 .. image:: https://www.evernote.com/shard/s209/sh/81bd9e5b-808c-4b3a-bb8f-487fee2601fd/bf5af2b060b92a44336a9ccc7ff8988b/deep/0/Lantern.png
    :alt: update
 
-   update
+   Aktualisierung
 Teilen
 ~~~~~~~
 
@@ -196,9 +196,9 @@ https://github.com/getlantern/lantern-proxied-sites-lists and hit the
 'plus' button.
 
 .. image:: https://www.evernote.com/shard/s209/sh/f7185f3d-9ca5-45bf-aac5-8978f7fefb39/6868a4884f375bb854b24b4f663fab91/deep/0/getlantern/lantern-proxied-sites-lists.png
-   :alt: add
+   :alt: hinzufügen
 
-   add
+   hinzufügen
 This will 'clone' the main repository, making a copy of all the files
 that are under your control. You can create and edit these files, and it
 won't affect the main repository - they're your private copy. You should

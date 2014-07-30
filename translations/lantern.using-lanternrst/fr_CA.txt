@@ -6,44 +6,44 @@ Après avoir fini la :DOC:`configuration`, vous êtes prêt à utiliser Lantern.
 Utilisateurs **obtenant l'accès**
 ------------------------
 
-If you are in a censored region and have installed Lantern, simply open
-your favorite browser and navigate to any blocked site. Any browser
-should work, as Lantern configures itself to handle any connection from
-your computer.
+Si vous êtes dans une région censurée et avez installé Lantern, ouvrez simplement
+votre navigateur favori et naviguez vers un site bloqué. N'importe quel navigateur
+devrait fonctionner car Lantern se configure pour gérer toute connexion provenant
+de votre ordinateur.
 
 .. image:: https://www.evernote.com/shard/s209/sh/ebdd003b-5c06-430f-a239-ea4a28c444cf/3f6d143232be6ffe1b1d0edcc5cf309d/deep/0/Fullscreen%208/18/13%209:00%20PM.png
-   :alt: Lantern au travail
+   :alt: Lantern en fonction
 
-While your browsing is connecting Lantern reports on the activity. On
-the map there will be a line between your computer and the computers of
-your friends. If your friends aren't available you may see that you are connected
-to one of the Lantern fallback servers. See :ref:`lantern-cloud-servers`.
+Durant la connexion de votre navigation, Lantern rapporte l'activité. Sur
+la carte il y aura une ligne entre votre ordinateur et les ordinateurs de
+vos amis. Si vos amis ne sont pas disponible vous pourriez vous voir connecté
+à l'un des serveurs de repli Lantern. Voir :ref:`serveurs-nuagiques-lantern`.
 
-You can see your bandwidth going up and down in the top-right corner of Lantern. This will
-change as you browse.
+Vous pouvez voir votre bande passante monter et descendre dans le coin supérieur gauche de Lantern. Ceci
+changera durant votre navigation.
 
 Si vous ne pouvez pas accéder à un site Web, vous pourriez avoir à l'ajouter à votre liste de sites relayés.
 Voir :ref:`configuration--sites-relayés`.
 
-If you are still unable to get access, you can try to invite more friends in
-uncensored countries who can share their connection with you. You could also
-sponsor a cloud server to help the lantern network. See :ref:`lantern-cloud-servers`.
+Si vous ne parvenez pas à obtenir l'accès, vous pouvez essayer d'inviter plus d'amis dans
+des pays non censurés qui peuvent partager leur connexion avec vous. Vous pourriez aussi
+commanditer un serveur nuagique pour aider le réseau Lantern. Voir :ref:`serveurs-nuagiques-lantern`.
 
-We also have a `forum <https://groups.google.com/forum/#!forum/lantern-users-en>`_ where you 
-can get help.
+Nous avons aussi un `forum <https://groups.google.com/forum/#!forum/lantern-users-en>`_ où vous 
+pouvez obtenir de l'aide.
 
 Utilisateurs **donnant l'accès**
 -----------------------
 
-Les  utilisateurs donnant l'accès n'auront souvent pas de connexion.
-If you want to make sure that Lantern is working you can try out **Get
-Access** mode.
+Les utilisateurs donnant l'accès n'auront souvent pas de connexion.
+Si vous voulez vous assurer que Lantern fonctionne pour vous, vous pouvez
+essayer le mode **Obtenir l'accès**.
 
 .. image:: https://www.evernote.com/shard/s209/sh/e1e59fee-9976-47c0-a9b9-856c4888c521/f34171fc3725a47efb0cdbfd3f163b2a/deep/0/Lantern%20and%20Freedom%20House.png
-   :alt: obtenir l'accès
+   :alt: Obtenir l'accès
 
-Just go to 'settings' and change the mode 'getting access', and try the
-steps above.
+Allez juste dans les 'Paramètres' et changez le mode 'Obtenir l'accès', et essayez
+les étapes ci-dessus.
 
 Tous les utilisateurs
 ---------
@@ -52,69 +52,69 @@ Explorer le réseau Lantern
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: https://www.evernote.com/shard/s209/sh/57a422d3-27f1-4b45-b05c-09b87636ab23/8b8d1d84c456798cd0f3e045590dc3e7/deep/0/Lantern.png
-   :alt: réseau Lantern
+   :alt: Réseau Lantern
 
 
-You can explore the map of the Lantern network. The bottom of the screen
-shows the global statistics for everyone on the network - how many users
-are online now, have ever been online, and the total bandwidth
-transferred (currently broken). If you mouse over a country it will show
-you similar statistics for that country. You can also mouse over your
-own user and the users you're connecting to, as dots on the map.
+Vous pouvez explorer la carte du réseau Lantern. Le bas de l'écran
+montre les statistiques globales pour tous sur le réseau - combien d'utilisateurs
+sont en ligne présentement, ont été en ligne depuis le début, et la bande passante totale
+transférée (présentement brisé). Si vous survolez un pays avec votre pointeur,
+les statistiques de ce pays vont seront affichées. Vous pouvez aussi survoler votre
+propre utilisateur et les utilisateurs à qui vous vous connectez, comme points sur la carte.
 
 .. _ajouter-des-amis:
 
 Ajouter des amis
 ^^^^^^^^^^^^^^
 
-Building your Lantern network by adding friends is the main task for
-users Giving Access from open countries. Adding others in uncensored
-countries is key for expanding the network. And any friend in a censored
-country that you add to your roster will instantly benefit from your
-connection and those of your other friends.
+La construction de votre réseau Lantern en y ajoutant des amis est la tâche principale pour
+les utilisateurs donnant l'accès depuis des pays ouverts. Ajouter d'autres utilisateurs dans des pays
+non censurés est primordial pour l'expansion du réseau. Et tout ami dans un pays
+censuré que vous ajoutez à votre liste bénéficiera instantanément de votre
+connexion et de celles de vos amis.
 
-And it is critical for users Getting Access to invite more trusted
-users, to improve the network. Adding friends in uncensored countries is
-directly beneficial for better connections. But helping other friends
-within your country also helps build the Lantern network and connect you
-to more Lantern proxies.
+Et il est critique pour les utilisateurs obtenant l'accès d'inviter plus d'utilisateurs
+de confiance pour améliorer le réseau. Ajouter des amis dans des pays non censurés est
+directement bénéfique pour de meilleurs connexions. Mais aider d'autres amis
+dans votre pays aide aussi à construire le réseau Lantern et vous connecte
+à plus de mandataires Lantern.
 
 .. image:: https://www.evernote.com/shard/s209/sh/69dfc002-b2c8-4f31-9c77-baf39d9e97a2/ecd8f30823d03d085fd271a6f77923c5/deep/0/Lantern.png
-   :alt: ajouter des amis
+   :alt: Ajouter des amis
 
-You can add friends at any time with the friend button on the lower
-right.
+Vous pouvez ajouter des amis n'importe quand avec le bouton Ami en bas
+à droite.
 
 .. image:: https://www.evernote.com/shard/s209/sh/5f777d62-6c2f-405d-b065-1fb8ba948e6c/c3493f15bd539a174f5a901d5404dea9/deep/0/Lantern.png
-   :alt: amis
+   :alt: Amis
 
-This brings up the 'Lantern Friends' screen. You can enter the email
-address of any friend who has a google account. Any gmail address will
-definitely work. If you aren't sure you can just try to add them, as
-many people have other email addresses set up to work with Google.
-Adding them will send an invitation to join Lantern, with a link to the
-download. Once they sign on at the same time as you are on their status
-in your friends window will change.
+Ceci appelle l'écran 'Amis Lantern'.  Vous pouvez saisir l'adresse courriel
+de n'importe quel ami ayant un compte Google. Toute adresse Gmail
+fonctionnera. Si vous n'êtes pas certain, essayez juste de les ajouter car
+beaucoup de personnes ont d'autres adresses courriel configurées pour fonctionner avec Google.
+Les ajouter enverra une invitation à rejoindre Lantern, avec un lien de
+téléchargement. Une fois qu'ils se connecteront en même temps que vous, leur état
+changera dans votre fenêtre d'amis.
 
-The image below shows friends successfully transferring from a user in
-'give' mode.
+L'image ci-dessous montre les amis qui transfèrent avec succès d'un utilisateur
+en mode 'donner'.
 
 .. image:: https://www.evernote.com/shard/s209/sh/ba32dfb0-959d-494b-9065-2053aab61875/839570ec5c5e0df068455bc7a00daa96/deep/0/Lantern%20and%20Editing%20Using%20Lantern%20%C2%B7%20getlantern/lantern%20Wiki.png
-   :alt: transfert des amis
+   :alt: Transfert des amis
 
 Prenez note qu'il n'y aura pas toujours de ligne de connexion entre amis.
-This happens when the rough location can not be established. You will
-always be able to see if transferring is happening by looking in the
-upper right corner, or watching the friends list.
+Ceci arrive quand l'emplacement approximatif ne peut pas être établi. Vous pourrez
+toujours voir si le transfert se passe en regardant dans le
+coin supérieur droit, ou en regardant la liste des amis.
 
-Removing people from your friend list will make it so they can not
-access your connection to the internet and vice versa.
+Enlever des personnes de votre liste d'amis les empêchera
+d'accéder à votre connexion à Internet et vice versa.
 
 Laisser Lantern tourner
 ^^^^^^^^^^^^^^^^^^^^^
 
-We encourage you to leave Lantern running, so that it can be helping
-others even if you are not using it right then. Closing the Lantern window does not stop Lantern. The Lantern icon still appears in your menubar.
+Nous vous encourageons à laisser Lantern tourner afin qu'il puisse aider
+les autres même si vous ne l'utilisez pas. Fermer la fenêtre de Lantern n'arrête pas Lantern. L'icône de Lantern apparaît encore dans votre barre de notification.
 
 Quitter Lantern
 ^^^^^^^^^^^^^^^^

@@ -1,24 +1,24 @@
 .. _lantern-cloud-servers:
 
 =====================
-Lantern Cloud Servers
+Lantern 云服务器
 =====================
 
-Lantern Cloud Servers are small Amazon `EC2
+Lantern 云服务器是小 Amazon `EC2
 instances <http://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud>`__
-that serve as fallbacks when there are not enough peer users online.
+它作为在线同伴不够多时的后备。
 
-This ensures that people will be able to get connected, even if a friend
-is not online. They help make the Lantern Network much more robust.
+它确保人们总是可以连上，即使
+朋友不在线。他也使得 Lantern 网络更强壮。
 
-Unfortunately these servers cost money to maintain, so Brave New
-Software, the organization behind Lantern, can only supply a limited
-number of them. If you would like to help you can soon sponsor your own
-Lantern Cloud Server at http://rally.org (coming soon) If you are in a
-censored country this provides direct access for you and your friends.
-And if it's a great way to give from uncensored countries, increasing
-the reliability of the Lantern Network.
+不过，这些服务器也需要维护费用。因此，
+Lantern 的开发者，Brave New Software，只能提供有限的
+服务器。如果你想帮忙，你可以马上赞助你自己的
+Lantern 云服务器（http://rally.org，很快就开始了）。
+如果你在一个受限的国家，这将为你和你的朋友提供直接的访问。
+对不受限的国家，这是一个非常好的提供访问的方法，增加了
+Lantern 网络的可靠性。
 
-Since our rally integration is not yet working please get in touch at
-contact [at] getlantern.org and we can take your donation and fire up a
-dedicated server for you.
+因为我们与 rally 的整合尚未完成，请与
+contact [at] getlantern.org 联系，我们可以接受你的捐助，
+并为你建立一个专用的服务器。

@@ -1,17 +1,17 @@
 Lantern User Satisfaction Survey
-Please Tell Us About You
+Kérlek mesélj nekünk magadról.
 
 Thank you for taking the time to complete this survey. It will help Team Lantern understand how to make Lantern even better.
 How did you get a Lantern invitation?
-From Team Lantern
-From a friend
+A Lantern csapattól
+Egy baráttól
 Other (please specify)
 Please Specify
 
 Have you invited any friends to Lantern?
-Yes
-No
-If no, why not?
+Igen
+Nem
+Ha nem, akkor miért nem?
 
 How do you use Lantern?
 To access websites that are blocked in my country
@@ -33,7 +33,7 @@ alkasir
 Which other tools are currently unblocked for you? (Check all that apply)
 
 
-Software
+Szoftver
 
 Please tell us about your experience using Lantern
 Strongly Agree

@@ -3,7 +3,7 @@
 Contribuïnt amb el Codi
 =================
 
-Aquesta pàgina està enfocada al desenvolupament del programari. Si no ets desenvolupador, hi ha moltes altres maneres de `get involved <../user/Get_Involved.html>`_.
+Aquesta pàgina està enfocada al desenvolupament del programari. Si no ets desenvolupador, hi ha moltes altres maneres de `involucrar-te <../user/Get_Involved.html>`_.
 
 El nostre objectiu és fer que Lantern sigui realment un projecte col·laboratiu de codi obert,
 amb col·laboradors de tota mena d'organitzacions i països.
@@ -11,13 +11,13 @@ amb col·laboradors de tota mena d'organitzacions i països.
 Com treballem
 -----------
 
-If you aren't familiar with open source development we highly recommend reading `Producing Open Source Software <http://producingoss.com/>`__. It's available for free but don't hesitate to buy the book (it's written by a friend of Lantern). We try to follow the best practices details in this book, so it's a good way to get familiar with how we work.
+Si no estàs familiaritzat amb el desenvolupament de codi obert, et recomanem llegir  `Producing Open Source Software <http://producingoss.com/>`__. Està disponible gratuïtament però, si ho prefereixes, el pots comprar (l'ha escrit un amic de Lantern). Intentem seguir les millors pràctiques comentades al llibre; per tant, és una bona manera de familiaritzar-te en la nostra manera de treballar.
 
 Primers passos
 ---------------
 
 El primer pas és fer un cop d'ull al fitxer
-`CONTRIBUTING <https://github.com/getlantern/lantern/blob/master/CONTRIBUTING.md>`__
+`CONTRIBUÏNT <https://github.com/getlantern/lantern/blob/master/CONTRIBUTING.md>`__
 per trobar informació d'interès. Seguim el model estàndard github
 de col·laboradors que fan sol·licituds d'extracció i després 
 ho revisen els autors del nucli.
@@ -26,18 +26,18 @@ Informant
 --------------
 La major part de les nostres comunicacions succeeix a 
 `tickets <https://github.com/getlantern/lantern/issues>`__. Pots 
-`watch <https://help.github.com/articles/watching-repositories>`_ el projecte 
+`mirar <https://help.github.com/articles/watching-repositories>`_ el projecte 
 a GitHub i rebre avisos quan un tema s'actualitza.
 
-We also have a `developer forum <https://groups.google.com/forum/#!forum/lantern-devel>`__ on Google Groups that 
-we use to communicate. Please don't hesitate to introduce yourself on the forum. We can
-find tasks you might be interested in.
+També disposem d'un `fòrum de desenvolupadors <https://groups.google.com/forum/#!forum/lantern-devel>`__ a Google Groups que 
+utilitzem per comunicar-nos. Si us plau no dubtis a presentar-te en aquest fòrum.
+Segur que trobarem tasques que et puguin interessar.
 
-You can also sign up to help us triage issues on `CodeTriage <http://www.codetriage.com/getlantern/lantern>`_.
+També pots inscriure't per ajudar-nos en el triatge dels temes a `CodeTriage <http://www.codetriage.com/getlantern/lantern>`_.
 
 Prenent Decisions
 ----------------
 
-Lantern decisions are made by all core developers. Anyone
-who contributes sufficiently to development can become a core developer
-and help decide the future of Lantern.
+A Lantern prenem les decisions entre tots els desenvolupadors del nucli.
+Qualsevol que contribueixi prou en el desenvolupament pot esdevenir 
+un desenvolupador del nucli i participar en el futur de Lantern.

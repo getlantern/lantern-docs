@@ -1,6 +1,6 @@
 .. _setting-up-lantern:
 
-Setting Up Lantern
+Lantern einrichten
 ==================
 
 When you first run Lantern you will be asked a series of questions.

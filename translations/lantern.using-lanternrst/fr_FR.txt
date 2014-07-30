@@ -1,15 +1,15 @@
-Using Lantern
+Utilisation de Lantern
 =============
 
 After you've finished :DOC:`Setup` you're ready to start using Lantern.
 
-Users **Getting Access**
+Utilisateur **Recevant un accès**
 ------------------------
 
-If you are in a censored region and have installed Lantern, simply open
-your favorite browser and navigate to any blocked site. Any browser
-should work, as Lantern configures itself to handle any connection from
-your computer.
+Si vous vous trouvez dans une région censurée et que vous avez installé Lantern, ouvrez
+votre navigateur préféré et allez sur un site qui est bloqué. N'importe quel navigateur
+devrait fonctionner, car Lantern se configure automatiquement pour permettre n'importe quelle connexon depuis
+votre ordinateur.
 
 .. image:: https://www.evernote.com/shard/s209/sh/ebdd003b-5c06-430f-a239-ea4a28c444cf/3f6d143232be6ffe1b1d0edcc5cf309d/deep/0/Fullscreen%208/18/13%209:00%20PM.png
    :alt: working lantern
@@ -19,8 +19,8 @@ the map there will be a line between your computer and the computers of
 your friends. If your friends aren't available you may see that you are connected
 to one of the Lantern fallback servers. See :ref:`lantern-cloud-servers`.
 
-You can see your bandwidth going up and down in the top-right corner of Lantern. This will
-change as you browse.
+Vous pouvez voir votre bande passante augmenter et diminuer en haut à droite dans Lantern. Cela
+évoluera au cour de la navigation.
 
 If you can't access a web site, you may have to add it to your Proxy Site List.
 See :ref:`config-proxied-sites`.
@@ -45,14 +45,14 @@ Access** mode.
 Just go to 'settings' and change the mode 'getting access', and try the
 steps above.
 
-All Users
+Tous les utilisateurs
 ---------
 
 Exploring the Lantern Network
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: https://www.evernote.com/shard/s209/sh/57a422d3-27f1-4b45-b05c-09b87636ab23/8b8d1d84c456798cd0f3e045590dc3e7/deep/0/Lantern.png
-   :alt: lantern network
+   :alt: réseau lantern
 
 
 You can explore the map of the Lantern network. The bottom of the screen
@@ -62,9 +62,9 @@ transferred (currently broken). If you mouse over a country it will show
 you similar statistics for that country. You can also mouse over your
 own user and the users you're connecting to, as dots on the map.
 
-.. _adding-friends:
+.. _ajouter-des-amis:
 
-Adding Friends
+Ajouter des amis
 ^^^^^^^^^^^^^^
 
 Building your Lantern network by adding friends is the main task for
@@ -80,13 +80,13 @@ within your country also helps build the Lantern network and connect you
 to more Lantern proxies.
 
 .. image:: https://www.evernote.com/shard/s209/sh/69dfc002-b2c8-4f31-9c77-baf39d9e97a2/ecd8f30823d03d085fd271a6f77923c5/deep/0/Lantern.png
-   :alt: add friends
+   :alt: ajouter des amis
 
 You can add friends at any time with the friend button on the lower
 right.
 
 .. image:: https://www.evernote.com/shard/s209/sh/5f777d62-6c2f-405d-b065-1fb8ba948e6c/c3493f15bd539a174f5a901d5404dea9/deep/0/Lantern.png
-   :alt: friends
+   :alt: amis
 
 This brings up the 'Lantern Friends' screen. You can enter the email
 address of any friend who has a google account. Any gmail address will
@@ -97,7 +97,7 @@ download. Once they sign on at the same time as you are on their status
 in your friends window will change.
 
 The image below shows friends successfully transferring from a user in
-'give' mode.
+mode 'partage'
 
 .. image:: https://www.evernote.com/shard/s209/sh/ba32dfb0-959d-494b-9065-2053aab61875/839570ec5c5e0df068455bc7a00daa96/deep/0/Lantern%20and%20Editing%20Using%20Lantern%20%C2%B7%20getlantern/lantern%20Wiki.png
    :alt: friends transferring
@@ -116,7 +116,7 @@ Leave Lantern Running
 We encourage you to leave Lantern running, so that it can be helping
 others even if you are not using it right then. Closing the Lantern window does not stop Lantern. The Lantern icon still appears in your menubar.
 
-Quitting Lantern
+Quitter Lantern
 ^^^^^^^^^^^^^^^^
 
 To quit Lantern, click the Lantern icon and select 'Quit Lantern'.

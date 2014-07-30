@@ -1,7 +1,7 @@
 .. _lantern-cloud-servers:
 
 =====================
-Lantern Cloud Servers
+Lantern Cloud-Server
 =====================
 
 Lantern Cloud Servers are small Amazon `EC2

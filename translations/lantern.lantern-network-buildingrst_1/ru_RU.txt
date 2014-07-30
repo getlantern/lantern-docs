@@ -1,153 +1,153 @@
-Lantern Network Building
+Организация сети Lantern
 ========================
 
-Lantern depends on a strong trust network of users that spans the
-censorship divide and that includes enough Give mode users to have
-proxies available when censored users need them.
+Lantern зависит от надежной сети доверия пользователей, которая охватывает 
+людей, разделенных цензурой и которая включает в себя достаточное количество пользователей, работающих в режиме "Предоставление доступа"
+для того, чтобы пользователям, находящимся под цензурой, были доступны необходимые прокси-сервера.
 
-To this end, both Give and Get mode users need tools to help them grow
-their trust networks. The benefits of growing the Lantern trust network
-aren't immediately palpable to users. It may take Give mode users a
-while before they see any Get mode users connecting through their proxy.
-Due to the immediate availability of fallback proxies, Get mode users
-may not sense the importance of building their trust network in order to
-improve the speed and reliability of the Lantern proxy network.
+С этой целью пользователи обоих режимов (Дать и Получить доступ) нуждаются в инструментах расширения
+своих сетей доверия. Выгода от расширения сети доверия Lantern
+не сразу ощущается пользователями. Может потребоваться некоторое время для того, чтобы Дающие доступ пользователи 
+увидели пользователей режима "Получить доступ", использующих их прокси.
+В связи с тем, что резервные прокси-серверы постоянно доступны, пользователи режима "Получить доступ"
+могут и не ощущать важность организации собственной сети доверия, для того,
+чтобы улучшить скорость и надежность работы прокси-серверов сети Lantern.
 
-Given these challenges, Lantern should both make it as easy as possible
-to grow one's trust network, as well as provide education,
-encouragement, and engaging experiences to get users to do so.
+Сталкиваясь с этими трудностями, Lantern должен сделать как можно легче возможность
+развития собственной сети доверия, а также обеспечить информированность пользователей,
+побуждая и подталкивая их развивать сеть.
 
-The tools for growing ones network are applicable for both Give and Get
-mode, while education and encouragement need to be sensitive to
-differences in the Give and the Get mode experiences.
+Инструменты увеличения количества пользователей сетей доверия применимы к обоим режимам (Дать и Получить 
+доступ), в то время как обучение и стимулирование пользователей довольно сильно различаются 
+для пользователей разных режимов работы.
 
-This document outlines approaches for addressing all of these aspects of
-building the trust network.
+В этом документе излагаются подходы для решения всех аспектов
+организации сети доверия.
 
-note - It is important to remember that much network building can
-proceed informally and outside of the Lantern application - ultimately
-Lantern just needs to know once the connection has been made. Before
-going too far down the road of building specific tooling, we should make
-sure to talk with our "connectors", i.e. the people who have
-relationships that bridge the censorship divide and who are likely to be
-the lynchpins of the Lantern trust network in its early stages.
+примечание: Важно помнить, что в основном создание сети контактов может
+происходить в неформальной обстановке и без использования программы Lantern
+Lantern нужно только знать, что соединение было установлено. Перед тем,
+как стремительно начать создавать конкретные инструменты, нужно 
+переговорить с нашими "связующими", т.е. людьми, у кого есть
+связи, которые соединят людей, разобщенных цензурой, и которые, 
+вероятно, станут столпами сети доверия Lantern на этапе ее становления.
 
-Tools
+Инструменты
 ~~~~~
 
-Finding and inviting friends
+Поиск и приглашение друзей
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Lantern should make it easy to find Lantern friends, in particular ones
-who can help bridge the censorship divide. To this end, Lantern should
-integrate with popular social networks
+Lantern предстоит сделать легким процесс поиска друзей, в частности тех,
+кто может наладить связь между разобщенными цензурой людьми. С это целью Lantern должен
+интегрироваться в популярные социальные сети
 
--  Email via Google contacts (already implemented)
--  Google+ circles
+- Электронную почту с помощью контактов Google (уже сделано)
+- Круги Google+
 -  LinkedIn
--  Facebook
--  Twitter
+- Facebook
+- Twitter
 
-Not all friends are created equally. We want to connect users from
-uncensored countries with users in censored countries. To this end, we
-want to prioritize relationships where:
+Не все дружеские связи создаются на равных условиях. Мы хотели бы связать людей из
+стран без цензуры с пользователями из тех стран, где она практикуется. С этой целью
+мы даем приоритет связям, где:
 
-1. The friends have different censorship status
-2. One of the friends has connections to people with a different
-   censorship status
+1. Друзья находятся в странах с разным статусом цензуры
+2. Один из друзей имеет связи с людьми, живущими в стране с другим 
+   статусом цензуры
 
-Item 1 can be accomplished with most social APIs that include location
-information about friends (which is most of them). The problem is that
-there aren't necessarily a lot of people who have friends across the
-censorship divide.
+Пункт 1 выполняется благодаря средствам интерфейса большинства социальных сетей, предоставляющих информацию о
+местоположении друзей. Проблема состоит в том, что
+у большинства людей нет друзей, находящихся за
+преградой цензуры.
 
-Item 2 can be accomplished with LinkedIn. The upside to this is that it
-can help us expand the pool of "connectors".
+Пункт 2 может быть достигнут с помощью LinkedIn. Положительный момент в том, что
+это поможет нам расширить круг "связующих".
 
-What else do we need here? Many social networking invite systems have a
-way of tracking replies, resending reminders and so on...
+Что же нам еще может понадобиться? Множество систем приглашений социальных сетей обладает
+возможностью отслеживания ответов, рассылки повторных напоминаний и т.д....
 
-Education and Encouragement
+Обучение и стимулирование
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are many angles to this. It is instructive to look at what both
-social networks and electronic appliances like the `Nest
-thermostat <http://nest.com/>`__.
+По этому вопросу существует множество точек зрения. Поучительно посмотреть на то, что общего
+у социальных сетей и электронного прибора типа 
+`термостата Nest <http://nest.com/>`__.
 
-Social networks repeatedly encourage you to build out your network by:
+Социальные сети постоянно подталкивают вас к организации вашей собственной сети:
 
--  Suggesting new friends based on existing friends and interests
--  Suggesting new friends based on contacts in your contact list
--  Providing a mechanism for friends to message each other
--  Reminding you about events in friends' lives (e.g. birthdays) to get
-   you to reach out and communicate with that friend. In the case of
-   Lantern, this could be something like "Sally got access through Joe
-   for the first time ever" (see
+- Предлагая новых друзей, основываясь на существующих друзьях и интересах
+- Предлагая новых друзей, основываясь на людях в вашем списке контактов
+- Предоставляя способ обмениваться сообщениями с друзьями
+- Напоминая о новых событиях в жизни ваших друзей (например, дни рождения) для того, чтобы 
+   вы отозвались и связались с этим другом. В случае Lantern 
+   это может выглядеть как что-то вроде: "Салли впервые
+   получила доступ с помощью Джо" (см. 
    https://github.com/getlantern/lantern/issues/1048)
 
-The Nest thermostat has some interesting parallels with Lantern because
-it's also something with which you interact infrequently and that you
-use to meet a very specific goal (saving energy while staying
-comfortable). Two things that the Nest thermostat does particularly well
-are:
+Термостат "Nest" имеет интересные общие характеристики с Lantern из-за
+того, что это вещь, с которой вы также часто взаимодействуете, 
+и используете для достижения конкретной цели (экономия электроэнергии при сохранении
+того же уровня комфорта). Две вещи, которые термостат Nest делает особенно хорошо
+это:
 
-1. It collects a variety of interesting metrics but distills these down
-   into a single easy-to-understand number, namely how many hours your
-   heating/cooling system ran in the last month. From there, one can
-   drill down into the other metrics to understand what led to that
-   usage, but having that single bottom-line number makes it easy to
-   keep track of what's happening without having to invest too much
-   mental bandwidth.
+1. Он собирает разнообразную техническую информацию, но преобразует ее в
+   одно легко понятное, число, например, сколько часов ваша
+   система отопления/кондиционирования проработала за последний месяц. Затем вы можете
+   ознакомиться с дополнительной информацией для того, чтобы разобраться, что привело к такому
+   режиму использования, но возможность увидеть одно итоговое число 
+   облегчает отслеживание работы процесса, без необходимости тратить много усилий 
+   на то, чтобы разбираться в подробностях.
 
-2. It uses monthly emails to let you know how you're doing, make you
-   feel like part of a community and remind you that there's a team of
-   people constantly making Nest better.
+2. Термостат использует систему рассылки ежемесячных отчетов по электронной почте для того, чтобы информировать вас о том, как идут дела, создавая 
+   ощущение того, что вы часть сообщества и напоминая вам, что где-то там команда людей
+   постоянно работает над совершенствованием термостата Nest.
 
-In the case of Lantern, Give and Get mode users have complementary but
-slightly different goals.
+В случае Lantern у пользователей режимов "Дать" и "Получить" есть хоть и взаимодополняющие,
+но немного различные цели.
 
-Get mode users are interested in availability and speed. Give mode users
-are interested in helping out as many people as possible (or specific
-people), but also limiting how much of their bandwidth is consumed, and
-what sites are being visited through their connections.
+Пользователи режима "Получить доступ" заинтересованы в доступности и высокой скорости соединения. А пользователи режима "Дать доступ"
+заинтересованы в том, чтобы помочь как можно большему количеству людей (или конкретным 
+лицам), но также для них имеет значение ограничение количества потребляемого трафика и
+посещения пользователями сайтов через их соединение.
 
-This suggests a hierarchy of metrics like the following (all broken down
-on a monthly basis if possible):
+Это предполагает ведение статистики, например, следующих данных (по возможности разбитых
+по месяцам):
 
--  Number of bytes proxied
--  Number of peers active at any time during month
--  Number of hours that Lantern was running (see
+- Количество байт, переданных через прокси
+- Количество пиров доступных в любое время в течение месяца
+- Количество часов работы Lantern (см.
    https://github.com/getlantern/lantern/issues/1025)
--  Top 5 domains proxied by # of requests (see
+- 5 самых популярных доменов, к которым был запрошен доступ через прокси-сервер, по количеству запросов (см.
    https://github.com/getlantern/lantern/issues/1027)
--  ???
+- ???
 
-The first two sub-metrics, # of peers and # of hours, present points for
-clear calls to action when the numbers are low, namely "grow your
-network" and "run lantern".
+Два первых раздела статистических данных, количество пиров и часов работы дают повод
+при низких показателях призвать к действию, например, "наращивайте свою 
+сеть" и "запустите Lantern".
 
-These are both things about which we can and should remind people via
-email.
+Это те две вещи, о которых мы можем и должны оповещать людей посредством 
+электронной почты.
 
-Email Schedule
+Расписание отправки писем
 ^^^^^^^^^^^^^^
 
-1. Welcome to Lantern
-2. (If user hasn't added any friends) - Add Some Friends
-3. Monthly Status Update
+1. Добро пожаловать в сеть Lantern
+2. (Если пользователь не добавил ни одного друга) - Добавьте себе кого-нибудь в друзья
+3. Ежемесячная сводка о положении дел
 4. ???
 
-Related Tickets
+Похожие статьи
 ~~~~~~~~~~~~~~~
 
--  https://github.com/getlantern/lantern/issues/988
--  https://github.com/getlantern/lantern/issues/972
--  https://github.com/getlantern/lantern/issues/971
--  https://github.com/getlantern/lantern/issues/969
--  https://github.com/getlantern/lantern/issues/967
--  https://github.com/getlantern/lantern/issues/966
--  https://github.com/getlantern/lantern/issues/965
--  https://github.com/getlantern/lantern/issues/654
+- https://github.com/getlantern/lantern/issues/988
+- https://github.com/getlantern/lantern/issues/972
+- https://github.com/getlantern/lantern/issues/971
+- https://github.com/getlantern/lantern/issues/969
+- https://github.com/getlantern/lantern/issues/967
+- https://github.com/getlantern/lantern/issues/966
+- https://github.com/getlantern/lantern/issues/965
+- https://github.com/getlantern/lantern/issues/654
 -  https://github.com/getlantern/lantern/issues/964
 -  https://github.com/getlantern/lantern/issues/647
 -  https://github.com/getlantern/lantern/issues/580

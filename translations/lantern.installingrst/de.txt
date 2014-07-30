@@ -10,7 +10,7 @@ Once you are invited, you will receive an email with links to download the insta
 Linux
 -----
 
-Supported Versions
+Unterstützte Versionen
 ^^^^^^^^^^^^^^^^^^
 Currently, installation on Linux is only available on Ubuntu.
 We greatly appreciate any `contributions <../../developer/html/contributing.html>`_ for other Linux distributions or help with improvements to make better use of package managers. You can also `build from source <https://github.com/getlantern/lantern/blob/master/README.md#wiki-setting-up-a-development-environment>`_.
@@ -98,11 +98,11 @@ Uninstalling
 .. _installing-mac:
 Mac
 ---
-Supported Versions
+Unterstützte Versionen
 ^^^^^^^^^^^^^^^^^^
 
 Lantern supports OS/X version 10.6 and higher,
-64-bit only. 
+Nur 64-Bit. 
 
 .. note:: During installation, Lantern checks if you have Java installed. If not, it will download the Java Runtime Environment from the web.
 
@@ -155,7 +155,7 @@ Uninstalling
 Windows
 -------
 
-Supported Versions 
+Unterstützte Versionen 
 ^^^^^^^^^^^^^^^^^^
 
 Lantern supports Windows version XP and higher and requires that Google Chrome is installed. If you don't

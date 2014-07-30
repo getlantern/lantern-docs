@@ -52,7 +52,7 @@ L'invitation à Lantern inclut un lien vers un script d'installation qui :
 		
 	.. note:: Il n'y a pas de message d'état indiquant que l'installation est terminée. 
 		
-		Si vous recevez un message indiquant qu'il n'y a pas de machine virtuelle Java adéquate, vous devez installer Java à partir de votre gestionnaire de paquets (logithèque, synaptic, etc...). Consultez la `documentation Ubuntu <http://doc.ubuntu-fr.org/java#installation_openjdk1>`_ pour plus de détails.
+		Si vous recevez un message indiquant qu'il n'y a pas de machine virtuelle Java adéquate, vous devez installer Java à partir de votre gestionnaire de paquets (logithèque, synaptic, etc.). Consultez la `documentation Ubuntu <http://doc.ubuntu-fr.org/java#installation_openjdk1>`_ pour plus de détails.
 
 5. Cliquez sur le bouton **Ubuntu** et tapez Lantern.
 
@@ -62,7 +62,7 @@ L'invitation à Lantern inclut un lien vers un script d'installation qui :
 	.. image:: http://i.imgur.com/nnXoFjr.png
 		:alt: La fenêtre de configuration de Lantern vous demandant de donner l'accès ou d'obtenir l'accès.
 	
-	.. note:: Si vous recevez un message indiquant que Google Chrome n'est pas installé, vous devez le télécharger.
+	.. note:: si vous recevez un message indiquant que Google Chrome n'est pas installé, vous devez le télécharger.
 		
 		Consultez https://www.google.com/intl/fr/chrome/browser/ pour plus de détails. 
 
@@ -104,7 +104,7 @@ Versions prises en charge
 Lantern prend en charge OS/X version 10.6 et ultérieure.
 64 bits seulement. 
 
-.. note:: Pendant l'installation, Lantern vérifie si Java est installé. S'il ne l'ai pas, il sera téléchargé à partir du Web.
+.. note:: pendant l'installation, Lantern vérifie si Java est installé. S'il ne l'ai pas, il sera téléchargé à partir du Web.
 
 Installation
 ^^^^^^^^^^
@@ -119,7 +119,7 @@ Installation
 		
 	.. Important:: Depuis la bêta2, le programme d'installation ne fonctionnera *pas* si vous ne l'exécutez pas en tant qu'administrateur. Si vous n'êtes pas l'administrateur, rien ne se passera quand vous cliquerez sur l'icône du programme d'installation. Nous `travaillions <https://github.com/getlantern/lantern/issues/819>`_ pour que le mot de passe de l'administrateur soit demandé au lieu qu'il n'y ait pas de réponse.
 
-#. Saisissez votre nom d'utilisateur et votre mot de passe dans la fenêtre. Ceci permet à Lantern de s'installer et d'apporter des changements à vos paramètres de serveur mandataire afin que votre connexion Internet puisse être partagée.
+#. Saisissez votre nom d'utilisateur et votre mot de passe dans la fenêtre qui apparaît. Ceci permet à Lantern de s'installer et d'apporter des changements à vos paramètres de serveur mandataire afin que votre connexion Internet puisse être partagée.
 	.. image:: https://www.evernote.com/shard/s209/sh/c92df454-472a-4ce1-a578-fc06843802d7/04fd633f4deb9fbeecc44562dff2ea78/deep/0/Screenshot%208/16/13%207:52%20PM.png
 		:alt: Une fenêtre vous demandant de saisir votre nom d'utilisateur et votre mot de passe afin de permettre des changements.
 	
@@ -133,17 +133,17 @@ Installation
 Désinstaller
 ^^^^^^^^^^^^
 
-1. Cliquez à droite sur l'icône **Lantern** de la barre d'état et choisissez **Quitter Lantern**
+1. Cliquez droite sur l'icône **Lantern** de la barre d'état et choisissez **Quitter Lantern**
 
 2. Dans le dossier **Applications**, déplacez **Lantern** vers la **Corbeille**
 	Ceci désinstalle aussi l'environnement d'exécution Java de Lantern.
 
-3. Pour supprimer tous les paramètres, ouvrez un terminal et accédez à votre répertoire personnel. 
+3. Pour supprimer tous vos paramètres, ouvrez une fenêtre de terminal et déplacez-vous vers votre **Dossier personnel**. 
 	::
 	
 		cd ~
 		
-	.. note:: Si vous ne supprimez pas ces paramètres, Lantern les utilisera la prochaine fois que vous installez l'application.
+	.. note:: si vous ne supprimez pas ces paramètres, Lantern les utilisera la prochaine fois que vous installez l'application.
 		
 4. Supprimez le répertoire **./lantern**.
 	::
@@ -167,7 +167,7 @@ Installation
 1. Cliquez sur le lien **Windows XP+** dans le courriel d'invitation.
 	.. avertissement:: il est important de suivre les prochaines étapes pour vous assurez que la `signature numérique  <https://fr.wikipedia.org/wiki/Signature_num%C3%A9rique>`_ est valide.
 
-#. Cliquez à droite sur le fichier exécutable qui vient d'être téléchargé et cliquez sur **Propriétés** et sur l'onglet **Signatures numériques**. 
+#. Cliquez droite sur le fichier exécutable qui vient d'être téléchargé et cliquez sur **Propriétés** et sur l'onglet **Signatures numériques**. 
 
 #. Dans l'onglet **Général**, cliquez sur **Afficher le certificat**. 
 
@@ -191,11 +191,11 @@ Désinstaller
 
 1. Ouvrez le **Panneau de configuration** et cliquez sur **Programmes et fonctionnalités**.
 	.. image:: http://i.imgur.com/lF9ldIE.png
-		:alt: Le panneau de configuration de Windows..
+		:alt: Le panneau de configuration de Windows.
 
 #. Dans la liste des programmes installés, cliquez sur **Lantern**.
 	
-#. Cliquez sur le bouton **Désinstaller/Changer**
+#. Cliquez sur le bouton **Désinstaller/Changer**.
 	.. image:: http://i.imgur.com/0fTDSYF.png
 		:alt: Désinstaller Lantern
 

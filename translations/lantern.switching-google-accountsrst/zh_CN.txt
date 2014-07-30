@@ -1,49 +1,49 @@
-Switching Google Accounts
+切换 google 帐号
 =========================
 
-You can change the Google email that you use with Lantern by resetting
-Lantern and going through the initial setup sequence.
+你可以修改 Lantern 对应的 google Email 地址。
+不过需要重新全部设置一遍 Lantern。
 
-Show the Lantern Network Map
+显示 Lantern 网络图
 ----------------------------
 
-As awesome as it is to watch Lantern connections crossing the globe,
-most of the time you will probably have Lantern running without the
-network map visible.
+看看 Lantern 是怎样横跨全球是很震撼的。
+只不过，你常常让 Lantern 不被察觉地
+默默运行。
 
-Select Show Lantern from the Lantern icon in the Status Bar.
+在状态栏上，点击 Lantern 图标，选择 ”Show Lantern“，既可以看到网络图。
 
 .. image:: https://dl.dropboxusercontent.com/u/253631/Show_Lantern.png
    :alt: Show Lantern
 
    显示Lantern
 
-Reset Lantern
+Lantern 复位
 -------------
 
-Next, reset Lantern and go through the setup process again. Resetting
-Lantern clears all saved information since your last setup.
+下一步，让 Langern 复位，再走一遍配置流程。
+复位 Lantern 将清掉上次配置以来所保留的全部信息。
 
-1. Click the Settings icon.
+1. 点击 Setting 图标
 
    .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Settings_Icon.png
       :alt: Show Lantern
 
       显示Lantern
 
-2. Click Reset.
+2. 点击 ”Reset“ （复位）
 
    .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Reset_Button.png
       :alt: Show Lantern
 
-   A message appears asking you to confirm that you want to reset
-   Lantern.
+   会跳出一个信息，让你确认你要复位。
+   。
 
-3. Click Reset.
+3. 点击 “Reset”
 
    .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Confirm_Reset.png
       :alt: Show Lantern
 
-   Lantern resets and you can go through the setup process using a
-   different account. See :ref:`setting-up-lantern`.
+   Lantern 就复位了。这时，你可以用另外的帐号，
+   重做以便配置。参见 
 

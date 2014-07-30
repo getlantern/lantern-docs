@@ -1,77 +1,77 @@
 .. _making-sure-lantern-is-genuine:
 
-Making Sure Lantern is Genuine
+Проверка подлинности Lantern
 ==============================
 
-Malicious actors may try to impersonate official Lantern web pages,
-software, email, and other content to spread false information, track
-potential Lantern users, or spread
-`malware <https://en.wikipedia.org/wiki/Malware>`__ disguised as
-Lantern. **It is very important to always make sure Lantern content is
-genuine.**
+Вредоносные субъекты могут попытаться скрыться за якобы официальными страничками Lantern в сети интернет,
+в виде программного обеспечения, связываться с вами по электронной почте и использовать другой контент для распространения ложной информации, отслеживать
+потенциальных пользователей Lantern и распространять
+`вредоносные программы <https://en.wikipedia.org/wiki/Malware>`__ замаскированные под 
+Lantern. **Очень важно всегда проверять то, что контент Lantern
+подлинен.**
 
-Fortunately, verifying that Lantern content is genuine is
-simple. 
+К счастью, проверка на подлинность Lantern весьма 
+проста. 
 
-How do I Know this Page is Genuine?
+Как узнать подлинна ли страница Lantern?
 -----------------------------------
 
-Look at the address bar in your browser and note that the address begins with exactly the following: ``https://github.com/getlantern``. This is the official home of the Lantern project on github.com, which is the site used to host Lantern's source code and documentation. 
+Посмотрите на адресную строку вашего браузера и убедитесь, что адрес начинается именно так: `https://github.com/getlantern``.  Это официальная домашняя страничка проекта Lantern на сайте github.com, на котором и размещается исходный код Lantern и вся документация. 
 
-**(TODO: Update this when we migrate the
-docs off the GitHub wiki.)**
+**(НЕ ЗАБЫТЬ: обновить информацию при перемещении 
+документации с GitHub wiki.)**
 
 getlantern.org
 ^^^^^^^^^^^^^^
-The official Lantern web site is https://getlantern.org. Notice the
-*https*, as opposed to *http*, in the beginning of that address.
-**Always using the https address means your browser will guarantee it's
-connecting to the official getlantern.org web site.** If anyone with the
-ability to intercept your traffic, such as your government or ISP, tried
-to tamper with it, your use of https means your browser can detect the
-interference and warn you about it rather than loading the phony
-site.[1]
+Официальный сайт Lantern  -  https://getlantern.org. Заметьте, что
+начинается адрес не с "HTTP", а с "HTTPS".
+**Постоянное использование адреса https означает, что ваш браузер гарантирует
+соединение с официальным сайтом getlantern.org. ** Если кто-нибудь,
+кто может перехватить ваш трафик (например правительство или интернет провайдер), попытается  
+подменить сайт, использование вами протокола https обеспечит обнаружение вашим браузером 
+такого вмешательства и браузер предупредит вас об этом вместо того, чтобы открыть фальшивый 
+сайт.[1]
 
-getlantern Look-alikes
+Двойники getlantern
 -----------------------
 
-Notice that getlantern.org looks a lot like getIantern.org
-(a capital i in place of the lowercase l) and also looks a lot
-like "getlantem.org" (an m in place of the rn). To prevent harmful impersonation, Team Lantern has bought up all these look-alike domains, as well as registered the look-alike usernames on GitHub, Twitter, and other sites. You should still be aware that this trick can still show up in other places.
+Заметьте, что getlantern.org выглядит точно также, как getIantern.org 
+(прописная "i" на месте строчной "l"), также похож адрес 
+"getlantem.org" (написано "m" вместо "rn"). Для предотвращения опасности такой подмены команда разработчиков Lantern выкупила все подобные доменные имена, а также зарегистрировала имена-двойники на GitHub, Twitter и других сайтах. Но в любом случае вам нужно опасаться, что такие трюки могут быть использованы и в других местах.
 
-getlantern.org Official Mirror
+Официальное зеркало сайта getlantern.org
 ------------------------------
 
-The getlantern.org web site is blocked in certain countries, but Amazon
-S3 -- a widely used web hosting provider -- is often unblocked in these
-countries. For this reason, the Lantern developers maintain an official
-mirror of getlantern.org on S3 at the following address:
+Сайт getlantern.org заблокирован в некоторых странах в то время, как Amazon
+S3 - широко используемый хостинг-провайдер - зачастую доступен в этих 
+странах. По этой причине разработчики Lantern поддерживают работу официального
+зеркала сайта getlantern.org у провайдера S3, расположенного по адресу:
 
 https://s3.amazonaws.com/getlantern.org/index.html
 
-**This is the one and only official mirror of getlantern.org.** 
+**Это единственное официальное зеркало сайта getlantern.org.** 
 
-If you ever see a web site claiming to be Lantern that is neither
-https://getlantern.org nor the official mirror above, **don't trust
-it.**
+Если вы когда-либо столкнетесь с сайтом, утверждающим, что он является сайтом Lantern, и находящимся не по адресу
+https://getlantern.org или по адресу вышеуказанного зеркала, **не верьте
+этому.**
 
-Official Lantern Email
+Официальная почта от Lantern
 ----------------------
 
-TODO
+ПРЕДСТОИТ СДЕЛАТЬ...
 
-Official Lantern Software
+Официальное програмное обеспечение Lantern
 -------------------------
 
-TODO
+ПРЕДСТОИТ СДЕЛАТЬ...
 
-Other Official Lantern Accounts
+Другие официальные аккаунты Lantern
 -------------------------------
 
-The following is an exhaustive list of all official Lantern accounts. If
-you ever come across Lantern content that is not listed here, please
-`email <mailto:team@getlantern.org?subject=Genuine+Content%3F>`__ team@getlantern.org with subject "Genuine
-Content?" and we will verify it and add it here.
+Ниже следует исчерпывающий список всех официальных аккаунтов Lantern. Если 
+вы вдруг натолкнетесь на контент, относящийся к Lantern, где-нибудь кроме тех источников, что указаны в этом списке, пожалуйста,
+`сообщите по почте на адрес <mailto:team@getlantern.org?subject=Genuine+Content%3F>`__ team@getlantern.org и в теме письма укажите "Genuine
+Content?", мы проверим адрес и добавим его в список.
 
 -  https://twitter.com/getlantern
 -  https://www.facebook.com/getlantern
@@ -82,7 +82,7 @@ Content?" and we will verify it and add it here.
 
 --------------
 
-[1] Advanced users who wish to verify getlantern.org's https certificate
-can check that its SHA1 matches the following fingerprint: DE 5F B1 45
-AE 9A D3 15 30 D7 DB AF 85 91 C7 A8 62 F5 15 D3. See
-https://www.grc.com/fingerprints.htm for third-party verification.
+[1] Продвинутые пользователи, желающие проверить https сертификат сайта getlantern.org
+могут сверить SHA1 на совпадение со следующим отпечатком:  DE 5F B1 45
+AE 9A D3 15 30 D7 DB AF 85 91 C7 A8 62 F5 15 D3. Ознакомьтесь на сайте
+https://www.grc.com/fingerprints.htm с информацией по сторонней проверке.

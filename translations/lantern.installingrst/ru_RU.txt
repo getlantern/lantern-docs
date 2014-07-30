@@ -1,151 +1,151 @@
-Installing and Uninstalling
+Установка и удаление
 ===========================
-This section provides details on how to install and uninstall Lantern on multiple operating systems.
+В этом разделе приведена информация по установке и удалению Lantern для разных операционных систем.
 
-Once you are invited, you will receive an email with links to download the installer for your operating system.
+После того, как вас пригласят, вы получите сообщение по электронной почте, в котором будет ссылка на программу установки для вашей операционной системы.
 
 .. image:: https://github-camo.global.ssl.fastly.net/6a8e1af9a0053337263343727132eacab1920d88/687474703a2f2f692e696d6775722e636f6d2f347652615436382e706e67
-	:alt: Lantern Invitation
+	:alt: Приглашение Lantern 
 
 Linux
 -----
 
-Supported Versions
+Поддерживаемые версии
 ^^^^^^^^^^^^^^^^^^
-Currently, installation on Linux is only available on Ubuntu.
-We greatly appreciate any `contributions <../../developer/html/contributing.html>`_ for other Linux distributions or help with improvements to make better use of package managers. You can also `build from source <https://github.com/getlantern/lantern/blob/master/README.md#wiki-setting-up-a-development-environment>`_.
+В настоящее время установка на Linux возможна только для Ubuntu.
+Мы весьма ценим любое `содействие <../../developer/html/contributing.html>`_  в разработке версий программы для других дистрибутивов Linux и помощь в улучшении использования менеджеров пакетов. Вы также можете сами `скомпилировать программу из следующего источника  <https://github.com/getlantern/lantern/blob/master/README.md#wiki-setting-up-a-development-environment>`_.
 
-Installing
+Установка
 ^^^^^^^^^^ 
-The invitation to Lantern has a link to an installation script that: 
+Письмо с приглашением в Lantern содержит ссылку на установочный скрипт, который: 
 
-* Downloads a `.deb` file. 
-* Creates the uninstall script in the `/opt/lantern-net-installer` directory.
-* Creates a user preferences directory.
-* Does *not* auto-launch a Lantern service.
+* Скачивает `.deb` файл. 
+* Создает скрипт деинсталяции программы в каталоге `/opt/lantern-net-installer` .
+* Создает каталог с настройками пользователя.
+* Запрещает автозапуск сервиса Lantern.
 
-#. Click **Ubuntu 12.04+** in the invitation email.
-	A browser window opens and dialog appears asking you to open or save the installer. 
+#. Нажмите на ссылку **Ubuntu 12.04+**, указанную в письме-приглашении.
+	Откроется окно браузера и появится диалоговое окно с вопросом, хотите ли вы открыть или сохранить файл установки. 
 
 	.. image:: http://i.imgur.com/justLyz.png
-		:alt: Open File Dialog
+		:alt: Диалог открытия файла
 
-#. Open a new terminal window and change to the directory where you downloaded the installer.
+#. Откройте окно терминала и измените текущий каталог на тот, в который вы сохранили файл установки.
 	:: 
 		
 		cd Downloads/
 
-#. Make the installation script executable.
+#. Измените права доступа для скрипта установки, чтобы дать ему права на исполнение.
 	::
 	
 		chmod 700 lantern-net-installer_unix.sh
 
-#. Run the installation script.
+#. Запустите скрипт установки.
 	::
 		
 		sudo ./lantern-net-installer_unix.sh
 	
-	The terminal window displays a message indicating the installer is starting and the Lantern Fetcher dialog appears.
+	Окно терминала отобразит сообщение о том, что установщик начал свою работу, и появится диалог сборщика Lantern.
 	
 	.. image:: http://i.imgur.com/S2hBiEY.png
-		:alt: Terminal window and Lantern Fetcher dialog indicating the status of the download.
+		:alt: Окно терминала и диалог сборщика Lantern с указанием статуса загрузки.
 		
-	.. note:: There is no status message indicating the installation is complete. 
+	.. примечание: Сообщения о том, что установка завершилась, отображаться не будет. 
 		
-		If you receive a message indicating there is no suitable Java Virtual Machine, you need to download Java. See the `Ubuntu documentation <https://help.ubuntu.com/community/Java>`_ for details.
+		В случае, если вы получите сообщение о том, что не найдена подходящая версия виртуальной машины Java, вам нужно будет скачать Java. Подробности смотрите в `Документации по Ubuntu  <https://help.ubuntu.com/community/Java>`_ .
 
-5. Click the **Ubuntu** button and type Lantern.
+5. Нажмите на кнопку **Ubuntu** и введите Lantern.
 
-6. Click the **Lantern** icon.
-	The Lantern Setup window appears.
+6. Нажмите на значок **Lantern**
+	Откроется окно настройки Lantern.
 	
 	.. image:: http://i.imgur.com/nnXoFjr.png
-		:alt: The Lantern Setup window prompting you to click Give Access or Get Access.
+		:alt: Запрос в окне настройки о выборе режима работы Lantern: "Дать доступ" или "Получить доступ".
 	
-	.. note:: If you receive a message about Google Chrome not being installed, you need to download it.
+	.. примечание:: Если вы получите сообщение о том, что у вас не установлен Google Chrome, вам нужно будет его скачать.
 		
-		See https://www.google.com/intl/en/chrome/browser/ for details. 
+		Подробности по ссылке: https://www.google.com/intl/en/chrome/browser/ 
 
-#. See :ref:`setting-up-lantern`.
+#. См. :ref:`setting-up-lantern`.
 
 .. _uninstalling-linux:
-Uninstalling
+Удаление
 ^^^^^^^^^^^^
 
-1. In a terminal window, change to the installation directory.
+1. В окне терминала перейдите в каталог установки.
 	::
 	
 		cd /usr/local/lantern-net-installer/
 		
-2. Run the uninstall program.
+2. Запустите программу деинсталляции
 	::
 	
 		sudo ./uninstall
 	
-	The Lantern Uninstall window appears.
+	Появится окно деинсталляции Lantern.
 		
 	.. image:: http://i.imgur.com/PW3hiCF.png
-		:alt: A terminal window showing the command to uninstall Lantern.
+		:alt: Окно терминала с командой удаления Lantern.
 		
-3. Click **Next** to start uninstalling lantern.
-	A message appears when the uninstallation is complete.
+3. Нажмите **Далее** для запуска процесса удаления Lantern.
+	Когда удаление завершиться, появится соответствующее сообщение.
 	
 	.. image:: http://i.imgur.com/7XZayjD.png
-		:alt: The Lantern Uninstall window showing a message indicating that Lantern has been successfully uninstalled.
+		:alt: Окно деинсталляции Lantern с сообщением о том, что Lantern был успешно удален.
 	
-4. Click **Finish**.
+4. Нажмите **Завершить**.
 
 .. _installing-mac:
 Mac
 ---
-Supported Versions
+Поддерживаемые версии
 ^^^^^^^^^^^^^^^^^^
 
-Lantern supports OS/X version 10.6 and higher,
-64-bit only. 
+Lantern поддерживает версии Mac OS/X начиная с 10.6 и выше,
+только 64-битные версии. 
 
-.. note:: During installation, Lantern checks if you have Java installed. If not, it will download the Java Runtime Environment from the web.
+.. note:: В процессе установки, Lantern проверит установлен ли пакет Java. Если нет, то установщик скачает Java Runtime Environment из сети.
 
-Installing
+Установка
 ^^^^^^^^^^
 
-#. Click the **Mac OS X 10.6+** link in the invitation email.
+#. В письме-приглашении нажмите на ссылку **Mac OS X 10.6+**.
 
-#. Double-click the **.dmg** file that downloads, then double-click on the **Lantern Installer** icon.
-	The Lantern Fetcher window appears and starts downloading the most recent installation files.
+#. Двойным щелчком запустите файл **.dmg**, который скачается, затем двойным щелчком по ярлыку запустите **Lantern Installer*.
+	Появится окно сборщика Lantern и начнется скачивание установочных файлов последней версии.
 	
 	.. image:: https://www.evernote.com/shard/s209/sh/b39a5f0d-4aa9-4518-8a26-fd0a86de8737/9d3090f5eab319830f4510bc13bba90e/deep/0/Lantern%20Fetcher.png
-		:alt: Lantern Downloader
+		:alt: Загрузчик Lantern.
 		
-	.. Important:: As of beta2 the installer will *not* work if you are not running as an admin user. If you are not the admin user, nothing will happen when you click the installer icon. We are `working <https://github.com/getlantern/lantern/issues/819>`_ on getting it to prompt for the admin password instead of not responding.
+	.. Важно:: В случае если у вас *не* будет работать установщик версии beta2, значит вы зашли в систему не в качестве администратора. Когда вы щелкните по значку установщика - ничего не произойдет. Мы `работаем <https://github.com/getlantern/lantern/issues/819>`_  над тем, чтобы установщик спрашивал пароль Администратора вместо того, чтобы не реагировать вовсе.
 
-#. In the password dialog that appears, enter your administrator user name and password. This allows Lantern to install and make changes to your proxy settings so that your internet connection can be shared.
+#. В диалоговом окне с запросом пароля введите имя пользователя-администратора и его пароль. Это позволит продолжить установку Lantern и внести изменения в настройки прокси с тем, чтобы ваше интернет соединение могло быть общим.
 	.. image:: https://www.evernote.com/shard/s209/sh/c92df454-472a-4ce1-a578-fc06843802d7/04fd633f4deb9fbeecc44562dff2ea78/deep/0/Screenshot%208/16/13%207:52%20PM.png
-		:alt: A window prompting you to enter a user name and password to allow changes.
+		:alt: Окно с запросом имени пользователя и пароля для разрешения внесения изменений.
 	
-	The installer downloads and extracts the files. When the installation is complete, the Lantern window appears.
+	Установщик скачает и распакует файлы. Когда установка завершится, появится окно Lantern.
 
 	.. image:: https://dl.dropboxusercontent.com/u/253631/Installing_Mac_Setup_Window.png
-		:alt: The Lantern window appears prompting you to start the setup process.
+		:alt: Появляется окно программы Lantern с предложением начать процесс настройки.
 		
-#. See :ref:`setting-up-lantern`.
+#. См. :ref:`setting-up-lantern`.
 	
-Uninstalling
+Удаление
 ^^^^^^^^^^^^
 
-1. Right-click on the **Lantern** status bar icon and select **Quit Lantern**.
+1. Щелкните правой кнопкой на иконке Lantern в строке состояния и нажмите **Выход из Lantern**.
 
-2. In the **Applications** folder, move **Lantern.app** to the **Trash**.
-	This also uninstalls Lantern's Java Runtime Environment.
+2. В папке **Приложения** переместите **Lantern.app** в **Корзину**.
+	Это действие также удалит и Java Runtime Environment.
 
-3. To delete all your settings, open a terminal window and change to the directory in your **Home** directory.
+3. Для удаления ваших настроек, откройте окно терминала и перейдите в вашу **Домашнюю** папку.
 	::
 	
 		cd ~
 		
-	.. note:: If you don't delete your settings, Lantern uses them the next time you install the application.
+	.. примечание:: Если вы не удалите свои настройки, Lantern использует их при следующей установке.
 		
-4. Delete the **./lantern** directory.
+4. Удалите папку **./lantern**.
 	::
 	
 		rm -r .lantern
@@ -155,55 +155,55 @@ Uninstalling
 Windows
 -------
 
-Supported Versions 
+Поддерживаемые версии 
 ^^^^^^^^^^^^^^^^^^
 
-Lantern supports Windows version XP and higher and requires that Google Chrome is installed. If you don't
-have Chrome you can get it `here <https://www.google.com/intl/en/chrome/browser/>`_.
+Lantern поддерживает версии Windows начиная с XP и требует наличие установленного Google Chrome. Если у вас нет
+Chrome, вы можете скачать его `здесь: <https://www.google.com/intl/en/chrome/browser/>`_.
 
-Installing
+Установка
 ^^^^^^^^^^
 
-1. Click the **Windows XP+** link in the invitation email.
-	.. warning:: It is important to follow the next steps to make sure that the `digital signature <http://en.wikipedia.org/wiki/Digital_signature>`_ is valid.
+1. В письме-приглашении нажмите на ссылку **Windows XP+**.
+	.. внимание:: Очень важно следовать инструкциям и убедиться, что `цифровая подпись <http://en.wikipedia.org/wiki/Digital_signature>`_ верна.
 
-#. Right click the **.exe** file that downloaded and click the **Digital Signatures** tab. 
+#. Щелкните правой кнопкой на скачанном файле  **.exe** и нажмите на **Цифровые подписи**. 
 
-#. In the **General** tab, click **View Certificate**. 
+#. В закладке **Общие** нажмите **Просмотреть Сертификат**. 
 
-#. Under **Details**, verify the signature.
-	Each .exe file is digitally by signed by Brave New Software Project, Inc. For June 11, 2013 to June 11, 2016, the SHA1 thumbprint should be ‎44:99:0c:72:fb:a0:e6:dd:f9:2a:b9:34:46:02:e7:56:00:d8:be:3c.
+#. В разделе **Детали** проверьте подпись.
+	Каждый .exe файл подписан цифровой подписью компании Brave New Software Project, Inc. С 11 июня 2013 года по 11 июня 2016 года, хэш SHA1 должен соответствовать 44:99:0c:72:fb:a0:e6:dd:f9:2a:b9:34:46:02:e7:56:00:d8:be:3c.
 
 	.. image:: http://i.imgur.com/iTljBxR.jpg
-		:alt: Certificate Details Window
+		:alt: Окно информации о сертификате.
 	
-#. Once you have verified the signature, double-click the **.exe** file. If you are prompted to allow the installer to make changes to your computer, click **Yes**.
-	When installation is complete, the Lantern window appears.
+#. Если вы проверили подпись, дважды щелкните по **.exe** файлу. Если у вас спросят, разрешаете ли вы установщику внести изменения в ваш компьютер, нажмите **Да**.
+	По завершении установки появится окно Lantern.
 
 	.. image:: http://i.imgur.com/K6yBha5.png)
-		:alt: The Lantern window appears prompting you to start the setup process.
+		:alt: Появляется окно программы Lantern с предложением начать процесс настройки.
 
-#. See :ref:`setting-up-lantern`.
+#. См. :ref:`setting-up-lantern`.
 
 
-Uninstalling
+Удаление
 ^^^^^^^^^^^^
 
-1. Open the **Control Panel** and click **Programs**.
+1. В **Панели управления** откройте **Программы**.
 	.. image:: http://i.imgur.com/lF9ldIE.png
-		:alt: The Windows Control Panel.
+		:alt: Панель управления Windows.
 
-#. In the list of installed programs, click the **Lantern**.
+#.  В списке установленных программ нажмите на **Lantern**.
 	
-#. Click the **Uninstall/Change** button.
+#. Нажмите на кнопку **Удалить/Изменить**.
 	.. image:: http://i.imgur.com/0fTDSYF.png
-		:alt: Uninstall Lantern
+		:alt: Удаление Lantern
 
-#. Click **Next**.
-	Lantern is uninstalled.
+#.  Нажмите **Далее**.
+	Lantern удален.
 
 	.. image:: http://i.imgur.com/TGQeclS.png
-		:alt: Uninstall Window
+		:alt: Окно деинсталляции
 
 
 

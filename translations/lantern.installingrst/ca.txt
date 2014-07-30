@@ -13,7 +13,7 @@ Linux
 Versions compatibles
 ^^^^^^^^^^^^^^^^^^
 Actualment, la instal·lació a Linux només està disponible per Ubuntu.
-Agraïm de tot cor qualsevol `contributions <../../developer/html/contributing.html>`_ per altres distribucions de Linux o qualsevol ajuda per millorar l'ús dels gestors de paquets. També pots `build from source <https://github.com/getlantern/lantern/blob/master/README.md#wiki-setting-up-a-development-environment>`_.
+Agraïm de tot cor qualsevol `contribució <../../developer/html/contributing.html>`_ per altres distribucions de Linux o qualsevol ajuda per millorar l'ús dels gestors de paquets. També pots `build from source <https://github.com/getlantern/lantern/blob/master/README.md#wiki-setting-up-a-development-environment>`_.
 
 Instal·lant
 ^^^^^^^^^^ 
@@ -52,7 +52,7 @@ La invitació a Lantern té un enllaç a un script d'instal·lació que:
 		
 	.. note:: No hi ha cap missatge d'estat indicant que s'ha completat la instal·lació. 
 		
-		Si reps un missatge indicant que no hi ha cap Màquina Virtual Java adient, cal que descarreguis Java. Veure detalls a `Ubuntu documentation <https://help.ubuntu.com/community/Java>`_ .
+		Si reps un missatge indicant que no hi ha cap Màquina Virtual Java adient, cal que descarreguis Java. Veure detalls a `la documentació Ubuntu <https://help.ubuntu.com/community/Java>`_ .
 
 5. Fes clic al botó **Ubuntu** i escriu Lantern.
 
@@ -72,28 +72,28 @@ La invitació a Lantern té un enllaç a un script d'instal·lació que:
 Desinstal·lant
 ^^^^^^^^^^^^
 
-1. In a terminal window, change to the installation directory.
+1. En una finestra de terminal, canvia al directori d'instal·lació.
 	::
 	
 		cd /usr/local/lantern-net-installer/
 		
-2. Run the uninstall program.
+2. Executa el programa de desinstal·lació.
 	::
 	
 		sudo ./uninstall
 	
-	The Lantern Uninstall window appears.
+	Apareix la finestra de Desinstal·lació de Lantern.
 		
 	.. image:: http://i.imgur.com/PW3hiCF.png
-		:alt: A terminal window showing the command to uninstall Lantern.
+		:alt: Una finestra de terminal mostrant l'ordre per desinstal·lar Lantern.
 		
-3. Click **Next** to start uninstalling lantern.
-	A message appears when the uninstallation is complete.
+3. Fes clic a **Següent** per iniciar la desinstal·lació de Lantern.
+	Un missatge apareix quan s'hagi completat la desinstal·lació.
 	
 	.. image:: http://i.imgur.com/7XZayjD.png
-		:alt: The Lantern Uninstall window showing a message indicating that Lantern has been successfully uninstalled.
+		:alt: La finestra de Desinstal·lació de Lantern mostrant el missatge indicant que la desinstal·lació ha finalitzat correctament.
 	
-4. Click **Finish**.
+4. Fes clic a **Finalitzar**.
 
 .. _installing-mac:
 Mac
@@ -101,49 +101,49 @@ Mac
 Versions compatibles
 ^^^^^^^^^^^^^^^^^^
 
-Lantern supports OS/X version 10.6 and higher,
-64-bit only. 
+Lantern permet la versió 10.6 d'OS/X i superior,
+només 64-bits. 
 
-.. note:: During installation, Lantern checks if you have Java installed. If not, it will download the Java Runtime Environment from the web.
+.. nota:: Mentre s'instal·la, Lantern comprova si tens instal·lat Java. Si no, descarregarà l'Entorn d'Execució de Java (JRE) des del web.
 
 Instal·lant
 ^^^^^^^^^^
 
 #. Fes clic a l'enllaç de **Mac OS X 10.6+** en el correu d'invitació.
 
-#. Double-click the **.dmg** file that downloads, then double-click on the **Lantern Installer** icon.
-	The Lantern Fetcher window appears and starts downloading the most recent installation files.
+#. Fes doble clic sobre el fitxer **.dmg** que descarrega, i després fes doble clic sobre la icona **Lantern Installer**.
+	Apareix la finestra del Lantern Fetcher i comença a descarregar els fitxers d'instal·lació més recents.
 	
 	.. image:: https://www.evernote.com/shard/s209/sh/b39a5f0d-4aa9-4518-8a26-fd0a86de8737/9d3090f5eab319830f4510bc13bba90e/deep/0/Lantern%20Fetcher.png
-		:alt: Lantern Downloader
+		:alt: Descarregador de Lantern
 		
-	.. Important:: As of beta2 the installer will *not* work if you are not running as an admin user. If you are not the admin user, nothing will happen when you click the installer icon. We are `working <https://github.com/getlantern/lantern/issues/819>`_ on getting it to prompt for the admin password instead of not responding.
+	.. Important:: En la versió beta2, l'instal·lador *només* funcionarà si has entrat com a usuari administrador. Si no ets usuari administrador, quan facis clic sobre la icona de l'instal·lador no passarà res. Estem `treballant <https://github.com/getlantern/lantern/issues/819>`_ per tal de que demani la contrasenya de l'administrador enlloc de no fer res.
 
-#. In the password dialog that appears, enter your administrator user name and password. This allows Lantern to install and make changes to your proxy settings so that your internet connection can be shared.
+#. En el diàleg de contrassenya que apareix, informa el teu nom d'usuari d'administrador i la contrasenya. Això permet que Lantern instal·li i faci canvis a la configuració del teu servidor intermediari, de forma que la teva connexió a Internet pugui ser compartida.
 	.. image:: https://www.evernote.com/shard/s209/sh/c92df454-472a-4ce1-a578-fc06843802d7/04fd633f4deb9fbeecc44562dff2ea78/deep/0/Screenshot%208/16/13%207:52%20PM.png
-		:alt: A window prompting you to enter a user name and password to allow changes.
+		:alt: Una finestra demanant-te que informis nom d'usuari i contrasenya per autoritzar els canvis.
 	
-	The installer downloads and extracts the files. When the installation is complete, the Lantern window appears.
+	L'instal·lador descarrega i extreu els fitxers. Quan s'ha completat la instal·lació, apareix la finestra de Lantern.
 
 	.. image:: https://dl.dropboxusercontent.com/u/253631/Installing_Mac_Setup_Window.png
-		:alt: The Lantern window appears prompting you to start the setup process.
+		:alt: Apareix la finestra de Lantern demanant-te iniciar el procés de configuració.
 		
 #. Veure :ref:`setting-up-lantern`.
 	
 Desinstal·lant
 ^^^^^^^^^^^^
 
-1. Right-click on the **Lantern** status bar icon and select **Quit Lantern**.
+1. Fes clic amb el botó dret sobre la icona de la barra d'estat de **Lantern** i selecciona **Surt de Lantern**.
 
-2. In the **Applications** folder, move **Lantern.app** to the **Trash**.
-	This also uninstalls Lantern's Java Runtime Environment.
+2. A la carpeta **Applications**, mou **Lantern.app** a la **Paperera**.
+	Això també desinstal·la l'Entorn d'Execució de Java de Lantern.
 
-3. To delete all your settings, open a terminal window and change to the directory in your **Home** directory.
+3. Per esborrar tota la teva configuració, obre una finestra de terminal i canvia al directori en el teu directori **Inici**.
 	::
 	
 		cd ~
 		
-	.. note:: If you don't delete your settings, Lantern uses them the next time you install the application.
+	.. note:: Si no esborres la teva configuració, Lantern la utilitzarà el proper cop que instal·lis l'aplicació.
 		
 4. Esborra el directori **./lantern**.
 	::
@@ -158,30 +158,30 @@ Windows
 Versions compatibles 
 ^^^^^^^^^^^^^^^^^^
 
-Lantern supports Windows version XP and higher and requires that Google Chrome is installed. If you don't
-have Chrome you can get it `here <https://www.google.com/intl/en/chrome/browser/>`_.
+Lantern permet la versió XP de Windows i superior, i requereix que Google Chrome estigui instal·lat. Si no disposes 
+de Chrome el pots obtenir `aquí <https://www.google.com/intl/en/chrome/browser/>`_.
 
 Instal·lant
 ^^^^^^^^^^
 
-1. Click the **Windows XP+** link in the invitation email.
-	.. warning:: It is important to follow the next steps to make sure that the `digital signature <http://en.wikipedia.org/wiki/Digital_signature>`_ is valid.
+1. Fes clis sobre l'enllaç de **Windows XP+** en el correu d'invitació.
+	.. avís:: És important seguir els següents passos per assegurar que la `signatura digital <http://en.wikipedia.org/wiki/Digital_signature>`_ és vàlida.
 
-#. Right click the **.exe** file that downloaded and click the **Digital Signatures** tab. 
+#. Fes clic amb el botó dret sobre el fitxer **.exe** descarregat i fes clic sobre la pestanya **Signatures Digitals**. 
 
-#. In the **General** tab, click **View Certificate**. 
+#. A la pestanya **General**, fes clic sobre **Veure Certificat**. 
 
-#. Under **Details**, verify the signature.
-	Each .exe file is digitally by signed by Brave New Software Project, Inc. For June 11, 2013 to June 11, 2016, the SHA1 thumbprint should be ‎44:99:0c:72:fb:a0:e6:dd:f9:2a:b9:34:46:02:e7:56:00:d8:be:3c.
+#. Sota els **Detalls**, verifica la signatura.
+	Cada fitxer .exe està signat digitalment per Brave New Software Project, Inc. Des de l'11 de juny de 2013 fins a l'11 de juny de 2016, l'emprenta SHA1 hauria de ser ‎44:99:0c:72:fb:a0:e6:dd:f9:2a:b9:34:46:02:e7:56:00:d8:be:3c.
 
 	.. image:: http://i.imgur.com/iTljBxR.jpg
-		:alt: Certificate Details Window
+		:alt: Finestra de Detalls del Certificat
 	
-#. Once you have verified the signature, double-click the **.exe** file. If you are prompted to allow the installer to make changes to your computer, click **Yes**.
-	When installation is complete, the Lantern window appears.
+#. Un cop hagis verificat la signatura, fes doble clic sobre el fitxer **.exe**. Si se't demana si permets a l'instal·lador fer canvis al teu ordinador, fes clic a **Sí**.
+	Quan finalitza la instal·lació, apareix la finestra de Lantern.
 
 	.. image:: http://i.imgur.com/K6yBha5.png)
-		:alt: The Lantern window appears prompting you to start the setup process.
+		:alt: Apareix la finestra de Lantern demanant-te iniciar el procés de configuració.
 
 #. Veure :ref:`setting-up-lantern`.
 
@@ -193,17 +193,17 @@ Desinstal·lant
 	.. image:: http://i.imgur.com/lF9ldIE.png
 		:alt: El Tauler de Control de Windows.
 
-#. In the list of installed programs, click the **Lantern**.
+#. A la llista de programes instal·lats, fes clic sobre **Lantern**.
 	
-#. Click the **Uninstall/Change** button.
+#. Fes clic sobre el botó **Desinstal·lar/Modificar**.
 	.. image:: http://i.imgur.com/0fTDSYF.png
 		:alt: Desinstal·lar Lantern
 
 #. Fes clic a **Següent**.
-	Lantern is uninstalled.
+	Lantern s'ha desinstal·lat.
 
 	.. image:: http://i.imgur.com/TGQeclS.png
-		:alt: Uninstall Window
+		:alt: Finestra per Desinstal·lar
 
 
 

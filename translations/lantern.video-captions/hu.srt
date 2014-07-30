@@ -1,53 +1,53 @@
 1
 00:00:05,0 --> 00:00:10,0
-There was a time when a cry for help was
- only heard as far as your voice could travel.
+Volt idő, amikor a segélykiálltás csak addig
+volt hallható, ameddig a hangod eljutott.
 
 2
 00:00:20,0 --> 00:00:22,0
-Now things are different.
+Most már más a helyzet.
 
 3
 00:00:23,0 --> 00:00:25,0
-Now someone can be heard in a matter of seconds
+Manapság bárkit hallhatunk másodpercek alatt
 
 4
 00:00:28,0 --> 00:00:30,0
-all the way across the world.
+a világ bármely pontjáról.
 
 5
 00:00:31,0 --> 00:00:34,0
-The internet has become a voice for the voiceless
+Az internet lett a némák hangja
 
 6
 00:00:34,0 --> 00:00:36,0
-A way to shine awareness on hidden corruption
+A módja annak, hogy felhívja a figyelmet a rejtett korrupcióra
 
 7
 00:00:37,0 --> 00:00:39,0
-and it's changing the world.
+és megváltoztatja a világot.
 
 8
 00:00:39,0 --> 00:00:41,0
-[crowd chanting]
-The whole world is watching!
-The whole world is watching!
+[tömeg kántálás]
+Az egész világ figyel!
+Az egész világ figyel!
 
 9
 00:00:43,0 --> 00:00:45,0
-Except that freedom isn't available to everyone.
+Kivéve, hogy a szabadság nem mindenki számára elérhető.
 
 10
 00:00:46,0 --> 00:00:50,0
-Over a quarter of the world's population lives with government-imposed censorship
+Több, mint a Föld népességének a negyede él a kormány által előírt cenzúrában
 
 11
 00:00:50,0 --> 00:00:52,0
-and that number is growing.
+és számuk csak nő.
 
 12
 00:00:53,0 --> 00:00:55,0
-Politically sensitive sites like Facebook,
+Politikailag érzékeny területek, mint a Facebook,
 
 13
 00:00:55,0 --> 00:00:57,0
@@ -55,81 +55,81 @@ YouTube, Twitter, és Google,
 
 14
 00:00:58,0 --> 00:01:01,0
-the exact sites that are bringing light to corruption and injustice,
+azok az oldalak amelyek rávilágítanak a korrupcióra és az igazságtalanságra,
 
 15
 00:01:02,0 --> 00:01:04,0
-are blocked.
+le vannak tiltva.
 
 16
 00:01:06,0 --> 00:01:08,0
-But you can help
+De segíthetsz
 
 17
 00:01:08,0 --> 00:01:10,0
-by using Lantern.
+a Lantern használatával.
 
 18
 00:01:11,0 --> 00:01:13,0
-Lantern is a safe and secure free software
+Lantern egy olyan biztonságos és ingyenes szoftver,
 
 19
 00:01:13,0 --> 00:01:18,0
-that gives people internet access in places where access is denied.
+amely megadja az embereknek az internethozzáférést olyan helyeken, ahol a hozzáférés le van tiltva.
 
 20
 00:01:18,0 --> 00:01:21,0
-It's software that circumvents government censorship.
+Ez a szoftver kikerüli a kormány cenzúrát.
 
 21
 00:01:21,0 --> 00:01:23,0
-When you install Lantern on your computer
+Amikor telepíted a Lantern a számítógépedre
 
 22
 00:01:23,0 --> 00:01:25,0
-you provide a new escape route
+biztosítasz egy menekülési utat
 
 23
 00:01:25,0 --> 00:01:28,0
-for getting information in and out of censored countries.
+az információk ki-be áramlásának a cenzúrázott országokban.
 
 24
 00:01:29,0 --> 00:01:31,0
-You are giving people a way out
+Kiutat adsz az embereknek,
 
 25
 00:01:31,0 --> 00:01:33,0
-a way to communicate.
+egy módot a kommunikálásra.
 
 26
 00:01:34,0 --> 00:01:36,0
-All of us are connected
+Mindannyian kapcsolatban vagyunk,
 
 27
 00:01:36,0 --> 00:01:38,0
-now more than ever.
+most jobban, mit valaha.
 
 28
 00:01:38,0 --> 00:01:40,0
-With a few simple steps, you have the power
+Pár egyszerű lépéssel hatalmadban áll
 
 29
 00:01:40,0 --> 00:01:42,0
-to provide equal access to the internet
+egynelő hozzáférést biztosítanod az internethez
 
 30
 00:01:42,0 --> 00:01:44,0
-and help change the world.
+és segítened megváltoztatni a világot.
 
 31
 00:01:45,0 --> 00:01:46,0
-Will you?
+Szeretnél?
 
 32
 00:01:46,0 --> 00:01:47,0
-Join the movement.
+Csatlakozz a mozgalomhoz.
 
 33
 00:01:47,0 --> 00:01:49,0
-Join Lantern.
+Csatlakozz a Lanternhez.
 

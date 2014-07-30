@@ -3,9 +3,9 @@
 S'assurer que Lantern est authentique
 ==============================
 
-Des acteurs malicieux pourraient essayer d'imiter les pages Web officielles, 
+Des personnages malicieux pourraient essayer d'imiter les pages Web officielles,
 le logiciel, les courriels et autre contenu de Lantern pour répandre de fausses informations, suivre
-les utilisateurs potentiels de Lantern, ou diffuser des 
+les utilisateurs potentiels de Lantern, ou diffuser des
 `logiciels malveillants <https://fr.wikipedia.org/wiki/Logiciel_malveillant>`__ se faisant passer pour
 Lantern. **Il est très important de toujours s'assurer que le contenu de Lantern est
 authentique.**

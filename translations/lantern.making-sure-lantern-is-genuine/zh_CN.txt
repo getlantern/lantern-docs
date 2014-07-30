@@ -1,77 +1,77 @@
 .. _making-sure-lantern-is-genuine:
 
-Making Sure Lantern is Genuine
+确保 Lantern 是原版的
 ==============================
 
-Malicious actors may try to impersonate official Lantern web pages,
-software, email, and other content to spread false information, track
-potential Lantern users, or spread
-`malware <https://en.wikipedia.org/wiki/Malware>`__ disguised as
-Lantern. **It is very important to always make sure Lantern content is
-genuine.**
+有人会冒充 Lantern 网页、
+软件、Email、以及其他信息，以散布虚假消息、或追踪 Lantern 用户、或散发
+恶意软件
+`malware <https://en.wikipedia.org/wiki/Malware>`__ ，伪装成 Lantern。
+因此，一定要确保你的 Lantern 是
+原版的。
 
-Fortunately, verifying that Lantern content is genuine is
-simple. 
+幸运的是，很容易验证 Lantern 是否是原版的
+。 
 
-How do I Know this Page is Genuine?
+怎样知道这个网页是原版的？
 -----------------------------------
 
-Look at the address bar in your browser and note that the address begins with exactly the following: ``https://github.com/getlantern``. This is the official home of the Lantern project on github.com, which is the site used to host Lantern's source code and documentation. 
+看浏览器的地址栏，地址一定是以 ``https://github.com/getlantern`` 开头。这是 Lantern 在 github.com 上的官方网站，用于保存 Lantern 的源代码和文档。 
 
-**(TODO: Update this when we migrate the
-docs off the GitHub wiki.)**
+**(待完成：我们把文档从 Github wiki
+移走后，会更新这一段）
 
 getlantern.org
 ^^^^^^^^^^^^^^
-The official Lantern web site is https://getlantern.org. Notice the
-*https*, as opposed to *http*, in the beginning of that address.
-**Always using the https address means your browser will guarantee it's
-connecting to the official getlantern.org web site.** If anyone with the
-ability to intercept your traffic, such as your government or ISP, tried
-to tamper with it, your use of https means your browser can detect the
-interference and warn you about it rather than loading the phony
-site.[1]
+Lantern 的官方网站是 https://getlantern.org。
+注意，地址开头是 https，而不是 http。
+** 记住，在浏览器上永远用 https，以确保
+是连到官方的 getlantern.org。如果有人
+能够截获你的数据，比如你的政府或 ISP，
+并试图给你伪装的信息，如果用 https，浏览器就可以发觉
+这种干扰，并给你警告，
+而不会下载虚假的网页。
 
-getlantern Look-alikes
+getlantern 伪装者
 -----------------------
 
-Notice that getlantern.org looks a lot like getIantern.org
-(a capital i in place of the lowercase l) and also looks a lot
-like "getlantem.org" (an m in place of the rn). To prevent harmful impersonation, Team Lantern has bought up all these look-alike domains, as well as registered the look-alike usernames on GitHub, Twitter, and other sites. You should still be aware that this trick can still show up in other places.
+请注意 getIantern.org （小写的 l 被替换成大写的 I）
+看起来与官方网站几乎一样，
+再如，getlanterm.org （用 m 代替 n），也是很相似。为了防止这种恶意的模仿，Lantern 团队把这些看起来像官方网站的名字收集到 GitHub，Twitter 和其他网站上。你需要对这种技俩有所警觉。
 
-getlantern.org Official Mirror
+getlantern.org 官方镜像
 ------------------------------
 
-The getlantern.org web site is blocked in certain countries, but Amazon
-S3 -- a widely used web hosting provider -- is often unblocked in these
-countries. For this reason, the Lantern developers maintain an official
-mirror of getlantern.org on S3 at the following address:
+getlantern.org 在一些国家是被封锁的，
+不过 Amazon S3（一个常用的虚拟主机供应商）常常是不被封锁的。
+因此，Lantern 开发者维护了一个镜像
+（在 Amazon S3 上），地址是
 
 https://s3.amazonaws.com/getlantern.org/index.html
 
-**This is the one and only official mirror of getlantern.org.** 
+** 这是唯一一个 getlantern.org 的官方镜像。 
 
-If you ever see a web site claiming to be Lantern that is neither
-https://getlantern.org nor the official mirror above, **don't trust
-it.**
+如果有任何网站号称是Lantern，
+但不是 https://getlantern.org 或上面提到的官方镜像，
+别相信。
 
-Official Lantern Email
+官方 Lantern Email
 ----------------------
 
-TODO
+待定
 
-Official Lantern Software
+官方 Lantern 软件
 -------------------------
 
-TODO
+待定
 
-Other Official Lantern Accounts
+其他官方 Lantern 帐号
 -------------------------------
 
-The following is an exhaustive list of all official Lantern accounts. If
-you ever come across Lantern content that is not listed here, please
-`email <mailto:team@getlantern.org?subject=Genuine+Content%3F>`__ team@getlantern.org with subject "Genuine
-Content?" and we will verify it and add it here.
+下面是所有的官方 Lantern 帐号，
+如果你发现任何没在下面列出的 Lantern 内容，
+请 `email <mailto:team@getlantern.org?subject=Genuine+Content%3F>`__ 给team@getlantern.org 报告，主题是 "Genuine
+Content?"。我们将会去验证，并将其添加进来。
 
 -  https://twitter.com/getlantern
 -  https://www.facebook.com/getlantern
@@ -82,7 +82,7 @@ Content?" and we will verify it and add it here.
 
 --------------
 
-[1] Advanced users who wish to verify getlantern.org's https certificate
-can check that its SHA1 matches the following fingerprint: DE 5F B1 45
-AE 9A D3 15 30 D7 DB AF 85 91 C7 A8 62 F5 15 D3. See
-https://www.grc.com/fingerprints.htm for third-party verification.
+[1] 有能力的用户，可以验证 getlantern.org 的 https 证书。他的 SHA1 签名是
+: DE 5F B1 45
+AE 9A D3 15 30 D7 DB AF 85 91 C7 A8 62 F5 15 D3.
+关于第三方验证，请参见 https://www.grc.com/fingerprints.htm 。

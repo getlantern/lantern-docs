@@ -1,128 +1,128 @@
 .. _translating-lantern:
 
-Translating Lantern
+Перевод Lantern
 ===================
 
 
-Introduction
+Введение
 -----------
 
-One of the best ways to help Lantern grow is by translating it to your
-local language. Our hope is to have Lantern available in as many
-languages as possible. We've started a
-**`forum <https://groups.google.com/group/lantern-i18n>`__
-(lantern-i18n@googlegroups.com)** coordinating localization ("l10n") /
-internationalization ("i18n") of Lantern. If you'd like to get involved
-don't hesitate to introduce yourself there. You can also just start on
-translations and get in touch there when you need help. Also feel free
-to look for us in our IRC channel, **`#lantern on
-Freenode <http://webchat.freenode.net/?channels=lantern>`__**, to chat
-with us in real time.
+Одним из путей расширения сети Lantern является перевод программы на ваш
+язык. Мы надеемся перевести Lantern на
+как можно большее количество языков. Мы запустили
+**`форум <https://groups.google.com/group/lantern-i18n>`__
+(lantern-i18n@googlegroups.com)**, координирующий локализацию ("l10n") /
+интернационализацию ("i18n") программы Lantern. Если вы хотите участвовать,
+сообщите нам и представьтесь на форуме. Вы также можете просто начать
+переводить и связаться с нами тогда, когда вам понадобится помощь. Также вы можете
+найти нас через наш канал IRC **`#lantern на
+Freenode <http://webchat.freenode.net/?channels=lantern>`__**, чтобы общаться
+с нами в режиме реального времени.
 
-There are a few different aspects of Lantern that need translation. We
-list them below in sections, roughly ordered by importance. And the more
-important ones are the ones we've spent more time on making it easy to
-translate.
+Существует несколько различных разделов Lantern, которые нуждаются в переводе. Мы
+перечислим их ниже в порядке важности. Самые важные
+из них мы постарались оптимизировать для
+перевода.
 
-Transifex for Lantern Application and Video
+Transifex для программы Lantern и видео
 -------------------------------------------
 
-The two easiest and most important things to translate are Lantern
-itself and captions for the
-`video <https://www.youtube.com/watch?v=aiPkCugE-RY>`__ (featured at
-http://getlantern.org).
+Самым важным и легким является перевод программы Lantern
+и субтитров для
+`видео <https://www.youtube.com/watch?v=aiPkCugE-RY>`__ (воспроизводимого на
+сайте http://getlantern.org).
 
-`Transifex <http://transifex.com>`__ is the platform we use to manage
-the most important translations. If you've not used it before you can
-check out their
-`explanation <http://support.transifex.com/customer/portal/articles/869950-what-is-transifex->`__.
-And then just head to the `Lantern Transifex
-Project <https://www.transifex.com/projects/p/lantern/>`__.
+`Transifex <http://transifex.com>`__ - это платформа, которую мы используем для управления
+самыми важными переводами. Если вы не использовали её ранее, вы можете
+ознакомиться с
+`инструкцией <http://support.transifex.com/customer/portal/articles/869950-what-is-transifex->`__.
+А затем перейти к `проекту Lantern на
+Transifex <https://www.transifex.com/projects/p/lantern/>`__.
 
 .. image:: https://www.evernote.com/shard/s209/sh/d2b67dcd-c1c0-420c-87e5-0f374b0b714d/a1aa1697af0dc827888cc81559bc1780/deep/0/Lantern%20localization.png
-   :alt: lantern on transifex
+   :alt: lantern на transifex
 
-   lantern on transifex
-If you're not already a Transifex user you can easily `sign
-up <https://www.transifex.com/signup/>`__. It's totally free for any
-translator, and they generously provide their full toolset to open
-source projects like Lantern. Their tools are quite intuitive to use,
-and they provide a nice
-`overview <http://support.transifex.com/customer/portal/articles/972120-introduction-to-the-web-editor>`__.
+   lantern на transifex
+Если вы не являетесь пользователем Transifex, то вы можете легко
+зарегистрироваться <https://www.transifex.com/signup/>`__. Это абсолютно бесплатно для любого
+переводчика и платформа безвозмездно предоставляет весь инструментарий
+для работы с такими проектами, как Lantern. Более того, инструменты платформы являются интуитивно понятными
+и они достаточно хорошо 
+`описаны: <http://support.transifex.com/customer/portal/articles/972120-introduction-to-the-web-editor>`__.
 
-The `Lantern Project <https://www.transifex.com/projects/p/lantern/>`__
-on transifex lists the status of all the languages. To translate just
-select your language and get started. If your language is not list there
-then just hit 'Request Language' and the admins will get it created.
+Проект `Lantern <https://www.transifex.com/projects/p/lantern/>`__
+на платформе Transifex информирует о состоянии переводов на все языки. Для того, чтобы начать переводить, просто
+выберите свой язык. Если ваш язык отсутствует в списке,
+просто нажмите "Запросить язык" и администраторы добавят его.
 
-After you click on your language you'll see three different 'language
-resources':
+После того, как вы выбрали свой язык, вы увидите три различных 'языковых
+источника':
 
 .. image:: https://www.evernote.com/shard/s209/sh/e396390c-acce-4ea8-9bd5-05ae3e75686f/941ba9184932bba96b6e38b9953029fa/deep/0/Turkish%20Translation%20for%20Lantern%20%7C%20Transifex.png
    :alt: transifex
 
    transifex
-Hit 'join team' to get started, and the admins should approve you
-quickly. We **highly** recommend hitting the 'watch this language'
-button (at the top of 'history'), as you'll know immediately when there
-are new translation tasks. After you've started watching, pick which
-uncompleted resource to contribute to:
+Нажмите "присоединиться к команде", чтобы начать и администраторы дадут вам доступ
+в ближайшее время. Мы **настоятельно** рекомендуем использовать функцию  "Сделить за проектом"
+(кнопка расположена в верхней части "истории"), так вы незамедлительно узнаете, когда
+появится новое задание для перевода. После того, как вы включили отслеживание, выберите
+незавершённый раздел, который вы хотите перевести:
 
-**ui** is the most important one. This is Lantern's User Interface - the
-main application. There are about 500 strings with under 2000 words
-total. As Lantern is still in beta these change relatively often, as we
-figure out the exact wording. So if you see this at less than 100%
-please jump on translations so the next release of Lantern will be up to
-date with your language.
+**ui** является наиболее важным. Это пользовательский интерфейс 
+основной программы Lantern. Этот раздел состоит из порядка 500 строк, содержащих чуть менее 2000 слов.
+Так как Lantern до сих пор находится на стадии бета-тестирования, содержание строк часто меняется в связи с
+доработкой. Если вы увидели, что Интерфейс переведён не на 100%,
+пожалуйста, возьмитесь за перевод, чтобы следующая версия Lantern содержала
+обновлённую версию вашего языка.
 
-**email** is the second most important, as it is how all new users will
-first interact with Lantern. So having this translated will ensure that
-people will see that text in their language instead of english.
+**email** является вторым по значимости разделом, так как он описывает взаимодействие новых пользователей
+с Lantern. Перевод этого раздела обеспечит 
+пользователям возможность чтения этого текста на родном языке вместо английского.
 
-**Lantern Video Captions** is probably the easiest, with only 224 words.
-It's a great way to get started, and has a big impact as we can more
-easily communicate what lantern is. Your translated words will show up
-as Captions in the `Lantern
-Video <https://www.youtube.com/watch?v=aiPkCugE-RY>`__. Notify the
-`internationalization
-forum <https://groups.google.com/group/lantern-i18n>`__ when you reach
-100%, so someone can update the captions. Unlike the UI it won't get
-pulled in automatically.
+раздел **Lantern Video Captions** (субтитры к видеоролику по Lantern) является наиболее простым для перевода, так как содержит всего 224 слова.
+Перевод этого раздела станет отличным началом, и будет являться серьезным вкладом в 
+информирование пользователей о Lantern. Ваш перевод отобразится
+в виде субтитров к видеоролику о 
+`Lantern <https://www.youtube.com/watch?v=aiPkCugE-RY>`__. Напишите 
+в `форуме
+интернационализации <https://groups.google.com/group/lantern-i18n>`__, когда вы переведёте
+раздел на 100%, чтобы кто-нибудь обновил субтитры. В отличие от раздела "UI" (Пользовательский интерфейс) обновления не могут быть
+внесены автоматически.
 
-**www** is the website at https://www.getlantern.org. We have not yet
-fully set it up to easily change languages, but it is coming soon, so
-translations are very much appreciated.
+Раздел **www** является веб-сайтом: https://www.getlantern.org. Мы еще не
+доработали возможность изменения языка сайта, но это скоро будет сделано, так
+что переводы нам очень нужны.
 
-If all are at 100% then just be sure to hit 'watch this language' and
-you'll be notified as soon as there is more to translate. As Lantern is
-continually evolving there will definitely be new strings to translate
-before long.
+Если все эти разделы переведены на 100%, то обязательно включите функцию "Следить за этим проектом" и
+вам придет уведомление, когда появится новый текст для перевода. Учитывая то, что Lantern
+постоянно совершенствуется, в скором времени обязательно появится 
+новый текст для перевода.
 
-Start a forum for your language
+Создайте форум для своего языка
 -------------------------------
 
-If you'd like to help other users in your language we encourage you to
-create a language specific forum. Right now we only have an English one,
-but can help create one for you and promote it on Lantern. Just send an
-email to `internationalization
-forum <https://groups.google.com/group/lantern-i18n>`__ and we can get
-you set up.
+Если вы хотите помочь другим пользователям, говорящим с вами на одном языке, мы просим вас
+создать форум на вашем языке. На данный момент существует только английская версия,
+но вы можете помочь создать свой форум и продвигать его через Lantern. Просто отправьте
+письмо по электронной почте на адрес `форума
+интернационализации <https://groups.google.com/group/lantern-i18n>`__ и мы сможем
+помочь вам настроить форум.
 
-Documentation
+Документация
 -------------
 
-Our documentation is very much in flux, as we are moving to another
-system soon that should be much more conducive to translations. We may
-also investigate getting docs in to transifex, but that will probably be
-post 1.0, when the documentation settles down a bit, as it will be a lot
-to translate.
+Наша документация постоянно изменяется, и, так как в ближайшее время мы перейдем
+на новую систему, делать перевод будет гораздо удобнее. Мы можем
+также рассмотреть возможность размещения документации для дальнейшего перевода на сайте transifex, но это, скорее всего,
+произойдет после версии 1.0, когда основа документации будет готова и нужно будет
+много переводить.
 
-In the meantime, if you would like to help translate the documentation
-in this wiki, please send us a note asking to be added to our GitHub
-Translators team. Once you're added you can start translating the
-hierarchy of documentation. Just see what pages there are in english and
-create new pages with the name of the page translated to your language.
-All users to the docs will see the language options at the top page,
-going to the welcome in their language. Unfortunately the side bar will
-always be English, but the future system will be better. And we'll be
-able to easily transfer your hard work over.
+На данный момент, если вы хотите помочь в переводе документации
+пожалуйста, отправьте нам сообщение с просьбой добавить вас в нашу команду переводчиков
+ на GitHub. После того, как вас добавят, вы сможете начать работать над переводом
+всей иерархии документации. Для тех страниц, которые доступные на английском,
+создавайте новые страницы с названием, переведённым на ваш язык.
+Всем пользователям раздела документации будет доступен выбор языка в верхней части страницы.
+Выбор языка перенаправит пользователя на первую страницу раздела документации на выбранном языке. К сожалению, боковая панель будет
+доступна только на английском, но в будущем мы это исправим. И у нас появится возможность 
+легко интегрировать в нашу систему результаты вашего тяжёлого труда.

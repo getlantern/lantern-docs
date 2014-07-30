@@ -13,8 +13,8 @@ original per tal de descarregar la darrera versió.
 	:alt: Correu d'invitació de Lantern
 
    Correu electrònic d'invitació a Lantern
-Estem enfeinats afegint `update
-notifications <https://github.com/getlantern/lantern/issues/992>`__ a
+Estem enfeinats afegint `notificacions d'actualització
+ <https://github.com/getlantern/lantern/issues/992>`__ a
 Lantern. Mentrestant, el millors llocs per fer seguiment 
 de les noves versions són:
 

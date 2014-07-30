@@ -1,8 +1,8 @@
-Installing and Uninstalling
+安装和卸载
 ===========================
-This section provides details on how to install and uninstall Lantern on multiple operating systems.
+下面介绍怎样在不同的操作系统上安装和卸载 Lantern。
 
-Once you are invited, you will receive an email with links to download the installer for your operating system.
+你被邀请后，会收到一个Email，里面后针对你的操作系统的下载的链接。
 
 .. image:: https://github-camo.global.ssl.fastly.net/6a8e1af9a0053337263343727132eacab1920d88/687474703a2f2f692e696d6775722e636f6d2f347652615436382e706e67
 	:alt: Lantern Invitation
@@ -10,142 +10,142 @@ Once you are invited, you will receive an email with links to download the insta
 Linux
 -----
 
-Supported Versions
+支持的版本
 ^^^^^^^^^^^^^^^^^^
-Currently, installation on Linux is only available on Ubuntu.
-We greatly appreciate any `contributions <../../developer/html/contributing.html>`_ for other Linux distributions or help with improvements to make better use of package managers. You can also `build from source <https://github.com/getlantern/lantern/blob/master/README.md#wiki-setting-up-a-development-environment>`_.
+目前只支持 Ubuntu。
+我们欢迎任何 `contributions <../../developer/html/contributing.html>`_ ，为其他 Linux 版本，或帮助改善 package managers。你也可以自己从源代码构建 `build from source <https://github.com/getlantern/lantern/blob/master/README.md#wiki-setting-up-a-development-environment>`_.
 
-Installing
+安装
 ^^^^^^^^^^ 
-The invitation to Lantern has a link to an installation script that: 
+Lantern 的邀请包含链接到安装脚本： 
 
-* Downloads a `.deb` file. 
-* Creates the uninstall script in the `/opt/lantern-net-installer` directory.
-* Creates a user preferences directory.
-* Does *not* auto-launch a Lantern service.
+* 下载 `.deb` file. 
+* 创建卸载脚本，在 `/opt/lantern-net-installer` 目录下
+* 创建用户喜好目录
+* 不要自动开始 Lantern 服务
 
-#. Click **Ubuntu 12.04+** in the invitation email.
-	A browser window opens and dialog appears asking you to open or save the installer. 
+# 点击Email中的 **Ubuntu 12.04+** 
+	会打开一个浏览窗口，要你打开或保存 installer（安装程序） 
 
 	.. image:: http://i.imgur.com/justLyz.png
 		:alt: Open File Dialog
 
-#. Open a new terminal window and change to the directory where you downloaded the installer.
+# 打开新的命令窗口（terminal），进入你下载的 installer（安装程序）所在的目录。
 	:: 
 		
 		cd Downloads/
 
-#. Make the installation script executable.
+# 把 installer 改成可执行的
 	::
 	
 		chmod 700 lantern-net-installer_unix.sh
 
-#. Run the installation script.
+# 运行安装程序
 	::
 		
 		sudo ./lantern-net-installer_unix.sh
 	
-	The terminal window displays a message indicating the installer is starting and the Lantern Fetcher dialog appears.
+	命令窗口会显示一些消息，表明安装在进行中，Lantern Fetcher 窗口会弹出。
 	
 	.. image:: http://i.imgur.com/S2hBiEY.png
 		:alt: Terminal window and Lantern Fetcher dialog indicating the status of the download.
 		
-	.. note:: There is no status message indicating the installation is complete. 
+	注意：没有消息会表明，安装完成了。 
 		
-		If you receive a message indicating there is no suitable Java Virtual Machine, you need to download Java. See the `Ubuntu documentation <https://help.ubuntu.com/community/Java>`_ for details.
+		如果你看到消息，说没有适当的 Jave Virtual Machine，这说明你需要安装 Jave。详细方法请参考
 
-5. Click the **Ubuntu** button and type Lantern.
+5. 点击 **Ubuntu** 按钮，键入 Lantern.
 
-6. Click the **Lantern** icon.
-	The Lantern Setup window appears.
+6. 点击 **Lantern** 图标
+	Lantern Setup 窗口会弹出
 	
 	.. image:: http://i.imgur.com/nnXoFjr.png
 		:alt: The Lantern Setup window prompting you to click Give Access or Get Access.
 	
-	.. note:: If you receive a message about Google Chrome not being installed, you need to download it.
+	注意：如果看到消息 Google Chrome 没有安装，你需要安装。详见
 		
-		See https://www.google.com/intl/en/chrome/browser/ for details. 
+		 https://www.google.com/intl/en/chrome/browser/  
 
 #. See :ref:`setting-up-lantern`.
 
 .. _uninstalling-linux:
-Uninstalling
+卸载
 ^^^^^^^^^^^^
 
-1. In a terminal window, change to the installation directory.
+1. 在命令窗口（terminal）中，进入安装目录
 	::
 	
 		cd /usr/local/lantern-net-installer/
 		
-2. Run the uninstall program.
+2. 运行卸载
 	::
 	
 		sudo ./uninstall
 	
-	The Lantern Uninstall window appears.
+	Lantern Uninstall 窗口会弹出
 		
 	.. image:: http://i.imgur.com/PW3hiCF.png
 		:alt: A terminal window showing the command to uninstall Lantern.
 		
-3. Click **Next** to start uninstalling lantern.
-	A message appears when the uninstallation is complete.
+3. 点击 **Next**，开始卸载
+	卸载结束后，会弹出消息。
 	
 	.. image:: http://i.imgur.com/7XZayjD.png
 		:alt: The Lantern Uninstall window showing a message indicating that Lantern has been successfully uninstalled.
 	
-4. Click **Finish**.
+4. 点击 
 
 .. _installing-mac:
 Mac
 ---
-Supported Versions
+支持的版本
 ^^^^^^^^^^^^^^^^^^
 
-Lantern supports OS/X version 10.6 and higher,
+Lantern 支持 OS/X version 10.6 以及更高版本。
 64-bit only. 
 
-.. note:: During installation, Lantern checks if you have Java installed. If not, it will download the Java Runtime Environment from the web.
+注意：安装过程中，Lantern 会检查是否安装了 Java。如果没有，会从网上下载 Java Runtime Environment。
 
-Installing
+安装
 ^^^^^^^^^^
 
-#. Click the **Mac OS X 10.6+** link in the invitation email.
+#. 点击 **Mac OS X 10.6+** 邀请信中的.
 
-#. Double-click the **.dmg** file that downloads, then double-click on the **Lantern Installer** icon.
-	The Lantern Fetcher window appears and starts downloading the most recent installation files.
+#. 双击下载的 **.dmg** ，然后双击 **Lantern Installer** 图标
+	Lantern Fetcher窗口会弹出，开始下载最新的安装文件。
 	
 	.. image:: https://www.evernote.com/shard/s209/sh/b39a5f0d-4aa9-4518-8a26-fd0a86de8737/9d3090f5eab319830f4510bc13bba90e/deep/0/Lantern%20Fetcher.png
 		:alt: Lantern Downloader
 		
-	.. Important:: As of beta2 the installer will *not* work if you are not running as an admin user. If you are not the admin user, nothing will happen when you click the installer icon. We are `working <https://github.com/getlantern/lantern/issues/819>`_ on getting it to prompt for the admin password instead of not responding.
+	重要：到 beta2时，还必须要在 admin 权力下才能运行安装程序。否则，点击安装图标时，什么也不发生。我们正在修改 `working <https://github.com/getlantern/lantern/issues/819>`_ ，将来会弹出提示，要求输入 admin 密码。
 
-#. In the password dialog that appears, enter your administrator user name and password. This allows Lantern to install and make changes to your proxy settings so that your internet connection can be shared.
+# 出现 password 窗口时，输入 admin 用户名和密码。这样使得 Lantern 可以安装，并修改代理设置，从而使互联网可以分享。
 	.. image:: https://www.evernote.com/shard/s209/sh/c92df454-472a-4ce1-a578-fc06843802d7/04fd633f4deb9fbeecc44562dff2ea78/deep/0/Screenshot%208/16/13%207:52%20PM.png
 		:alt: A window prompting you to enter a user name and password to allow changes.
 	
-	The installer downloads and extracts the files. When the installation is complete, the Lantern window appears.
+	安装程序会下载和解压文件。安装程序完成后，会弹出 Lantern 窗口。
 
 	.. image:: https://dl.dropboxusercontent.com/u/253631/Installing_Mac_Setup_Window.png
 		:alt: The Lantern window appears prompting you to start the setup process.
 		
 #. See :ref:`setting-up-lantern`.
 	
-Uninstalling
+卸载
 ^^^^^^^^^^^^
 
-1. Right-click on the **Lantern** status bar icon and select **Quit Lantern**.
+1. 右键点击 **Lantern** 状态栏图标，选择 **Quit Lantern**.
 
-2. In the **Applications** folder, move **Lantern.app** to the **Trash**.
-	This also uninstalls Lantern's Java Runtime Environment.
+2. 在 **Applications** 文件夹里，把 **Lantern.app** 移到 **Trash** （垃圾箱）
+	这也同时卸载了 Lantern 的 Java Runtime Environment。
 
-3. To delete all your settings, open a terminal window and change to the directory in your **Home** directory.
+3. 要删除所有你的设置，打开命令窗口（terminal），进入 **Home** 目录
 	::
 	
 		cd ~
 		
-	.. note:: If you don't delete your settings, Lantern uses them the next time you install the application.
+	注意：如果你不删除你的设置，Lantern会在下次安装的时候使用他们。
 		
-4. Delete the **./lantern** directory.
+4. 删除 **./lantern** 目录
 	::
 	
 		rm -r .lantern
@@ -155,30 +155,30 @@ Uninstalling
 Windows
 -------
 
-Supported Versions 
+支持的版本 
 ^^^^^^^^^^^^^^^^^^
 
-Lantern supports Windows version XP and higher and requires that Google Chrome is installed. If you don't
-have Chrome you can get it `here <https://www.google.com/intl/en/chrome/browser/>`_.
+Lantern 支持 Windows XP 或更高的版本，需要 Google Chrome。
+如果你没有安装，请去 `here <https://www.google.com/intl/en/chrome/browser/>`_.
 
-Installing
+安装
 ^^^^^^^^^^
 
-1. Click the **Windows XP+** link in the invitation email.
-	.. warning:: It is important to follow the next steps to make sure that the `digital signature <http://en.wikipedia.org/wiki/Digital_signature>`_ is valid.
+1. 点击邀请信中的 **Windows XP+**
+	警告：下一步很重要，要严格执行，以保证`digital signature <http://en.wikipedia.org/wiki/Digital_signature>`_是有效的。
 
-#. Right click the **.exe** file that downloaded and click the **Digital Signatures** tab. 
+#. 右击下载的 **.exe** 文件，点击 **Digital Signatures**  
 
-#. In the **General** tab, click **View Certificate**. 
+#. 在 **General** （通用）中，点击 **View Certificate**. 
 
-#. Under **Details**, verify the signature.
-	Each .exe file is digitally by signed by Brave New Software Project, Inc. For June 11, 2013 to June 11, 2016, the SHA1 thumbprint should be ‎44:99:0c:72:fb:a0:e6:dd:f9:2a:b9:34:46:02:e7:56:00:d8:be:3c.
+#. 点击 **Details**, 验证数字签名
+	每个 .exe 都有 Brave New Software Project, Inc. 给出的数字签名。从 2013/6/11 到 2016/6/11, 2016，SHA1 应该是‎44:99:0c:72:fb:a0:e6:dd:f9:2a:b9:34:46:02:e7:56:00:d8:be:3c.
 
 	.. image:: http://i.imgur.com/iTljBxR.jpg
 		:alt: Certificate Details Window
 	
-#. Once you have verified the signature, double-click the **.exe** file. If you are prompted to allow the installer to make changes to your computer, click **Yes**.
-	When installation is complete, the Lantern window appears.
+# 验证数字签名后，双击 **.exe** 文件。如果要求你允许安装程序修改你的电脑，点击 **Yes**。
+	安装程序结束后，会弹出 Lantern 窗口。
 
 	.. image:: http://i.imgur.com/K6yBha5.png)
 		:alt: The Lantern window appears prompting you to start the setup process.
@@ -186,21 +186,21 @@ Installing
 #. See :ref:`setting-up-lantern`.
 
 
-Uninstalling
+卸载
 ^^^^^^^^^^^^
 
-1. Open the **Control Panel** and click **Programs**.
+1. 打开 **Control Panel** （控制面板），点击 **Programs**（程序）
 	.. image:: http://i.imgur.com/lF9ldIE.png
 		:alt: The Windows Control Panel.
 
-#. In the list of installed programs, click the **Lantern**.
+# 在程序列表中，点击 **Lantern**
 	
-#. Click the **Uninstall/Change** button.
+#. 点击 **Uninstall/Change** （卸载/修改）
 	.. image:: http://i.imgur.com/0fTDSYF.png
 		:alt: Uninstall Lantern
 
-#. Click **Next**.
-	Lantern is uninstalled.
+# 点击 **Next** （下一步）
+	Lantern 被卸载了。
 
 	.. image:: http://i.imgur.com/TGQeclS.png
 		:alt: Uninstall Window

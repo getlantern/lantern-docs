@@ -15,7 +15,7 @@ Malheureusement ces serveurs coûtent de l'argent et Brave New
 Sotware, l'organisation derrière Lantern, ne peut en fournir qu'un nombre
 limité. Si vous voulez aider, vous pourrez bientôt commanditer votre propre
 serveur nuagique Lantern sur http://rally.org (à venir) si vous êtes dans un
-pays censuré qui fournit un accès direct, à vous et à vos amis.
+pays censuré. Ceci fournira un accès direct, à vous et à vos amis.
 Et c'est une très bonne façon de donner, depuis un pays non censuré, augmentant
 ainsi la fiabilité du réseau Lantern.
 

@@ -12,7 +12,7 @@ Lantern pour obtenir l'accès et est disponible par l'icône de mappemonde
 en bas à droite.
 
 .. image:: https://www.evernote.com/shard/s209/sh/9dd170e2-800d-412c-bfef-8fb21819f517/22b89c58ddadf34a4dee969b2e9fe9ff/deep/0/Lantern.png
-   :alt: sites relayés
+   :alt: Sites relais
 
    sites relayés
 C'est ici que les utilisateurs obtenant l'accès peuvent définir quels sites sont accessibles en passant
@@ -27,7 +27,7 @@ Configuration initiale
 ~~~~~~~~~~~~~~~~~~~~~
 
 La liste initiale comporte présentement un nombre de sites habituellement bloqués.
-Dans le future nous espérons construire une liste plus dynamique fondée sur ce qui
+Dans le futur nous espérons construire une liste plus dynamique fondée sur ce qui
 est réellement bloqué dans chaque pays. Mais pour l'instant nous recommandons de l'ajuster
 pour vos besoins. Si vous rencontrez un site qui semble bloqué, vous pouvez
 vérifier si il est sur la liste et l'ajoutez si il ne l'est pas. Nous recommandons aussi
@@ -46,15 +46,15 @@ fonctionnera alors sûrement mieux pour vous que la liste qui vient avec
 Lantern.
 
 .. image:: https://www.evernote.com/shard/s209/sh/1410658e-531a-44aa-b01b-7867e074637c/b88cfe3ce617b30a394cf6c56b3ea20a/deep/0/Autoproxy%20list%20for%20china%20%C2%B7%20getlantern/lantern-proxied-sites-lists%20Wiki.png
-   :alt: liste d'auto-relais pour la Chine
+   :alt: Liste d'auto-relais pour la Chine
 
    liste d'auto-relais pour la Chine
 Rendez-vous simplement sur une des listes, ensuite sélectionnez et copiez toute la liste et collez-la dans votre liste de domaines à relier 
-dans votre Lantern. Assurez-vous de supprimer votre liste existante ((ou écrasez le contenu) afin de ne pas avoir de doublons, et ne
+dans votre Lantern. Assurez-vous de supprimer votre liste existante (ou écrasez le contenu) afin de ne pas avoir de doublons, et ne
 ne pas relayer des sites dont vous n'avez pas besoin.
 
 .. image:: https://www.evernote.com/shard/s209/sh/345d4873-a0b1-49e1-8188-c5356c2e5c56/d668a756c91454b8f1eaeaf79e6a79a3/deep/0/Lantern.png
-   :alt: coller dans lantern.
+   :alt: Coller dans Lantern.
 
    coller dans Lantern.
 Si la liste est vraiment longue, il peut être difficile de la sélectionner manuellement.
@@ -72,7 +72,7 @@ liste de sites relayés. Vous pouvez le faire en faisant défiler la liste, mais
 boîte de recherche sur la droite vous permet de le trouver plus rapidement :
 
 .. image:: https://www.evernote.com/shard/s209/sh/f97bd235-eeeb-4e07-a6bd-a47f991254c1/f048f14a6d5d9aeae030ec1b00a445bb/deep/0/Lantern.png
-   :alt: rechercher
+   :alt: Recherche
 
    rechercher
 Ajouter un nouveau site
@@ -83,7 +83,7 @@ de texte. Vous pouvez le faire où vous voulez. Appuyez sur « Entrée » pour c
 ligne et y ajouter le site.
 
 .. image:: https://www.evernote.com/shard/s209/sh/d1cf2497-2202-4929-847d-7c8c725bbdda/0028e5ba5c860863e4ca3d72014822bf/deep/0/Lantern.png
-   :alt: ajout
+   :alt: Ajout
 
    ajout
 Assurez-vous de cliquer sur « Mise à jour » après l'avoir saisie. Lantern enregistrera vos
@@ -142,7 +142,7 @@ dans le champ de texte et cliquez sur « Supprimer ». Assurez-vous de cliquez s
 terminé.
 
 .. image:: https://www.evernote.com/shard/s209/sh/81bd9e5b-808c-4b3a-bb8f-487fee2601fd/bf5af2b060b92a44336a9ccc7ff8988b/deep/0/Lantern.png
-   :alt: mise à jour
+   :alt: Mise à jour
 
    mise à jour
 Partager
@@ -196,7 +196,7 @@ https://github.com/getlantern/lantern-proxied-sites-lists et cliquez sur le
 bouton 'plus'.
 
 .. image:: https://www.evernote.com/shard/s209/sh/f7185f3d-9ca5-45bf-aac5-8978f7fefb39/6868a4884f375bb854b24b4f663fab91/deep/0/getlantern/lantern-proxied-sites-lists.png
-   :alt: ajouter
+   :alt: Ajouter
 
    ajouter
 Ceci 'clonera' le dépôt principal, copiant tous les fichiers
@@ -208,7 +208,7 @@ simplement le nom du dossier et en tapant ensuite '/'. Saisissez p. ex.
 « china ».
 
 .. image:: http://i.stack.imgur.com/9Ifmj.gif
-   :alt: dossiers animés
+   :alt: Dossiers animés
 
    dossiers animés
 Une fois que vous avez compilé votre liste, vous pouvez proposer les changement aux contributeurs

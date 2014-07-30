@@ -1,74 +1,74 @@
-.. _setting-up-lantern:
+.. _configurer-lantern:
 
-Setting Up Lantern
+Configurer Lantern
 ==================
 
-When you first run Lantern you will be asked a series of questions.
+Quand vous lancerez Lantern pour la première foi, vous devrez répondre à une série de questions.
 
-Give or Get access
+Recevoir ou donner un accès
 ------------------
 
-The first question is if you want to 'give' or 'get' access.
+La première question est voulez vous 'donner' ou 'avoir' accès 
 
 .. image:: https://www.evernote.com/shard/s209/sh/72480b8b-2259-4eef-836b-1982a800bc31/71a941bce6482c90d2d66dcf21db57a8/deep/0/Lantern.png
-   :alt: give/get
+   :alt: donner/recevoir
 
-   give/get
-**'Give Access'** is for users in uncensored countries who want to share
-their internet connection. This turns their computer in to a proxy that
-their trusted Lantern friends can use for free to access the open
-internet. Lantern runs in the background, and we encourage you to leave
-it on whenever you can, so your friends can always use your connection.
+   donner/recevoir
+**'Donner Accès'** est pour les utilisateurs se trouvant dans des pays non censurés et qui souhaitent partager
+leur connexion internet. Cela transforme leur ordinateur en un proxy que
+leurs amis de Lantern peuvent utiliser pour avoir un accès à un
+internet libre. Lantern fonctionne en tache de fond, et nous vous encourageons à le laisser
+fonctionner autant que possible, de sorte que vos amis puissent utiliser votre connexion.
 
-**'Get Access'** is for users in censored countries who want access to
-the internet. Lantern uses a 'peer-to-peer' approach to stream internet
-access from all your trusted Lantern friends at once. So the more
-Lantern friends in other countries that you add the better your
-connection will be.
+**'Avoir accés'** est pour les utilisateurs qui vivent dans des pays censurés et qui veulent avoir accès à 
+internet. Lantern utilise le système 'pair-à-pair' pour streamer un accès à
+internet depuis tous vos amis Lantern en même temps. De ce fait, plus 
+vous ajoutez d'amis Lantern dans d'autres pays plus votre
+connection sera de qualité.
 
-Signing in to Google
+Connexion avec Google
 --------------------
 
-The next step is to sign in to your Google account. Lantern leverages
-your existing Google contacts to build up its social network.
+L'étape suivante est de vous connecter avec votre compte Google. Lantern demanderas
+à vos contacts Google éxistants d'aider à construire son réseau.
 
 .. image:: https://www.evernote.com/shard/s209/sh/4d31dfce-7bab-4522-811a-51b380cafcdc/a673fb7fd2be64df8ca5b58828606d1f/deep/0/Lantern.png
    :alt: google prompt
 
    google prompt
-The sign-in page is served directly from Google. Your password goes
-straight to Google's servers, Lantern never stores or even sees the
-password.
+La page de connexion vient directement de Google. Votre mot de passe va
+directement aux serveurs de Google, Lantern n'a jamais accès à votre
+mot de passe.
 
 .. image:: https://www.evernote.com/shard/s209/sh/e7bcf743-984e-45ac-b525-b7f4517cf341/7c4a237f1aa7cb1bf6fb245d76f4a49b/deep/0/Lantern.png
-   :alt: google signin
+   :alt: connexion google
 
-After you enter your information you will be prompted to authorize
-Lantern to view your email and basic information, and to view and send
-chat messages. Lantern asks about chat messages because it uses Google's
-chat communication channels to bootstrap its network. Hit authorize, or
-Lantern will not work properly.
+Après avoir renseigné vos informations, il vous sera demandé d'autoriser
+Lantern à voir vos e-mails et informations de bases et à pouvoir voir et envoyer
+des messages dans le chat. Lantern demande des autorisations pour le servicede chat car il utilise  
+le système de communication du chat de Google pour amorcer son réseau. Appuyez sur autoriser ou
+Lantern ne fonctionnera pas correctement.
 
 .. image:: https://www.evernote.com/shard/s209/sh/bd03de45-d5ac-4cc3-93da-62f24d527687/3bb1691886c46b3f30bc832f2211cdd7/deep/0/Lantern.png
-   :alt: authorize
+   :alt: autoriser
    
-Adding Friends
+Ajouter des amis
 --------------
 
-After you sign-in to Google, you can add friends to your Lantern network. It is important
-to only add people you trust to your Lantern network. For more details on adding friends, see :ref:`adding-friends`.
+Après vous êtres connecté avec Google, vous pouvez ajouter des amis à votre réseau Lantern. Il est important
+de n'ajouter que des personnes en qui vous avez confiance à votre réseau Lantern. Pour plus de détails sur l'ajout d'amis, allez voir :ref:`adding-friends`.
 
 .. image:: https://dl.dropboxusercontent.com/u/253631/Add_Lantern_Friends.png
-	:alt: Adding Friends
+	:alt: Ajouter des Amis
 
 
-Configuring your sites
+Configurer vos sites
 ----------------------
 
-If you chose Get, see :ref:`config-proxied-sites`. 
-Note that the proxied sites configuration page can be reached at any time by
-Get users by clicking on the globe icon in the lower right.
+Si vous choisissez Recevoir, allez sur :ref:`config-proxied-sites`. 
+Notez que la page de configuration des sites protégés par proxy est toujours accessible par
+Trouver d'autres utilisateurs cliquer sur le globe en bas à droite.
 
-Users Giving access will not see this step. Though you are welcome to
-switch modes to experience what Lantern would be like for a user Getting
-access.
+Les utilisateurs qui donnent accès n'auront pas à réaliser cette étape. Mais, vous pouvez
+changer de modes pour voir comment Lantern est pour les utilisateurs qui reçoivent un
+accès.

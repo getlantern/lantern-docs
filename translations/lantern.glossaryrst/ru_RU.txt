@@ -1,50 +1,50 @@
-Glossary
+Словарь терминов
 ========
 
 .. glossary::
 
 HTTP
-	Hypertext Transfer Protocol. Used to transfer content such as web pages
-	over the internet. Content is sent unencrypted, so any
-	`intermediary <#wiki-intermediary>`__ could potentially read it in
-	transit. HTTP is therefore not secure. `HTTPS <#wiki-https>`__ is the
-	secure counterpart of HTTP.
+	Hypertext Transfer Protocol  - Протокол передачи гипертекста. Используется для передачи, например, содержимого страниц сайтов
+	в сети интернет. Содержимое передается в незашифрованном виде, так что
+	`посредник <#wiki-intermediary>`__ потенциально может прочесть содержимое в
+	процессе передачи. HTTP - незащищенный протокол. `HTTPS <#wiki-https>`__  является
+	защищенным вариантом HTTP.
 
 HTTPS
-	A secure version of `HTTP <#wiki-http>`__. Content is sent encrypted to
-	prevent an `intermediary <#wiki-intermediary>`__ from being able to read
-	it in transit.
+	Защищенная версия `HTTP  <#wiki-http>`__. Содержимое передается в зашифрованном виде
+	для предотвращения возможности его прочтения `посредником <#wiki-intermediary>`__
+	в процессе передачи.
 
 Install4g 
-	Install4g is a program we use to make the Lantern install experience smoother across all platforms.
+	Install4g - программа, которую мы используем, для адаптации процесса установки Lantern на всех платформах.
 	
-Intermediary
-	An entity on a computer network in between the requester of some content
-	and the server which hosts it, e.g. a `proxy <#wiki-proxy>`__ or an
-	`internet service provider <#wiki-isp>`__.
+Посредник
+	Субъект компьютерной сети, находящийся между тем, кто запрашивает какой-либо контент
+	и сервером, на котором этот контент располагается. Например, `прокси <#wiki-proxy>`__ или
+	`провайдер услуги доступа в сеть интернет <#wiki-isp>`__.
 
-ISP
-	Internet service provider, an organization which provides internet
-	access. Traffic leaving a computer's local network (in a home, office,
-	internet cafe, etc.) goes here before either being forwarded to its
-	destination, or blocked in the case that the ISP employs censorship.
-	Traffic bound for your computer likewise must pass through your ISP
-	before it can reach you.
+ISP (провайдер услуги доступа в сеть интернет)
+	- это организация, которая обеспечивает доступ в сеть
+	интернет. Трафик, покидающий локальную компьютерную сеть (дома или на работе,
+	в интернет кафе и т.д.), проходит через ИСП до переадресации
+	на сервер назначения, либо, в случае применения цензуры со стороны провайдера, блокируется.
+	Трафик, направляющийся на ваш компьютер, точно также должен пройти через вашего провайдера
+	перед тем, как дойти до вас.
 
-Peer
-	Another user you're connected to on a computer network.
+Peer (Пир)
+	Другой пользователь, к которому вы подключены в компьютерной сети.
 
 Peer-to-Peer (P2P)
-	Describes a network architecture where each computer in the network can
-	act as client and server, as opposed to just one or a few servers
-	providing service to many clients. Peer-to-peer networks are
-	decentralized and therefore more difficult to shut down.
+	Описание архитектуры сети, в которой каждый компьютер может
+	действовать и как клиент, и как сервер, в отличии от другой архитектуры, где только один или несколько серверов
+	предоставляют услуги множеству клиентов. Сети P2P 
+	децентрализованы и следовательно их более сложно вывести из строя.
 
 Прокси-сервер
-	An `intermediary <#wiki-intermediary>`__ which forwards traffic between
-	a user requesting content and the server that hosts it, often because
-	the user cannot reach the server directly due to censorship.
+	`Посредник  <#wiki-intermediary>`__ , который перенаправляет через себя трафик, между 
+	пользователем, запросившим контент, и сервером, на котором этот контент располагается. Часто
+	из-за цензуры пользователь не может получить доступ к серверу напрямую.
 
-System Proxy
-	A program which proxies traffic for all programs on a computer which
-	access the network.
+Система прокси
+	Программа, которая направляет трафик всех имеющих доступ в сеть программ на компьютере
+	через прокси-сервер.

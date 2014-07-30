@@ -40,13 +40,13 @@ Et ensuite rendez-vous sur le `Projet Lantern sur
 Transifex <https://www.transifex.com/projects/p/lantern/>`__.
 
 .. image:: https://www.evernote.com/shard/s209/sh/d2b67dcd-c1c0-420c-87e5-0f374b0b714d/a1aa1697af0dc827888cc81559bc1780/deep/0/Lantern%20localization.png
-   :alt: lantern sur transifex
+   :alt: Lantern sur Transifex
 
    lantern sur transifex
 Si vous n'êtes pas déjà un utilisateur de Transifex, vous pouvez facilement `vous
 inscrire <https://www.transifex.com/signup/>`__. C'est totalement gratuit pour
 les traducteurs, et ils offrent généreusement leur ensemble d'outils aux
-projets libres comme Lantern. Leurs outils sont intuitifs a utiliser,
+projets libres comme Lantern. Leurs outils sont plutôt intuitifs à utiliser,
 et ils fournissent une belle
 `présentation <http://support.transifex.com/customer/portal/articles/972120-introduction-to-the-web-editor>`__.
 
@@ -59,70 +59,70 @@ Après avoir cliquez sur votre langue vous verrez vingt-trois 'ressources
 de langue' :
 
 .. image:: https://www.evernote.com/shard/s209/sh/e396390c-acce-4ea8-9bd5-05ae3e75686f/941ba9184932bba96b6e38b9953029fa/deep/0/Turkish%20Translation%20for%20Lantern%20%7C%20Transifex.png
-   :alt: transifex
+   :alt: Transifex
 
    transifex
 Cliquez sur 'Rejoindre l'équipe' pour commencer, et les admins devraient approuvez votre
 demande rapidement. Nous recommandons **fortement** de cliquer sur le bouton 'Surveiller
 cette langue' (en haut à droite), et vous saurez immédiatement quand il y
-a des nouvelles tâches de traduction. Après avoir commencer à surveiller, choisissez à quelle
+a des nouvelles tâches de traduction. Après avoir commencé à surveiller, choisissez à quelle
 ressource incomplète vous voulez contribuer :
 
-**ui** is the most important one. This is Lantern's User Interface - the
-main application. There are about 500 strings with under 2000 words
-total. As Lantern is still in beta these change relatively often, as we
-figure out the exact wording. So if you see this at less than 100%
-please jump on translations so the next release of Lantern will be up to
-date with your language.
+**ui** est la plus importante. C'est l'interface utilisateur -
+l'application principale. Il y a environ 500 chaînes avec moins de 2 000
+mots au total. Comme Lantern est toujours en bêta, elles changent relativement souvent, tant que
+nous peaufinons le phrasé exact. Alors si vous voyez moins de 100 %
+n'hésitez pas à aller de l'avant et traduire afin que la prochaine version de Lantern soit
+à jour dans votre langue.
 
-**email** is the second most important, as it is how all new users will
-first interact with Lantern. So having this translated will ensure that
-people will see that text in their language instead of english.
+**email** est la deuxième en ordre d'importance car c'est par elle que les nouveaux utilisateurs
+interagirons avec Lantern. Donc en le traduisant nous nous assurons qu'ils
+voient ce texte dans leur langue au lieu de l'anglais.
 
-**Lantern Video Captions** is probably the easiest, with only 224 words.
-It's a great way to get started, and has a big impact as we can more
-easily communicate what lantern is. Your translated words will show up
-as Captions in the `Lantern
-Video <https://www.youtube.com/watch?v=aiPkCugE-RY>`__. Notify the
-`internationalization
-forum <https://groups.google.com/group/lantern-i18n>`__ when you reach
-100%, so someone can update the captions. Unlike the UI it won't get
-pulled in automatically.
+**Lantern Video Captions** est probablement la plus simple avec seulement 224 mots.
+C'est une bonne façon de commencer et à un gros impact car nous
+pouvons communiquer plus facilement ce qu'est Lantern. Vos mots traduits apparaîtront
+en sous-titres dans la `Vidéo
+Lantern <https://www.youtube.com/watch?v=aiPkCugE-RY>`__. Signalez dans
+`le forum
+d'internationalisation <https://groups.google.com/group/lantern-i18n>`__ quand vous atteignez 
+100 % afin que quelqu'un puisse mettre les sous-titres à jour. Contrairement à l'IU ils ne seront
+extraits automatiquement.
 
-**www** is the website at https://www.getlantern.org. We have not yet
-fully set it up to easily change languages, but it is coming soon, so
-translations are very much appreciated.
+**www** est le site Web à https://www.getlantern.org. Nous ne l'avons pas encore
+entièrement configuré pour changer facilement de langue, mais ça s'en vient bientôt, et donc
+les traductions sont très appréciées.
 
-If all are at 100% then just be sure to hit 'watch this language' and
-you'll be notified as soon as there is more to translate. As Lantern is
-continually evolving there will definitely be new strings to translate
-before long.
+Si tout est à 100 %, alors assurez-vous de cliquer sur 'Surveillez le projet' et
+vous serez prévenu dès qu'il y aura quelque chose à traduire. Comme Lantern est
+évolue continuellement il y aura assurément de nouvelles chaînes à traduire
+bientôt.
 
-Start a forum for your language
+Démarrez un forum pour votre langue
 -------------------------------
 
-If you'd like to help other users in your language we encourage you to
-create a language specific forum. Right now we only have an English one,
-but can help create one for you and promote it on Lantern. Just send an
-email to `internationalization
-forum <https://groups.google.com/group/lantern-i18n>`__ and we can get
-you set up.
+Si vous voulez aider d'autres utilisateurs dans votre langue nous vous encourageons de
+créer un forum dans votre langue spécifique. Ils sont disponibles en cinq langues,
+et nous pouvons vous aider à en créer un et à y promouvoir Lantern. Envoyez-nous juste un
+courriel au `forum
+d'intertionalisation <https://groups.google.com/group/lantern-i18n>`__ et nous
+nous en occuperons.
 
 Documentation
 -------------
 
-Our documentation is very much in flux, as we are moving to another
-system soon that should be much more conducive to translations. We may
-also investigate getting docs in to transifex, but that will probably be
-post 1.0, when the documentation settles down a bit, as it will be a lot
-to translate.
+Notre documentation est en mouvement car nous allons mettre en place
+un autre système qui sera plus propice aux traductions. Nous pourrions
+aussi déplacer notre documentation sur Transifex, mais probablement
+après la version 1.0, quand la documentation se sera stabilisée un peu, car il y aura beaucoup
+à traduire.
 
-In the meantime, if you would like to help translate the documentation
-in this wiki, please send us a note asking to be added to our GitHub
-Translators team. Once you're added you can start translating the
-hierarchy of documentation. Just see what pages there are in english and
-create new pages with the name of the page translated to your language.
-All users to the docs will see the language options at the top page,
-going to the welcome in their language. Unfortunately the side bar will
-always be English, but the future system will be better. And we'll be
-able to easily transfer your hard work over.
+En attendant, si vous voulez aider à traduire la documentation
+dans ce wiki, veuillez nous envoyer une note nous demandant d'être ajouté à notre équipe 
+de traducteurs sur GitHub. Une fois que vous serez ajouté, vous pourrez commencer à traduire la
+hiérarchie de la documentation. Pour toute page en anglais, créez-en
+une avec le nom de la page dans votre langue.
+Tous les utilisateurs de la documentation verront les options de langue en haut de la page,
+allant vers l'accueil dans leur langue. Malheureusement la barre latérale sera
+toujours en anglais, mais le futur système sera mieux. Et ils nous sera
+facile de transférer votre dur labeur.

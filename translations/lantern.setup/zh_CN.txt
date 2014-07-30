@@ -1,74 +1,74 @@
 .. _setting-up-lantern:
 
-Setting Up Lantern
+设置Lantern
 ==================
 
-When you first run Lantern you will be asked a series of questions.
+当您首次运行Lantern时，将需要回答一系列问题。
 
-Give or Get access
+提供或获得连接
 ------------------
 
-The first question is if you want to 'give' or 'get' access.
+首先是你想 ”提供“ 还是 ”获得“ 连接。
 
 .. image:: https://www.evernote.com/shard/s209/sh/72480b8b-2259-4eef-836b-1982a800bc31/71a941bce6482c90d2d66dcf21db57a8/deep/0/Lantern.png
    :alt: give/get
 
-   give/get
-**'Give Access'** is for users in uncensored countries who want to share
-their internet connection. This turns their computer in to a proxy that
-their trusted Lantern friends can use for free to access the open
-internet. Lantern runs in the background, and we encourage you to leave
-it on whenever you can, so your friends can always use your connection.
+   提供还是获得
+**'提供连接'** 是让在非限制区的用户分享他们的
+互联网连接。这时，他们的计算机变成了一个代理，
+他们信赖的Lantern 朋友可以免费用它来访问
+整个互联网。Lantern在后台运行，我们鼓励你
+尽可能长时间地开机，使你的朋友可以随时使用您的网络连接。
 
-**'Get Access'** is for users in censored countries who want access to
-the internet. Lantern uses a 'peer-to-peer' approach to stream internet
-access from all your trusted Lantern friends at once. So the more
-Lantern friends in other countries that you add the better your
-connection will be.
+** 获得连接 ** 是为了让在限制区的用户
+看到整个互联网。Lantern 使用 ”点对点“ 的方式，让你同时通过所有你信任的朋友
+来访问互联网。因此，你信任的
+在其他国家的 Lantern 朋友越多，你的连接
+就越好。
 
-Signing in to Google
+登录到 Google
 --------------------
 
-The next step is to sign in to your Google account. Lantern leverages
-your existing Google contacts to build up its social network.
+下一步是登录到你的Google帐号。
+Lantern 充分利用你现有的 Google 联系人来构建社会网络。
 
 .. image:: https://www.evernote.com/shard/s209/sh/4d31dfce-7bab-4522-811a-51b380cafcdc/a673fb7fd2be64df8ca5b58828606d1f/deep/0/Lantern.png
    :alt: google prompt
 
-   google prompt
-The sign-in page is served directly from Google. Your password goes
-straight to Google's servers, Lantern never stores or even sees the
-password.
+   Google 应答
+登录网页是由 google 提供的。你的密码直接提交给
+google服务器。Lantern 不保留，甚至看不到
+你的密码。
 
 .. image:: https://www.evernote.com/shard/s209/sh/e7bcf743-984e-45ac-b525-b7f4517cf341/7c4a237f1aa7cb1bf6fb245d76f4a49b/deep/0/Lantern.png
    :alt: google signin
 
-After you enter your information you will be prompted to authorize
-Lantern to view your email and basic information, and to view and send
-chat messages. Lantern asks about chat messages because it uses Google's
-chat communication channels to bootstrap its network. Hit authorize, or
-Lantern will not work properly.
+输入你的信息后，会让你授权 Lantern 
+查看你的 Email 和基本信息，
+查看和发送聊天信息。Lantern 需要用聊天信息
+以便用这个通路来构建他的网络。点击 “授权”
+，不然，Lantern 不能正常工作。
 
 .. image:: https://www.evernote.com/shard/s209/sh/bd03de45-d5ac-4cc3-93da-62f24d527687/3bb1691886c46b3f30bc832f2211cdd7/deep/0/Lantern.png
    :alt: authorize
    
-Adding Friends
+添加好友
 --------------
 
-After you sign-in to Google, you can add friends to your Lantern network. It is important
-to only add people you trust to your Lantern network. For more details on adding friends, see :ref:`adding-friends`.
+登录 google 后，就可以添加好友到你的 Lantern 网络中。
+请牢记，只添加你信任的好友到你的 Lantern 网络中。请参阅 :ref:`adding-friends`.
 
 .. image:: https://dl.dropboxusercontent.com/u/253631/Add_Lantern_Friends.png
 	:alt: Adding Friends
 
 
-Configuring your sites
+配置你的网站
 ----------------------
 
-If you chose Get, see :ref:`config-proxied-sites`. 
-Note that the proxied sites configuration page can be reached at any time by
-Get users by clicking on the globe icon in the lower right.
+如果你选了 “获得连接”，请参照  :ref:`config-proxied-sites`. 
+注意：”获得连接“ 的用户可以随时修改需代理的网站的配置，
+只要点一下右下角的地球图标即可。
 
-Users Giving access will not see this step. Though you are welcome to
-switch modes to experience what Lantern would be like for a user Getting
-access.
+”提供连接“ 的用户看不到这一步。当然，你可以随时切换工作模式，
+来体会 ”获得连接“ 的用户的感觉是什么样子
+。

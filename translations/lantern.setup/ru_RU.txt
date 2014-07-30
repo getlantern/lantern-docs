@@ -1,74 +1,74 @@
 .. _setting-up-lantern:
 
-Setting Up Lantern
+Настройка Lantern
 ==================
 
-When you first run Lantern you will be asked a series of questions.
+При первом запуске Lantern вам будет задано несколько вопросов.
 
-Give or Get access
+Дать или Получить доступ
 ------------------
 
-The first question is if you want to 'give' or 'get' access.
+Первый вопрос: хотите ли вы `дать` или `получить` доступ.
 
 .. image:: https://www.evernote.com/shard/s209/sh/72480b8b-2259-4eef-836b-1982a800bc31/71a941bce6482c90d2d66dcf21db57a8/deep/0/Lantern.png
    :alt: give/get
 
-   give/get
-**'Give Access'** is for users in uncensored countries who want to share
-their internet connection. This turns their computer in to a proxy that
-their trusted Lantern friends can use for free to access the open
-internet. Lantern runs in the background, and we encourage you to leave
-it on whenever you can, so your friends can always use your connection.
+   дать/получить
+**'Дать доступ'**  - для пользователей в странах без цензуры, желающих поделиться
+интернет соединением и, таким образом, превратить свой компьютер в прокси,
+который их надежные друзья по Lantern смогут использовать для свободного доступа
+в сеть интернет. Lantern работает в фоновом режиме и мы просим вас оставлять
+его включенным тогда, когда это возможно, чтобы ваши друзья смогли всегда пользоваться вашим интернет соединением.
 
-**'Get Access'** is for users in censored countries who want access to
-the internet. Lantern uses a 'peer-to-peer' approach to stream internet
-access from all your trusted Lantern friends at once. So the more
-Lantern friends in other countries that you add the better your
-connection will be.
+**'Получить доступ'** - для пользователей в странах с цензурой, которые хотели бы получить доступ к 
+сети интернет. Lantern использует 'peer-to-peer' архитектуру для предоставления доступа
+к сети интернет сразу всем вашим надежным друзьям в сети Lantern. Следовательно,
+чем больше у вас друзей в других странах, тем лучше будет 
+ваше интернет соединение.
 
-Signing in to Google
+Вход в Google аккаунт
 --------------------
 
-The next step is to sign in to your Google account. Lantern leverages
-your existing Google contacts to build up its social network.
+Следующим шагом для вас будет вход в ваш Google аккаунт. Lantern использует
+ваши существующие контакты из Google для постройки социальной сети.
 
 .. image:: https://www.evernote.com/shard/s209/sh/4d31dfce-7bab-4522-811a-51b380cafcdc/a673fb7fd2be64df8ca5b58828606d1f/deep/0/Lantern.png
-   :alt: google prompt
+   :alt: запрос Google
 
-   google prompt
-The sign-in page is served directly from Google. Your password goes
-straight to Google's servers, Lantern never stores or even sees the
-password.
+   запрос Google
+Страница входа в Google аккаунт обслуживается напрямую самим сайтом Google. Ваш пароль уходит
+непосредственно на сервера компании Google, Lantern не хранит и даже не видит ваш
+пароль.
 
 .. image:: https://www.evernote.com/shard/s209/sh/e7bcf743-984e-45ac-b525-b7f4517cf341/7c4a237f1aa7cb1bf6fb245d76f4a49b/deep/0/Lantern.png
-   :alt: google signin
+   :alt: вход в google 
 
-After you enter your information you will be prompted to authorize
-Lantern to view your email and basic information, and to view and send
-chat messages. Lantern asks about chat messages because it uses Google's
-chat communication channels to bootstrap its network. Hit authorize, or
-Lantern will not work properly.
+После ввода данных, вас попросят разрешить
+Lantern просматривать вашу почту, основную информацию, а также просматривать и отправлять 
+сообщения в чате. Lantern спрашивает о сообщениях в чате, поскольку использует каналы
+связи Google для начальной загрузки своей сети. Нажмите Разрешить, иначе
+Lanterb не будет правильно работать.
 
 .. image:: https://www.evernote.com/shard/s209/sh/bd03de45-d5ac-4cc3-93da-62f24d527687/3bb1691886c46b3f30bc832f2211cdd7/deep/0/Lantern.png
-   :alt: authorize
+   :alt: авторизация
    
-Adding Friends
+Добавление контактов
 --------------
 
-After you sign-in to Google, you can add friends to your Lantern network. It is important
-to only add people you trust to your Lantern network. For more details on adding friends, see :ref:`adding-friends`.
+После того, как вы вошли в аккаунт Google, вы сможете добавить новые контакты в вашу сеть Lantern. Важно 
+добавлять в свою сеть Lantern только тех людей, кому вы доверяете. Подробности процесса добавления контактов вы можете узнать здесь: :ref:`adding-friends`.
 
 .. image:: https://dl.dropboxusercontent.com/u/253631/Add_Lantern_Friends.png
-	:alt: Adding Friends
+	:alt: Добавление контактов
 
 
-Configuring your sites
+Настройка ваших сайтов
 ----------------------
 
-If you chose Get, see :ref:`config-proxied-sites`. 
-Note that the proxied sites configuration page can be reached at any time by
-Get users by clicking on the globe icon in the lower right.
+Если вы выбрали режим работы "Получить доступ", см. :ref:`config-proxied-sites`. 
+Заметьте, что настройка прокси сайтов доступна пользователям режима "Получить доступ" в любое время,
+по щелчку на значке глобуса в нижнем правом углу экрана.
 
-Users Giving access will not see this step. Though you are welcome to
-switch modes to experience what Lantern would be like for a user Getting
-access.
+Для пользователей "Дающих доступ" этой настройки нет. Тем не менее они могут переключить режим для
+того, чтобы узнать как работает система для пользователей "Получающих
+доступ".

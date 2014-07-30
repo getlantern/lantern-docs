@@ -5,7 +5,7 @@ Vie privée
 
 Lantern's central servers store the following information:
 
-* Your e-mail address.
+* Votre adresse courriel.
 * The e-mail address of the account that invited you.
 * The e-mail addresses of anyone you invite.
 * A Google Talk "refresh token" which allows Lantern to run under your account from the cloud when your computer is asleep.
@@ -18,7 +18,7 @@ Participating in the Lantern network in Give Access mode means that people in yo
 
 We use the `Kaleidoscope Limited Advertisement Protocol <https://github.com/getlantern/kaleidoscope#kaleidoscope-limited-advertisement-protocol>`_ ensure that Lantern users only share internet connections with people they are connected with through trusted friends.
 
-Commitment to Your Privacy and Safety
+Engagement envers votre vie privée et sécurité 
 -------------------------------------
 Lantern takes the responsibility of providing internet access very seriously. It is extremely important to us that we limit how much information we store and that we keep your information secret.
 
@@ -36,7 +36,7 @@ Lantern may be compelled to disclose information we have collected under special
 
 Usage Data
 ----------
-When using Lantern, you can choose to provide us with usage data.
+Lorsque vous choisissez Lantern, il vous est possible aussi de décider de nous fournir ou non vos données d'utilisation. 
 
 If you enable this option we use:
 
@@ -44,7 +44,7 @@ If you enable this option we use:
 * Exceptional.io to store information about errors in the Lantern software.
 * Google App Engine to store information about the countries you have logged in from and the number of bytes you have sent and received.
 
-When you install Lantern, we ask if you want to contribute this information. You can change this setting at any time in the settings menu.
+Lorsque vous installez Lantern, nous vous demandons si vous voulez fournir ces informations. Il est possible de changer cette configuration dans la section « paramètres ».
 
 .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Settings_Icon_Crop.png
 	:alt: Settings Icon

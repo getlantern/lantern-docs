@@ -6,7 +6,7 @@ Setting Up Lantern
 When you first run Lantern you will be asked a series of questions.
 
 Give or Get access
-------------------
+-------------------
 
 The first question is if you want to 'give' or 'get' access.
 

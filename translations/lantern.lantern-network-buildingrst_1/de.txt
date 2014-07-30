@@ -32,8 +32,8 @@ sure to talk with our "connectors", i.e. the people who have
 relationships that bridge the censorship divide and who are likely to be
 the lynchpins of the Lantern trust network in its early stages.
 
-Tools
-~~~~~
+Werkzeuge
+~~~~~~~~~
 
 Finding and inviting friends
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

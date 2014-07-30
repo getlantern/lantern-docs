@@ -1,4 +1,4 @@
-Glossary
+Glossar
 ========
 
 .. glossary::
@@ -23,7 +23,7 @@ Intermediary
 	and the server which hosts it, e.g. a `proxy <#wiki-proxy>`__ or an
 	`internet service provider <#wiki-isp>`__.
 
-ISP
+IDA
 	Internet service provider, an organization which provides internet
 	access. Traffic leaving a computer's local network (in a home, office,
 	internet cafe, etc.) goes here before either being forwarded to its

@@ -1,43 +1,43 @@
-.. _contributing-to-lantern-dev:
+.. _贡献-给-lantern-开发者:
 
-Contributing Code
+贡献代码
 =================
 
-This page is focused on software development. If you are not a developer, there are many other ways to `get involved <../user/Get_Involved.html>`_.
+此页面是专注于软件开发。如果你不是开发者，还有很多其他的方法来`参与 <../user/Get_Involved.html>`_.
 
-Our goal is to make Lantern a truly collaborative open source project with contributors
-from many organizations and countries.
+我们的目标是使 Lantern团队与贡献开发者真正的合作维护开源项目
+来自许多组织和国家。
 
-How We Work
+我们的工作
 -----------
 
-If you aren't familiar with open source development we highly recommend reading `Producing Open Source Software <http://producingoss.com/>`__. It's available for free but don't hesitate to buy the book (it's written by a friend of Lantern). We try to follow the best practices details in this book, so it's a good way to get familiar with how we work.
+如果你不熟悉开源软件的发展，我们强烈建议您阅读`制造开源软件<http://producingoss.com/>`__。它是免费提供的，但不要犹豫，买这本书（参与Lantern的朋友）。我们可以尝试按照这本书中的最佳实践的详细信息，所以这是一个很好的参与方式来熟悉我们的工作。
 
-Getting Started
+入门
 ---------------
 
-The first step is to check out our
-`CONTRIBUTING <https://github.com/getlantern/lantern/blob/master/CONTRIBUTING.md>`__
-file for relevant information. We follow standard
-github model of contributors submitting pull requests and then having
-core authors review.
+第一步需要先回顾我们的
+`贡献提供 <https://github.com/getlantern/lantern/blob/master/CONTRIBUTING.md>`__
+文件的相关信息。我们遵循的标准
+贡献者提交请求加入github的功能 pull requests
+核心开发者审阅。
 
-Communicating
+交流
 --------------
-The majority of our communication happens in
-`tickets <https://github.com/getlantern/lantern/issues>`__. You can 
-`watch <https://help.github.com/articles/watching-repositories>`_ the project 
-in GitHub and get notifications when an issue is updated.
+我们大部分的交流都在
+`票 <https://github.com/getlantern/lantern/issues>`__。 你可以 
+`看 <https://help.github.com/articles/watching-repositories>`_ 项目 
+在GitHub上问题得到了更新就会被通知。
 
-We also have a `developer forum <https://groups.google.com/forum/#!forum/lantern-devel>`__ on Google Groups that 
-we use to communicate. Please don't hesitate to introduce yourself on the forum. We can
-find tasks you might be interested in.
+我们也有一个 `开发者论坛 <https://groups.google.com/forum/#!forum/lantern-devel>`__ 在谷歌的群组里 
+我们用它来进行交流。请不要犹豫，在论坛上介绍自己。我们可以
+寻找你感兴趣的任务
 
-You can also sign up to help us triage issues on `CodeTriage <http://www.codetriage.com/getlantern/lantern>`_.
+您也可以注册`CodeTriage 以帮助我们分流的问题 <http://www.codetriage.com/getlantern/lantern>`_.
 
-Making Decisions
+制定决策方案
 ----------------
 
-Lantern decisions are made by all core developers. Anyone
-who contributes sufficiently to development can become a core developer
-and help decide the future of Lantern.
+Lantern 是由所有核心开发人员进行决策的。每一个人
+谁贡献足够多的发展代码，就可以成为核心开发者
+并帮助决定Lantern的未来。

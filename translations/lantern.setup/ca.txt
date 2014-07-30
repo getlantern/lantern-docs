@@ -29,46 +29,46 @@ connexió serà més eficient.
 Iniciant sessió a Google
 --------------------
 
-The next step is to sign in to your Google account. Lantern leverages
-your existing Google contacts to build up its social network.
+El següent pas és iniciar sessió al teu compte de Google. Lantern influeix
+sobre els teus contactes vigents de Google per bastir la seva xarxa social.
 
 .. image:: https://www.evernote.com/shard/s209/sh/4d31dfce-7bab-4522-811a-51b380cafcdc/a673fb7fd2be64df8ca5b58828606d1f/deep/0/Lantern.png
-   :alt: google prompt
+   :alt: inici de google
 
-   google prompt
-The sign-in page is served directly from Google. Your password goes
-straight to Google's servers, Lantern never stores or even sees the
-password.
+   inici de google
+La pàgina d'inici és proporcionada directament des de Google. La teva contrasenya
+va directament als servidors de Google. Lantern no conserva mai la 
+contrasenya, ni tan sols la veu.
 
 .. image:: https://www.evernote.com/shard/s209/sh/e7bcf743-984e-45ac-b525-b7f4517cf341/7c4a237f1aa7cb1bf6fb245d76f4a49b/deep/0/Lantern.png
    :alt: google signin
 
-After you enter your information you will be prompted to authorize
-Lantern to view your email and basic information, and to view and send
-chat messages. Lantern asks about chat messages because it uses Google's
-chat communication channels to bootstrap its network. Hit authorize, or
-Lantern will not work properly.
+Després que hagis informat les teves dades, se't demanarà que autoritzis
+Lanter a veure el teu correu electrònic i informació bàsica, i veure i enviar
+missatges de xat. Lantern et demana sobre els missatges de xat perquè 
+usa els canals de comunicació de xat de Google per arrencar la seva xarxa.
+Prem autoritzar, d'altra manera Lantern no funcionarà adeqüadament.
 
 .. image:: https://www.evernote.com/shard/s209/sh/bd03de45-d5ac-4cc3-93da-62f24d527687/3bb1691886c46b3f30bc832f2211cdd7/deep/0/Lantern.png
-   :alt: authorize
+   :alt: autoritzar
    
 Afegint Amics
 --------------
 
-After you sign-in to Google, you can add friends to your Lantern network. It is important
-to only add people you trust to your Lantern network. For more details on adding friends, see :ref:`adding-friends`.
+Després d'inscriure't a Google, pots afegir amics a la teva xarxa Lantern. És
+important que només afegeixis amics en qui confies. Troba més detalls de com afegir amics a :ref:`adding-friends`. 
 
 .. image:: https://dl.dropboxusercontent.com/u/253631/Add_Lantern_Friends.png
-	:alt: Adding Friends
+	:alt: Afegint Amics
 
 
-Configuring your sites
+Configurant els teus llocs
 ----------------------
 
-If you chose Get, see :ref:`config-proxied-sites`. 
-Note that the proxied sites configuration page can be reached at any time by
-Get users by clicking on the globe icon in the lower right.
+Si tries obtenir, fes una ullada a :ref:`config-proxied-sites`. 
+Tingues en compte que els usuaris en mode Obtenir poden accedir a la 
+pàgina de configuració dels llocs direccionats, en qualsevol moment, fent clic a la icona del globus, a la part inferior dreta.
 
-Users Giving access will not see this step. Though you are welcome to
-switch modes to experience what Lantern would be like for a user Getting
-access.
+Els usuaris en mode Donar no veuran aquest pas. Tot i que et convidem a
+canviar de mode i experimentar com veu Lantern un usuari en mode
+Obtenir.

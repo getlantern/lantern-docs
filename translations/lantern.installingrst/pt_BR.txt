@@ -1,151 +1,151 @@
-Installing and Uninstalling
+Instalando e desinstalando
 ===========================
-This section provides details on how to install and uninstall Lantern on multiple operating systems.
+Essa seção fornece detalhes de como instalar e desinstalar o Lanterna em diversos sistemas operacionais.
 
-Once you are invited, you will receive an email with links to download the installer for your operating system.
+Assim que você for convidado, você receberá um e-mail com links para baixar o instalador para o seu sistema operacional
 
 .. image:: https://github-camo.global.ssl.fastly.net/6a8e1af9a0053337263343727132eacab1920d88/687474703a2f2f692e696d6775722e636f6d2f347652615436382e706e67
-	:alt: Lantern Invitation
+	:alt: Convite para o Lanterna
 
 Linux
 -----
 
-Supported Versions
+Versões suportadas
 ^^^^^^^^^^^^^^^^^^
-Currently, installation on Linux is only available on Ubuntu.
-We greatly appreciate any `contributions <../../developer/html/contributing.html>`_ for other Linux distributions or help with improvements to make better use of package managers. You can also `build from source <https://github.com/getlantern/lantern/blob/master/README.md#wiki-setting-up-a-development-environment>`_.
+No momento a instalação para Linux está disponível apenas no Ubuntu.
+Nós apreciamos qualquer `contribuição <../../developer/html/contributing.html>`_ para outras distribuições Linux ou qualquer ajuda com melhorias para melhorar o aproveitamento dos gerenciadores de pacotes. Você pode também `construir da fonte <https://github.com/getlantern/lantern/blob/master/README.md#wiki-setting-up-a-development-environment>`_.
 
-Installing
+Instalando
 ^^^^^^^^^^ 
-The invitation to Lantern has a link to an installation script that: 
+O convite para o Lanterna possui um link para o script de instalação que: 
 
-* Downloads a `.deb` file. 
-* Creates the uninstall script in the `/opt/lantern-net-installer` directory.
-* Creates a user preferences directory.
-* Does *not* auto-launch a Lantern service.
+* Baixa um arquivo `.deb`. 
+* Cria o script de desinstalação no diretório `/opt/lantern-net-installer`.
+* Cria um diretório de preferências do usuário.
+* NÃO inicia automaticamente um serviço do Lanterna.
 
-#. Click **Ubuntu 12.04+** in the invitation email.
-	A browser window opens and dialog appears asking you to open or save the installer. 
+#. Clique em **Ubuntu 12.04+** no e-mail de convite.
+	Uma página do navegador abre e aparace uma janela perguntando se você deseja abrir ou salvar o instalador. 
 
 	.. image:: http://i.imgur.com/justLyz.png
-		:alt: Open File Dialog
+		:alt: Janela de Download
 
-#. Open a new terminal window and change to the directory where you downloaded the installer.
+#. Abra uma nova janela no terminal e mude o diretório onde você baixou o instalador.
 	:: 
 		
 		cd Downloads/
 
-#. Make the installation script executable.
+#. Faça o script executável de instalação.
 	::
 	
 		chmod 700 lantern-net-installer_unix.sh
 
-#. Run the installation script.
+#. Execute o script de instalação.
 	::
 		
 		sudo ./lantern-net-installer_unix.sh
 	
-	The terminal window displays a message indicating the installer is starting and the Lantern Fetcher dialog appears.
+	A janela do terminal mostrará uma mensagem indicando que o instalador está sendo iniciado e o instalador do Lanterna Fetcher irá aparecer.
 	
 	.. image:: http://i.imgur.com/S2hBiEY.png
-		:alt: Terminal window and Lantern Fetcher dialog indicating the status of the download.
+		:alt: Janela do terminal e a janela do Lanterna Fetcher indicando o estado do download.
 		
-	.. note:: There is no status message indicating the installation is complete. 
+	.. note:: Não há uma mensagem indicando quando a instalação é finalizada. 
 		
-		If you receive a message indicating there is no suitable Java Virtual Machine, you need to download Java. See the `Ubuntu documentation <https://help.ubuntu.com/community/Java>`_ for details.
+		Se você receber uma mensagem indicando que não há uma Java Virtual Machine adequada, você precisará fazer o download do Java. Veja a `Documentação do Ubuntu <https://help.ubuntu.com/community/Java>`_ para detalhes.
 
-5. Click the **Ubuntu** button and type Lantern.
+5. Clique no botão **Ubuntu** e digite Lanterna.
 
-6. Click the **Lantern** icon.
-	The Lantern Setup window appears.
+6. Clique no ícone do **Lanterna**.
+	A janela de instalação do Lanterna irá aparecer.
 	
 	.. image:: http://i.imgur.com/nnXoFjr.png
-		:alt: The Lantern Setup window prompting you to click Give Access or Get Access.
+		:alt: A janela de instalação do Lanterna lhe perguntando se você deseja Fornecer Acesso ou Receber Acesso.
 	
-	.. note:: If you receive a message about Google Chrome not being installed, you need to download it.
+	. note:: Se você receber uma mensagem sobre o Google Chrome não estar instalado, você precisará fazer o download dele.
 		
-		See https://www.google.com/intl/en/chrome/browser/ for details. 
+		Visite https://www.google.com/intl/en/chrome/browser/ para mais detalhes. 
 
 #. See :ref:`setting-up-lantern`.
 
 .. _uninstalling-linux:
-Uninstalling
+Desinstalando
 ^^^^^^^^^^^^
 
-1. In a terminal window, change to the installation directory.
+1. Em uma janela do terminal, mude o destino da instalação.
 	::
 	
 		cd /usr/local/lantern-net-installer/
 		
-2. Run the uninstall program.
+2. Execute o programa de desinstalação.
 	::
 	
 		sudo ./uninstall
 	
-	The Lantern Uninstall window appears.
+	A janela de desinstalação da Lanterna irá aparecer.
 		
 	.. image:: http://i.imgur.com/PW3hiCF.png
-		:alt: A terminal window showing the command to uninstall Lantern.
+		:alt: Uma janela do terminal mostrando o comando para desinstalar a Lanterna.
 		
-3. Click **Next** to start uninstalling lantern.
-	A message appears when the uninstallation is complete.
+3. Clique em **Próximo** para começar a desinstalar a Lanterna.
+	Uma mensagem aparecerá quando a desinstalação estiver completa.
 	
 	.. image:: http://i.imgur.com/7XZayjD.png
-		:alt: The Lantern Uninstall window showing a message indicating that Lantern has been successfully uninstalled.
+		:alt: A janela de desinstalação da Lanterna mostrando uma mensagem indicando que a Lanterna foi desinstalada com sucesso.
 	
-4. Click **Finish**.
+4. Clique em **Finalizar**.
 
 .. _installing-mac:
 Mac
 ---
-Supported Versions
+Versões suportadas
 ^^^^^^^^^^^^^^^^^^
 
-Lantern supports OS/X version 10.6 and higher,
-64-bit only. 
+Lanterna suporta OS/X versão 10.6 ou superior,
+64-bit apenas. 
 
-.. note:: During installation, Lantern checks if you have Java installed. If not, it will download the Java Runtime Environment from the web.
+.. note:: Durante a instalação, a Lanterna checa se você possuí Java instalado. Se não possuir, o instalador irá baixar o Java Runtime Environment da internet.
 
-Installing
+Instalando
 ^^^^^^^^^^
 
-#. Click the **Mac OS X 10.6+** link in the invitation email.
+#. Clique no link **Mac OS X 10.6+** no e-mail de convite.
 
-#. Double-click the **.dmg** file that downloads, then double-click on the **Lantern Installer** icon.
-	The Lantern Fetcher window appears and starts downloading the most recent installation files.
+#. Clique duas vezes no arquivo **.dmg** que irá baixar o instalador, e então clique duas vezes no ícone do **Instalador da Lanterna**.
+	A janela do Lanterna Fetcher irá aparecer e iniciará o download dos arquivos de instalação mais recentes.
 	
 	.. image:: https://www.evernote.com/shard/s209/sh/b39a5f0d-4aa9-4518-8a26-fd0a86de8737/9d3090f5eab319830f4510bc13bba90e/deep/0/Lantern%20Fetcher.png
-		:alt: Lantern Downloader
+		:alt: Baixador da Lanterna
 		
-	.. Important:: As of beta2 the installer will *not* work if you are not running as an admin user. If you are not the admin user, nothing will happen when you click the installer icon. We are `working <https://github.com/getlantern/lantern/issues/819>`_ on getting it to prompt for the admin password instead of not responding.
+	.. Important:: Assim como no beta2, o instalador NÃO irá funcionar caso você não esteja executando-o como administrador. Se você não é o usuário administrador, nada irá acontecer quando você abrir o instalador. Nós estamos `trabalhando <https://github.com/getlantern/lantern/issues/819>`_  para fazer o instalador perguntar a senha do admininstrador, em vez de travar o instalador.
 
-#. In the password dialog that appears, enter your administrator user name and password. This allows Lantern to install and make changes to your proxy settings so that your internet connection can be shared.
+#. Na janela da senha que aprece
 	.. image:: https://www.evernote.com/shard/s209/sh/c92df454-472a-4ce1-a578-fc06843802d7/04fd633f4deb9fbeecc44562dff2ea78/deep/0/Screenshot%208/16/13%207:52%20PM.png
-		:alt: A window prompting you to enter a user name and password to allow changes.
+		:alt: Uma janela lhe pedindo para digitar um usuário e senha para permitir as mudanças.
 	
-	The installer downloads and extracts the files. When the installation is complete, the Lantern window appears.
+	O instalador baixa e extrai os arquivos. Quando a instalação estiver completa, a janela da Lanterna aparecerá.
 
 	.. image:: https://dl.dropboxusercontent.com/u/253631/Installing_Mac_Setup_Window.png
-		:alt: The Lantern window appears prompting you to start the setup process.
+		:alt: A janela da Lanterna aparecerá lhe pedindo permissão para iniciar o processo de instalação.
 		
 #. See :ref:`setting-up-lantern`.
 	
-Uninstalling
+Desinstalando
 ^^^^^^^^^^^^
 
-1. Right-click on the **Lantern** status bar icon and select **Quit Lantern**.
+1. Clique com o botão direito no ícone da **Lanterna** na barra de status e selecione **Sair da Lanterna**.
 
-2. In the **Applications** folder, move **Lantern.app** to the **Trash**.
-	This also uninstalls Lantern's Java Runtime Environment.
+2. Na pasta **Aplicativos**, mova o **Lanterna.app** para a **Lixeira**.
+	Isso faz desinstalar também o Java Runtime Environment.
 
-3. To delete all your settings, open a terminal window and change to the directory in your **Home** directory.
+3. Para deletar todas as suas configurações, abra uma janela do terminal e mude para o diretório **Principal**.
 	::
 	
 		cd ~
 		
-	.. note:: If you don't delete your settings, Lantern uses them the next time you install the application.
+	.. note:: Se você não deletar as suas configurações, a Lanterna as usará da próxima vez que você instalar o programa.
 		
-4. Delete the **./lantern** directory.
+4. Delete o diretório **./lanterna**.
 	::
 	
 		rm -r .lantern
@@ -155,55 +155,55 @@ Uninstalling
 Windows
 -------
 
-Supported Versions 
+Versões suportadas 
 ^^^^^^^^^^^^^^^^^^
 
-Lantern supports Windows version XP and higher and requires that Google Chrome is installed. If you don't
-have Chrome you can get it `here <https://www.google.com/intl/en/chrome/browser/>`_.
+Lanterna suporta Windows versão XP ou superior e requer o Google Chrome instalado. Se você não
+possui Chrome, você pode obtê-lo `aqui <https://www.google.com/intl/en/chrome/browser/>`_.
 
-Installing
+Instalando
 ^^^^^^^^^^
 
-1. Click the **Windows XP+** link in the invitation email.
-	.. warning:: It is important to follow the next steps to make sure that the `digital signature <http://en.wikipedia.org/wiki/Digital_signature>`_ is valid.
+1. Clique no link **Windows XP+** no e-mail de convite.
+	.. warning:: É importante seguir os próximos passos para ter certeza que a `assinatura digital <http://en.wikipedia.org/wiki/Digital_signature>`_ é válida.
 
-#. Right click the **.exe** file that downloaded and click the **Digital Signatures** tab. 
+#. Clique com o botão direito no arquivo **.exe** que você baixou e clique na aba **Assinaturas Digitais**. 
 
-#. In the **General** tab, click **View Certificate**. 
+#. Na aba **Geral**, clique em **Ver certificado**. 
 
-#. Under **Details**, verify the signature.
-	Each .exe file is digitally by signed by Brave New Software Project, Inc. For June 11, 2013 to June 11, 2016, the SHA1 thumbprint should be ‎44:99:0c:72:fb:a0:e6:dd:f9:2a:b9:34:46:02:e7:56:00:d8:be:3c.
+#. Em **Detalhes**, verifique a assinatura.
+	Cada arquivo .exe é assinado por Brave New Software Project, Inc. Pelo período de 11 de junho de 2013 até 11 de junho de 2016, a impressão digital SHA1 deve ser ‎44:99:0c:72:fb:a0:e6:dd:f9:2a:b9:34:46:02:e7:56:00:d8:be:3c.
 
 	.. image:: http://i.imgur.com/iTljBxR.jpg
-		:alt: Certificate Details Window
+		:alt: Janela dos detalhes do Certificado
 	
-#. Once you have verified the signature, double-click the **.exe** file. If you are prompted to allow the installer to make changes to your computer, click **Yes**.
-	When installation is complete, the Lantern window appears.
+#. Assim que verificar as assinaturas, dê um duplo clique no arquivo **.exe**. Se for perguntado se você deseja permitir que o instalador faça mudanças no seu computador, clique em **Sim**.
+	Quando a instalação estiver completa, a janela do Lanterna aparecerá.
 
 	.. image:: http://i.imgur.com/K6yBha5.png)
-		:alt: The Lantern window appears prompting you to start the setup process.
+		:alt: A janela da Lanterna aparecerá lhe pedindo permissão para iniciar o processo de instalação.
 
 #. See :ref:`setting-up-lantern`.
 
 
-Uninstalling
+Desinstalando
 ^^^^^^^^^^^^
 
-1. Open the **Control Panel** and click **Programs**.
+1. Abra o **Painel de controle** e clique em **Programas**.
 	.. image:: http://i.imgur.com/lF9ldIE.png
-		:alt: The Windows Control Panel.
+		:alt: A janela do Painel de Controle.
 
-#. In the list of installed programs, click the **Lantern**.
+#. Na lista dos programas instalados, clique em **Lanterna**.
 	
-#. Click the **Uninstall/Change** button.
+#. Clique no botão **Desinstalar/Modificar**.
 	.. image:: http://i.imgur.com/0fTDSYF.png
-		:alt: Uninstall Lantern
+		:alt: Desinstalar o Lanterna
 
-#. Click **Next**.
-	Lantern is uninstalled.
+#. Clique em **Próximo**.
+	O Lanterna será desinstalado.
 
 	.. image:: http://i.imgur.com/TGQeclS.png
-		:alt: Uninstall Window
+		:alt: Janela de desinstalação
 
 
 

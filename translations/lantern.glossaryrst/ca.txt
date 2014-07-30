@@ -6,45 +6,45 @@ Glossari
 HTTP
 	Hypertext Transfer Protocol. S'utilitza per transferir continguts com ara 
 	pàgines web a través d'internet. Com que el contingut no s'envia encriptat,
-	qualsevol `intermediary <#wiki-intermediary>`__ podria llegir-lo en trànsit.
+	qualsevol `intermediari <#wiki-intermediary>`__ podria llegir-lo en trànsit.
 	Per tant, HTTP no és segur.
 	`HTTPS <#wiki-https>`__ és la versió homòloga segura de HTTP.
 
 HTTPS
 	Una versió segura de `HTTP <#wiki-http>`__. El contingut s'envia encriptat
-	per prevenir que un `intermediary <#wiki-intermediary>`__ pugui llegir-lo
+	per prevenir que un `intermediari <#wiki-intermediary>`__ pugui llegir-lo
 	en trànsit.
 
 Install4g 
 	Install4g és el programa que utilitzem per instal·lar Lantern, procurant que aquest procés sigui senzill per qualsevol plataforma.
 	
 Intermediari
-	An entity on a computer network in between the requester of some content
-	and the server which hosts it, e.g. a `proxy <#wiki-proxy>`__ or an
-	`internet service provider <#wiki-isp>`__.
+	Un ens, dins d'una xarxa d'ordinadors, ubicat entre el sol·licitant d'un contingut
+	i el servidor que l'hostatja, p.e. un `proxy <#wiki-proxy>`_ o un 
+	`proveïdor d'Internet <#wiki-isp>`__.
 
 ISP
-	Internet service provider, an organization which provides internet
-	access. Traffic leaving a computer's local network (in a home, office,
-	internet cafe, etc.) goes here before either being forwarded to its
-	destination, or blocked in the case that the ISP employs censorship.
-	Traffic bound for your computer likewise must pass through your ISP
-	before it can reach you.
+	Proveïdor d'Internet (Internet service provider), una organització que proporciona
+	accés a Internet. El trànsit sortint d'una xarxa local d'un ordinador (de casa, de l'oficina, 
+	d'un cafè Internet, etc.) passa per aquí abans de ser enviada a la seva destinació, 
+	o bé bloquejada, en cas que l'ISP apliqui censura.
+	El trànsit destinat cap al teu ordinador passa de la mateixa manera a través
+	del teu ISP abans t'hi arribi.
 
-Peer
-	Another user you're connected to on a computer network.
+Igual
+	Un altre usuari amb qui estàs connectat en una xarxa d'ordinadors.
 
-Peer-to-Peer (P2P)
-	Describes a network architecture where each computer in the network can
-	act as client and server, as opposed to just one or a few servers
-	providing service to many clients. Peer-to-peer networks are
-	decentralized and therefore more difficult to shut down.
+D'igual a igual (P2P)
+	Descriu una arquitectura de xarxa on cada ordinador de la xarxa pot actuar
+	com a client o com a servidor, en contraposició a una situació en què un
+	o diversos servidors proporcionen servei a molts clients. Les xarxes d'igual a 
+	igual són descentralitzades i, d'aquesta manera, més difícils de tancar.
 
 Servidor intermediari
-	An `intermediary <#wiki-intermediary>`__ which forwards traffic between
-	a user requesting content and the server that hosts it, often because
-	the user cannot reach the server directly due to censorship.
+	Un `intermediari <#wiki-intermediary>`__ que direcciona el trànsit entre 
+	un usuari que demana un contingut i el servidor que l'hostatja, sovint degut
+	a que l'usuari no pot arribar directament al servidor degut a la censura.
 
-System Proxy
-	A program which proxies traffic for all programs on a computer which
-	access the network.
+Servidor intermediari de sistema
+	Un programa que direcciona el trànsit de tots els programes d'un 
+	ordinador que accedeixen a la xarxa.

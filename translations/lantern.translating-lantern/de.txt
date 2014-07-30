@@ -4,13 +4,13 @@ Translating Lantern
 ===================
 
 
-Introduction
+Einführung
 -----------
 
 One of the best ways to help Lantern grow is by translating it to your
 local language. Our hope is to have Lantern available in as many
 languages as possible. We've started a
-**`forum <https://groups.google.com/group/lantern-i18n>`__
+**`Forum <https://groups.google.com/group/lantern-i18n>`__
 (lantern-i18n@googlegroups.com)** coordinating localization ("l10n") /
 internationalization ("i18n") of Lantern. If you'd like to get involved
 don't hesitate to introduce yourself there. You can also just start on
@@ -59,9 +59,9 @@ After you click on your language you'll see three different 'language
 resources':
 
 .. image:: https://www.evernote.com/shard/s209/sh/e396390c-acce-4ea8-9bd5-05ae3e75686f/941ba9184932bba96b6e38b9953029fa/deep/0/Turkish%20Translation%20for%20Lantern%20%7C%20Transifex.png
-   :alt: transifex
+   :alt: Transifex
 
-   transifex
+   Transifex
 Hit 'join team' to get started, and the admins should approve you
 quickly. We **highly** recommend hitting the 'watch this language'
 button (at the top of 'history'), as you'll know immediately when there

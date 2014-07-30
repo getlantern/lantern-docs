@@ -24,13 +24,13 @@ diferents experiències dels modes Donar i Obtenir.
 Aquest document esbossa els punts de vista per tractar tots els aspectes
 de com bastir la xarxa de confiança.
 
-note - It is important to remember that much network building can
-proceed informally and outside of the Lantern application - ultimately
-Lantern just needs to know once the connection has been made. Before
-going too far down the road of building specific tooling, we should make
-sure to talk with our "connectors", i.e. the people who have
-relationships that bridge the censorship divide and who are likely to be
-the lynchpins of the Lantern trust network in its early stages.
+nota - És important tenir en compte que molta de la feina per bastir la xarxa
+es fa informalment i fora de l'aplicació Lantern - de fet, Lantern entra 
+en joc un cop s'ha establert la connexió. Abans d'entrar en el detall
+de com construir les eines específiques, ens hauríem d'assegurar 
+de parlar amb els nostres "connectors"; o sigui, les persones que mantenen
+les relacions per creuar la divisòria de la censura i que ben cert 
+constitueixen els eixos de la xarxa de confiança Lantern en els seus inicis.
 
 Eines
 ~~~~~
@@ -64,80 +64,80 @@ divisòria de la censura.
 El punt 2 es pot dur a terme amb Linkedin. L'avantatge d'això és que pot
 ajudar a ampliar el grup de "connectors".
 
-What else do we need here? Many social networking invite systems have a
-way of tracking replies, resending reminders and so on...
+Què més ens cal? Molts sistemes d'invitació de xarxes socials disposen de
+mètodes per fer el seguiment de respostes, retransmetre recordatoris, etc.
 
 Formació i Ànims
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are many angles to this. It is instructive to look at what both
-social networks and electronic appliances like the `Nest
-thermostat <http://nest.com/>`__.
+Hi ha moltes maneres d'enfocar aquest punt. És interessant veure com 
+ho fan les xarxes socials i electrodomèstics com el `termòstat Nest
+<http://nest.com/>`__.
 
-Social networks repeatedly encourage you to build out your network by:
+Les xarxes socials t'encoratgen repetidament a bastir la teva xarxa tot i:
 
--  Suggesting new friends based on existing friends and interests
--  Suggesting new friends based on contacts in your contact list
--  Providing a mechanism for friends to message each other
--  Reminding you about events in friends' lives (e.g. birthdays) to get
-   you to reach out and communicate with that friend. In the case of
-   Lantern, this could be something like "Sally got access through Joe
-   for the first time ever" (see
+-  Suggerint nous amics segons els amics i interessos existents 
+- Suggerint nous amics segons la teva llista de contactes
+- Facilitant la manera d'intercanviar missatges entre amics
+- Enviant recordatoris sobre esdeveniments dels teus amics (p.e. aniversaris)
+   per tal d'aconseguir que hi estableixis contacte. En el cas de Lantern, 
+   seria una cosa així com "Sally va obtenir accés a través de Joe  
+   per primer cop" (veure
    https://github.com/getlantern/lantern/issues/1048)
 
 El termòstat Nest té interessants paral·lelismes amb Lantern perquè
-és un objecte amb el qual interactues ben poc i que utilitzes per aconseguir
+és un objecte amb el qual interactues ben poc i que utilitzes per assolir
 un objectiu específic (estalviar energia i sentir-te còmode).
 Dues coses que el termòstat Nest assoleix particularment bé
 són:
 
-1. It collects a variety of interesting metrics but distills these down
-   into a single easy-to-understand number, namely how many hours your
-   heating/cooling system ran in the last month. From there, one can
-   drill down into the other metrics to understand what led to that
-   usage, but having that single bottom-line number makes it easy to
-   keep track of what's happening without having to invest too much
-   mental bandwidth.
+1. Recull diversos indicadors d'interès, però els agrupa i simplifica en
+   un únic nombre ben entenedor: quantes hores vas tenir engegat
+   el teu sistema de calefacció / refrigeració el mes passat. A partir d'aquí, 
+   es pot anar esbrinant els altres indicadors per entendre com vas arribar 
+   fins aquest consum. Disposar d'aquest nombre bàsic facilita el seguiment
+   del que està passant sense haver d'escalfar-se massa
+   el cap.
 
-2. It uses monthly emails to let you know how you're doing, make you
-   feel like part of a community and remind you that there's a team of
-   people constantly making Nest better.
+2. Envia un correu electrònic mensual per informar-te com ho estàs fent,
+   et fa sentir part d'una comunitat i et recorda que hi ha un equip de 
+   gent tothora dedicat a millorar Nest.
 
-In the case of Lantern, Give and Get mode users have complementary but
-slightly different goals.
+En el cas de Lantern, els usuaris en modes Donar i Obtenir tenen objectius
+complementaris, tot i ser lleugerament diferents.
 
-Get mode users are interested in availability and speed. Give mode users
-are interested in helping out as many people as possible (or specific
-people), but also limiting how much of their bandwidth is consumed, and
-what sites are being visited through their connections.
+Als usuaris en mode Obtenir els interessa la disponibilitat i la rapidesa. Als 
+usuaris en mode Donar els interessa ajudar al màxim nombre possible de 
+gent (o persones específiques), però sempre controlant quant ample de
+banda s'està consumint, i quins llocs s'estan visitant amb llurs connexions.
 
-This suggests a hierarchy of metrics like the following (all broken down
-on a monthly basis if possible):
+Això ens permet suggerir una jerarquia de mètriques com les apuntades tot
+seguit (a ser possible, agrupades en períodes mensuals):
 
--  Number of bytes proxied
--  Number of peers active at any time during month
--  Number of hours that Lantern was running (see
+- Nombre de bytes direccionats
+- Nombre d'iguals actius en qualsevol moment durant el mes
+- Nombre d'hores que Lantern s'ha estat executant (veure
    https://github.com/getlantern/lantern/issues/1025)
--  Top 5 domains proxied by # of requests (see
+- Els 5 dominis direccionats més rellevants per nombre de sol·licituds (veure
    https://github.com/getlantern/lantern/issues/1027)
 -  ???
 
-The first two sub-metrics, # of peers and # of hours, present points for
-clear calls to action when the numbers are low, namely "grow your
-network" and "run lantern".
+Les dues primeres sub-mètriques, # d'igual i # d'hores, indiquen que 
+cal intervenir si els nombres són baixos, per exemple "fes créixer la teva
+xarxa" i "executa Lantern".
 
-These are both things about which we can and should remind people via
-email.
+Aquests dos temes són els que podem i hauríem de recordar a les persones
+via correu electrònic.
 
-Email Schedule
+Planificació de Correu
 ^^^^^^^^^^^^^^
 
-1. Welcome to Lantern
-2. (If user hasn't added any friends) - Add Some Friends
-3. Monthly Status Update
+1. Benvinguts a Lantern
+2. (Si l'usuari no ha afegit cap amic) - Afegir alguns amics
+3. Actualització mensual de l'estat
 4. ???
 
-Related Tickets
+Tiquets relacionats
 ~~~~~~~~~~~~~~~
 
 -  https://github.com/getlantern/lantern/issues/988

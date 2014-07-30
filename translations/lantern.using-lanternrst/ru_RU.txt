@@ -1,125 +1,125 @@
-Using Lantern
+Использование Lantern
 =============
 
-After you've finished :DOC:`Setup` you're ready to start using Lantern.
+После завершения настройки :DOC:`Setup` вы готовы к использованию Lantern.
 
-Users **Getting Access**
+Пользователям **Получающим доступ**
 ------------------------
 
-If you are in a censored region and have installed Lantern, simply open
-your favorite browser and navigate to any blocked site. Any browser
-should work, as Lantern configures itself to handle any connection from
-your computer.
+Если вы находитесь в регионе, где существует цензура, и вы установили Lantern, просто откройте
+ браузер и открывайте любые заблокированные сайты. Любой браузер
+должен работать, так как Lantern конфигурируется таким образом, что любое соединение с 
+вашего компьютера проходит через Lantern.
 
 .. image:: https://www.evernote.com/shard/s209/sh/ebdd003b-5c06-430f-a239-ea4a28c444cf/3f6d143232be6ffe1b1d0edcc5cf309d/deep/0/Fullscreen%208/18/13%209:00%20PM.png
-   :alt: working lantern
+   :alt: работа Lantern
 
-While your browsing is connecting Lantern reports on the activity. On
-the map there will be a line between your computer and the computers of
-your friends. If your friends aren't available you may see that you are connected
-to one of the Lantern fallback servers. See :ref:`lantern-cloud-servers`.
+В то время как ваш браузер устанавливает соединение, Lantern сообщает об активности. На
+карте появится линия между вашим компьютером и компьютерами
+ваших друзей. Если ваш друг сейчас недоступен, вы можете заметить, что подсоединились
+к одному из резервных серверов Lantern. См. ref:`lantern-cloud-servers`.
 
-You can see your bandwidth going up and down in the top-right corner of Lantern. This will
-change as you browse.
+В верхнем правом углу Lantern вы можете наблюдать, как изменяется скорость соединения
+при просмотре сайтов в браузере.
 
-If you can't access a web site, you may have to add it to your Proxy Site List.
-See :ref:`config-proxied-sites`.
+Если вы не можете открыть какой-либо сайт, вы можете добавить его в список проксируемых сайтов.
+См. :ref:`config-proxied-sites`.
 
-If you are still unable to get access, you can try to invite more friends in
-uncensored countries who can share their connection with you. You could also
-sponsor a cloud server to help the lantern network. See :ref:`lantern-cloud-servers`.
+Если вам снова не удается получить доступ к сайту, вы можете попытаться пригласить больше друзей, 
+находящихся в странах, свободных от цензуры, которые смогли бы разделить с вами свое подключение к сети интернет. Также вы можете
+оплатить облачный сервер для помощи сети Lantern. См. :ref:`lantern-cloud-servers`.
 
-We also have a `forum <https://groups.google.com/forum/#!forum/lantern-users-en>`_ where you 
-can get help.
+А еще у нас есть `форум <https://groups.google.com/forum/#!forum/lantern-users-en>`_ , где вы  
+можете получить помощь.
 
-Users **Giving Access**
+Пользователям **Дающим доступ**
 -----------------------
 
-Users who are giving access often will not have immediate connections.
-If you want to make sure that Lantern is working you can try out **Get
-Access** mode.
+Пользователи, которые предоставляют доступ, зачастую не имеют прямых связей.
+Если вы хотите убедиться в том, что Lantern работает, вы можете попробовать переключиться в режим **Получить 
+доступ**.
 
 .. image:: https://www.evernote.com/shard/s209/sh/e1e59fee-9976-47c0-a9b9-856c4888c521/f34171fc3725a47efb0cdbfd3f163b2a/deep/0/Lantern%20and%20Freedom%20House.png
-   :alt: getting access
+   :alt: получение доступа
 
-Just go to 'settings' and change the mode 'getting access', and try the
-steps above.
+Для этого зайдите в 'настройки' и измените режим на 'получить доступ', затем попробуйте
+проделать вышеописанные шаги.
 
-All Users
+Всем пользователям
 ---------
 
-Exploring the Lantern Network
+Исследование сети Lantern
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: https://www.evernote.com/shard/s209/sh/57a422d3-27f1-4b45-b05c-09b87636ab23/8b8d1d84c456798cd0f3e045590dc3e7/deep/0/Lantern.png
-   :alt: lantern network
+   :alt: сеть Lantern 
 
 
-You can explore the map of the Lantern network. The bottom of the screen
-shows the global statistics for everyone on the network - how many users
-are online now, have ever been online, and the total bandwidth
-transferred (currently broken). If you mouse over a country it will show
-you similar statistics for that country. You can also mouse over your
-own user and the users you're connecting to, as dots on the map.
+Вы можете изучить карту сети Lantern. В верхней части экрана
+показана глобальная статистика по всем, находящимся в сети: сколько пользователей
+сейчас в сети, сколько пользователей когда-либо вообще было в сети, и общую скорость
+передачи данных (в настоящее время не работает). Если подвести указатель мыши к какой либо стране, будет показана
+похожая статистика для этой страны. Также вы можете подвести указатель мыши к вашей отметке, как пользователя, а также
+и другим пользователям, с которыми вы соединяетесь, отображенным на карте в виде точек.
 
 .. _adding-friends:
 
-Adding Friends
+Добавление друзей
 ^^^^^^^^^^^^^^
 
-Building your Lantern network by adding friends is the main task for
-users Giving Access from open countries. Adding others in uncensored
-countries is key for expanding the network. And any friend in a censored
-country that you add to your roster will instantly benefit from your
-connection and those of your other friends.
+Основной задачей для пользователей режима "Дать доступ", находящихся в свободных от цензуры странах, является 
+построение вашей собственной сети Lantern, путем добавления друзей. Добавление других людей в странах без цензуры
+ - это ключ к расширению сети. И любой друг из страны, где используется цензура, 
+которого вы добавите в ваш список, сразу же сможет воспользоваться вашим
+соединением и соединениями других ваших друзей.
 
-And it is critical for users Getting Access to invite more trusted
-users, to improve the network. Adding friends in uncensored countries is
-directly beneficial for better connections. But helping other friends
-within your country also helps build the Lantern network and connect you
-to more Lantern proxies.
+Для "Получающих доступ" пользователей крайне важно пригласить больше доверенных 
+пользователей для совершенствования сети. Добавление в свой список друзей, находящихся в странах без цезуры
+непосредственно сказывается на улучшении скорости соединений. Но помощь друзьям, 
+находящимся с вами в одной стране, также поможет построить сеть Lantern, и свяжет вас с 
+большим количеством прокси-серверов Lantern.
 
 .. image:: https://www.evernote.com/shard/s209/sh/69dfc002-b2c8-4f31-9c77-baf39d9e97a2/ecd8f30823d03d085fd271a6f77923c5/deep/0/Lantern.png
-   :alt: add friends
+   :alt: добавить друзей
 
-You can add friends at any time with the friend button on the lower
-right.
+Вы в любое время можете добавить новый контакт, нажав на кнопку контакты в нижнем
+правом углу.
 
 .. image:: https://www.evernote.com/shard/s209/sh/5f777d62-6c2f-405d-b065-1fb8ba948e6c/c3493f15bd539a174f5a901d5404dea9/deep/0/Lantern.png
-   :alt: friends
+   :alt: друзья
 
-This brings up the 'Lantern Friends' screen. You can enter the email
-address of any friend who has a google account. Any gmail address will
-definitely work. If you aren't sure you can just try to add them, as
-many people have other email addresses set up to work with Google.
-Adding them will send an invitation to join Lantern, with a link to the
-download. Once they sign on at the same time as you are on their status
-in your friends window will change.
+Откроется окно 'Контакты Lantern'. Вы можете ввести адрес электронной почты
+любого друга, у кого есть аккаунт Google. Любой адрес Gmail
+точно подойдет. Если вы не уверены в том, использует ли друг аккаунт Google, просто попытайтесь добавить его, так
+как множество людей работают с Google, имея адреса электронной почты других провайдеров.
+После добавление друга, ему будет отправлено письмо-приглашение для присоединения к сети Lantern с указанием ссылки
+на скачивание программы. После этого, если он/а войдёт в систему в то же время, когда вы будете в сети, вы увидите
+что их статус (в окне "Контакты") изменится.
 
-The image below shows friends successfully transferring from a user in
-'give' mode.
+Нижеприведенное изображение показывает друзей, успешно получающих данные от пользователя,
+"дающего доступ".
 
 .. image:: https://www.evernote.com/shard/s209/sh/ba32dfb0-959d-494b-9065-2053aab61875/839570ec5c5e0df068455bc7a00daa96/deep/0/Lantern%20and%20Editing%20Using%20Lantern%20%C2%B7%20getlantern/lantern%20Wiki.png
-   :alt: friends transferring
+   :alt: передача данных друзьями
 
-Note that there will not always be connection lines between friends.
-This happens when the rough location can not be established. You will
-always be able to see if transferring is happening by looking in the
-upper right corner, or watching the friends list.
+Заметьте, что линии, соединяющие друзей на карте, не всегда отображаются.
+Это происходит, когда ориентировочное местоположение не может быть установлено. Вы 
+всегда сможете увидеть ведется ли передача данных, посмотрев
+в верхний правый угол или на список контактов.
 
-Removing people from your friend list will make it so they can not
-access your connection to the internet and vice versa.
+Удаление людей из списка контактов прекратит их доступ к
+ вашему соединению с интернет и наоборот - вы потеряете доступ к их соединениям.
 
-Leave Lantern Running
+Работа Lantern в фоновом режиме
 ^^^^^^^^^^^^^^^^^^^^^
 
-We encourage you to leave Lantern running, so that it can be helping
-others even if you are not using it right then. Closing the Lantern window does not stop Lantern. The Lantern icon still appears in your menubar.
+Мы рекомендуем вам оставить Lantern работать в фоновом режиме для того, чтобы он помогал
+другим людям, даже если вы не используете его в данный момент. Закрытие окна Lantern не отключит его. Значок Lantern будет присутствовать в области уведомлений.
 
-Quitting Lantern
+Выход из Lantern
 ^^^^^^^^^^^^^^^^
 
-To quit Lantern, click the Lantern icon and select 'Quit Lantern'.
+Для выхода из программы Lantern, нажмите на ее значок и выберите "Выйти из Lantern".
 
 .. image: https://www.evernote.com/shard/s209/sh/9308b039-b326-4160-b7d1-4f6f15c210a7/41fe4b0ebde601cb9ffd5d0ceb09a8c8/deep/0/Screen%20Shot%202013-08-16%20at%208.07.29%20PM.png
-	alt: The Lantern menu with Quit Lantern selected.
+	alt: Меню Lantern с выбранным пунктом "Выйти из Lantern".

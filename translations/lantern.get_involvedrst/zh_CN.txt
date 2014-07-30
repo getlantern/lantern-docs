@@ -1,19 +1,19 @@
-.. _getting-involved:
+.. _获得-邀请:
 
 加入我们
 =================
 
-与很多开源项目一样，Lantern 只有在“您”的帮助下
-才会真正成功。现在我们正处于“测试”阶段，在向全世界
-发布之前我们还有很多事情需要做。其中，我们需要协助的大部分事项
+跟很多的开源项目一样，如果在您的帮助下
+Lantern 才会获得成功的。现在我们正处在一个'测试版'的阶段，面向着全世界的互联网
+正式版发布之前我们还有很多任务需要做。其中，我们需要协助的大部分任务
 不需要任何有关编程的知识。如果有开发者想要加入，
-那当然是好事，但这个页面是给除此之外的其他人一个机会来帮助
+那当然是好事，但这个页面是给除此之外的其他人一个帮助机会
 Lantern 做得更好。
 
-Lantern 现在处于内测阶段，但我们接受成为“代表”的申请
+Lantern 现在处于内测阶段，但我们接受成为“志愿者”的申请
 表单 <https://docs.google.com/forms/d/11LiZoCMptcc_lj4b01It9n64gngaDPU53_ge3mhiaIM/viewform>`__
-——也就是乐于参与的早期测试者。如果
-您对以下一项或多项内容感兴趣，请在您的表单中
+对于志愿者——也就是乐于参与的早期测试者。如果
+您对以下一项或多项内容感兴趣，请您在表单中
 提及这一点。我们对住在受限或非受限国家
 且有可信联系人的用户特别感兴趣。但您真正需要做的
 是愿意投身于完成以下内容。
@@ -21,8 +21,8 @@ Lantern 现在处于内测阶段，但我们接受成为“代表”的申请
 使用和传播 Lantern
 ----------------------
 
-如果您有一个不受限的网络连接，您可以通过
-让 Lantern 一直运行来做出改变。每一个新增的分享其
+如果您有一个不受限的网络连接，您可以
+让 Lantern 一直运行来分享网络自由。每一个新增的分享其
 连接的用户能使 Lantern 网络更好地工作，也使审查者
 更难封锁。
 
@@ -31,97 +31,97 @@ Lantern 现在处于内测阶段，但我们接受成为“代表”的申请
 依赖一个相互信任并分享网络连接的
 庞大网络运行着，所以如果网络中可信的连接更多，
 Lantern 也就能更好地工作。所以如果您是一个老用户，请
-Lantern among your trusted friends to help the network grow.
+在朋友中传播Lantern，从而把网络建立得更大。
 
-Report Problems
+报告问题
 ---------------
 
-At the current 'beta' stage of development one of the most valuable
-things you can do is report to us if it is *not* working for you. The
-ideal way to do this is on the `users
-forum <https://groups.google.com/group/lantern-users-en>`__. If you
-don't feel comfortable with your name in public feel free to use dummy
-account / name. You can also use the 'contact' form from Lantern itself
-to send a message privately to the core developers.
+在当前“测试”阶段，你能提供的最大的帮助是，回馈我们
+有什么功能问题。
+最佳的方法是通过用户的
+论坛 <https://groups.google.com/group/lantern-users-en>`__.。如果你
+不希望自己的名字被看到，可以用匿名账号。
+还可以利用Lantern中的“联系”表格，
+直接给核心开发人员发送私人消息。
 
-.. image:: https://www.evernote.com/shard/s209/sh/b0ebafae-f50e-41e7-b003-11299102d348/feefe49505573ab528410b708e48b0e1/deep/0/Lantern%20and%20Welcome%20to%20Mail.png
-   :alt: contact
+.. 图片:: https://www.evernote.com/shard/s209/sh/b0ebafae-f50e-41e7-b003-11299102d348/feefe49505573ab528410b708e48b0e1/deep/0/Lantern%20and%20Welcome%20to%20Mail.png
+   :alt: 联系
 
 
-The most important thing to let us know is if you are in a censored
-country and are unable to connect at all. But feel free to report more
-minor errors, and also to make suggestions about ways that Lantern could
-work better for you. Try to give as much detail as possible. See this
-`how to report bugs
-effectively <http://www.chiark.greenend.org.uk/-sgtatham/bugs.html>`__
-for general guidelines. For Lantern be sure to include your operating
-system, where you are, and if you are in 'give' or 'get' mode (all users
-in censored countries are automatically in 'get'), and what version of
-Lantern you're running.
+最重要的是，一定要让我们知道，
+如果你在一个受到限制的地区，而且不能连接上。可以随时报告更多的
+小问题以及怎样让Lantern工作的更好的建议给我们。
+报告时，提供尽量多的细节。
+请参考“如何有效地报告问题”
+ 有效<http://www.chiark.greenend.org.uk/-sgtatham/bugs.html>`__
+尤其必须填写的是：
+使用的操作系统，你的地理位置，“give”（提供）还是“get”（获取）模式，
+（限制区的用户自动在“get”获取模式），
+以及Lantern的版本。
 
-.. image:: https://www.evernote.com/shard/s209/sh/dca46162-f8f4-4e19-9719-f83405a35305/0167dda5f704e71697bbe7124a8a1b79/deep/0/Lantern%20and%20Create%20New%20Page%20%C2%B7%20getlantern/lantern%20Wiki.png
-   :alt: lantern version
+.. 图片:: https://www.evernote.com/shard/s209/sh/dca46162-f8f4-4e19-9719-f83405a35305/0167dda5f704e71697bbe7124a8a1b79/deep/0/Lantern%20and%20Create%20New%20Page%20%C2%B7%20getlantern/lantern%20Wiki.png
+   :alt: lantern 版本
 
-The above is 1.0.0-beta2, you should see some number there.
+上面是 1.0.0-beta2，可以看到一些数字。
 
-You also may be asked to email your logs for the developers to diagnose.
-See :ref:`sending-lantern-logs`.
+开发者也会希望你能提供事件记录（log），参见
+ :ref:`发送-lantern-日志`.
 
-Translate Lantern
+翻译 Lantern
 ------------------
 
-If you are a fluent speaker of another language and would like to help
-translate Lantern's web site, documentation, or the application itself,
-we would welcome your participation. See :ref:`translating-lantern`.
+如果你会其他语言，希望得到您的帮助
+翻译Lantern网页，说明或代码，
+我们欢迎你参与，参见  :ref:`翻译-lantern`.
 
-Promote Lantern
+推广 Lantern
 ---------------
 
-We also welcome people who are interested in helping spread the word
-about Lantern. We are mostly software developers, but unlike most
-developers our software will only work if lots of people in uncensored
-countries run it. So we welcome ideas and actions to get more and more
-people to run Lantern. Social media campaigns, magazine articles, blog
-posts, videos, kickstarter, etc. - if you've got experience promoting
-great stuff then get in touch. And no idea is too big or too small. For
-right now just introduce yourself on the `users
-forum <https://groups.google.com/group/lantern-users-en>`_. If we get
-enough people there we will start a dedicated forum.
+我们也欢迎大家帮忙推广Lantern。
+关于Lantern。我们大多是软件开发者，但跟大多数开发者不一样
+我们的软件能否工作，完全依赖大量的互联网非限制区以及受限制区的人们使用它。
+因此，我们需要了解怎样让更多的人主动或者愿意运行Lantern。
+媒体推广，杂志文章，博客，视频，微博，微信，QQ。。。
+如果你有推广经验，来参与吧。
+任何想法，无论多大小，都有帮助。
+现在，请登录到`用户的
+ 论坛<https://groups.google.com/group/lantern-users-en>`_.。如果我们拥有
+足够多的人数，我们会设立专门的论坛。
 
-Help with documentation
+帮忙写说明
 ------------------------
 
-This collaboratively-maintained wiki documentation is a work in
-progress. If you see an area that needs more work and you would like to
-pitch in, we welcome your help. Right now you needed to be added to the
-Documentation Team to edit, just let us know of your interest on the
-`forum <https://groups.google.com/forum/#!forum/lantern-users-en>`__.
-Then to edit just use the "New Page" or "Edit Page" buttons near the top
-of any wiki page.
+这个工作是不断完善以及维护维基说明文档的
+如果你发现某些地方需要修改或者更多的说明，并且你可以参与，
+现在，我们欢迎你的帮助。你需要先加入
+文档团队编辑团队。请告诉我们你感兴趣的项目
+`论坛<https://groups.google.com/forum/#!forum/lantern-users-en>`__.
+然后，用 “New Page”（新网页） 或 “Edit Page” （编辑网页）按键
+来修改 wiki 网页。
 
-Develop
+开发
 --------
 
-If you are a developer and are interested in helping build Lantern, see
-`Contributing Code <../../developer/html/Contributing.html>`_.
+如果你是开发人员，并愿意参与维护Lantern，参见
+`贡献代码 <../../developer/html/Contributing.html>`_.
 
-赞助商
+赞助
 --------
 
-Besides running Lantern on your own computer to share an uncensored
-internet connection, you can also pledge a one-time or monthly donation
-to sponsor a Lantern cloud proxy, which provides an additional
-high-capacity internet connection to the network 24 hours a day, even
-while your computer is off or disconnected.
+除了在自己的电脑上运行 Lantern 来分享无限制的互联网连接，
+你还可以一次性或每个月捐献，来赞助 Lantern 云网关服务器（cloud proxy），
+它提供额外的高容量互联网连接，
+24小时运行，
+即使你的电脑关机或没连线。
 
-Alternatively, if there is some feature or bugfix you'd like to see in
-the next version of Lantern, you can sponsor its development.
+另外，如果你希望 Lantern 包含某些功能或者修正某些问题，
+希望它在下个版本中实现，你可以赞助开发。
 
-Please contact the Lantern developers about either of these options if
-you would like to inquire further.
+请与 Lantern 的开发者联系，
+以讨论细节。
 
-You can also just make a 1-click microdonation to the cause in general
-using Flattr or GitTip:
+你还可以用 Flatter 或 GitTip
+做小额赞助。
 
-Thank you for your interest in contributing to Lantern. A vibrant and
-active community is vital to our existence.
+感谢你对赞助 Lantern 感兴趣。
+一个充满活力的社区才能激励我们的存在。

@@ -26,7 +26,7 @@ Intermédiaire
 FSI
 	Le fournisseur de services Internet est une organisation qui fournit l'accès à
 	Internet. Le trafic quittant le réseau local d'un ordinateur (à la maison, au bureau,
-	dans un café Internet, etc...) y transite avant d'être soit dirigé vers sa
+	dans un café Internet, etc.) y transite avant d'être soit dirigé vers sa
 	destination, soit d'être bloqué dans le cas où le FSI applique une censure.
 	Pareillement, le trafic dirigé vers votre ordinateur doit passer par le FSI
 	avant de pouvoir vous atteindre.

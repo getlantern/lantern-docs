@@ -1,28 +1,28 @@
-Lantern User Satisfaction Survey
-Please Tell Us About You
+Опрос удовлетворенности пользователей Lantern
+Пожалуйста, расскажите о себе
 
-Thank you for taking the time to complete this survey. It will help Team Lantern understand how to make Lantern even better.
-How did you get a Lantern invitation?
-From Team Lantern
-From a friend
-Other (please specify)
-Please Specify
+Спасибо за то что вы уделили время на заполнение этого опросника. Это поможет команде разработчиков сделать Lantern еще лучше.
+Каким образом вы получили приглашение Lantern?
+От команды разработчиков Lantern
+От друга
+Другое (пожалуйста, уточните)
+Пожалуйста, уточните
 
-Have you invited any friends to Lantern?
-Yes
-No
-If no, why not?
+Приглашали ли вы друзей воспользоваться Lantern?
+Да
+Нет
+Если нет, то почему?
 
-How do you use Lantern?
-To access websites that are blocked in my country
-To access websites that are blocked at work
-To help people in censored countries access an open internet
+Как вы используете Lantern?
+Для доступа к сайтам, заблокированным в моей стране
+Для доступа к сайтам, заблокированным на работе
+Для помощи людям получить открытый доступ к сети интернет в странах, практикующих цензуру, 
 
-Do you use any browser plugins to manage your proxy settings? (Check all that apply)
+Используете ли вы какие-либо плагины к браузерам для управления настройками прокси? (Отметьте все, что используете)
 ProxySwitchySharp
 FoxyProxy
 
-Do you use any other circumvention tools? (Check all that apply)
+Используете ли вы какие-либо другие способы обхода цензуры? (Отметьте все, что используете)
 Tor
 GoAgent
 Psiphon
@@ -30,41 +30,41 @@ Ultrasurf
 Freegate
 alkasir
 
-Which other tools are currently unblocked for you? (Check all that apply)
+Какие еще инструменты не заблокированы для вас? (Отметьте все, что работает)
 
 
-Software
+Программное обеспечение
 
-Please tell us about your experience using Lantern
-Strongly Agree
-Agree
-Neutral
-Disagree
-Strongly Disagree
-N/A
-Getting Invited to Lantern is easy
-Downloading Lantern is easy
-Installing Lantern is easy
-Configuring Lantern to proxy the sites I want is easy
-Lantern lets me get to all the blocked sites I want
-Browsing with Lantern is as fast as browsing without Lantern
-When Lantern is running in the background, I don't even notice it
-Lantern never crashes
-Lantern lets me know when it is running
-Lantern gives me interesting information about the Lantern network
-Inviting friends to use Lantern is easy
-Upgrading Lantern is easy
-What can we do to make Lantern even better for you?
+Пожалуйста, поделитесь своим опытом использования Lantern
+Полностью согласен
+Согласен
+Нейтрален
+Не согласен
+Категорически не согласен
+Нет ответа
+Получить приглашение Lantern легко 
+Скачать Lantern легко 
+Установить Lantern легко 
+Настроить Lantern для просмотра сайтов через прокси легко
+Lantern дает доступ ко всем заблокированным сайтам, к которым я хочу получить доступ
+Скорость загрузки страниц с использованием Lantern такая же, как и без его использования
+Когда Lantern работает в фоне, я этого даже не замечаю.
+Lantern никогда не выходит из строя
+Lantern оповещает меня о том, что он работает
+Lantern предоставляет мне интересную информацию о сети Lantern
+Пригласить друзей использовать Lantern легко
+Обновить Lantern легко 
+Что мы еще можем сделать, чтобы Lantern стал для вас еще лучше?
 
 
-Customer Support
+Поддержка клиентов
 
-Please tell us about your experience getting support for Lantern
-You know where to find Lantern's online help documentation
-You know how to contact Team Lantern for help
-Team Lantern responds promptly to your requests
-When you have a problem, Team Lantern is usually able to help you resolve it
-You are notified when new versions of Lantern are available
-Please tell us what we can do to improve Lantern's customer support
+Пожалуйста, сообщите нам о своем опыте получения помощи в работе с Lantern
+Вы знаете, где найти в сети документацию по Lantern
+Вы знаете, как обратиться за помощью к команде разработчиков Lantern
+Команда разработчиков Lantern своевременно отвечает на ваши запросы
+При возникновении проблемы, команда разработчиков Lantern обычно способна помочь ее решить
+Вас информируют о новых доступных версиях Lantern
+Пожалуйста, сообщите нам, как мы можем улучшить сервис поддержки пользователей Lantern
 
-Thank you for taking the time to answer these questions and helping us to continue improving Lantern.
+Спасибо за время, уделенное на ответы на эти вопросы, и за помощь в совершенствовании Lantern

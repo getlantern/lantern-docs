@@ -1,49 +1,49 @@
-Switching Google Accounts
+Смена учётной записи Google
 =========================
 
-You can change the Google email that you use with Lantern by resetting
-Lantern and going through the initial setup sequence.
+Вы можете изменить эл. почту Google, которую вы используете с Lantern путём сброса
+настроек Lantern и прохождения первоначальной процедуры установки.
 
-Show the Lantern Network Map
+Показать Карту сети Lantern
 ----------------------------
 
-As awesome as it is to watch Lantern connections crossing the globe,
-most of the time you will probably have Lantern running without the
-network map visible.
+И хотя просмотр соединений Lantern, осуществляемых по всему миру, завораживает, 
+большую часть времени вы, скорее всего, будете использовать Lantern без
+отображения карты сети.
 
-Select Show Lantern from the Lantern icon in the Status Bar.
+Выберите Показать Lantern, кликнув по значку Lantern, расположенному в Строке состояния.
 
 .. image:: https://dl.dropboxusercontent.com/u/253631/Show_Lantern.png
-   :alt: Show Lantern
+   :alt: Показать Lantern
 
    Показать Lantern
 
-Reset Lantern
+Сброс настроек Lantern
 -------------
 
-Next, reset Lantern and go through the setup process again. Resetting
-Lantern clears all saved information since your last setup.
+Далее, нужно сбросить настройки и пройти процесс установки снова. Сброс настроек
+Программа удалит всю сохранённую с момента последней установки информацию.
 
-1. Click the Settings icon.
+1. Нажмите на значок Настройки.
 
    .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Settings_Icon.png
-      :alt: Show Lantern
+      :alt: Показать Lantern
 
       Показать Lantern
 
-2. Click Reset.
+2. Нажмите Сброс.
 
    .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Reset_Button.png
-      :alt: Show Lantern
+      :alt: Показать Lantern
 
-   A message appears asking you to confirm that you want to reset
+   Появится окно, в котором вам необходимо подтвердить желание сбросить настройки
    Lantern.
 
-3. Click Reset.
+3. Нажмите Сброс.
 
    .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Confirm_Reset.png
-      :alt: Show Lantern
+      :alt: Показать Lantern
 
-   Lantern resets and you can go through the setup process using a
-   different account. See :ref:`setting-up-lantern`.
+   Lantern сбросит настройки и вы сможете заново пройти процесс установки с использованием
+   другой учётной записи. Подробности :ref:`setting-up-lantern`.
 

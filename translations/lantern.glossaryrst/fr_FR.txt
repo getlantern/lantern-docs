@@ -1,37 +1,37 @@
-Glossary
+Lexique
 ========
 
-.. glossary::
+.. lexique::
 
 HTTP
-	Hypertext Transfer Protocol. Used to transfer content such as web pages
-	over the internet. Content is sent unencrypted, so any
-	`intermediary <#wiki-intermediary>`__ could potentially read it in
-	transit. HTTP is therefore not secure. `HTTPS <#wiki-https>`__ is the
-	secure counterpart of HTTP.
+	Hypertext Transfer Protocol. Protocole permettant de transférer divers contenus comme des pages web
+	sur internet. Ce contenu est envoyé en clair et de ce fait, n'importe quel
+	`intermediaire <#wiki-intermediary>`__ est potentiellement capable de le lire pendant son
+	transfert. HTTP n'est donc pas sécurisé. `HTTPS <#wiki-https>`__ est la
+	version sécurisée d'HTTP.
 
 HTTPS
-	A secure version of `HTTP <#wiki-http>`__. Content is sent encrypted to
-	prevent an `intermediary <#wiki-intermediary>`__ from being able to read
-	it in transit.
+	Version sécurisée d'`HTTP <#wiki-http>`__. L'information est envoyée cryptée pour
+	empécher les `intermediaires <#wiki-intermediary>`__ de la lire
+	pendant le transfert.
 
 Install4g 
-	Install4g is a program we use to make the Lantern install experience smoother across all platforms.
+	Install4g est un programme que nous utilisons pour faire en sorte que l'installation de Lantern soit plus simple pour toutes les plateformes.
 	
-Intermediary
+Intermédiaire
 	An entity on a computer network in between the requester of some content
 	and the server which hosts it, e.g. a `proxy <#wiki-proxy>`__ or an
-	`internet service provider <#wiki-isp>`__.
+	`fournisseur d'accès internet <#wiki-isp>`__.
 
-ISP
-	Internet service provider, an organization which provides internet
+FAI
+	Fournisseur d'Accès Internet, organisation qui fournit un accès à internet
 	access. Traffic leaving a computer's local network (in a home, office,
 	internet cafe, etc.) goes here before either being forwarded to its
 	destination, or blocked in the case that the ISP employs censorship.
 	Traffic bound for your computer likewise must pass through your ISP
 	before it can reach you.
 
-Peer
+Pair
 	Another user you're connected to on a computer network.
 
 Peer-to-Peer (P2P)
@@ -45,6 +45,6 @@ Relai
 	a user requesting content and the server that hosts it, often because
 	the user cannot reach the server directly due to censorship.
 
-System Proxy
+ Proxy Système
 	A program which proxies traffic for all programs on a computer which
-	access the network.
+	accède au réseau.

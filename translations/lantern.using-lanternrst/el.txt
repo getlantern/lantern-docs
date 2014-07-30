@@ -4,7 +4,7 @@ Using Lantern
 After you've finished :DOC:`Setup` you're ready to start using Lantern.
 
 Users **Getting Access**
-------------------------
+-------------------------
 
 If you are in a censored region and have installed Lantern, simply open
 your favorite browser and navigate to any blocked site. Any browser

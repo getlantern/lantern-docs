@@ -35,18 +35,18 @@ Which other tools are currently unblocked for you? (Check all that apply)
 
 Anwendung
 
-Please tell us about your experience using Lantern
-Strongly Agree
-Agree
+Nennen Sie uns Ihrer Erfahrungen beim Einsatz von Lantern
+Trifft uneingeschränkt zu
+Trifft zu
 Neutral
-Disagree
-Strongly Disagree
+Trifft nicht zu
+Trifft überhaupt nicht zu
 n. a.
-Getting Invited to Lantern is easy
-Downloading Lantern is easy
-Installing Lantern is easy
-Configuring Lantern to proxy the sites I want is easy
-Lantern lets me get to all the blocked sites I want
+Zu Lantern eingeladen werden ist einfach
+Lantern herunterladen ist einfach
+Lantern installieren ist einfach
+Lantern einzurichten, um die Seiten über den Proxy zu leiten, die ich möchte, ist einfach
+Lantern lässt mich auf alle blockierten Seiten, die ich benötige, zugreifen
 Browsing with Lantern is as fast as browsing without Lantern
 When Lantern is running in the background, I don't even notice it
 Lantern never crashes
@@ -57,7 +57,7 @@ Upgrading Lantern is easy
 What can we do to make Lantern even better for you?
 
 
-Customer Support
+Kundendienst
 
 Please tell us about your experience getting support for Lantern
 You know where to find Lantern's online help documentation

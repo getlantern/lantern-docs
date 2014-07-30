@@ -1,6 +1,6 @@
 .. _contribuer-à-lantern-dev:
 
-Contribuer du code
+Contribuer au code
 =================
 
 Cette page se concentre sur le développement logiciel. Si vous n'êtes pas un développeur, il y a de nombreuses autres façons de `s'impliquer <../user/Get_Involved.html>`_.

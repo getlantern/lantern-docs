@@ -18,7 +18,7 @@ Select Show Lantern from the Lantern icon in the Status Bar.
 
    Lantern anzeigen
 
-Reset Lantern
+Lantern zurücksetzen
 -------------
 
 Next, reset Lantern and go through the setup process again. Resetting

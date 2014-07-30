@@ -11,7 +11,7 @@ Donner ou obtenir l'accès
 La première question est de savoir si vous voulez donner ou obtenir l'accès.
 
 .. image:: https://www.evernote.com/shard/s209/sh/72480b8b-2259-4eef-836b-1982a800bc31/71a941bce6482c90d2d66dcf21db57a8/deep/0/Lantern.png
-   :alt: donner/recevoir
+   :alt: Donner/recevoir
 
    donner/recevoir
 **Donner l'accès** est pour les utilisateurs dans les pays non censurés voulant partager
@@ -41,7 +41,7 @@ directement aux serveurs Google. Lantern ne stocke jamais ni ne voit le
 mot de passe.
 
 .. image:: https://www.evernote.com/shard/s209/sh/e7bcf743-984e-45ac-b525-b7f4517cf341/7c4a237f1aa7cb1bf6fb245d76f4a49b/deep/0/Lantern.png
-   :alt: connexion à google
+   :alt: Connexion à Google
 
 Après avoir saisi vos informations l'on vous demandera d'autoriser
 Lantern à voir vos informations de base et de courriel, et de voir et d'envoyer
@@ -50,7 +50,7 @@ les canaux de communication par clavardage de Google pour amorcer son réseau. C
 Lantern ne fonctionnera pas correctement.
 
 .. image:: https://www.evernote.com/shard/s209/sh/bd03de45-d5ac-4cc3-93da-62f24d527687/3bb1691886c46b3f30bc832f2211cdd7/deep/0/Lantern.png
-   :alt: autoriser
+   :alt: Autoriser
    
 Ajouter des amis
 --------------

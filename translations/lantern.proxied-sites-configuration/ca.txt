@@ -7,7 +7,7 @@ Configurant Llocs direccionats
    :alt: Llocs direccionats
 
    Llocs direccionats
-The Proxied Sites screen is part of the configuration for people using
+La pantalla de Llocs Direccionats és part de la configuració per la gent que 
 Lantern per Obtenir Accés, i està disponible a la icona del globus
 a la part inferior dreta.
 
@@ -43,14 +43,14 @@ Wiki <https://github.com/getlantern/lantern-proxied-sites-lists/wiki>`__
 on trobaràs llistes de llocs bloquejats específiques de cada país. Si vius
 en un país amb una llista que s'hagi actualitzat recentment, llavors
 segurament funcionarà millor que la llista per defecte que conté
-Lantern.
+utilitza Lantern.
 
 .. image:: https://www.evernote.com/shard/s209/sh/1410658e-531a-44aa-b01b-7867e074637c/b88cfe3ce617b30a394cf6c56b3ea20a/deep/0/Autoproxy%20list%20for%20china%20%C2%B7%20getlantern/lantern-proxied-sites-lists%20Wiki.png
    :alt: llista autodireccionada xinesa
 
    llista autodireccionada xinesa
-Simply go to one of the lists, then select and copy the whole list, and paste it in to your list of domains to proxy 
-in your Lantern. Be sure you delete your existing list (or copy over it), so you don't get duplicates and don't
+Simplement vés a una de les llistes, selecciona i copia la llista sencera, i després enganxa-la a la teva llista de dominis a direccionar en el teu Lantern. 
+Verifica que has esborrat prèviament la llista (o que l'has substituït), per evitar que hi hagin duplicats.
 llocs direccionats que et calen.
 
 .. image:: https://www.evernote.com/shard/s209/sh/345d4873-a0b1-49e1-8188-c5356c2e5c56/d668a756c91454b8f1eaeaf79e6a79a3/deep/0/Lantern.png
@@ -125,97 +125,97 @@ expressions <http://www.regular-expressions.info/>`__ et seran força
 útils per netejar la llista.
 
 Lantern treballa bé amb l'addició massiva només si la llista compleix la
-formatació de Lantern. Si enganxes una llarga llista de lloc que no estan en 
-el format de Lantern, pots rebre un error de 'línia invàlida'.
-report that line, so we recommend copying that and then searching for it
-with Ctrl-F or Edit > Find in the program you pasted the list from. In a
-pinch you can do this in Lantern too (in Windows and Ubuntu), but it's
-best to work on your list outside of Lantern, then paste it in and keep
-editing until there are no more errors.
+formatació de Lantern. Si enganxes una llista llarga de llocs que no estan en 
+el format de Lantern, pots rebre un error de 'línia invàlida'. Lantern et dirà
+quina és aquesta línia; recomanem que la copiïs i en facis una cerca amb
+Ctrl-F o Editar > Cercar en el programa d'on vas enganxar la llista. En cas de 
+dificultat, pots fer-ho també a Lantern (amb Windows i Ubuntu), però és
+preferible fer-ho a la teva llista fora de Lantern, i després enganxar-ho
+i continuar editant fins que no hi hagi més errors.
 
-Removing sites
+Suprimint llocs
 ~~~~~~~~~~~~~~
 
-We recommend scrolling through the list and removing any sites that you
-know are not blocked in your country. To remove sites just select them
-in the text field and hit 'delete'. Be sure to hit 'update' when you're
-done.
+Recomanem que et desplacis per la llista i suprimeixis els llocs que sàpigues
+que no estan bloquejats en el teu país. Per suprimir llocs tan sols cal que els
+seleccionis al camp de text i premis 'esborrar'. Quan hagis acabat, 
+assegura't de prémer 'actualitzar'.
 
 .. image:: https://www.evernote.com/shard/s209/sh/81bd9e5b-808c-4b3a-bb8f-487fee2601fd/bf5af2b060b92a44336a9ccc7ff8988b/deep/0/Lantern.png
-   :alt: update
+   :alt: actualitzar
 
-   update
-Sharing
+   actualitzar
+Compartint
 ~~~~~~~
 
-If you would like to share your list of proxied sites with a friend
-who's using Lantern, simply select all the sites you'd like to share
-with your mouse, or click inside the text box and hit Ctrl-A (Command-A
-on OS X) to select them all, copy them to the clipboard with Ctrl-C
-(Command-C), and paste them into an email to your friend using Ctrl-V
-(Command-V). Your friend can then copy the sites you sent her and then
-paste them into her Proxied Sites screen in Lantern.
+Si vols compartir la teva llista de llocs direccionats amb algun amic que 
+utilitza Lantern, selecciona simplement amb el ratolí tots els llocs que 
+t'agradaria compartir, o fes clic dins del quadre de text i prem Ctrl-A
+ (Command-A a OS X) per seleccionar-los tots, copia'ls al porta-retalls amb
+Ctrl-C (Command-C), i enganxa'ls en un correu electrònic al teu amic amb
+Ctrl-V (Command-V). El teu amic podrà llavors copiar els llocs que li has
+enviat i enganxar-los a la seva pantalla de Llocs Direccionats a Lantern.
 
-If you'd like to share your list of proxied sites publicly, feel free to
-add them to a new page on the `Lantern Proxied Sites List
+Si vols compartir públicament la teva llista de llocs direccionats, no dubtis
+en afegir-los a una nova pàgina en la `Lantern Proxied Sites List
 Wiki <https://github.com/getlantern/lantern-proxied-sites-lists/wiki>`__.
-Just click the green 'New Page' button, give your page a name, then on
-the Create New Page screen, paste your list in between two lines
-containing only three back-tick characters, like so:
+Simplement fes clic sobre el botó verd 'Pàgina Nova', anomena la teva
+pàgina, i llavors enganxa la teva llista a la pantalla, entre dues línies que
+contenen només tres caràcters d'accent greu, com ara:
 
 \`\`\`
 
-site1.com
+lloc1.com
 
-site2.com
+lloc2.com
 
-site3.com
+lloc3.com
 
 \`\`\`
 
-Feel free to add a post to the `User
-Forums <https://groups.google.com/group/lantern-users-en>`__ with a link
-to the list you just created so other users can check it out!
+No dubtis en afegir una publicació en els `Fòrums d'usuaris
+<https://groups.google.com/group/lantern-users-en>`__ amb un 
+enllaç a la llista que acabes de crear, així altres usuaris ho poden provar!
 
-Making a 'raw' list
+Elaborant una llista 'en brut'
 '''''''''''''''''''
 
-If your list is super long it can be a pain for people to copy and paste
-it from the wiki. Some lists are put in the GitHub repository, and then
-linked to from the wiki page, so they can be copied much more easily.
+Si la teva llista és llarguíssima, potser serà complicat que la gent la copiï i 
+enganxi des de la wiki. Algunes llistes estan al repositori GitHub, i 
+enllaçades des de la pàgina wiki, així es poden copiar molt més fàcilment.
 
-If you're not that comfortable with tech then feel free to email a
-Lantern user's group and someone can easily do it for you. If you are
-super comfortable with github just fork the repo and make a pull
-request. For everyone else read on.
+Si no et sents a gust amb aquesta tecnologia, estigues tranquil i envia un 
+correu al grup d'usuaris de Lantern i segur que algú ho farà per tu. Si et 
+sents còmode amb github simplement fes un fork del repositori i una 
+petició de pull. Així tothom ho podrà llegir.
 
-To add a new list to the repository you need a GitHub account. There
-should be a link to 'sign up' in the upper right hand corner. Once
-you've done that go to
-https://github.com/getlantern/lantern-proxied-sites-lists and hit the
-'plus' button.
+Per afegir una nova llista al repositori et cal un compte GitHub. Hauria
+d'haver un enllaç per inscriure't a la part superior dreta. 
+Un cop ho hagis fet, vés a 
+https://github.com/getlantern/lantern-proxied-sites-lists i prem 
+el botó 'més'.
 
 .. image:: https://www.evernote.com/shard/s209/sh/f7185f3d-9ca5-45bf-aac5-8978f7fefb39/6868a4884f375bb854b24b4f663fab91/deep/0/getlantern/lantern-proxied-sites-lists.png
-   :alt: add
+   :alt: afegir
 
-   add
-This will 'clone' the main repository, making a copy of all the files
-that are under your control. You can create and edit these files, and it
-won't affect the main repository - they're your private copy. You should
-then create a new file under a country folder. You can do this by just
-entering the folder name and then typing '/'. So just enter like
-\`china/my-folder/list.txt', and that will create it under the china
-folder.
+   afegir
+Això 'clonarà' el repositori principal, fent una còpia de tots els fitxers que
+tinguis controlats. Pots crear i editar aquests fitxers, sense que això
+afecti al repositori principal - són la teva còpia privada. Llavors hauries 
+de crear un nou fitxer dins d'una carpeta de país. Això pots fer-ho 
+simplement escrivint el nom de la carpeta i llavors el caràcter '/'. 
+Per exemple, escriu \`china/my-folder/list.txt', i això la crearà dins de la
+carpeta de china.
 
 .. image:: http://i.stack.imgur.com/9Ifmj.gif
-   :alt: animated folders
+   :alt: carpetes animades
 
-   animated folders
-After you've made your list you can propose the changes to the core
-contributors. To do this you create a 'pull request'. To do this you hit
-the green 'compare & review' button from your repository. And then hit
-'create pull request'. The contributors on the main site will then
-review and pull it in.
+   carpetes animades
+Un cop hagis fet la teva llista, pots proposar canvis als col·laboradors del 
+nucli. Per fer-ho, crea una 'pull request'. Per fer això, prem el botó
+verd 'compara & revisa' del teu repositori. Tot seguit, prem 
+'create pull request'. Els col·laboradors en el lloc principal ho revisaran
+i en faran un 'pull'.
 
-Note you can also use pull requests to update or correct other lists.
-Just make the edits from your repository and then create a pull request.
+Tingues en compte que també pots fer 'pull requests' per actualitzar o corregir altres llistes.
+Simplement fes l'edició des del teu repositori i llavors crea una 'pull request'.

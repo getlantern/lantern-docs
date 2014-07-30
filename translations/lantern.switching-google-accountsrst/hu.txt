@@ -24,7 +24,7 @@ Reset Lantern
 Next, reset Lantern and go through the setup process again. Resetting
 Lantern clears all saved information since your last setup.
 
-1. Click the Settings icon.
+1. Kattints a beállítás ikonra.
 
    .. image:: https://dl.dropboxusercontent.com/u/253631/Lantern_Settings_Icon.png
       :alt: Show Lantern
