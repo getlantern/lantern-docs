@@ -17,7 +17,7 @@ Modify build.gradle
 Update your project's build.gradle script to include the Maven repository and apply the Lantern plugin:
 
 .. code-block:: groovy
-    :emphasize-lines: 4,10,16,20
+    :emphasize-lines: 4,13,17
 
     buildscript {
       repositories {
