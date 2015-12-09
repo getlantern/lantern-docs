@@ -59,12 +59,8 @@ To have all of your app's traffic proxied through Lantern, you simply add a call
 
             // enable Lantern
             Lantern lantern = new Lantern(this.getApplicationContext());
-            lantern.start()
+            lantern.start();
         }
     }
 
 .. note:: Make sure to add the fully qualified name of :code:`Application` sub-class to the :code:`android:name` attribute in the applications manifest.
-
-
-.. note:: We want your app to start as fast as possible, so we take care to ensure that all initialization occurs off of the main UI thread.
-
