@@ -4,7 +4,7 @@ Integrate Lantern
 
 .. index:: SDK Onboarding Tool, gradle, artifactory
 
-The Lantern Android library includes manual integration instructions to integrate the library into your Android applications.
+The Lantern Android library includes manual integration instructions for integrating the library into your Android applications.
 
 Manual Setup
 ============
@@ -14,28 +14,26 @@ This guide assumes you are using Gradle. For more information about Gradle, refe
 Modify build.gradle
 -------------------
 
-Update your project's build.gradle script to include the Maven repository and apply the Lantern plugin:
+Update your project's build.gradle script to include the Lantern classpath dependency. Make sure you include the Maven central repository:
 
 .. code-block:: groovy
-    :emphasize-lines: 4,13,17
+    :emphasize-lines: 4,7
 
     buildscript {
       repositories {
         jcenter()
-        maven { url 'https://maven.lantern.io/public' }
+        mavenCentral()
       }
       dependencies {
-        classpath 'org.getlantern.lantern:sdk:1.+'
+        classpath 'org.getlantern:sdk:1.+'
       }
     }
 
     apply plugin: 'com.android.application'
-    //Put Lantern plugin after Android plugin
-    apply plugin: 'org.getlantern.lantern'
 
     repositories {
         jcenter()
-        maven { url 'https://maven.lantern.io/public' }
+        mavenCentral()
     }
 
 .. note:: Some of the SDKs introduced here use third party dependencies. Having access to resolve Maven Central or an alternative artifact store is a requirement.
@@ -63,4 +61,5 @@ To have all of your app's traffic proxied through Lantern, you simply add a call
         }
     }
 
+.. note:: By default, Lantern will listen on :code:`127.0.0.1:8787`. You can customize this by placing a :code:`settings.yaml` file in your app resources directory and using a custom :code:`httpaddr` field.
 .. note:: Make sure to add the fully qualified name of :code:`Application` sub-class to the :code:`android:name` attribute in the applications manifest.
