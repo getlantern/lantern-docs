@@ -34,7 +34,7 @@ Update your project's build.gradle script to include the Lantern classpath depen
 Updating your application
 ----------------
 
-To have all of your app's traffic proxied through Lantern, you simply add a call to code:`Lantern(this.getApplicationContext)`. The ideal place to put this is in Android's :code:`Application` class.
+For Lantern to power your app, simply add a call to :code:`Lantern(this.getApplicationContext)`. The ideal place to put this is in Android's :code:`Application` class.
 
 .. code-block:: java
 
@@ -54,5 +54,5 @@ To have all of your app's traffic proxied through Lantern, you simply add a call
         }
     }
 
-.. note:: By default, Lantern will listen on :code:`127.0.0.1:8787`. You can customize this by placing a :code:`settings.yaml` file in your app resources directory and using a custom :code:`httpaddr` field.
+.. note:: By default, Lantern will listen on :code:`127.0.0.1:8787`. You can customize this by creating a :code:`settings.yaml` file in your app resources directory and specifying a :code:`httpaddr` field.
 .. note:: Make sure to add the fully qualified name of :code:`Application` sub-class to the :code:`android:name` attribute in the applications manifest.
