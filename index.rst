@@ -17,7 +17,7 @@ Modify build.gradle
 Update your project's build.gradle script to include the Lantern classpath dependency. Make sure you include the Maven central repository:
 
 .. code-block:: groovy
-    :emphasize-lines: 4,7
+    :emphasize-lines: 4,7,12
 
     buildscript {
       repositories {
@@ -25,8 +25,13 @@ Update your project's build.gradle script to include the Lantern classpath depen
         maven { url "https://oss.sonatype.org/content/repositories/snapshots" } 
       }
       dependencies {
-        classpath 'org.getlantern:android-sdk:1.0-SNAPSHOT@aar'
+        classpath 'org.getlantern:android-sdk:1.9.2-SNAPSHOT@aar'
       }
+    }
+
+    dependencies {
+        compile 'org.getlantern:android-sdk:1.9.2-SNAPSHOT@aar'
+        ...
     }
 
 .. note:: Some of the SDKs introduced here use third party dependencies. Having access to resolve Maven Central or an alternative artifact store is a requirement.
