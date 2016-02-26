@@ -11,41 +11,50 @@ Manual Setup
 
 This guide assumes you are using Gradle. For more information about Gradle, refer to the `Android developer site <http://tools.android.com/tech-docs/new-build-system>`_.
 
+Download liblantern.aar and sdk-debug.aar
+-----------------------------------------
+Download `liblantern.aar <https://s3.amazonaws.com/lantern/androidsdk/liblantern.aar>`_
+and `sdk-debug.aar <https://s3.amazonaws.com/lantern/androidsdk/sdk-debug.aar>`_
+and place them in the :code:`libs` folder of your Android project.
+
 Modify build.gradle
 -------------------
 
 Update your project's build.gradle script to include the Lantern classpath dependency. Make sure you include the Maven central repository:
 
 .. code-block:: groovy
-    :emphasize-lines: 4,7,12
+    :emphasize-lines: 4-6,10-11
 
-    buildscript {
-      repositories {
-        jcenter()
-        maven { url "https://oss.sonatype.org/content/repositories/snapshots" } 
-      }
-      dependencies {
-        classpath 'org.getlantern:android-sdk:1.9.2-SNAPSHOT@aar'
-      }
+    repositories {
+        ...
+
+        flatDir{
+            dirs 'libs'
+        }
     }
 
     dependencies {
-        compile 'org.getlantern:android-sdk:1.9.2-SNAPSHOT@aar'
+        compile(name:'liblantern', ext:'aar')
+        compile(name:'sdk-debug', ext:'aar')
         ...
     }
 
-.. note:: Some of the SDKs introduced here use third party dependencies. Having access to resolve Maven Central or an alternative artifact store is a requirement.
-
 Updating your application
-----------------
+-------------------------
 
-For Lantern to power your app, simply add a call to :code:`Lantern(this.getApplicationContext)`. The ideal place to put this is in Android's :code:`Application` class.
+You can embed Lantern to run directly within your application, or have Lantern
+run as a service inside of its own process. Running as a service is useful if
+your application is already resource intensive and needs to minimize its memory
+usage.
+
+Both ways of embedding Lantern are similar.  A good place to start Lantern is in
+Android's :code:`Application` class.
 
 .. code-block:: java
 
     package com.example.app;
 
-    import org.getlantern.lantern.sdk;
+    import org.lantern.mobilesdk.Lantern;
     import android.app.Application;
 
     public class MyApplication extends Application {
@@ -53,11 +62,39 @@ For Lantern to power your app, simply add a call to :code:`Lantern(this.getAppli
         public void onCreate() {
             super.onCreate();
 
+            boolean asService = true; // up to you
+
             // enable Lantern
-            Lantern lantern = new Lantern(this.getApplicationContext());
-            lantern.start();
+            int startupTimeoutMillis = 30000;
+            
+            // Optional Google Analytics tracking ID that gives Team Lantern
+            // feedback on your app's usage of Lantern.
+            String trackingId = "UA-...";
+            
+            if (asService) {
+                Lantern.enableAsService(getApplicationContext(), startupTimeoutMillis, trackingId);
+            } else {
+                Lantern.enable(getApplicationContext(), startupTimeoutMillis, trackingId);
+            }
         }
     }
 
-.. note:: By default, Lantern will listen on :code:`127.0.0.1:8787`. You can customize this by creating a :code:`settings.yaml` file in your app resources directory and specifying a :code:`httpaddr` field.
 .. note:: Make sure to add the fully qualified name of :code:`Application` sub-class to the :code:`android:name` attribute in the applications manifest.
+
+To run Android as a service, you'll need to add the following to your
+:code:`AndroidManifest.xml`.
+
+.. code-block:: xml
+    :emphasize-lines: 4-8
+    
+    <application>
+        ...
+
+        <service
+            android:name="org.lantern.mobilesdk.service.LanternService"
+            android:exported="false"
+            android:process=":LanternService"
+            />
+
+        ...
+    </application>
