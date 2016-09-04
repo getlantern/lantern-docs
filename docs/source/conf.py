@@ -134,7 +134,8 @@ html_theme = 'alabaster'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = 'https://raw.githubusercontent.com/getlantern/lantern-docs/master/_static/lantern_icon.png'
+
+html_logo = 'lantern_icon.png'
 #html_logo = None
 
 # The name of an image file (within the static path) to use as favicon of the
