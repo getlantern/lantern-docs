@@ -89,7 +89,7 @@ Android's :code:`Application` class.
 
 .. note:: Make sure to add the fully qualified name of :code:`Application` sub-class to the :code:`android:name` attribute in the applications manifest.
 
-.. note:: You can find a working example of Lantern integrated into an application called FireTweet `here <https://github.com/getlantern/firetweet/blob/master/firetweet/src/main/java/org/getlantern/firetweet/app/FiretweetApplication.java#L226`_
+.. note:: You can find a working example of Lantern integrated into an application called FireTweet `here <https://github.com/getlantern/firetweet/blob/master/firetweet/src/main/java/org/getlantern/firetweet/app/FiretweetApplication.java#L226>`_
 
 To run Android as a service, you'll need to add the following to your
 :code:`AndroidManifest.xml`.
